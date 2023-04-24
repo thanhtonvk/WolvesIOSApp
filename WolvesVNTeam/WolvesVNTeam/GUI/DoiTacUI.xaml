@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WolvesVNTeam.GUI.DoiTacUI"
+             BackgroundColor="#090909">
+    <ContentPage.Content >
+        <StackLayout Margin="0,20,0,0">
+                     <StackLayout.GestureRecognizers>
+                <SwipeGestureRecognizer Direction="Left" Swiped="SwipeGestureRecognizer_Swiped"/>
+                <SwipeGestureRecognizer Direction="Right" Swiped="SwipeGestureRecognizer_Swiped"/>
+            </StackLayout.GestureRecognizers>
+            <Frame OutlineColor="Transparent" BackgroundColor="#090909">
+
+                <Label x:Name="btnBack" Text="Trở về" VerticalOptions="Center" FontAttributes="Bold" FontSize="Medium"
+                       TextColor="White" />
+            </Frame>
+            <ListView x:Name="ListViewSymbol" VerticalOptions="Fill" HasUnevenRows="True" BackgroundColor="#090909">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame OutlineColor="Transparent" Margin="5" BackgroundColor="#090909" CornerRadius="20">
+                                <StackLayout Orientation="Vertical" Margin="8,8,8,8">
+                                    <Label Text="{Binding TenDoiTac}" FontAttributes="Bold" TextColor="OrangeRed" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start"/>
+                                    <Label Text="{Binding ThongTinKhac}" TextColor="White" HorizontalTextAlignment="Start"/>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
