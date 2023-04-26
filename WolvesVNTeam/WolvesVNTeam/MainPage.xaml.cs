@@ -19,7 +19,6 @@ namespace WolvesVNTeam
             
             InitializeComponent();
             Img_Logo.Source = ImageSource.FromResource("WolvesVNTeam.Assets.logo.png");
-
             accountService = new AccountService();
             var email = Preferences.Get("email", "");
             var password = Preferences.Get("password", "");
@@ -33,6 +32,7 @@ namespace WolvesVNTeam
             {
                 Navigation.PushModalAsync(new LoginUI());
             }
+
 
         }
         

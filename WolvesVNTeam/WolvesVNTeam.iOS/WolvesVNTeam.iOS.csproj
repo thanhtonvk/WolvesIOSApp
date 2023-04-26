@@ -27,8 +27,8 @@
     <MtouchArch>x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
-    <CodesignProvision>WolvesVNProfile</CodesignProvision>
-    <CodesignKey>Apple Distribution: Do Van Khanh (JUXAHZ3PR4)</CodesignKey>
+    <CodesignProvision></CodesignProvision>
+    <CodesignKey>iPhone Developer</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
@@ -39,7 +39,7 @@
     <WarningLevel>4</WarningLevel>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
-    <CodesignProvision>WolvesVNProfile</CodesignProvision>
+    <CodesignProvision></CodesignProvision>
     <CodesignKey>Apple Distribution: Do Van Khanh (JUXAHZ3PR4)</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
@@ -68,7 +68,7 @@
     <MtouchArch>ARM64</MtouchArch>
     <CodesignKey>Apple Distribution: Do Van Khanh (JUXAHZ3PR4)</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <CodesignProvision>WolvesVNProfile</CodesignProvision>
+    <CodesignProvision></CodesignProvision>
     <MtouchLink>SdkOnly</MtouchLink>
   </PropertyGroup>
   <ItemGroup>
@@ -167,6 +167,9 @@
     <PackageReference Include="Xamarin.Firebase.iOS.InstanceID">
       <Version>1.0.8</Version>
     </PackageReference>
+    <PackageReference Include="FireSharp">
+      <Version>2.0.4</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -174,8 +177,5 @@
       <Project>{FD9003A7-14A2-4A76-9BF5-624B12433A47}</Project>
       <Name>WolvesVNTeam</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="GoogleService-Info.plist" />
   </ItemGroup>
 </Project>

@@ -6,6 +6,7 @@ using Acr.UserDialogs;
 using Newtonsoft.Json;
 using Plugin.Toasts;
 using WolvesVNTeam.ApiService;
+using WolvesVNTeam.FirebaseService;
 using WolvesVNTeam.Models;
 using WolvesVNTeam.Tools;
 using Xamarin.Essentials;
@@ -31,12 +32,18 @@ namespace WolvesVNTeam.GUI
             {
                 txtEmail.Text = email;
                 txtPassword.Text = password;
-             
-
             }
             onClick();
             loadLogo();
             
+            NewServicesFirebase newsServiceFirebase = new NewServicesFirebase();
+
+            var list = newsServiceFirebase.getNormalNews();
+            foreach(var mode in list)
+            {
+                System.Diagnostics.Debug.WriteLine(mode.Content);
+            }
+           
 
         }
        

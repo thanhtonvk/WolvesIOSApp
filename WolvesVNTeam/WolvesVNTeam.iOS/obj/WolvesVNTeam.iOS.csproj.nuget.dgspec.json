@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj": {}
+    "/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj": {}
   },
   "projects": {
-    "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj": {
+    "/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj",
+        "projectUniqueName": "/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj",
         "projectName": "WolvesVNTeam.iOS",
-        "projectPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj",
-        "packagesPath": "/Users/tondz/.nuget/packages/",
-        "outputPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/",
+        "projectPath": "/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj",
+        "packagesPath": "/Users/tonsociu/.nuget/packages/",
+        "outputPath": "/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/tondz/.config/NuGet/NuGet.Config"
+          "/Users/tonsociu/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
@@ -26,8 +26,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj": {
-                "projectPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj"
+              "/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj": {
+                "projectPath": "/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj"
               }
             }
           }
@@ -39,6 +39,10 @@
             "Acr.UserDialogs": {
               "target": "Package",
               "version": "[7.2.0.534, )"
+            },
+            "FireSharp": {
+              "target": "Package",
+              "version": "[2.0.4, )"
             },
             "Microsoft.Net.Http": {
               "target": "Package",
@@ -107,17 +111,17 @@
         }
       }
     },
-    "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj": {
+    "/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj",
+        "projectUniqueName": "/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj",
         "projectName": "WolvesVNTeam",
-        "projectPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj",
-        "packagesPath": "/Users/tondz/.nuget/packages/",
-        "outputPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/obj/",
+        "projectPath": "/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj",
+        "packagesPath": "/Users/tonsociu/.nuget/packages/",
+        "outputPath": "/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tondz/.config/NuGet/NuGet.Config"
+          "/Users/tonsociu/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -145,6 +149,14 @@
               "target": "Package",
               "version": "[7.2.0.534, )"
             },
+            "FireSharp": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "FireSharp.Serialization.JsonNet": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -157,7 +169,7 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.2, )"
+              "version": "[13.0.3, )"
             },
             "Octane.Xam.VideoPlayer": {
               "target": "Package",
@@ -206,7 +218,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/Users/tondz/Library/Caches/VisualStudio/17.0/MSBuild/5048_3/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/tonsociu/Library/Caches/VisualStudio/17.0/MSBuild/69582_3/RuntimeIdentifierGraph.json"
         }
       }
     }

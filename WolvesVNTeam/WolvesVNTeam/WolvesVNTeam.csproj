@@ -23,6 +23,7 @@
     <None Remove="Naxam.TopTabbedPage.Forms" />
     <None Remove="Plugin.Jobs" />
     <None Remove="Xamarin.Firebase.iOS.Analytics" />
+    <None Remove="FirebaseService\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,7 +35,7 @@
 
   <ItemGroup>
     <PackageReference Include="Acr.UserDialogs" Version="7.2.0.534" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Rg.Plugins.Popup" Version="2.1.0" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
@@ -45,6 +46,8 @@
     <PackageReference Include="Plugin.Multilingual" Version="1.0.2" />
     <PackageReference Include="Naxam.TopTabbedPage.Forms" Version="0.0.3.5" />
     <PackageReference Include="Plugin.Jobs" Version="2.0.0" />
+    <PackageReference Include="FireSharp" Version="2.0.4" />
+    <PackageReference Include="FireSharp.Serialization.JsonNet" Version="1.1.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -77,5 +80,8 @@
     <EmbeddedResource Include="Assets\back.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FirebaseService\" />
   </ItemGroup>
 </Project>
