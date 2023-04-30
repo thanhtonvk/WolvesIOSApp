@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using Acr.UserDialogs;
-
+using FireSharp;
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using FireSharp.Response;
 using Newtonsoft.Json;
 using Plugin.Toasts;
 using WolvesVNTeam.ApiService;
@@ -20,7 +23,7 @@ namespace WolvesVNTeam.GUI
     public partial class LoginUI : ContentPage
     {
         private readonly AccountService accountService;
-
+        
         public LoginUI()
         {
             InitializeComponent();
@@ -35,19 +38,7 @@ namespace WolvesVNTeam.GUI
             }
             onClick();
             loadLogo();
-            
-            NewServicesFirebase newsServiceFirebase = new NewServicesFirebase();
-
-            var list = newsServiceFirebase.getNormalNews();
-            foreach(var mode in list)
-            {
-                System.Diagnostics.Debug.WriteLine(mode.Content);
-            }
-           
-
         }
-       
-        
         private void loadLogo()
         {
             Img_Logo.Source = ImageSource.FromResource("WolvesVNTeam.Assets.logo.png");
@@ -86,7 +77,7 @@ namespace WolvesVNTeam.GUI
                     dialog.Hide();
                     await DisplayAlert("Thông báo", "Email không tồn tại, hãy kiểm tra lại", "OK");
                 }
-                  
+
             }
         }
 
@@ -107,9 +98,9 @@ namespace WolvesVNTeam.GUI
             {
                 var dialog = UserDialogs.Instance.Loading("Đang đăng nhập", () => { }, "", true, MaskType.Gradient);
                 var result = await accountService.LoginAsync(email, password);
-
                 if (result.IsSuccessStatusCode)
                 {
+                    
                     var resultContentString = await result.Content.ReadAsStringAsync();
                     var accounts = JsonConvert.DeserializeObject<List<Account>>(resultContentString);
                     if (accounts.Count > 0)
@@ -121,7 +112,7 @@ namespace WolvesVNTeam.GUI
                         if (rs.IsSuccessStatusCode)
                         {
                             var stringRS = await rs.Content.ReadAsStringAsync();
-                     
+
                             var vips = JsonConvert.DeserializeObject<List<VIP>>(stringRS);
                             if (vips.Count > 0)
                             {
@@ -134,7 +125,7 @@ namespace WolvesVNTeam.GUI
                             }
 
                             dialog.Hide();
-                          
+
                             await Navigation.PushModalAsync(new MainUI());
                         }
                     }

@@ -6,7 +6,7 @@ namespace WolvesVNTeam.Models
     {
         public int Id { get; set; }
         public string Date { get; set; }
-        public Time Time { get; set; }
+        public string Time { get; set; }
         public string Content { get; set; }
         public bool Type { get; set; }
     }

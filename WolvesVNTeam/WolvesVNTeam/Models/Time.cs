@@ -8,9 +8,9 @@ namespace WolvesVNTeam.Models
 		public int Milliseconds { get; set; }
 		public int Minutes { get; set; }
 		public int Ticks { get; set; }
-		public int TotalDays { get; set; }
+		public float TotalDays { get; set; }
 
-		public int TotalHours { get; set; }
+		public float TotalHours { get; set; }
 
 		public int TotalMilliseconds { get; set; }
 

@@ -6,7 +6,7 @@
              BackgroundColor="#090909">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Margin="0,40,0,0">
-            <Frame OutlineColor="Transparent" BackgroundColor="#090909" CornerRadius="10">
+            <Frame BorderColor="Transparent" BackgroundColor="#090909" CornerRadius="10">
                 <StackLayout Orientation="Vertical">
                     <Grid>
                         <Grid.RowDefinitions>
@@ -15,29 +15,29 @@
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-                        <Label Grid.Column="0" Grid.Row="0" Text="" HorizontalTextAlignment="Center"
+                        <Label Grid.Column="0" Grid.Row="0" Text="1" HorizontalTextAlignment="Center"
                                FontAttributes="Bold" TextColor="Orange" FontSize="Medium" x:Name="txtPip" />
-                        <Label Grid.Column="1" Grid.Row="0" Text="" HorizontalTextAlignment="Center"
+                        <Label Grid.Column="1" Grid.Row="0" Text="1" HorizontalTextAlignment="Center"
                                FontAttributes="Bold" TextColor="ForestGreen" FontSize="Medium" x:Name="txtTrade" />
-                        <Label Grid.Column="2" Grid.Row="0" Text="" HorizontalTextAlignment="Center"
+                        <Label Grid.Column="2" Grid.Row="0" Text="1" HorizontalTextAlignment="Center"
                                TextColor="Orange" FontAttributes="Bold" FontSize="Medium" x:Name="txtWinrate" />
 
                         <Label Grid.Column="0" Grid.Row="1" Text="Pips" HorizontalTextAlignment="Center"
-                               TextColor="BlueViolet" />
+                               TextColor="DarkBlue" />
                         <Label Grid.Column="1" Grid.Row="1" Text="Trades" HorizontalTextAlignment="Center"
-                               TextColor="BlueViolet" />
+                               TextColor="DarkBlue" />
                         <Label Grid.Column="2" Grid.Row="1" Text="Win rates" HorizontalTextAlignment="Center"
-                               TextColor="BlueViolet" />
+                               TextColor="DarkBlue" />
                     </Grid>
                 </StackLayout>
             </Frame>
 
-            <ListView x:Name="ListViewPip" VerticalOptions="Fill" HasUnevenRows="True" BackgroundColor="#090909">
+            <ListView x:Name="ListViewPip" VerticalOptions="FillAndExpand" HasUnevenRows="True" BackgroundColor="#090909">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Orientation="Vertical" Margin="8,8,8,8">
-                                <Frame OutlineColor="Transparent" BackgroundColor="#090909" CornerRadius="10">
+                                <Frame BorderColor="Transparent" BackgroundColor="#090909" CornerRadius="10">
                                     <StackLayout>
                                         <Grid>
                                             <Grid.ColumnDefinitions>

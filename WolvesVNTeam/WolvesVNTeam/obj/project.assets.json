@@ -31,7 +31,7 @@
           }
         }
       },
-      "FireSharp/2.0.4": {
+      "FireSharp/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.Async": "1.0.168",
@@ -764,14 +764,14 @@
         "readme.txt"
       ]
     },
-    "FireSharp/2.0.4": {
-      "sha512": "laSHpVUBG6iCTUixmpeUmYxie2zbziOBM+LU0v2A0ETE9dUyBA+8aY63xql/o8LXj+kFybBLYUKBUrLCZWaq+A==",
+    "FireSharp/2.0.3": {
+      "sha512": "GXnydHRxJgPrWaUiBoU6ZGr5kYve/dEjCfr2Yxnbezazzmi94NNij4fbYA7nix7VksWlow+sKDWt+gjkgCjutg==",
       "type": "package",
-      "path": "firesharp/2.0.4",
+      "path": "firesharp/2.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "firesharp.2.0.4.nupkg.sha512",
+        "firesharp.2.0.3.nupkg.sha512",
         "firesharp.nuspec",
         "lib/portable-net45+sl5+wp8+win8/FireSharp.dll"
       ]
@@ -2454,7 +2454,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Acr.UserDialogs >= 7.2.0.534",
-      "FireSharp >= 2.0.4",
+      "FireSharp >= 2.0.3",
       "FireSharp.Serialization.JsonNet >= 1.1.0",
       "NETStandard.Library >= 2.0.3",
       "Naxam.TopTabbedPage.Forms >= 0.0.3.5",
@@ -2513,7 +2513,7 @@
           },
           "FireSharp": {
             "target": "Package",
-            "version": "[2.0.4, )"
+            "version": "[2.0.3, )"
           },
           "FireSharp.Serialization.JsonNet": {
             "target": "Package",
@@ -2580,7 +2580,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/Users/tonsociu/Library/Caches/VisualStudio/17.0/MSBuild/69582_3/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/tonsociu/Library/Caches/VisualStudio/17.0/MSBuild/39204_3/RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -2589,7 +2589,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'FireSharp 2.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'FireSharp 2.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "FireSharp",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"

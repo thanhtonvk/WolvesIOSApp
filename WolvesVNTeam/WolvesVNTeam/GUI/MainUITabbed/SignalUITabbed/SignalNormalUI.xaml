@@ -6,14 +6,14 @@
              BackgroundColor="#090909">
     <ContentPage.Content>
         <StackLayout>
-            <ListView x:Name="ListViewSignal" VerticalOptions="Fill" HasUnevenRows="True" BackgroundColor="#090909">
+            <ListView x:Name="ListViewSignal" VerticalOptions="FillAndExpand" HasUnevenRows="True" BackgroundColor="#090909">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Orientation="Vertical" Margin="8,8,8,8">
-                                <Frame OutlineColor="Transparent" BackgroundColor="#090909" CornerRadius="10">
+                                <Frame BorderColor="Transparent" BackgroundColor="#090909" CornerRadius="10">
                                     <StackLayout>
-                                        <Label Text="{Binding GetDate}" VerticalOptions="Center" HorizontalOptions="Fill"
+                                        <Label Text="{Binding Date}" VerticalOptions="Center" HorizontalOptions="Fill"
                                                TextColor="White" />
 
                                         <Image Source="{Binding Image}" />

@@ -22,12 +22,12 @@ namespace WolvesVNTeam.GUI.MainUITabbed.NewUITabbed
             InitializeComponent();
             _sanGiaoDiches = new List<SanGiaoDich>();
             loadSanGiaodich();
-            Device.StartTimer(new TimeSpan(0, 0, 10), () =>
-            {
-                // do something every 10 seconds
-                loadLastSanGiaoDich();
-                return true; // runs again, or false to stop
-            });
+            //Device.StartTimer(new TimeSpan(0, 0, 10), () =>
+            //{
+            //    // do something every 10 seconds
+            //    loadLastSanGiaoDich();
+            //    return true; // runs again, or false to stop
+            //});
             ListViewNews.ItemSelected += ListViewNews_ItemSelected;
         }
 

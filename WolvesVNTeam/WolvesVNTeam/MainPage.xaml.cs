@@ -3,6 +3,8 @@ using System.Threading;
 using Newtonsoft.Json;
 using WolvesVNTeam.ApiService;
 using WolvesVNTeam.GUI;
+using WolvesVNTeam.GUI.MainUITabbed.NewUITabbed;
+using WolvesVNTeam.GUI.MainUITabbed.SignalUITabbed;
 using WolvesVNTeam.Models;
 using WolvesVNTeam.Tools;
 using Xamarin.Essentials;
@@ -68,7 +70,7 @@ namespace WolvesVNTeam
 
 
 
-                        await Navigation.PushModalAsync(new MainUI());
+                        await Navigation.PushModalAsync(new LoginUI());
                     }
                 }
                 else

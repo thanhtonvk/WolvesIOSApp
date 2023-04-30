@@ -40,10 +40,6 @@
               "target": "Package",
               "version": "[7.2.0.534, )"
             },
-            "FireSharp": {
-              "target": "Package",
-              "version": "[2.0.4, )"
-            },
             "Microsoft.Net.Http": {
               "target": "Package",
               "version": "[2.2.29, )"
@@ -67,10 +63,6 @@
             "Rg.Plugins.Popup": {
               "target": "Package",
               "version": "[2.1.0, )"
-            },
-            "Toasts.Forms.Plugin": {
-              "target": "Package",
-              "version": "[3.3.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -128,7 +120,7 @@
             },
             "FireSharp": {
               "target": "Package",
-              "version": "[2.0.4, )"
+              "version": "[2.0.3, )"
             },
             "FireSharp.Serialization.JsonNet": {
               "target": "Package",
@@ -195,7 +187,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/Users/tonsociu/Library/Caches/VisualStudio/17.0/MSBuild/69582_3/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/tonsociu/Library/Caches/VisualStudio/17.0/MSBuild/39204_3/RuntimeIdentifierGraph.json"
         }
       }
     }

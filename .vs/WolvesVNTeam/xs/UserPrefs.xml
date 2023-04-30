@@ -1,21 +1,24 @@
 ﻿<Properties StartupConfiguration="{5CD560F9-2045-4486-9BB3-FC6D05C87460}|Default">
   <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MonoDevelop.Ide.ItemProperties.WolvesVNTeam.iOS Xamarin.HotReload.DebuggerTimeoutException.WolvesVNTeam.iOS.HideInfoBar="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FF1C410B-A5A7-4156-820E-E44A5CD6EE48" automaticSigning="False" />
   <MonoDevelop.Ide.ItemProperties.WolvesVNTeam.Android PreferredExecutionTarget="Android.ARB00046745" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
-  <MonoDevelop.Ide.ItemProperties.WolvesVNTeam.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FF1C410B-A5A7-4156-820E-E44A5CD6EE48" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WolvesVNTeam/WolvesVNTeam/AssemblyInfo.cs">
+  <Debugger.DebugSourceFolders />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/NewsWolvesUI.xaml.cs">
     <Files>
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUITabbed/SignalVIPUI.xaml" Line="27" Column="77" IsPinned="True" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUITabbed/SignalVIPUI.xaml" Line="9" Column="78" IsPinned="True" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/ChangePasswordUI.xaml" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/AssemblyInfo.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/App.xaml" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam.iOS/Main.cs" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam.iOS/Main.cs" Line="18" Column="1" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/InputInviteUI.xaml" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/LoadWolUI.xaml" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/LoginUI.xaml" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/LoginUI.xaml" Line="1" Column="1" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUI.xaml" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/RegisterUI.xaml" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/RegisterVIPUI.xaml" />
@@ -25,51 +28,51 @@
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/DoiTacUI.xaml" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/UserUI.xaml" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/UserUI.xaml.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/TradingUI.xaml" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/TradingUI.xaml" Line="25" Column="78" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/TradingUI.xaml.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/NewsNormalUI.xaml" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/NewsVIPUI.xaml" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/NewsWolvesUI.xaml" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/SanGiaoDichUI.xaml" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/NewsNormalUI.xaml" Line="9" Column="75" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/NewsVIPUI.xaml" Line="9" Column="75" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/NewsWolvesUI.xaml" Line="9" Column="81" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/SanGiaoDichUI.xaml" Line="9" Column="75" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/DetailsNewsWolvesUI.xaml.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewsUI.xaml" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/StatitiscsUI.xaml" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUI.xaml" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewsUI.xaml" Line="1" Column="1" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/StatitiscsUI.xaml" Line="9" Column="31" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUI.xaml" Line="11" Column="38" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/StatitiscsUI.xaml.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUITabbed/GoldsUI.xaml" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUITabbed/SignalNormalUI.xaml" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUITabbed/GoldsUI.xaml" Line="9" Column="75" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUITabbed/SignalNormalUI.xaml" Line="14" Column="51" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/MainPage.xaml" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/MainPage.xaml.cs" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/MainPage.xaml.cs" Line="35" Column="54" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/RegisterVIPUI.xaml.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/RegisterUI.xaml.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/TradingViewUI.xaml.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/UpdateAccountUI.xaml.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewsUI.xaml.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/NewsWolvesUI.xaml.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/SanGiaoDichUI.xaml.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUITabbed/SignalNormalUI.xaml.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUITabbed/GoldsUI.xaml.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam.iOS/AppDelegate.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/LoginUI.xaml.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/Tools/Constants.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUITabbed/SignalVIPUI.xaml.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/NewsNormalUI.xaml.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/NewsVIPUI.xaml.cs" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/NewsWolvesUI.xaml.cs" Line="30" Column="18" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/SanGiaoDichUI.xaml.cs" Line="33" Column="1" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUITabbed/SignalNormalUI.xaml.cs" Line="40" Column="10" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUITabbed/GoldsUI.xaml.cs" Line="57" Column="33" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/LoginUI.xaml.cs" Line="100" Column="79" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/Tools/Constants.cs" Line="9" Column="62" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUITabbed/SignalVIPUI.xaml.cs" Line="93" Column="35" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/NewsNormalUI.xaml.cs" Line="56" Column="59" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/NewsVIPUI.xaml.cs" Line="56" Column="59" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/ApiService/SanGiaoDichService.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/SignalUI.xaml.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/Models/Signal.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam.Android/MainActivity.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/Models/MoneyNotify.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/LienHeUI.xaml" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/Models/Gold.cs" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/Models/Gold.cs" Line="1" Column="1" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/App.xaml.cs" />
       <File FileName="../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Aapt2.targets" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/ChangePasswordUI.xaml.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/DoiTacUI.xaml.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/LienHeUI.xaml.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/LoadWolUI.xaml.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/VideoUI.xaml" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/VideoUI.xaml.cs" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/VideoUI.xaml" Line="7" Column="75" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUITabbed/NewUITabbed/VideoUI.xaml.cs" Line="24" Column="26" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/Models/VideoNews.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/ApiService/VideoService.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/YoutubeUI.xaml" />
@@ -77,7 +80,7 @@
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/PlayVideoUI.xaml" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/PlayVideoUI.xaml.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/ApiService/SymbolService.cs" />
-      <File FileName="WolvesVNTeam/WolvesVNTeam/ApiService/AccountService.cs" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/ApiService/AccountService.cs" Line="26" Column="18" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/ApiService/ContactService.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/ApiService/DoiTacService.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam/ApiService/GoldService.cs" />
@@ -93,21 +96,49 @@
       <File FileName="WolvesVNTeam/WolvesVNTeam/GUI/MainUI.xaml.cs" />
       <File FileName="WolvesVNTeam/WolvesVNTeam.iOS/Info.plist" />
       <File FileName="WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj" />
-      <File FileName="../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.Shared.targets" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/Models/News.cs" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/FirebaseService/BanLenhServicesFirebase.cs" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/Models/Time.cs" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/Models/Stastistic.cs" />
+      <File FileName="WolvesVNTeam/WolvesVNTeam/FirebaseService/NewServicesFirebase.cs" />
+      <File FileName="../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Legacy.targets" Line="327" Column="56" />
+      <File FileName="../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/Current/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs" Line="84" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WolvesVNTeam" expanded="True">
-            <Node name="WolvesVNTeam" expanded="True" />
-            <Node name="WolvesVNTeam.iOS" selected="True" />
+            <Node name="WolvesVNTeam" expanded="True">
+              <Node name="ApiService" expanded="True" />
+              <Node name="FirebaseService" expanded="True" />
+              <Node name="GUI" expanded="True">
+                <Node name="MainUITabbed" expanded="True">
+                  <Node name="NewUITabbed" expanded="True">
+                    <Node name="NewsNormalUI.xaml" expanded="True" />
+                    <Node name="NewsVIPUI.xaml" expanded="True" />
+                    <Node name="NewsWolvesUI.xaml" expanded="True">
+                      <Node name="NewsWolvesUI.xaml.cs" selected="True" />
+                    </Node>
+                    <Node name="SanGiaoDichUI.xaml" expanded="True" />
+                    <Node name="VideoUI.xaml" expanded="True" />
+                  </Node>
+                  <Node name="SignalUITabbed" expanded="True">
+                    <Node name="GoldsUI.xaml" expanded="True" />
+                    <Node name="SignalNormalUI.xaml" expanded="True" />
+                    <Node name="SignalVIPUI.xaml" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="LoginUI.xaml" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Tools" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="WolvesVNTeam.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.ARB00046745" />
-  <Debugger.DebugSourceFolders />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

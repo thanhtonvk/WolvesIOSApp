@@ -22,12 +22,12 @@ namespace WolvesVNTeam.GUI.MainUITabbed.NewUITabbed
             wolvesNewsList = new List<NewsWolves>();
             _newsService = new NewsService();
             loadWolvesNews();
-            Device.StartTimer(new TimeSpan(0, 0, 10), () =>
-            {
-                // do something every 10 seconds
-                loadLastWolvesNews();
-                return true; // runs again, or false to stop
-            });
+            //Device.StartTimer(new TimeSpan(0, 0, 10), () =>
+            //{
+            //    // do something every 10 seconds
+            //    loadLastWolvesNews();
+            //    return true; // runs again, or false to stop
+            //});
             onClick();
         }
 

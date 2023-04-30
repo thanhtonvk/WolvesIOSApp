@@ -22,7 +22,7 @@
             </StackLayout>
             <Label Text="Thị trường" FontAttributes="Bold" FontSize="20" Margin="10,10,10,5" TextColor="White" />
             <BoxView HeightRequest="1" Color="White" Margin="5,0,5,0" />
-            <ListView x:Name="ListViewSymbol" VerticalOptions="Fill" HasUnevenRows="True" BackgroundColor="#090909">
+            <ListView x:Name="ListViewSymbol" VerticalOptions="FillAndExpand" HasUnevenRows="True" BackgroundColor="#090909">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

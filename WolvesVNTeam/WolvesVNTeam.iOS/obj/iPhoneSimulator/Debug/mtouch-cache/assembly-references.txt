@@ -56,7 +56,7 @@
 /Users/tonsociu/.nuget/packages/xamarin.forms/5.0.0.2196/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/tonsociu/.nuget/packages/acr.userdialogs/7.2.0.534/lib/xamarinios10/Acr.UserDialogs.dll
 /Users/tonsociu/.nuget/packages/btprogresshud/1.3.4/lib/xamarinios10/BTProgressHUD.dll
-/Users/tonsociu/.nuget/packages/firesharp/2.0.4/lib/portable-net45+sl5+wp8+win8/FireSharp.dll
+/Users/tonsociu/.nuget/packages/firesharp/2.0.3/lib/portable-net45+sl5+wp8+win8/FireSharp.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/16.4.0.3/lib/mono/Xamarin.iOS/System.Net.dll
 /Users/tonsociu/.nuget/packages/microsoft.bcl.async/1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.dll
 /Users/tonsociu/.nuget/packages/microsoft.bcl.async/1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.Extensions.dll

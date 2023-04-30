@@ -22,16 +22,18 @@ namespace WolvesVNTeam.GUI.MainUITabbed.NewUITabbed
             videosList = new List<VideoNews>();
             videoService = new VideoService();
             loadVideos();
-            Device.StartTimer(new TimeSpan(0, 0, 3), () =>
-            {
-                // do something every 10 seconds
 
-                loadLastVideo();
-
-
-                return true; // runs again, or false to stop
-            });
             ListViewNews.ItemSelected += ListViewNews_ItemSelected;
+            //Device.StartTimer(new TimeSpan(0, 0, 3), () =>
+            //{
+            //    // do something every 10 seconds
+
+            //    loadLastVideo();
+
+
+            //    return true; // runs again, or false to stop
+            //});
+            
         }
         private void ListViewNews_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {

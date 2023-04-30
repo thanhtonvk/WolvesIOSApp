@@ -50,7 +50,7 @@
           }
         }
       },
-      "FireSharp/2.0.4": {
+      "FireSharp/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.Async": "1.0.168",
@@ -852,7 +852,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.2.0.534",
-          "FireSharp": "2.0.4",
+          "FireSharp": "2.0.3",
           "FireSharp.Serialization.JsonNet": "1.1.0",
           "Naxam.TopTabbedPage.Forms": "0.0.3.5",
           "Newtonsoft.Json": "13.0.3",
@@ -923,7 +923,7 @@
           }
         }
       },
-      "FireSharp/2.0.4": {
+      "FireSharp/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.Async": "1.0.168",
@@ -1719,7 +1719,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.2.0.534",
-          "FireSharp": "2.0.4",
+          "FireSharp": "2.0.3",
           "FireSharp.Serialization.JsonNet": "1.1.0",
           "Naxam.TopTabbedPage.Forms": "0.0.3.5",
           "Newtonsoft.Json": "13.0.3",
@@ -1790,7 +1790,7 @@
           }
         }
       },
-      "FireSharp/2.0.4": {
+      "FireSharp/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.Async": "1.0.168",
@@ -2586,7 +2586,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.2.0.534",
-          "FireSharp": "2.0.4",
+          "FireSharp": "2.0.3",
           "FireSharp.Serialization.JsonNet": "1.1.0",
           "Naxam.TopTabbedPage.Forms": "0.0.3.5",
           "Newtonsoft.Json": "13.0.3",
@@ -2657,7 +2657,7 @@
           }
         }
       },
-      "FireSharp/2.0.4": {
+      "FireSharp/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.Async": "1.0.168",
@@ -3453,7 +3453,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.2.0.534",
-          "FireSharp": "2.0.4",
+          "FireSharp": "2.0.3",
           "FireSharp.Serialization.JsonNet": "1.1.0",
           "Naxam.TopTabbedPage.Forms": "0.0.3.5",
           "Newtonsoft.Json": "13.0.3",
@@ -3553,14 +3553,14 @@
         "lib/xamarinios10/BTProgressHUD.xml"
       ]
     },
-    "FireSharp/2.0.4": {
-      "sha512": "laSHpVUBG6iCTUixmpeUmYxie2zbziOBM+LU0v2A0ETE9dUyBA+8aY63xql/o8LXj+kFybBLYUKBUrLCZWaq+A==",
+    "FireSharp/2.0.3": {
+      "sha512": "GXnydHRxJgPrWaUiBoU6ZGr5kYve/dEjCfr2Yxnbezazzmi94NNij4fbYA7nix7VksWlow+sKDWt+gjkgCjutg==",
       "type": "package",
-      "path": "firesharp/2.0.4",
+      "path": "firesharp/2.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "firesharp.2.0.4.nupkg.sha512",
+        "firesharp.2.0.3.nupkg.sha512",
         "firesharp.nuspec",
         "lib/portable-net45+sl5+wp8+win8/FireSharp.dll"
       ]
@@ -5081,7 +5081,6 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Acr.UserDialogs >= 7.2.0.534",
-      "FireSharp >= 2.0.4",
       "Microsoft.Net.Http >= 2.2.29",
       "Naxam.TopTabbedPage.Forms >= 0.0.3.5",
       "Octane.Xam.VideoPlayer >= 3.1.0",
@@ -5136,10 +5135,6 @@
           "Acr.UserDialogs": {
             "target": "Package",
             "version": "[7.2.0.534, )"
-          },
-          "FireSharp": {
-            "target": "Package",
-            "version": "[2.0.4, )"
           },
           "Microsoft.Net.Http": {
             "target": "Package",

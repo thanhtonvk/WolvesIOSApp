@@ -1,9 +1,16 @@
+Acr.Core.dll
 Acr.UserDialogs.dll
 AndHUD.dll
 FormsViewGroup.dll
 Octane.Xamarin.Forms.VideoPlayer.Android.dll
+Plugin.Jobs.dll
 Plugin.Multilingual.dll
 Rg.Plugins.Popup.dll
+SQLitePCLRaw.batteries_green.dll
+SQLitePCLRaw.batteries_v2.dll
+SQLitePCLRaw.core.dll
+SQLitePCLRaw.lib.e_sqlite3.dll
+SQLitePCLRaw.provider.e_sqlite3.dll
 Toasts.Forms.Plugin.Droid.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
@@ -109,10 +116,3 @@ androidx.asynclayoutinflater.asynclayoutinflater.aar
 androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
-Acr.Core.dll
-Plugin.Jobs.dll
-SQLitePCLRaw.batteries_green.dll
-SQLitePCLRaw.batteries_v2.dll
-SQLitePCLRaw.core.dll
-SQLitePCLRaw.lib.e_sqlite3.dll
-SQLitePCLRaw.provider.e_sqlite3.dll

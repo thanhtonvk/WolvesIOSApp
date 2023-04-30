@@ -176,7 +176,7 @@
 	--reference=/Users/tonsociu/.nuget/packages/acr.core/3.0.1/lib/xamarinios10/Acr.Core.dll \
 	--reference=/Users/tonsociu/.nuget/packages/acr.userdialogs/7.2.0.534/lib/xamarinios10/Acr.UserDialogs.dll \
 	--reference=/Users/tonsociu/.nuget/packages/btprogresshud/1.3.4/lib/xamarinios10/BTProgressHUD.dll \
-	--reference=/Users/tonsociu/.nuget/packages/firesharp/2.0.4/lib/portable-net45+sl5+wp8+win8/FireSharp.dll \
+	--reference=/Users/tonsociu/.nuget/packages/firesharp/2.0.3/lib/portable-net45+sl5+wp8+win8/FireSharp.dll \
 	--reference=/Users/tonsociu/.nuget/packages/materialcontrols/1.2.2/lib/Xamarin.iOS10/MaterialControls.dll \
 	--reference=/Users/tonsociu/.nuget/packages/microsoft.bcl.async/1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.Extensions.dll \
 	--reference=/Users/tonsociu/.nuget/packages/microsoft.bcl.async/1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.dll \

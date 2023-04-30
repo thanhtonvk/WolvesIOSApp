@@ -6,7 +6,7 @@
              BackgroundColor="#090909">
     <ContentPage.Content>
         <StackLayout Margin="0,40,0,0">
-            <ListView x:Name="ListViewNews" VerticalOptions="Fill" HasUnevenRows="True" BackgroundColor="#090909">
+            <ListView x:Name="ListViewNews" VerticalOptions="FillAndExpand" HasUnevenRows="True" BackgroundColor="#090909">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

@@ -98,23 +98,7 @@
 		</data>
 		<key>FireSharp.dll</key>
 		<data>
-		e+9h32A33Dj+LnJ+KCrfhAV+NXI=
-		</data>
-		<key>Firebase.Analytics.dll</key>
-		<data>
-		MHYrcDTLu+lKLVXTc8vTKnoy2ck=
-		</data>
-		<key>Firebase.CloudMessaging.dll</key>
-		<data>
-		zu24W1sRRbcC6D/EnFZikkPRq7w=
-		</data>
-		<key>Firebase.Core.dll</key>
-		<data>
-		85vE28MZ/UOsWYU2btoBm012zK8=
-		</data>
-		<key>Firebase.InstanceID.dll</key>
-		<data>
-		TRt8M9gg9xAGTH0HeaDea2Sgy3A=
+		Z+plG30/K3h0AANO7b5XAyVKPug=
 		</data>
 		<key>Icons/icon-error.png</key>
 		<data>
@@ -450,19 +434,19 @@
 		</data>
 		<key>WolvesVNTeam.dll</key>
 		<data>
-		DQ0gwQBnZbFBWOLIEZvG5v1VcQI=
+		sWUuu9CW8YRPqVAcfUmHP7JQyPU=
 		</data>
 		<key>WolvesVNTeam.iOS.exe</key>
 		<data>
-		oerzd7R/+giZ9biJVHvmTP/qrlE=
+		oIPbIvKxZ6lyNtG/lDBJNqLzFQc=
 		</data>
 		<key>WolvesVNTeam.iOS.pdb</key>
 		<data>
-		Dru+Tb68LKqvglDf37NWp4svtKE=
+		aTXMIQTLNYynSNJyf3hksepK5mU=
 		</data>
 		<key>WolvesVNTeam.pdb</key>
 		<data>
-		4eTxgaqpehebb3pCvfgc+X8jH3U=
+		2Y/7VeZG1eL6ELI/YPVwte/hoNs=
 		</data>
 		<key>Xamarin.Essentials.dll</key>
 		<data>
@@ -928,55 +912,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e+9h32A33Dj+LnJ+KCrfhAV+NXI=
+			Z+plG30/K3h0AANO7b5XAyVKPug=
 			</data>
 			<key>hash2</key>
 			<data>
-			/yPnSkw9zjSYKzX4z7Div/FlnEAFldxVBre7ht1KBjo=
-			</data>
-		</dict>
-		<key>Firebase.Analytics.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MHYrcDTLu+lKLVXTc8vTKnoy2ck=
-			</data>
-			<key>hash2</key>
-			<data>
-			Fvn3UaU/5em2hA//Ryf6j8r/ABPN0y15brj+d6Q+qFE=
-			</data>
-		</dict>
-		<key>Firebase.CloudMessaging.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zu24W1sRRbcC6D/EnFZikkPRq7w=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZJfIhf5opPbwKp2CrLbqYfxTlqmuHU8h0TuASJI6DZs=
-			</data>
-		</dict>
-		<key>Firebase.Core.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			85vE28MZ/UOsWYU2btoBm012zK8=
-			</data>
-			<key>hash2</key>
-			<data>
-			x4F5bsWQe0sqmyfBhO5mgfVQdVRWD6A8yAofNp3O9mo=
-			</data>
-		</dict>
-		<key>Firebase.InstanceID.dll</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TRt8M9gg9xAGTH0HeaDea2Sgy3A=
-			</data>
-			<key>hash2</key>
-			<data>
-			D99g5cd1XlmBRDq7oAFkirYs/1LEg+HnBkThi1wvXo4=
+			m4lJgfC6tm+Mf5elJTdPVxZAPCzWVfumVg3Q486f7LM=
 			</data>
 		</dict>
 		<key>Icons/icon-error.png</key>
@@ -1874,44 +1814,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DQ0gwQBnZbFBWOLIEZvG5v1VcQI=
+			sWUuu9CW8YRPqVAcfUmHP7JQyPU=
 			</data>
 			<key>hash2</key>
 			<data>
-			zLzk5+AtRjj2MRIMTfOPls8fOgSzWA7bsMj/tXzTOmg=
+			QpK2oVFOgAHO56Sh2BETtFenl7sLKjOwtNempJ2pEwA=
 			</data>
 		</dict>
 		<key>WolvesVNTeam.iOS.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oerzd7R/+giZ9biJVHvmTP/qrlE=
+			oIPbIvKxZ6lyNtG/lDBJNqLzFQc=
 			</data>
 			<key>hash2</key>
 			<data>
-			e7sYiLpbOaVeNVkKwqLyKlMC24OUh2CKafYSo7X3yfA=
+			i2zW+ABHOw1/WjJo3YcnIhQbxhCIK/Ko06o4VET/ep4=
 			</data>
 		</dict>
 		<key>WolvesVNTeam.iOS.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Dru+Tb68LKqvglDf37NWp4svtKE=
+			aTXMIQTLNYynSNJyf3hksepK5mU=
 			</data>
 			<key>hash2</key>
 			<data>
-			hZpJRbLhISX5ymOuaalCNtfI+hqX2b5LursPeuSvXd4=
+			Zywdx/SeIxyZBQ+R5Lk/SMaIUAzhnH/BGX826YLAr3Q=
 			</data>
 		</dict>
 		<key>WolvesVNTeam.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4eTxgaqpehebb3pCvfgc+X8jH3U=
+			2Y/7VeZG1eL6ELI/YPVwte/hoNs=
 			</data>
 			<key>hash2</key>
 			<data>
-			kZtpTJ8eIUh5QEayVadvPRO8PgIxe4ts2gFu7v/sdA0=
+			fyIvOM6oWgnxohFmvcxPGaPQenyDvNEg92xD9R+ZQTc=
 			</data>
 		</dict>
 		<key>Xamarin.Essentials.dll</key>
