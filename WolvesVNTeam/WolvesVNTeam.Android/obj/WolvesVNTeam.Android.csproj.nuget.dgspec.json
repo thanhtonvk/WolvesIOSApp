@@ -144,6 +144,10 @@
               "target": "Package",
               "version": "[3.1.0, )"
             },
+            "Plugin.FirebasePushNotification": {
+              "target": "Package",
+              "version": "[3.4.35, )"
+            },
             "Plugin.Jobs": {
               "target": "Package",
               "version": "[2.0.0, )"
@@ -187,7 +191,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/Users/tonsociu/Library/Caches/VisualStudio/17.0/MSBuild/39204_3/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/tonsociu/Library/Caches/VisualStudio/17.0/MSBuild/590_3/RuntimeIdentifierGraph.json"
         }
       }
     }

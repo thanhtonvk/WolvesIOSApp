@@ -7,6 +7,7 @@ using FireSharp.Config;
 using FireSharp.Interfaces;
 using FireSharp.Response;
 using Newtonsoft.Json;
+using Plugin.FirebasePushNotification;
 using Plugin.Toasts;
 using WolvesVNTeam.ApiService;
 using WolvesVNTeam.FirebaseService;
@@ -39,6 +40,7 @@ namespace WolvesVNTeam.GUI
             onClick();
             loadLogo();
         }
+       
         private void loadLogo()
         {
             Img_Logo.Source = ImageSource.FromResource("WolvesVNTeam.Assets.logo.png");

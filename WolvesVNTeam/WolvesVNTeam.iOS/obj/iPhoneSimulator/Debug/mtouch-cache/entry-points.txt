@@ -1053,6 +1053,48 @@ ObjectiveCClass=OBJC_CLASS_$_UIFontHelper
 	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialControls.dll
 ObjectiveCClass=OBJC_CLASS_$_UIViewHelper
 	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/MaterialControls.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRMessagingMessageInfo
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+Field=FIRMessagingConnectionStateChangedNotification
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+Field=FIRMessagingMessagesDeletedNotification
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+Field=FIRMessagingRegistrationTokenRefreshedNotification
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+Field=FIRMessagingSendErrorNotification
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+Field=FIRMessagingSendSuccessNotification
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRMessaging
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRMessagingExtensionHelper
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRMessagingRemoteMessage
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRApp
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRConfiguration
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIROptions
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.Core.dll
+Field=FIRInstallationIDDidChangeNotification
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.Installations.dll
+Field=kFIRInstallationIDDidChangeNotificationAppNameKey
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.Installations.dll
+Field=FirebaseInstallationsVersionString
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.Installations.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRInstallations
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.Installations.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRInstallationsAuthTokenResult
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.Installations.dll
+Field=kFIRInstanceIDScopeFirebaseMessaging
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.InstanceID.dll
+Field=kFIRInstanceIDTokenRefreshNotification
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.InstanceID.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRInstanceID
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.InstanceID.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRInstanceIDResult
+	/Users/tonsociu/Desktop/WolvesVN/WolvesIOSApp/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Firebase.InstanceID.dll
 Function=mono_pmip
 Function=xamarin_dyn_objc_msgSend
 Function=xamarin_dyn_objc_msgSendSuper

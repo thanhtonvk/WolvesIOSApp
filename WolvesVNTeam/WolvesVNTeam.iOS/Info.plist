@@ -19,13 +19,13 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>9.0</string>
+	<string>10.0</string>
 	<key>CFBundleDisplayName</key>
 	<string>WolvesVNTeam</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.companyname.WolvesVNTeam</string>
 	<key>CFBundleVersion</key>
-	<string>9.0</string>
+	<string>10.0</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
@@ -33,13 +33,12 @@
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>CFBundleShortVersionString</key>
-	<string>9.0</string>
+	<string>10.0</string>
 	<key>UIBackgroundModes</key>
 	<array>
-		<string>fetch</string>
 		<string>remote-notification</string>
 	</array>
 	<key>FirebaseAppDelegateProxyEnabled</key>
-	<string>YES</string>
+	<string>No</string>
 </dict>
 </plist>

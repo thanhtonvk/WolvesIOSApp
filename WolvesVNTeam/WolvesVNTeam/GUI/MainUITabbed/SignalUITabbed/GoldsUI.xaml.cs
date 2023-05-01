@@ -71,7 +71,7 @@ namespace WolvesVNTeam.GUI.MainUITabbed.SignalUITabbed
             };
             IFirebaseClient client = new FirebaseClient(config);
             string currentDate = DateTime.Now.ToString("yyyy-M-d");
-            currentDate = "2023-4-27";
+            //currentDate = "2023-4-27";
 
             await client.OnAsync($"Golds/{currentDate}", (sender, args) =>
             {

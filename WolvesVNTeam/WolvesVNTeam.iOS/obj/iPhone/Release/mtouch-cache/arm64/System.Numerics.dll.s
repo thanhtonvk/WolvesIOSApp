@@ -22,7 +22,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 6.12.0 (2020-02/dffa5ab9224 Mon May 16 11:03:48 EDT 2022)"
+	.asciz "Mono AOT Compiler 6.12.0 (2020-02/6dd9def57ce Wed Nov  2 11:34:46 EDT 2022)"
 	.asciz "System.Numerics.dll"
 	.asciz ""
 
@@ -280,7 +280,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -448,7 +448,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -566,7 +566,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -932,7 +932,7 @@ ldr x0, [x16, #0]
 .word 0xd28009a1
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -944,12 +944,12 @@ ldr x0, [x16, #0]
 .word 0xd2800021
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
 .word 0x17ffffec
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -1176,7 +1176,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -1233,7 +1233,7 @@ ldr x0, [x16, #0]
 .word 0xd2801061
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -1996,7 +1996,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -2221,11 +2221,11 @@ ldr x0, [x16, #0]
 .word 0xd2801061
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -2420,7 +2420,7 @@ System_Numerics_BigInteger_GetHashCode:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -2488,7 +2488,7 @@ bl _p_20
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_4
 
@@ -2579,7 +2579,7 @@ System_Numerics_BigInteger_Equals_long:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -2762,7 +2762,7 @@ System_Numerics_BigInteger_CompareTo_long:
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -2890,7 +2890,7 @@ bl _p_21
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -2976,11 +2976,11 @@ ldr x0, [x16, #0]
 bl _p_8
 .word 0xaa0003e2
 .word 0xf94023a1
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_9
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_4
 
@@ -3598,14 +3598,14 @@ ldr x0, [x16, #0]
 .word 0xd2801be1
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xaa1103e1
 bl _p_4
 
@@ -4287,7 +4287,7 @@ bl _p_42
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xaa1103e1
 bl _p_4
 
@@ -4322,7 +4322,7 @@ bl _p_42
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xaa1103e1
 bl _p_4
 
@@ -4357,7 +4357,7 @@ bl _p_42
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xaa1103e1
 bl _p_4
 
@@ -4388,7 +4388,7 @@ bl _p_42
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xaa1103e1
 bl _p_4
 
@@ -4462,7 +4462,7 @@ ldr x0, [x16, #0]
 .word 0xd28029e1
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -4474,14 +4474,14 @@ ldr x0, [x16, #0]
 .word 0xd28029e1
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xaa1103e1
 bl _p_4
 
@@ -4534,14 +4534,14 @@ ldr x0, [x16, #0]
 .word 0xd2803761
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xaa1103e1
 bl _p_4
 
@@ -4635,7 +4635,7 @@ ldr x0, [x16, #0]
 .word 0xd28044e1
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -4651,11 +4651,11 @@ ldr x0, [x16, #0]
 .word 0xd28044e1
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -4736,14 +4736,14 @@ ldr x0, [x16, #0]
 .word 0xd2805261
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xaa1103e1
 bl _p_4
 
@@ -4901,7 +4901,7 @@ bl _p_45
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -5007,11 +5007,11 @@ ldr x0, [x16, #0]
 .word 0xd2805fe1
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -5220,7 +5220,7 @@ bl _p_31
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -5501,7 +5501,7 @@ bl _p_31
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -5947,10 +5947,10 @@ bl _p_31
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xaa1103e1
 bl _p_4
-.word 0xd28012e0
+.word 0xd2801340
 .word 0xaa1103e1
 bl _p_4
 
@@ -6101,10 +6101,10 @@ bl _p_31
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xaa1103e1
 bl _p_4
-.word 0xd28012e0
+.word 0xd2801340
 .word 0xaa1103e1
 bl _p_4
 
@@ -6436,7 +6436,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -6496,7 +6496,7 @@ System_Numerics_BigInteger_GetDiffLength_uint___uint___int:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -6695,7 +6695,7 @@ ldr x0, [x16, #280]
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -6792,7 +6792,7 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -6875,7 +6875,7 @@ bl _p_61
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -7113,7 +7113,7 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -7199,7 +7199,7 @@ bl _p_62
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -7371,7 +7371,7 @@ System_Numerics_BigIntegerCalculator_Compare_uint___uint__:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -7452,10 +7452,10 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
-.word 0xd28012e0
+.word 0xd2801340
 .word 0xaa1103e1
 bl _p_4
 
@@ -7510,10 +7510,10 @@ System_Numerics_BigIntegerCalculator_Remainder_uint___uint:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28012e0
+.word 0xd2801340
 .word 0xaa1103e1
 bl _p_4
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -7580,7 +7580,7 @@ bl _p_64
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -7630,7 +7630,7 @@ bl _p_64
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -7884,7 +7884,7 @@ bl _p_68
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd28012e0
+.word 0xd2801340
 .word 0xaa1103e1
 bl _p_4
 
@@ -8234,7 +8234,7 @@ bl _p_69
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -8576,7 +8576,7 @@ bl _p_72
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -8657,7 +8657,7 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -8745,7 +8745,7 @@ bl _p_73
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -9156,7 +9156,7 @@ bl _p_72
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -9569,7 +9569,7 @@ ldr x0, [x16, #0]
 .word 0xd2801061
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -9638,7 +9638,7 @@ ldr x0, [x16, #0]
 .word 0xd280a441
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2801420
+.word 0xd2801480
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -9845,7 +9845,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -10242,7 +10242,7 @@ System_Numerics_BigNumber_ParseFormatSpecifier_System_ReadOnlySpan_1_char_int_:
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -10719,7 +10719,7 @@ bl _p_100
 .word 0x910003bf
 .word 0xa8d37bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -10964,7 +10964,7 @@ bl _p_8
 .word 0xf900cfa0
 .word 0xf9407fa0
 .word 0xf900d3a0
-.word 0xd2801420
+.word 0xd2801480
 bl _p_108
 .word 0xf940cfa1
 .word 0xf940d3a2
@@ -11122,7 +11122,7 @@ bl _p_8
 .word 0xf900cfa0
 .word 0xf94083a0
 .word 0xf900d3a0
-.word 0xd2801420
+.word 0xd2801480
 bl _p_108
 .word 0xf940cfa1
 .word 0xf940d3a2
@@ -11192,7 +11192,7 @@ bl _p_8
 .word 0xf900cfa0
 .word 0xf94087a0
 .word 0xf900d3a0
-.word 0xd2801420
+.word 0xd2801480
 bl _p_108
 .word 0xf940cfa1
 .word 0xf940d3a2
@@ -11221,7 +11221,7 @@ bl _p_8
 .word 0xf900cfa0
 .word 0xf9408ba0
 .word 0xf900d3a0
-.word 0xd2801420
+.word 0xd2801480
 bl _p_108
 .word 0xf940cfa1
 .word 0xf940d3a2
@@ -11575,13 +11575,13 @@ bl _p_113
 .word 0x910003bf
 .word 0xa8db7bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
-.word 0xd28012e0
+.word 0xd2801340
 .word 0xaa1103e1
 bl _p_4
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xaa1103e1
 bl _p_4
 
@@ -11963,7 +11963,7 @@ System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint__:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -12237,7 +12237,7 @@ bl _p_118
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -13258,7 +13258,7 @@ System_Globalization_FormatProvider_Number_TrailingZeros_System_ReadOnlySpan_1_c
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -13418,10 +13418,10 @@ bl _p_125
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xaa1103e1
 bl _p_4
-.word 0xd28012e0
+.word 0xd2801340
 .word 0xaa1103e1
 bl _p_4
 
@@ -13477,7 +13477,7 @@ System_Globalization_FormatProvider_Number_Int32ToDecChars_char__int__uint_int:
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28012e0
+.word 0xd2801340
 .word 0xaa1103e1
 bl _p_4
 
@@ -13679,7 +13679,7 @@ System_Globalization_FormatProvider_Number_ParseFormatSpecifier_System_ReadOnlyS
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -14080,11 +14080,11 @@ ldr x0, [x16, #0]
 .word 0xd280c721
 bl _p_8
 .word 0xaa0003e1
-.word 0xd2801420
+.word 0xd2801480
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -14309,7 +14309,7 @@ bl _p_95
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -14775,11 +14775,11 @@ bl _p_95
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 .loc 9 944 0
-.word 0xd2800fa0
+.word 0xd2801000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_9
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -14946,7 +14946,7 @@ bl _p_95
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -15108,7 +15108,7 @@ bl _p_138
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -15317,7 +15317,7 @@ bl _p_95
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -15555,7 +15555,7 @@ bl _p_138
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -15780,7 +15780,7 @@ bl _p_95
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -17652,7 +17652,7 @@ bl _p_95
 .word 0x910003bf
 .word 0xa8dd7bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -18668,7 +18668,7 @@ bl _p_95
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -18730,7 +18730,7 @@ bl _p_128
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -18876,7 +18876,7 @@ bl _p_97
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -18955,7 +18955,7 @@ bl _p_97
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -19060,7 +19060,7 @@ bl _p_95
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -19908,10 +19908,10 @@ System_ReadOnlySpan_1_T_BYTE_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28c28a0
+.word 0xd28ca3e0
 bl _p_168
 .word 0xaa0003e1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -19933,10 +19933,10 @@ System_ReadOnlySpan_1_T_BYTE_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd28c3bc0
+.word 0xd28cb700
 bl _p_168
 .word 0xaa0003e1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -20019,7 +20019,7 @@ System_ByReference_1_T_BYTE__ctor_T_BYTE_:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_9
@@ -20041,7 +20041,7 @@ System_ByReference_1_T_BYTE_get_Value:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_9
@@ -20862,10 +20862,10 @@ System_Span_1_T_BYTE_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28c28a0
+.word 0xd28ca3e0
 bl _p_168
 .word 0xaa0003e1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -20887,10 +20887,10 @@ System_Span_1_T_BYTE_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd28c3bc0
+.word 0xd28cb700
 bl _p_168
 .word 0xaa0003e1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -21681,10 +21681,10 @@ System_ReadOnlySpan_1_T_CHAR_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28c28a0
+.word 0xd28ca3e0
 bl _p_168
 .word 0xaa0003e1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -21706,10 +21706,10 @@ System_ReadOnlySpan_1_T_CHAR_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd28c3bc0
+.word 0xd28cb700
 bl _p_168
 .word 0xaa0003e1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -21791,7 +21791,7 @@ System_ByReference_1_T_CHAR__ctor_T_CHAR_:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_9
@@ -21813,7 +21813,7 @@ System_ByReference_1_T_CHAR_get_Value:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_9
@@ -22793,10 +22793,10 @@ System_Span_1_T_CHAR_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28c28a0
+.word 0xd28ca3e0
 bl _p_168
 .word 0xaa0003e1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -22818,10 +22818,10 @@ System_Span_1_T_CHAR_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd28c3bc0
+.word 0xd28cb700
 bl _p_168
 .word 0xaa0003e1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -23855,10 +23855,10 @@ System_Span_1_T_INT_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28c28a0
+.word 0xd28ca3e0
 bl _p_168
 .word 0xaa0003e1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -23880,10 +23880,10 @@ System_Span_1_T_INT_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd28c3bc0
+.word 0xd28cb700
 bl _p_168
 .word 0xaa0003e1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -24030,7 +24030,7 @@ System_ByReference_1_T_INT__ctor_T_INT_:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_9
@@ -24052,7 +24052,7 @@ System_ByReference_1_T_INT_get_Value:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_9
@@ -24541,7 +24541,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -24831,7 +24831,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_4
 
@@ -25445,7 +25445,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1024]
 br x16
-.word 3711
+.word 3715
 	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object
 plt_string_Format_System_IFormatProvider_string_object:
 _p_2:
@@ -25453,7 +25453,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 3714
+.word 3718
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_3:
@@ -25461,7 +25461,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 3719
+.word 3723
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_4:
@@ -25469,7 +25469,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 3727
+.word 3731
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_double
 plt_System_Numerics_BigInteger__ctor_double:
 _p_5:
@@ -25477,7 +25477,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 3729
+.word 3733
 	.no_dead_strip plt_System_Numerics_NumericsHelpers_GetDoubleParts_double_int__int__ulong__bool_
 plt_System_Numerics_NumericsHelpers_GetDoubleParts_double_int__int__ulong__bool_:
 _p_6:
@@ -25485,7 +25485,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 3731
+.word 3735
 	.no_dead_strip plt_System_Numerics_BigInteger_op_Implicit_ulong
 plt_System_Numerics_BigInteger_op_Implicit_ulong:
 _p_7:
@@ -25493,7 +25493,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 3733
+.word 3737
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_8:
@@ -25501,7 +25501,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 3735
+.word 3739
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_9:
@@ -25509,7 +25509,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 3738
+.word 3742
 	.no_dead_strip plt_System_Decimal_DecCalc_InternalRound_System_Decimal_DecCalc__uint_System_Decimal_DecCalc_RoundingMode
 plt_System_Decimal_DecCalc_InternalRound_System_Decimal_DecCalc__uint_System_Decimal_DecCalc_RoundingMode:
 _p_10:
@@ -25517,7 +25517,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 3740
+.word 3744
 	.no_dead_strip plt_System_Decimal_GetBits_System_Decimal
 plt_System_Decimal_GetBits_System_Decimal:
 _p_11:
@@ -25525,7 +25525,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 3745
+.word 3749
 	.no_dead_strip plt_System_ReadOnlySpan_1_byte__ctor_byte__
 plt_System_ReadOnlySpan_1_byte__ctor_byte__:
 _p_12:
@@ -25533,7 +25533,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 3750
+.word 3754
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_System_ReadOnlySpan_1_byte_bool_bool
 plt_System_Numerics_BigInteger__ctor_System_ReadOnlySpan_1_byte_bool_bool:
 _p_13:
@@ -25541,7 +25541,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 3761
+.word 3765
 	.no_dead_strip plt_System_ReadOnlySpan_1_byte_Slice_int
 plt_System_ReadOnlySpan_1_byte_Slice_int:
 _p_14:
@@ -25549,7 +25549,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 3763
+.word 3767
 	.no_dead_strip plt_System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint__
 plt_System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint__:
 _p_15:
@@ -25557,7 +25557,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 3774
+.word 3778
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_16:
@@ -25565,7 +25565,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 3776
+.word 3780
 	.no_dead_strip plt_System_Globalization_NumberFormatInfo_GetInstance_System_IFormatProvider
 plt_System_Globalization_NumberFormatInfo_GetInstance_System_IFormatProvider:
 _p_17:
@@ -25573,7 +25573,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 3781
+.word 3785
 	.no_dead_strip plt_System_Numerics_BigInteger_Parse_string_System_Globalization_NumberStyles_System_IFormatProvider
 plt_System_Numerics_BigInteger_Parse_string_System_Globalization_NumberStyles_System_IFormatProvider:
 _p_18:
@@ -25581,7 +25581,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 3786
+.word 3790
 	.no_dead_strip plt_System_Numerics_BigNumber_ParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo
 plt_System_Numerics_BigNumber_ParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo:
 _p_19:
@@ -25589,7 +25589,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 3788
+.word 3792
 	.no_dead_strip plt_System_Numerics_BigInteger_Equals_System_Numerics_BigInteger
 plt_System_Numerics_BigInteger_Equals_System_Numerics_BigInteger:
 _p_20:
@@ -25597,7 +25597,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 3790
+.word 3794
 	.no_dead_strip plt_System_Numerics_BigInteger_GetDiffLength_uint___uint___int
 plt_System_Numerics_BigInteger_GetDiffLength_uint___uint___int:
 _p_21:
@@ -25605,7 +25605,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 3792
+.word 3796
 	.no_dead_strip plt_System_Numerics_BigInteger_CompareTo_System_Numerics_BigInteger
 plt_System_Numerics_BigInteger_CompareTo_System_Numerics_BigInteger:
 _p_22:
@@ -25613,7 +25613,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 3794
+.word 3798
 	.no_dead_strip plt_System_Numerics_BigInteger_ToByteArray_bool_bool
 plt_System_Numerics_BigInteger_ToByteArray_bool_bool:
 _p_23:
@@ -25621,7 +25621,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 3796
+.word 3800
 	.no_dead_strip plt_System_Numerics_BigInteger_TryGetBytes_System_Numerics_BigInteger_GetBytesMode_System_Span_1_byte_bool_bool_int_
 plt_System_Numerics_BigInteger_TryGetBytes_System_Numerics_BigInteger_GetBytesMode_System_Span_1_byte_bool_bool_int_:
 _p_24:
@@ -25629,7 +25629,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 3798
+.word 3802
 	.no_dead_strip plt__jit_icall___emul_op_imul_ovf
 plt__jit_icall___emul_op_imul_ovf:
 _p_25:
@@ -25637,7 +25637,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 3800
+.word 3804
 	.no_dead_strip plt_System_Span_1_byte_op_Implicit_byte__
 plt_System_Span_1_byte_op_Implicit_byte__:
 _p_26:
@@ -25645,7 +25645,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 3802
+.word 3806
 	.no_dead_strip plt_System_Globalization_NumberFormatInfo_get_CurrentInfo
 plt_System_Globalization_NumberFormatInfo_get_CurrentInfo:
 _p_27:
@@ -25653,7 +25653,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 3813
+.word 3817
 	.no_dead_strip plt_System_Numerics_BigNumber_FormatBigInteger_System_Numerics_BigInteger_string_System_Globalization_NumberFormatInfo
 plt_System_Numerics_BigNumber_FormatBigInteger_System_Numerics_BigInteger_string_System_Globalization_NumberFormatInfo:
 _p_28:
@@ -25661,7 +25661,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 3818
+.word 3822
 	.no_dead_strip plt_System_Numerics_BigInteger_op_Implicit_long
 plt_System_Numerics_BigInteger_op_Implicit_long:
 _p_29:
@@ -25669,7 +25669,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 3820
+.word 3824
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Add_uint___uint
 plt_System_Numerics_BigIntegerCalculator_Add_uint___uint:
 _p_30:
@@ -25677,7 +25677,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 3822
+.word 3826
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_uint___bool
 plt_System_Numerics_BigInteger__ctor_uint___bool:
 _p_31:
@@ -25685,7 +25685,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 3824
+.word 3828
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Add_uint___uint__
 plt_System_Numerics_BigIntegerCalculator_Add_uint___uint__:
 _p_32:
@@ -25693,7 +25693,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 3826
+.word 3830
 	.no_dead_strip plt_System_Numerics_BigInteger_Add_uint___int_uint___int
 plt_System_Numerics_BigInteger_Add_uint___int_uint___int:
 _p_33:
@@ -25701,7 +25701,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 3828
+.word 3832
 	.no_dead_strip plt_System_Numerics_BigInteger_Subtract_uint___int_uint___int
 plt_System_Numerics_BigInteger_Subtract_uint___int_uint___int:
 _p_34:
@@ -25709,7 +25709,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 3830
+.word 3834
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Subtract_uint___uint
 plt_System_Numerics_BigIntegerCalculator_Subtract_uint___uint:
 _p_35:
@@ -25717,7 +25717,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 3832
+.word 3836
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Compare_uint___uint__
 plt_System_Numerics_BigIntegerCalculator_Compare_uint___uint__:
 _p_36:
@@ -25725,7 +25725,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 3834
+.word 3838
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Subtract_uint___uint__
 plt_System_Numerics_BigIntegerCalculator_Subtract_uint___uint__:
 _p_37:
@@ -25733,7 +25733,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 3836
+.word 3840
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_int
 plt_System_Numerics_BigInteger__ctor_int:
 _p_38:
@@ -25741,7 +25741,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 3838
+.word 3842
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_uint
 plt_System_Numerics_BigInteger__ctor_uint:
 _p_39:
@@ -25749,7 +25749,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 3840
+.word 3844
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_long
 plt_System_Numerics_BigInteger__ctor_long:
 _p_40:
@@ -25757,7 +25757,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 3842
+.word 3846
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_ulong
 plt_System_Numerics_BigInteger__ctor_ulong:
 _p_41:
@@ -25765,7 +25765,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 3844
+.word 3848
 	.no_dead_strip plt_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger
 plt_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger:
 _p_42:
@@ -25773,7 +25773,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 3846
+.word 3850
 	.no_dead_strip plt_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_0
 plt_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_0:
 _p_43:
@@ -25781,7 +25781,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 3848
+.word 3852
 	.no_dead_strip plt_System_Numerics_NumericsHelpers_CbitHighZero_uint
 plt_System_Numerics_NumericsHelpers_CbitHighZero_uint:
 _p_44:
@@ -25789,7 +25789,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 3850
+.word 3854
 	.no_dead_strip plt_System_Numerics_NumericsHelpers_GetDoubleFromParts_int_int_ulong
 plt_System_Numerics_NumericsHelpers_GetDoubleFromParts_int_int_ulong:
 _p_45:
@@ -25797,7 +25797,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 3852
+.word 3856
 	.no_dead_strip plt_System_Decimal_op_Implicit_int
 plt_System_Decimal_op_Implicit_int:
 _p_46:
@@ -25805,7 +25805,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 3854
+.word 3858
 	.no_dead_strip plt_System_Decimal__ctor_int_int_int_bool_byte
 plt_System_Decimal__ctor_int_int_int_bool_byte:
 _p_47:
@@ -25813,7 +25813,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 3859
+.word 3863
 	.no_dead_strip plt_System_Numerics_BigInteger_op_RightShift_System_Numerics_BigInteger_int
 plt_System_Numerics_BigInteger_op_RightShift_System_Numerics_BigInteger_int:
 _p_48:
@@ -25821,7 +25821,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 3864
+.word 3868
 	.no_dead_strip plt_System_Numerics_BigInteger_GetPartsForBitManipulation_System_Numerics_BigInteger__uint____int_
 plt_System_Numerics_BigInteger_GetPartsForBitManipulation_System_Numerics_BigInteger__uint____int_:
 _p_49:
@@ -25829,7 +25829,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 3866
+.word 3870
 	.no_dead_strip plt_System_Numerics_BigInteger_op_LeftShift_System_Numerics_BigInteger_int
 plt_System_Numerics_BigInteger_op_LeftShift_System_Numerics_BigInteger_int:
 _p_50:
@@ -25837,7 +25837,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 3868
+.word 3872
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Multiply_uint___uint
 plt_System_Numerics_BigIntegerCalculator_Multiply_uint___uint:
 _p_51:
@@ -25845,7 +25845,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 3870
+.word 3874
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Square_uint__
 plt_System_Numerics_BigIntegerCalculator_Square_uint__:
 _p_52:
@@ -25853,7 +25853,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 3872
+.word 3876
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Multiply_uint___uint__
 plt_System_Numerics_BigIntegerCalculator_Multiply_uint___uint__:
 _p_53:
@@ -25861,7 +25861,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 3874
+.word 3878
 	.no_dead_strip plt_System_Numerics_BigInteger_op_Implicit_int
 plt_System_Numerics_BigInteger_op_Implicit_int:
 _p_54:
@@ -25869,7 +25869,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 3876
+.word 3880
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Divide_uint___uint
 plt_System_Numerics_BigIntegerCalculator_Divide_uint___uint:
 _p_55:
@@ -25877,7 +25877,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 3878
+.word 3882
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Divide_uint___uint__
 plt_System_Numerics_BigIntegerCalculator_Divide_uint___uint__:
 _p_56:
@@ -25885,7 +25885,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 3880
+.word 3884
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Remainder_uint___uint
 plt_System_Numerics_BigIntegerCalculator_Remainder_uint___uint:
 _p_57:
@@ -25893,7 +25893,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 3882
+.word 3886
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Remainder_uint___uint__
 plt_System_Numerics_BigIntegerCalculator_Remainder_uint___uint__:
 _p_58:
@@ -25901,7 +25901,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 3884
+.word 3888
 	.no_dead_strip plt_System_Numerics_BigInteger_CompareTo_long
 plt_System_Numerics_BigInteger_CompareTo_long:
 _p_59:
@@ -25909,7 +25909,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 3886
+.word 3890
 	.no_dead_strip plt_System_Numerics_BigInteger_Equals_long
 plt_System_Numerics_BigInteger_Equals_long:
 _p_60:
@@ -25917,7 +25917,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 3888
+.word 3892
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Add_uint__int_uint__int_uint__int
 plt_System_Numerics_BigIntegerCalculator_Add_uint__int_uint__int_uint__int:
 _p_61:
@@ -25925,7 +25925,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 3890
+.word 3894
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Subtract_uint__int_uint__int_uint__int
 plt_System_Numerics_BigIntegerCalculator_Subtract_uint__int_uint__int_uint__int:
 _p_62:
@@ -25933,7 +25933,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 3892
+.word 3896
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_CreateCopy_uint__
 plt_System_Numerics_BigIntegerCalculator_CreateCopy_uint__:
 _p_63:
@@ -25941,7 +25941,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 3894
+.word 3898
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Divide_uint__int_uint__int_uint__int
 plt_System_Numerics_BigIntegerCalculator_Divide_uint__int_uint__int_uint__int:
 _p_64:
@@ -25949,7 +25949,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 3896
+.word 3900
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_LeadingZeros_uint
 plt_System_Numerics_BigIntegerCalculator_LeadingZeros_uint:
 _p_65:
@@ -25957,7 +25957,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 3898
+.word 3902
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_DivideGuessTooBig_ulong_ulong_uint_uint_uint
 plt_System_Numerics_BigIntegerCalculator_DivideGuessTooBig_ulong_ulong_uint_uint_uint:
 _p_66:
@@ -25965,7 +25965,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 3900
+.word 3904
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_SubtractDivisor_uint__int_uint__int_ulong
 plt_System_Numerics_BigIntegerCalculator_SubtractDivisor_uint__int_uint__int_ulong:
 _p_67:
@@ -25973,7 +25973,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 3902
+.word 3906
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_AddDivisor_uint__int_uint__int
 plt_System_Numerics_BigIntegerCalculator_AddDivisor_uint__int_uint__int:
 _p_68:
@@ -25981,7 +25981,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 3904
+.word 3908
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Square_uint__int_uint__int
 plt_System_Numerics_BigIntegerCalculator_Square_uint__int_uint__int:
 _p_69:
@@ -25989,7 +25989,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 3906
+.word 3910
 	.no_dead_strip plt__jit_icall___emul_lmul_ovf_un
 plt__jit_icall___emul_lmul_ovf_un:
 _p_70:
@@ -25997,7 +25997,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 3908
+.word 3912
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_SubtractCore_uint__int_uint__int_uint__int
 plt_System_Numerics_BigIntegerCalculator_SubtractCore_uint__int_uint__int_uint__int:
 _p_71:
@@ -26005,7 +26005,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 3910
+.word 3914
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_AddSelf_uint__int_uint__int
 plt_System_Numerics_BigIntegerCalculator_AddSelf_uint__int_uint__int:
 _p_72:
@@ -26013,7 +26013,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 3912
+.word 3916
 	.no_dead_strip plt_System_Numerics_BigIntegerCalculator_Multiply_uint__int_uint__int_uint__int
 plt_System_Numerics_BigIntegerCalculator_Multiply_uint__int_uint__int_uint__int:
 _p_73:
@@ -26021,7 +26021,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 3914
+.word 3918
 	.no_dead_strip plt_SR_Format_string_object
 plt_SR_Format_string_object:
 _p_74:
@@ -26029,7 +26029,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 3916
+.word 3920
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_75:
@@ -26037,7 +26037,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 3918
+.word 3922
 	.no_dead_strip plt_System_ArgumentException__ctor_string
 plt_System_ArgumentException__ctor_string:
 _p_76:
@@ -26045,7 +26045,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 3926
+.word 3930
 	.no_dead_strip plt_System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException_
 plt_System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException_:
 _p_77:
@@ -26053,7 +26053,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 3931
+.word 3935
 	.no_dead_strip plt_System_Numerics_BigNumber_BigNumberBuffer_Create
 plt_System_Numerics_BigNumber_BigNumberBuffer_Create:
 _p_78:
@@ -26061,7 +26061,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 3933
+.word 3937
 	.no_dead_strip plt_System_Globalization_FormatProvider_TryStringToBigInteger_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Text_StringBuilder_int__int__bool_
 plt_System_Globalization_FormatProvider_TryStringToBigInteger_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Text_StringBuilder_int__int__bool_:
 _p_79:
@@ -26069,7 +26069,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 3935
+.word 3939
 	.no_dead_strip plt_System_Numerics_BigNumber_HexNumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger_
 plt_System_Numerics_BigNumber_HexNumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger_:
 _p_80:
@@ -26077,7 +26077,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 3937
+.word 3941
 	.no_dead_strip plt_System_Numerics_BigNumber_NumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger_
 plt_System_Numerics_BigNumber_NumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger_:
 _p_81:
@@ -26085,7 +26085,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 3939
+.word 3943
 	.no_dead_strip plt_System_MemoryExtensions_AsSpan_string
 plt_System_MemoryExtensions_AsSpan_string:
 _p_82:
@@ -26093,7 +26093,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 3941
+.word 3945
 	.no_dead_strip plt_System_Numerics_BigNumber_ParseBigInteger_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo
 plt_System_Numerics_BigNumber_ParseBigInteger_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo:
 _p_83:
@@ -26101,7 +26101,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 3946
+.word 3950
 	.no_dead_strip plt_System_Numerics_BigNumber_TryParseBigInteger_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Numerics_BigInteger_
 plt_System_Numerics_BigNumber_TryParseBigInteger_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Numerics_BigInteger_:
 _p_84:
@@ -26109,7 +26109,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 3948
+.word 3952
 	.no_dead_strip plt_System_Text_StringBuilder_get_Chars_int
 plt_System_Text_StringBuilder_get_Chars_int:
 _p_85:
@@ -26117,7 +26117,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 3950
+.word 3954
 	.no_dead_strip plt_System_Numerics_BigInteger__ctor_byte__
 plt_System_Numerics_BigInteger__ctor_byte__:
 _p_86:
@@ -26125,7 +26125,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 3955
+.word 3959
 	.no_dead_strip plt_System_Numerics_BigInteger_op_Multiply_System_Numerics_BigInteger_System_Numerics_BigInteger
 plt_System_Numerics_BigInteger_op_Multiply_System_Numerics_BigInteger_System_Numerics_BigInteger:
 _p_87:
@@ -26133,7 +26133,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 3957
+.word 3961
 	.no_dead_strip plt_System_Numerics_BigInteger_op_Addition_System_Numerics_BigInteger_System_Numerics_BigInteger
 plt_System_Numerics_BigInteger_op_Addition_System_Numerics_BigInteger_System_Numerics_BigInteger:
 _p_88:
@@ -26141,7 +26141,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 3959
+.word 3963
 	.no_dead_strip plt_System_Span_1_byte__ctor_void__int
 plt_System_Span_1_byte__ctor_void__int:
 _p_89:
@@ -26149,7 +26149,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 3961
+.word 3965
 	.no_dead_strip plt_System_Numerics_BigInteger_TryWriteOrCountBytes_System_Span_1_byte_int__bool_bool
 plt_System_Numerics_BigInteger_TryWriteOrCountBytes_System_Span_1_byte_int__bool_bool:
 _p_90:
@@ -26157,7 +26157,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 3972
+.word 3976
 	.no_dead_strip plt_System_Numerics_BigInteger_TryWriteBytes_System_Span_1_byte_int__bool_bool
 plt_System_Numerics_BigInteger_TryWriteBytes_System_Span_1_byte_int__bool_bool:
 _p_91:
@@ -26165,7 +26165,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 3974
+.word 3978
 	.no_dead_strip plt_System_Span_1_byte_Slice_int_int
 plt_System_Span_1_byte_Slice_int_int:
 _p_92:
@@ -26173,7 +26173,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 3976
+.word 3980
 	.no_dead_strip plt_System_Span_1_char__ctor_void__int
 plt_System_Span_1_char__ctor_void__int:
 _p_93:
@@ -26181,7 +26181,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 3987
+.word 3991
 	.no_dead_strip plt_System_Text_ValueStringBuilder__ctor_System_Span_1_char
 plt_System_Text_ValueStringBuilder__ctor_System_Span_1_char:
 _p_94:
@@ -26189,7 +26189,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 3998
+.word 4002
 	.no_dead_strip plt_System_Text_ValueStringBuilder_GrowAndAppend_char
 plt_System_Text_ValueStringBuilder_GrowAndAppend_char:
 _p_95:
@@ -26197,7 +26197,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 4001
+.word 4005
 	.no_dead_strip plt_System_Text_ValueStringBuilder_Grow_int
 plt_System_Text_ValueStringBuilder_Grow_int:
 _p_96:
@@ -26205,7 +26205,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 4004
+.word 4008
 	.no_dead_strip plt_System_Span_1_char_Slice_int_int
 plt_System_Span_1_char_Slice_int_int:
 _p_97:
@@ -26213,7 +26213,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 4007
+.word 4011
 	.no_dead_strip plt_System_Text_ValueStringBuilder_Insert_int_char_int
 plt_System_Text_ValueStringBuilder_Insert_int_char_int:
 _p_98:
@@ -26221,7 +26221,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 4018
+.word 4022
 	.no_dead_strip plt_System_Text_ValueStringBuilder_TryCopyTo_System_Span_1_char_int_
 plt_System_Text_ValueStringBuilder_TryCopyTo_System_Span_1_char_int_:
 _p_99:
@@ -26229,7 +26229,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 4021
+.word 4025
 	.no_dead_strip plt_System_Text_ValueStringBuilder_ToString
 plt_System_Text_ValueStringBuilder_ToString:
 _p_100:
@@ -26237,7 +26237,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 4024
+.word 4028
 	.no_dead_strip plt_string_op_Implicit_string
 plt_string_op_Implicit_string:
 _p_101:
@@ -26245,7 +26245,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 4027
+.word 4031
 	.no_dead_strip plt_System_Numerics_BigNumber_FormatBigInteger_bool_System_Numerics_BigInteger_string_System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo_System_Span_1_char_int__bool_
 plt_System_Numerics_BigNumber_FormatBigInteger_bool_System_Numerics_BigInteger_string_System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo_System_Span_1_char_int__bool_:
 _p_102:
@@ -26253,7 +26253,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 4032
+.word 4036
 	.no_dead_strip plt_System_Numerics_BigNumber_ParseFormatSpecifier_System_ReadOnlySpan_1_char_int_
 plt_System_Numerics_BigNumber_ParseFormatSpecifier_System_ReadOnlySpan_1_char_int_:
 _p_103:
@@ -26261,7 +26261,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 4034
+.word 4038
 	.no_dead_strip plt_System_Numerics_BigNumber_FormatBigIntegerToHex_bool_System_Numerics_BigInteger_char_int_System_Globalization_NumberFormatInfo_System_Span_1_char_int__bool_
 plt_System_Numerics_BigNumber_FormatBigIntegerToHex_bool_System_Numerics_BigInteger_char_int_System_Globalization_NumberFormatInfo_System_Span_1_char_int__bool_:
 _p_104:
@@ -26269,7 +26269,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 4036
+.word 4040
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_105:
@@ -26277,7 +26277,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 4038
+.word 4042
 	.no_dead_strip plt_int_TryFormat_System_Span_1_char_int__System_ReadOnlySpan_1_char_System_IFormatProvider
 plt_int_TryFormat_System_Span_1_char_int__System_ReadOnlySpan_1_char_System_IFormatProvider:
 _p_106:
@@ -26285,7 +26285,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 4043
+.word 4047
 	.no_dead_strip plt_int_ToString_string_System_IFormatProvider
 plt_int_ToString_string_System_IFormatProvider:
 _p_107:
@@ -26293,7 +26293,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 4048
+.word 4052
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_108:
@@ -26301,7 +26301,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 4053
+.word 4057
 	.no_dead_strip plt_System_FormatException__ctor_string_System_Exception
 plt_System_FormatException__ctor_string_System_Exception:
 _p_109:
@@ -26309,7 +26309,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 4056
+.word 4060
 	.no_dead_strip plt_System_Globalization_FormatProvider_FormatBigInteger_System_Text_ValueStringBuilder__int_int_bool_System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo_char___int
 plt_System_Globalization_FormatProvider_FormatBigInteger_System_Text_ValueStringBuilder__int_int_bool_System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo_char___int:
 _p_110:
@@ -26317,7 +26317,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 4061
+.word 4065
 	.no_dead_strip plt_string__ctor_char___int_int
 plt_string__ctor_char___int_int:
 _p_111:
@@ -26325,7 +26325,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 4063
+.word 4067
 	.no_dead_strip plt_System_ReadOnlySpan_1_char__ctor_char___int_int
 plt_System_ReadOnlySpan_1_char__ctor_char___int_int:
 _p_112:
@@ -26333,7 +26333,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 4068
+.word 4072
 	.no_dead_strip plt_System_ReadOnlySpan_1_char_TryCopyTo_System_Span_1_char
 plt_System_ReadOnlySpan_1_char_TryCopyTo_System_Span_1_char:
 _p_113:
@@ -26341,7 +26341,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 4079
+.word 4083
 	.no_dead_strip plt_System_Text_StringBuilder__ctor
 plt_System_Text_StringBuilder__ctor:
 _p_114:
@@ -26349,7 +26349,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 4090
+.word 4094
 	.no_dead_strip plt_System_Numerics_NumericsHelpers_CbitHighZero_ulong
 plt_System_Numerics_NumericsHelpers_CbitHighZero_ulong:
 _p_115:
@@ -26357,7 +26357,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 4095
+.word 4099
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_ParseFormatSpecifier_System_ReadOnlySpan_1_char_int_
 plt_System_Globalization_FormatProvider_Number_ParseFormatSpecifier_System_ReadOnlySpan_1_char_int_:
 _p_116:
@@ -26365,7 +26365,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 4097
+.word 4101
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_NumberToString_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__char_int_System_Globalization_NumberFormatInfo_bool
 plt_System_Globalization_FormatProvider_Number_NumberToString_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__char_int_System_Globalization_NumberFormatInfo_bool:
 _p_117:
@@ -26373,7 +26373,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 4099
+.word 4103
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_NumberToStringFormat_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo
 plt_System_Globalization_FormatProvider_Number_NumberToStringFormat_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo:
 _p_118:
@@ -26381,7 +26381,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 4102
+.word 4106
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_TryStringToNumber_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_FormatProvider_Number_NumberBuffer__System_Text_StringBuilder_System_Globalization_NumberFormatInfo_bool
 plt_System_Globalization_FormatProvider_Number_TryStringToNumber_System_ReadOnlySpan_1_char_System_Globalization_NumberStyles_System_Globalization_FormatProvider_Number_NumberBuffer__System_Text_StringBuilder_System_Globalization_NumberFormatInfo_bool:
 _p_119:
@@ -26389,7 +26389,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 4105
+.word 4109
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_MatchChars_char__char__char_
 plt_System_Globalization_FormatProvider_Number_MatchChars_char__char__char_:
 _p_120:
@@ -26397,7 +26397,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 4107
+.word 4111
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_IsWhite_char
 plt_System_Globalization_FormatProvider_Number_IsWhite_char:
 _p_121:
@@ -26405,7 +26405,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 4109
+.word 4113
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_MatchChars_char__char__string
 plt_System_Globalization_FormatProvider_Number_MatchChars_char__char__string:
 _p_122:
@@ -26413,7 +26413,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 4111
+.word 4115
 	.no_dead_strip plt_System_Text_StringBuilder_Append_char
 plt_System_Text_StringBuilder_Append_char:
 _p_123:
@@ -26421,7 +26421,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 4113
+.word 4117
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_ParseNumber_char___char__System_Globalization_NumberStyles_System_Globalization_FormatProvider_Number_NumberBuffer__System_Text_StringBuilder_System_Globalization_NumberFormatInfo_bool
 plt_System_Globalization_FormatProvider_Number_ParseNumber_char___char__System_Globalization_NumberStyles_System_Globalization_FormatProvider_Number_NumberBuffer__System_Text_StringBuilder_System_Globalization_NumberFormatInfo_bool:
 _p_124:
@@ -26429,7 +26429,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 4118
+.word 4122
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_TrailingZeros_System_ReadOnlySpan_1_char_int
 plt_System_Globalization_FormatProvider_Number_TrailingZeros_System_ReadOnlySpan_1_char_int:
 _p_125:
@@ -26437,7 +26437,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 4120
+.word 4124
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_RoundNumber_System_Globalization_FormatProvider_Number_NumberBuffer__int
 plt_System_Globalization_FormatProvider_Number_RoundNumber_System_Globalization_FormatProvider_Number_NumberBuffer__int:
 _p_126:
@@ -26445,7 +26445,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 4122
+.word 4126
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FormatCurrency_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo
 plt_System_Globalization_FormatProvider_Number_FormatCurrency_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo:
 _p_127:
@@ -26453,7 +26453,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 4125
+.word 4129
 	.no_dead_strip plt_System_Text_ValueStringBuilder_AppendSlow_string
 plt_System_Text_ValueStringBuilder_AppendSlow_string:
 _p_128:
@@ -26461,7 +26461,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 4128
+.word 4132
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FormatFixed_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo_int___string_string
 plt_System_Globalization_FormatProvider_Number_FormatFixed_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo_int___string_string:
 _p_129:
@@ -26469,7 +26469,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 4131
+.word 4135
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FormatNumber_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo
 plt_System_Globalization_FormatProvider_Number_FormatNumber_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo:
 _p_130:
@@ -26477,7 +26477,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 4134
+.word 4138
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FormatScientific_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo_char
 plt_System_Globalization_FormatProvider_Number_FormatScientific_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo_char:
 _p_131:
@@ -26485,7 +26485,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 4137
+.word 4141
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FormatGeneral_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo_char_bool
 plt_System_Globalization_FormatProvider_Number_FormatGeneral_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo_char_bool:
 _p_132:
@@ -26493,7 +26493,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 4140
+.word 4144
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FormatPercent_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo
 plt_System_Globalization_FormatProvider_Number_FormatPercent_System_Text_ValueStringBuilder__System_Globalization_FormatProvider_Number_NumberBuffer__int_int_System_Globalization_NumberFormatInfo:
 _p_133:
@@ -26501,7 +26501,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 4143
+.word 4147
 	.no_dead_strip plt_System_Globalization_NumberFormatInfo_get_CurrencyGroupSizes
 plt_System_Globalization_NumberFormatInfo_get_CurrencyGroupSizes:
 _p_134:
@@ -26509,7 +26509,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 4146
+.word 4150
 	.no_dead_strip plt_System_Text_ValueStringBuilder_Append_char__int
 plt_System_Text_ValueStringBuilder_Append_char__int:
 _p_135:
@@ -26517,7 +26517,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 4151
+.word 4155
 	.no_dead_strip plt_System_Text_ValueStringBuilder_Append_char_int
 plt_System_Text_ValueStringBuilder_Append_char_int:
 _p_136:
@@ -26525,7 +26525,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 4154
+.word 4158
 	.no_dead_strip plt_System_Globalization_NumberFormatInfo_get_NumberGroupSizes
 plt_System_Globalization_NumberFormatInfo_get_NumberGroupSizes:
 _p_137:
@@ -26533,7 +26533,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 4157
+.word 4161
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FormatExponent_System_Text_ValueStringBuilder__System_Globalization_NumberFormatInfo_int_char_int_bool
 plt_System_Globalization_FormatProvider_Number_FormatExponent_System_Text_ValueStringBuilder__System_Globalization_NumberFormatInfo_int_char_int_bool:
 _p_138:
@@ -26541,7 +26541,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 4162
+.word 4166
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_Int32ToDecChars_char__int__uint_int
 plt_System_Globalization_FormatProvider_Number_Int32ToDecChars_char__int__uint_int:
 _p_139:
@@ -26549,7 +26549,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 4165
+.word 4169
 	.no_dead_strip plt_System_Globalization_NumberFormatInfo_get_PercentGroupSizes
 plt_System_Globalization_NumberFormatInfo_get_PercentGroupSizes:
 _p_140:
@@ -26557,7 +26557,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 4167
+.word 4171
 	.no_dead_strip plt_System_Globalization_FormatProvider_Number_FindSection_System_ReadOnlySpan_1_char_int
 plt_System_Globalization_FormatProvider_Number_FindSection_System_ReadOnlySpan_1_char_int:
 _p_141:
@@ -26565,7 +26565,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 4172
+.word 4176
 	.no_dead_strip plt_System_Span_1_int__ctor_void__int
 plt_System_Span_1_int__ctor_void__int:
 _p_142:
@@ -26573,7 +26573,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 4175
+.word 4179
 	.no_dead_strip plt_System_Span_1_int_op_Implicit_int__
 plt_System_Span_1_int_op_Implicit_int__:
 _p_143:
@@ -26581,7 +26581,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 4186
+.word 4190
 	.no_dead_strip plt_System_Span_1_int_CopyTo_System_Span_1_int
 plt_System_Span_1_int_CopyTo_System_Span_1_int:
 _p_144:
@@ -26589,7 +26589,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 4197
+.word 4201
 	.no_dead_strip plt_System_Span_1_char_op_Implicit_System_Span_1_char
 plt_System_Span_1_char_op_Implicit_System_Span_1_char:
 _p_145:
@@ -26597,7 +26597,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 4208
+.word 4212
 	.no_dead_strip plt_string__ctor_System_ReadOnlySpan_1_char
 plt_string__ctor_System_ReadOnlySpan_1_char:
 _p_146:
@@ -26605,7 +26605,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 4219
+.word 4223
 	.no_dead_strip plt_System_Span_1_char_TryCopyTo_System_Span_1_char
 plt_System_Span_1_char_TryCopyTo_System_Span_1_char:
 _p_147:
@@ -26613,7 +26613,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 4224
+.word 4228
 	.no_dead_strip plt_System_Span_1_char_Slice_int
 plt_System_Span_1_char_Slice_int:
 _p_148:
@@ -26621,7 +26621,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 4235
+.word 4239
 	.no_dead_strip plt_System_Span_1_char_CopyTo_System_Span_1_char
 plt_System_Span_1_char_CopyTo_System_Span_1_char:
 _p_149:
@@ -26629,7 +26629,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 4246
+.word 4250
 	.no_dead_strip plt_System_Span_1_char_Fill_char
 plt_System_Span_1_char_Fill_char:
 _p_150:
@@ -26637,7 +26637,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 4257
+.word 4261
 	.no_dead_strip plt_System_ReadOnlySpan_1_char_CopyTo_System_Span_1_char
 plt_System_ReadOnlySpan_1_char_CopyTo_System_Span_1_char:
 _p_151:
@@ -26645,7 +26645,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 4268
+.word 4272
 	.no_dead_strip plt_System_Span_1_char_op_Implicit_char__
 plt_System_Span_1_char_op_Implicit_char__:
 _p_152:
@@ -26653,7 +26653,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 4279
+.word 4283
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_153:
@@ -26661,7 +26661,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 4297
+.word 4301
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException:
 _p_154:
@@ -26669,7 +26669,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 4305
+.word 4309
 	.no_dead_strip plt_System_ThrowHelper_ThrowIndexOutOfRangeException
 plt_System_ThrowHelper_ThrowIndexOutOfRangeException:
 _p_155:
@@ -26677,7 +26677,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 4310
+.word 4314
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_156:
@@ -26685,7 +26685,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 4315
+.word 4319
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_157:
@@ -26693,7 +26693,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 4335
+.word 4339
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_DestinationTooShort
 plt_System_ThrowHelper_ThrowArgumentException_DestinationTooShort:
 _p_158:
@@ -26701,7 +26701,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 4355
+.word 4359
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_159:
@@ -26709,7 +26709,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 4360
+.word 4364
 	.no_dead_strip plt_string__ctor_char__int_int
 plt_string__ctor_char__int_int:
 _p_160:
@@ -26717,7 +26717,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 4368
+.word 4372
 	.no_dead_strip plt_string_Format_string_object_object
 plt_string_Format_string_object_object:
 _p_161:
@@ -26725,7 +26725,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 4373
+.word 4377
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_162:
@@ -26733,7 +26733,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 4378
+.word 4382
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_163:
@@ -26741,7 +26741,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 4386
+.word 4390
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_164:
@@ -26749,7 +26749,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 4405
+.word 4409
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_165:
@@ -26757,7 +26757,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 4432
+.word 4436
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_166:
@@ -26765,7 +26765,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 4440
+.word 4444
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_167:
@@ -26773,7 +26773,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 4448
+.word 4452
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_168:
@@ -26781,7 +26781,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 4458
+.word 4462
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_169:
@@ -26789,7 +26789,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 4461
+.word 4465
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_170:
@@ -26797,7 +26797,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 4480
+.word 4484
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_171:
@@ -26805,7 +26805,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 4497
+.word 4501
 	.no_dead_strip plt_System_ThrowHelper_ThrowArrayTypeMismatchException
 plt_System_ThrowHelper_ThrowArrayTypeMismatchException:
 _p_172:
@@ -26813,7 +26813,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 4505
+.word 4509
 	.no_dead_strip plt_System_SpanHelpers_ClearWithoutReferences_byte__ulong
 plt_System_SpanHelpers_ClearWithoutReferences_byte__ulong:
 _p_173:
@@ -26821,7 +26821,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 4510
+.word 4514
 	.no_dead_strip plt_string_memset_byte__int_int
 plt_string_memset_byte__int_int:
 _p_174:
@@ -26829,7 +26829,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 4515
+.word 4519
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_175:
@@ -26837,7 +26837,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 4520
+.word 4524
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_176:
@@ -26845,7 +26845,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 4540
+.word 4544
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_177:
@@ -26853,7 +26853,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 4567
+.word 4571
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_178:
@@ -26861,7 +26861,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 4575
+.word 4579
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_179:
@@ -26869,7 +26869,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 4594
+.word 4598
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_180:
@@ -26877,7 +26877,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 4602
+.word 4606
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_181:
@@ -26885,7 +26885,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 4610
+.word 4614
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_182:
@@ -26893,7 +26893,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 4629
+.word 4633
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_183:
@@ -26901,7 +26901,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 4656
+.word 4660
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_184:
@@ -26909,7 +26909,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 4664
+.word 4668
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_185:
@@ -26917,7 +26917,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 4672
+.word 4676
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_186:
@@ -26925,7 +26925,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 4682
+.word 4686
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_187:
@@ -26933,7 +26933,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 4707
+.word 4712
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_188:
@@ -26941,7 +26941,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 4715
+.word 4720
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_189:
@@ -26949,7 +26949,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 4734
+.word 4739
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_190:
@@ -26957,7 +26957,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 4753
+.word 4758
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_191:
@@ -26965,7 +26965,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
-.word 4772
+.word 4777
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_192:
@@ -26973,7 +26973,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 4798
+.word 4803
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_193:
@@ -26981,7 +26981,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 4806
+.word 4811
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_194:
@@ -26989,7 +26989,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 4826
+.word 4831
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_195:
@@ -26997,7 +26997,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 4846
+.word 4851
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_196:
@@ -27005,7 +27005,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 4854
+.word 4859
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_197:
@@ -27013,7 +27013,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 4862
+.word 4867
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_198:
@@ -27021,7 +27021,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 4881
+.word 4886
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_199:
@@ -27029,7 +27029,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 4908
+.word 4913
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_200:
@@ -27037,7 +27037,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 4916
+.word 4921
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_201:
@@ -27045,7 +27045,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 4924
+.word 4929
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_202:
@@ -27053,7 +27053,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 4934
+.word 4939
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_203:
@@ -27061,7 +27061,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 4953
+.word 4958
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_204:
@@ -27069,7 +27069,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 4961
+.word 4966
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_205:
@@ -27077,7 +27077,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 4976
+.word 4981
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_206:
@@ -27085,7 +27085,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 4984
+.word 4989
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_207:
@@ -27093,7 +27093,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 5003
+.word 5008
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_208:
@@ -27101,7 +27101,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 5020
+.word 5025
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_209:
@@ -27109,7 +27109,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 5028
+.word 5033
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_210:
@@ -27117,7 +27117,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 5048
+.word 5053
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_211:
@@ -27125,7 +27125,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 5075
+.word 5080
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_212:
@@ -27133,7 +27133,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 5083
+.word 5088
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_213:
@@ -27141,7 +27141,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 5102
+.word 5107
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_214:
@@ -27149,7 +27149,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 5110
+.word 5115
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_215:
@@ -27157,7 +27157,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 5118
+.word 5123
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_216:
@@ -27165,7 +27165,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 5137
+.word 5142
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_217:
@@ -27173,7 +27173,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 5164
+.word 5169
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_218:
@@ -27181,7 +27181,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 5172
+.word 5177
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_219:
@@ -27189,7 +27189,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 5180
+.word 5185
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_220:
@@ -27197,7 +27197,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 5190
+.word 5195
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_221:
@@ -27205,7 +27205,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 5215
+.word 5221
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_222:
@@ -27213,7 +27213,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 5223
+.word 5229
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_223:
@@ -27221,7 +27221,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 5242
+.word 5248
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_224:
@@ -27229,7 +27229,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 5261
+.word 5267
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_225:
@@ -27237,7 +27237,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 5280
+.word 5286
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_226:
@@ -27245,7 +27245,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 5299
+.word 5305
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_227:
@@ -27253,7 +27253,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 5316
+.word 5322
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_228:
@@ -27261,7 +27261,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 5324
+.word 5330
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_229:
@@ -27269,7 +27269,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 5344
+.word 5350
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_230:
@@ -27277,7 +27277,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 5371
+.word 5377
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_231:
@@ -27285,7 +27285,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 5379
+.word 5385
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_232:
@@ -27293,7 +27293,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 5398
+.word 5404
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_233:
@@ -27301,7 +27301,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 5406
+.word 5412
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_234:
@@ -27309,7 +27309,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 5414
+.word 5420
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_235:
@@ -27317,7 +27317,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 5433
+.word 5439
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_236:
@@ -27325,7 +27325,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 5460
+.word 5466
 	.no_dead_strip plt__rgctx_fetch_75
 plt__rgctx_fetch_75:
 _p_237:
@@ -27333,7 +27333,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 5468
+.word 5474
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_238:
@@ -27341,7 +27341,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 5476
+.word 5482
 	.no_dead_strip plt__rgctx_fetch_77
 plt__rgctx_fetch_77:
 _p_239:
@@ -27349,7 +27349,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 5486
+.word 5492
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_240:
@@ -27357,7 +27357,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 5511
+.word 5518
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_241:
@@ -27365,7 +27365,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 5519
+.word 5526
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_242:
@@ -27373,7 +27373,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 5538
+.word 5545
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_243:
@@ -27381,7 +27381,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 5557
+.word 5564
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_244:
@@ -27389,7 +27389,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 5576
+.word 5583
 	.no_dead_strip plt__rgctx_fetch_83
 plt__rgctx_fetch_83:
 _p_245:
@@ -27397,7 +27397,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 5595
+.word 5602
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_246:
@@ -27405,7 +27405,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 5603
+.word 5610
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_247:
@@ -27413,7 +27413,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 5618
+.word 5625
 	.no_dead_strip plt__rgctx_fetch_86
 plt__rgctx_fetch_86:
 _p_248:
@@ -27421,7 +27421,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 5626
+.word 5633
 	.no_dead_strip plt__rgctx_fetch_87
 plt__rgctx_fetch_87:
 _p_249:
@@ -27429,7 +27429,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 5645
+.word 5652
 	.no_dead_strip plt__rgctx_fetch_88
 plt__rgctx_fetch_88:
 _p_250:
@@ -27437,7 +27437,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 5655
+.word 5662
 	.no_dead_strip plt__rgctx_fetch_89
 plt__rgctx_fetch_89:
 _p_251:
@@ -27445,7 +27445,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 5685
+.word 5692
 	.no_dead_strip plt__rgctx_fetch_90
 plt__rgctx_fetch_90:
 _p_252:
@@ -27453,7 +27453,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 5693
+.word 5700
 	.no_dead_strip plt_System_Buffer_Memmove_byte__byte__uint
 plt_System_Buffer_Memmove_byte__byte__uint:
 _p_253:
@@ -27461,7 +27461,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 5701
+.word 5708
 	.no_dead_strip plt__rgctx_fetch_91
 plt__rgctx_fetch_91:
 _p_254:
@@ -27469,7 +27469,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 5713
+.word 5720
 	.no_dead_strip plt__rgctx_fetch_92
 plt__rgctx_fetch_92:
 _p_255:
@@ -27477,7 +27477,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 5730
+.word 5737
 	.no_dead_strip plt__rgctx_fetch_93
 plt__rgctx_fetch_93:
 _p_256:
@@ -27485,7 +27485,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 5738
+.word 5745
 	.no_dead_strip plt__rgctx_fetch_94
 plt__rgctx_fetch_94:
 _p_257:
@@ -27493,7 +27493,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 5764
+.word 5771
 	.no_dead_strip plt__rgctx_fetch_95
 plt__rgctx_fetch_95:
 _p_258:
@@ -27501,7 +27501,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 5779
+.word 5786
 	.no_dead_strip plt__rgctx_fetch_96
 plt__rgctx_fetch_96:
 _p_259:
@@ -27509,7 +27509,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 5796
+.word 5803
 	.no_dead_strip plt__rgctx_fetch_97
 plt__rgctx_fetch_97:
 _p_260:
@@ -27517,7 +27517,7 @@ adrp x16, mono_aot_System_Numerics_got@PAGE+0
 add x16, x16, mono_aot_System_Numerics_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 5804
+.word 5811
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -27552,7 +27552,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "2BE117CE-E53E-4980-892B-67FE839FD4F4"
+	.asciz "1828726C-5D96-4D09-BE69-29822258BBD5"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -27640,13 +27640,13 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 127,3104,261,290,4,98,387000831,0
-	.long 10384,128,8,8,8,9,8388607,0
-	.long 4,25,16656,0,0,6264,6064,5328
+	.long 10391,128,8,8,8,9,8388607,0
+	.long 4,25,16664,0,0,6264,6064,5328
 	.long 0,5608,6024,5424,0,4248,408,6256
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 249,180,48,157,242,101,234,159,103,106,160,183,237,164,173,254
+	.byte 190,251,64,22,73,116,122,239,183,68,171,119,137,110,229,4
 	.globl _mono_aot_module_System_Numerics_info
 	.align 3
 _mono_aot_module_System_Numerics_info:

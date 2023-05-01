@@ -26,7 +26,7 @@ namespace WolvesVNTeam.GUI.MainUITabbed
             ListViewSymbol.ItemsSource = _itemsSource;
             loadInfo();
             LoadListSymbol();
-            Device.StartTimer(new TimeSpan(0, 0, 3), () =>
+            Device.StartTimer(new TimeSpan(0, 0, 5), () =>
             {
                 // do something every 10 seconds
                 LoadListSymbol();

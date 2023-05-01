@@ -41,7 +41,6 @@ namespace WolvesVNTeam.GUI.MainUITabbed
                 if (statistic.ContainsKey("Id") && statistic.ContainsKey("TongPip") &&
                    statistic.ContainsKey("Trades") && statistic.ContainsKey("WinRate"))
                 {
-
                     setValue();
                 }
                 return true; // runs again, or false to stop
@@ -94,7 +93,7 @@ namespace WolvesVNTeam.GUI.MainUITabbed
             
             
             string currentDate = DateTime.Now.ToString("yyyy-M-d");
-            currentDate = "2023-4-27";
+            //currentDate = "2023-4-27";
 
             await client.OnAsync($"TongPIP/{currentDate}", async (sender, args) =>
             {
@@ -158,9 +157,6 @@ namespace WolvesVNTeam.GUI.MainUITabbed
                 {
                     statistic.Add(uniqueKey, dataFromFB);
                 }
-                
-
-
             });
 
 

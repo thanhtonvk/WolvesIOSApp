@@ -22,7 +22,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 6.12.0 (2020-02/dffa5ab9224 Mon May 16 11:03:48 EDT 2022)"
+	.asciz "Mono AOT Compiler 6.12.0 (2020-02/6dd9def57ce Wed Nov  2 11:34:46 EDT 2022)"
 	.asciz "Naxam.TopTabbedPage.Platform.iOS.dll"
 	.asciz ""
 
@@ -182,10 +182,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -253,10 +253,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -467,7 +467,7 @@ bl _p_17
 .word 0xf9401b41
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf9427c50
+.word 0xf9428050
 .word 0xd63f0200
 
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
@@ -579,7 +579,7 @@ bl _p_21
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -693,10 +693,10 @@ bl _p_27
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_2
 
@@ -908,7 +908,7 @@ ldr x1, [x16, #328]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -1056,10 +1056,10 @@ bl _p_33
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_2
 
@@ -1197,7 +1197,7 @@ bl _p_35
 .word 0xf9402b41
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9427c50
+.word 0xf9428050
 .word 0xd63f0200
 .word 0xf9401f41
 .word 0xaa1a03e0
@@ -1215,7 +1215,7 @@ bl _p_35
 .word 0xf94053a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9427c50
+.word 0xf9428050
 .word 0xd63f0200
 .word 0xf9401f41
 .word 0xaa0103e0
@@ -1230,7 +1230,7 @@ bl _p_16
 .word 0xaa0203e0
 .word 0xaa1a03e1
 .word 0xf9400042
-.word 0xf9420450
+.word 0xf9420850
 .word 0xd63f0200
 
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
@@ -1436,7 +1436,7 @@ bl _p_18
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #464]
-.word 0x92800df0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -1535,13 +1535,13 @@ bl _p_49
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -1865,13 +1865,13 @@ bl _p_56
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -2011,7 +2011,7 @@ ldr x1, [x16, #328]
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #584]
-.word 0x92800ef0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -2027,7 +2027,7 @@ bl _p_60
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -2266,7 +2266,7 @@ ldr x1, [x16, #16]
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #688]
-.word 0x92800ef0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -2286,13 +2286,13 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_2
 
@@ -2369,7 +2369,7 @@ ldr x1, [x16, #16]
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #688]
-.word 0x92800ef0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -2474,7 +2474,7 @@ bl _p_48
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -2520,7 +2520,7 @@ bl _p_63
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -2591,7 +2591,7 @@ ldr x1, [x16, #328]
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #736]
-.word 0x928012f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -2604,7 +2604,7 @@ ldr x15, [x16, #736]
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #744]
-.word 0x928005f0
+.word 0x92800bf0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -2654,7 +2654,7 @@ ldr x15, [x16, #760]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -2756,7 +2756,7 @@ ldr x1, [x16, #328]
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #800]
-.word 0x92800df0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -2829,7 +2829,7 @@ ldr x1, [x16, #328]
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #800]
-.word 0x92800df0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -2926,7 +2926,7 @@ bl _p_75
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -3057,10 +3057,10 @@ bl _p_78
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_2
 
@@ -3132,10 +3132,10 @@ bl _p_77
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_2
 
@@ -3205,7 +3205,7 @@ bl _p_79
 .word 0xf9402b41
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941e030
+.word 0xf941e430
 .word 0xd63f0200
 .word 0xf90033a0
 .word 0x9100c341
@@ -3241,13 +3241,13 @@ bl _p_80
 .word 0xf94033a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941dc50
+.word 0xf941e050
 .word 0xd63f0200
 .word 0xa9416bb9
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -3304,7 +3304,7 @@ bl _p_82
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -3361,7 +3361,7 @@ bl _p_84
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -3429,10 +3429,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -3500,10 +3500,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -3822,7 +3822,7 @@ bl _p_89
 .word 0xf9401fa1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9424050
+.word 0xf9424450
 .word 0xd63f0200
 
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
@@ -3858,13 +3858,13 @@ bl _p_93
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -3955,7 +3955,7 @@ Naxam_Controls_Platform_iOS_TopTabbedRenderer_GetPreviousViewController_UIKit_UI
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #688]
-.word 0x92800ef0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -3974,7 +3974,7 @@ ldr x15, [x16, #688]
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #464]
-.word 0x92800df0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -4003,7 +4003,7 @@ Naxam_Controls_Platform_iOS_TopTabbedRenderer_GetNextViewController_UIKit_UIPage
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #688]
-.word 0x92800ef0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -4037,7 +4037,7 @@ ldr x15, [x16, #456]
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #464]
-.word 0x92800df0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -4098,7 +4098,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #688]
-.word 0x92800ef0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -4117,7 +4117,7 @@ bl _p_98
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -4274,7 +4274,7 @@ bl _p_100
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #464]
-.word 0x92800df0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -4375,13 +4375,13 @@ bl _p_46
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -4460,7 +4460,7 @@ ldr x1, [x16, #328]
 adrp x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGE+0
 add x16, x16, mono_aot_Naxam_TopTabbedPage_Platform_iOS_got@PAGEOFF
 ldr x15, [x16, #800]
-.word 0x92800df0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -4578,13 +4578,13 @@ bl _p_108
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -4614,7 +4614,7 @@ bl _p_35
 .word 0xf90023a0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941bc30
+.word 0xf941c030
 .word 0xd63f0200
 .word 0xf94023be
 .word 0xfd0003c0
@@ -4761,14 +4761,14 @@ bl _p_118
 .word 0xfd4047a2
 .word 0xfd404ba3
 .word 0xf9400021
-.word 0xf941b830
+.word 0xf941bc30
 .word 0xd63f0200
 .word 0xf9402b41
 .word 0x910563a0
 .word 0xf900bfa0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941bc30
+.word 0xf941c030
 .word 0xd63f0200
 .word 0xf940bfbe
 .word 0xfd0003c0
@@ -4787,7 +4787,7 @@ bl _p_35
 .word 0xf900bfa0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941bc30
+.word 0xf941c030
 .word 0xd63f0200
 .word 0xf940bfbe
 .word 0xfd0003c0
@@ -4807,7 +4807,7 @@ bl _p_35
 .word 0xf900bfa0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941bc30
+.word 0xf941c030
 .word 0xd63f0200
 .word 0xf940bfbe
 .word 0xfd0003c0
@@ -4962,7 +4962,7 @@ bl _p_46
 .word 0x910003bf
 .word 0xa8db7bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
 
@@ -4999,7 +4999,7 @@ bl _p_70
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -5035,7 +5035,7 @@ bl _p_120
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -5174,10 +5174,10 @@ bl _p_122
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_2
 
@@ -5384,7 +5384,7 @@ bl _p_46
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -5588,7 +5588,7 @@ bl _p_125
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc7
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -5670,7 +5670,7 @@ bl _p_125
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc7
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -5750,7 +5750,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc8
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -5832,7 +5832,7 @@ bl _p_125
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc7
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -5910,7 +5910,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -5993,7 +5993,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc5
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -6080,7 +6080,7 @@ bl _p_125
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc2
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -6390,7 +6390,7 @@ bl _p_129
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -6466,11 +6466,11 @@ bl _p_129
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 3 70 0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_130
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -6642,18 +6642,18 @@ bl _p_132
 .word 0xa8c67bfd
 .word 0xd65f03c0
 .loc 4 269 0
-.word 0xd2934d00
+.word 0xd293ca00
 bl _p_133
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd2801a40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_130
 .loc 4 271 0
-.word 0xd29357c0
+.word 0xd293d4c0
 bl _p_133
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd2801a40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_130
@@ -7183,7 +7183,7 @@ ldr x15, [x16, #1216]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 5 257 0
-.word 0xd28d73a0
+.word 0xd28deee0
 bl _p_133
 .word 0xf9002fa0
 .word 0xf94017a0
@@ -7197,11 +7197,11 @@ bl _p_133
 .word 0xf9402fa0
 bl _p_148
 .word 0xf9002ba0
-.word 0xd28d7b20
+.word 0xd28df660
 bl _p_133
 .word 0xaa0003e2
 .word 0xf9402ba1
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_130
@@ -7522,7 +7522,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -7605,7 +7605,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc5
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -7692,7 +7692,7 @@ bl _p_125
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc2
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -7770,7 +7770,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -7853,7 +7853,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc5
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -7940,7 +7940,7 @@ bl _p_125
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc2
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -7956,10 +7956,10 @@ System_Array_InternalArray__ICollection_Add_T_INST_T_INST:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd2928b40
+.word 0xd2930840
 bl _p_133
 .word 0xaa0003e1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_130
@@ -7979,10 +7979,10 @@ System_Array_InternalArray__ICollection_Remove_T_INST_T_INST:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd2928b40
+.word 0xd2930840
 bl _p_133
 .word 0xaa0003e1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_130
@@ -8155,10 +8155,10 @@ ldr x3, [x16, #16]
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 .loc 4 108 0
-.word 0xd29292c0
+.word 0xd2930fc0
 bl _p_133
 .word 0xaa0003e1
-.word 0xd2801dc0
+.word 0xd2801e80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_130
@@ -8271,7 +8271,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -8354,7 +8354,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc5
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -8441,7 +8441,7 @@ bl _p_125
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc2
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -8529,7 +8529,7 @@ bl _p_125
 .word 0xaa0003f6
 .word 0xb5ffff20
 .word 0x17ffffc3
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -8611,7 +8611,7 @@ bl _p_125
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc7
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -8689,7 +8689,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -8772,7 +8772,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc5
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -8859,7 +8859,7 @@ bl _p_125
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc2
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -8937,7 +8937,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -9020,7 +9020,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc5
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -9107,7 +9107,7 @@ bl _p_125
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc2
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -9189,7 +9189,7 @@ bl _p_125
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc7
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -9267,7 +9267,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -9350,7 +9350,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc5
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -9437,7 +9437,7 @@ bl _p_125
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc2
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -9756,7 +9756,7 @@ bl _p_158
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -9832,11 +9832,11 @@ bl _p_158
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 3 70 0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_130
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_2
 
@@ -9914,7 +9914,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -9997,7 +9997,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc5
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -10084,7 +10084,7 @@ bl _p_125
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc2
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -10164,7 +10164,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc8
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -10247,7 +10247,7 @@ bl _p_125
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc5
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_2
 
@@ -10296,10 +10296,10 @@ System_Array_InternalArray__get_Item_T_INST_int:
 .word 0xa8c67bfd
 .word 0xd65f03c0
 .loc 4 193 0
-.word 0xd2843a40
+.word 0xd281e180
 bl _p_133
 .word 0xaa0003e1
-.word 0xd2800fa0
+.word 0xd2801000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_130
@@ -11964,13 +11964,13 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 164,2584,159,181,33,98,387000831,0
-	.long 6450,128,8,8,8,9,8388607,0
-	.long 4,25,11360,0,0,4904,4000,3344
+	.long 6458,128,8,8,8,9,8388607,0
+	.long 4,25,11368,0,0,4904,4000,3344
 	.long 0,3672,3960,3440,0,2480,288,4896
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 166,102,160,105,21,176,186,24,215,102,152,209,184,117,132,43
+	.byte 132,59,74,73,46,203,38,114,107,23,231,157,135,146,28,93
 	.globl _mono_aot_module_Naxam_TopTabbedPage_Platform_iOS_info
 	.align 3
 _mono_aot_module_Naxam_TopTabbedPage_Platform_iOS_info:

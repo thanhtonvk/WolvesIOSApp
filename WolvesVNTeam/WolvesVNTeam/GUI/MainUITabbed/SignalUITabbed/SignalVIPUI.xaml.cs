@@ -80,7 +80,7 @@ namespace WolvesVNTeam.GUI.MainUITabbed.SignalUITabbed
             };
             IFirebaseClient client = new FirebaseClient(config);
             string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
-            currentDate = "2023-04-26";
+            //currentDate = "2023-04-26";
             await client.OnAsync($"BanLenh/{currentDate}", (sender, args) =>
             {
                 string dataFromFB = args.Data;

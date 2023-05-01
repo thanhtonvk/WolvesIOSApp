@@ -22,7 +22,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 6.12.0 (2020-02/dffa5ab9224 Mon May 16 11:03:48 EDT 2022)"
+	.asciz "Mono AOT Compiler 6.12.0 (2020-02/6dd9def57ce Wed Nov  2 11:34:46 EDT 2022)"
 	.asciz "System.ServiceModel.Internals.dll"
 	.asciz ""
 
@@ -774,13 +774,13 @@ bl _p_32
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_33
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_33
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_33
 
@@ -954,7 +954,7 @@ bl _p_34
 adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x15, [x16, #384]
-.word 0x928005f0
+.word 0x92800bf0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -1018,7 +1018,7 @@ ldr x15, [x16, #400]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_33
 
@@ -1685,7 +1685,7 @@ bl _p_42
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -1731,7 +1731,7 @@ ldr x0, [x16, #456]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -4779,7 +4779,7 @@ ldr x0, [x16, #744]
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -4912,7 +4912,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -4964,7 +4964,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -5014,7 +5014,7 @@ bl _p_67
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -5062,7 +5062,7 @@ bl _p_68
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -5115,7 +5115,7 @@ bl _p_69
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -5177,7 +5177,7 @@ System_Runtime_Interop_SafeEventLogWriteHandle_RegisterEventSource_string_string
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -5194,7 +5194,7 @@ System_Runtime_Interop_SafeEventLogWriteHandle_ReleaseHandle:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -5214,7 +5214,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventRegister_System_Guid__System_Run
 .word 0xf9000fa1
 .word 0xf90013a2
 .word 0xf90017a3
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -5231,7 +5231,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventUnregister_long:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -5249,7 +5249,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventEnabled_long_System_Runtime_Diag
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -5269,7 +5269,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventWrite_long_System_Runtime_Diagno
 .word 0xf9000fa1
 .word 0xf90013a2
 .word 0xf90017a3
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -5287,7 +5287,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventActivityIdControl_int_System_Gui
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -5312,7 +5312,7 @@ System_Runtime_Interop_UnsafeNativeMethods_ReportEvent_System_Runtime_InteropSer
 .word 0xf9001fa4
 .word 0xf90023a5
 .word 0xf90027a6
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -5448,7 +5448,7 @@ ldr x2, [x16, #16]
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540003c0
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -5476,15 +5476,15 @@ bl _p_75
 bl _p_76
 bl _p_77
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd2801a40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_71
 .word 0x17ffffeb
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_33
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_33
 
@@ -5547,7 +5547,7 @@ bl _p_80
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_33
 
@@ -5595,7 +5595,7 @@ System_Runtime_Diagnostics_DiagnosticsEventProvider_Deregister:
 .word 0xb4000100
 .loc 12 137 0
 .word 0xf9400f40
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -5729,7 +5729,7 @@ bl _p_81
 .loc 12 211 0
 .word 0xf9400fa0
 .word 0xf9400c00
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -5899,7 +5899,7 @@ ldr x1, [x16, #816]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x54000440
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -5921,7 +5921,7 @@ bl _p_71
 .loc 12 678 0
 .word 0xf9401fa0
 .word 0xf9400c00
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -5942,7 +5942,7 @@ bl _p_82
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_33
 
@@ -5966,14 +5966,14 @@ System_Runtime_Diagnostics_DiagnosticsEventProvider_WriteEvent_System_Runtime_Di
 .word 0xeb1f001f
 .word 0x10000011
 .word 0x540001e0
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
 .loc 12 716 0
 .word 0xf9400ba0
 .word 0xf9400c00
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -5982,7 +5982,7 @@ bl _p_71
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_33
 
@@ -5995,7 +5995,7 @@ System_Runtime_Diagnostics_DiagnosticsEventProvider_SetActivityId_System_Guid_:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -6660,7 +6660,7 @@ bl _p_96
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -6781,7 +6781,7 @@ bl _p_99
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -6989,10 +6989,10 @@ bl _p_104
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_33
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_33
 
@@ -7057,7 +7057,7 @@ bl _p_105
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_33
 
@@ -7179,7 +7179,7 @@ ldr x0, [x16, #0]
 .word 0xd2806a21
 bl _p_74
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_71
@@ -7356,7 +7356,7 @@ bl _p_112
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -8854,7 +8854,7 @@ bl _p_124
 .word 0xf9401fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9406830
+.word 0xf9407430
 .word 0xd63f0200
 .loc 16 368 0
 .word 0xf9401ba1
@@ -9451,7 +9451,7 @@ bl _p_145
 .word 0xf94083a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9406830
+.word 0xf9407430
 .word 0xd63f0200
 .loc 16 487 0
 .word 0xf9407fa1
@@ -10110,7 +10110,7 @@ bl _p_62
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_33
 
@@ -10494,7 +10494,7 @@ bl _p_181
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9406830
+.word 0xf9407430
 .word 0xd63f0200
 .loc 16 734 0
 .word 0xf94017a1
@@ -10887,7 +10887,7 @@ bl _p_184
 adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x15, [x16, #1544]
-.word 0x92800af0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -10898,7 +10898,7 @@ ldr x15, [x16, #1544]
 adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x15, [x16, #1552]
-.word 0x928012f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -10911,7 +10911,7 @@ ldr x15, [x16, #1552]
 adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x15, [x16, #1560]
-.word 0x928005f0
+.word 0x92800bf0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -11184,7 +11184,7 @@ bl _p_181
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9406830
+.word 0xf9407430
 .word 0xd63f0200
 .loc 16 832 0
 .word 0xf94017a1
@@ -11543,7 +11543,7 @@ ldr x15, [x16, #400]
 .word 0xf94017a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9406830
+.word 0xf9407430
 .word 0xd63f0200
 .loc 16 872 0
 .word 0xf94013a1
@@ -12424,7 +12424,7 @@ ldr x0, [x16, #0]
 .word 0xd2810161
 bl _p_74
 .word 0xf9002ba0
-.word 0xd2801920
+.word 0xd28019e0
 bl _p_201
 .word 0xb9001014
 .word 0xf9002fa0
@@ -12452,7 +12452,7 @@ ldr x0, [x16, #0]
 .word 0xd2810161
 bl _p_74
 .word 0xf9002ba0
-.word 0xd2801920
+.word 0xd28019e0
 bl _p_201
 .word 0xaa0003e2
 .word 0xf9402ba1
@@ -12477,7 +12477,7 @@ ldr x0, [x16, #0]
 .word 0xd28108e1
 bl _p_74
 .word 0xf9002ba0
-.word 0xd2801920
+.word 0xd28019e0
 bl _p_201
 .word 0xb9001019
 .word 0xf9002fa0
@@ -12505,7 +12505,7 @@ ldr x0, [x16, #0]
 .word 0xd28108e1
 bl _p_74
 .word 0xf9002ba0
-.word 0xd2801920
+.word 0xd28019e0
 bl _p_201
 .word 0xaa0003e2
 .word 0xf9402ba1
@@ -12680,7 +12680,7 @@ bl _p_203
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_33
 
@@ -13154,7 +13154,7 @@ bl _p_209
 .loc 19 134 0
 bl _p_210
 .word 0x3940001e
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -13586,13 +13586,13 @@ ldr x0, [x16, #1656]
 .word 0x910003bf
 .word 0xa8d67bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
-.word 0xd2801d00
+.word 0xd2801dc0
 .word 0xaa1103e1
 bl _p_33
-.word 0xd28012e0
+.word 0xd2801340
 .word 0xaa1103e1
 bl _p_33
 
@@ -13900,7 +13900,7 @@ System_Runtime_Diagnostics_EventLogger_UnsafeWriteEventLog_System_Diagnostics_Tr
 .word 0xf9002fa0
 .word 0xf9400ba0
 .word 0xf9400c00
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -13937,7 +13937,7 @@ bl _p_225
 .word 0x93407c00
 .word 0xf9401ba0
 .word 0xb9801801
-.word 0xd2801ba0
+.word 0xd2801c60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_71
@@ -14224,7 +14224,7 @@ bl _p_99
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -14745,7 +14745,7 @@ bl _p_236
 .word 0xaa0003f9
 .word 0xb5ffff20
 .word 0x17ffffcc
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -14823,7 +14823,7 @@ bl _p_236
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -14906,7 +14906,7 @@ bl _p_236
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc5
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -14993,7 +14993,7 @@ bl _p_236
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc2
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -15165,18 +15165,18 @@ bl _p_238
 .word 0xa8c67bfd
 .word 0xd65f03c0
 .loc 22 269 0
-.word 0xd2934d00
+.word 0xd293ca00
 bl _p_239
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd2801a40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_71
 .loc 22 271 0
-.word 0xd29357c0
+.word 0xd293d4c0
 bl _p_239
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd2801a40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_71
@@ -15447,7 +15447,7 @@ bl _p_236
 .word 0xaa0003fa
 .word 0xb5ffff20
 .word 0x17ffffb4
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_33
 
@@ -15913,10 +15913,10 @@ System_Array_InternalArray__get_Item_T_INST_int:
 .word 0xa8c67bfd
 .word 0xd65f03c0
 .loc 22 193 0
-.word 0xd2843a40
+.word 0xd281e180
 bl _p_239
 .word 0xaa0003e1
-.word 0xd2800fa0
+.word 0xd2801000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_71
@@ -16266,7 +16266,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 2636
+.word 2637
 	.no_dead_strip plt_System_Runtime_FatalException__ctor_string_System_Exception
 plt_System_Runtime_FatalException__ctor_string_System_Exception:
 _p_2:
@@ -16274,7 +16274,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 2638
+.word 2639
 	.no_dead_strip plt_System_Runtime_FatalException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext
 plt_System_Runtime_FatalException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext:
 _p_3:
@@ -16282,7 +16282,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 2640
+.word 2641
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_4:
@@ -16290,7 +16290,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 2642
+.word 2643
 	.no_dead_strip plt_System_ArgumentOutOfRangeException__ctor_string_object_string
 plt_System_ArgumentOutOfRangeException__ctor_string_object_string:
 _p_5:
@@ -16298,7 +16298,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 2650
+.word 2651
 	.no_dead_strip plt_System_Runtime_ExceptionTrace_TraceException_System_ArgumentOutOfRangeException_System_ArgumentOutOfRangeException
 plt_System_Runtime_ExceptionTrace_TraceException_System_ArgumentOutOfRangeException_System_ArgumentOutOfRangeException:
 _p_6:
@@ -16306,7 +16306,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 2655
+.word 2656
 	.no_dead_strip plt_System_Runtime_TraceCore_HandledExceptionErrorIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_TraceCore_HandledExceptionErrorIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_7:
@@ -16314,7 +16314,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 2667
+.word 2668
 	.no_dead_strip plt_System_Runtime_TraceCore_HandledExceptionError_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
 plt_System_Runtime_TraceCore_HandledExceptionError_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
 _p_8:
@@ -16322,7 +16322,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 2669
+.word 2670
 	.no_dead_strip plt_System_Runtime_TraceCore_HandledExceptionWarningIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_TraceCore_HandledExceptionWarningIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_9:
@@ -16330,7 +16330,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 2671
+.word 2672
 	.no_dead_strip plt_System_Runtime_TraceCore_HandledExceptionWarning_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
 plt_System_Runtime_TraceCore_HandledExceptionWarning_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
 _p_10:
@@ -16338,7 +16338,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 2673
+.word 2674
 	.no_dead_strip plt_System_Runtime_TraceCore_HandledExceptionVerboseIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_TraceCore_HandledExceptionVerboseIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_11:
@@ -16346,7 +16346,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 2675
+.word 2676
 	.no_dead_strip plt_System_Runtime_TraceCore_HandledExceptionVerbose_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
 plt_System_Runtime_TraceCore_HandledExceptionVerbose_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
 _p_12:
@@ -16354,7 +16354,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 2677
+.word 2678
 	.no_dead_strip plt_System_Runtime_TraceCore_HandledExceptionIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_TraceCore_HandledExceptionIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_13:
@@ -16362,7 +16362,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 2679
+.word 2680
 	.no_dead_strip plt_System_Runtime_TraceCore_HandledException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
 plt_System_Runtime_TraceCore_HandledException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
 _p_14:
@@ -16370,7 +16370,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 2681
+.word 2682
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_15:
@@ -16378,7 +16378,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 2705
+.word 2706
 	.no_dead_strip plt_System_Runtime_ExceptionTrace_TraceException_TException_REF_TException_REF_string
 plt_System_Runtime_ExceptionTrace_TraceException_TException_REF_TException_REF_string:
 _p_16:
@@ -16386,7 +16386,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 2722
+.word 2723
 	.no_dead_strip plt_System_Runtime_TraceCore_ThrowingExceptionIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_TraceCore_ThrowingExceptionIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_17:
@@ -16394,7 +16394,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 2735
+.word 2736
 	.no_dead_strip plt_System_Runtime_TraceCore_ThrowingException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_string_System_Exception
 plt_System_Runtime_TraceCore_ThrowingException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_string_System_Exception:
 _p_18:
@@ -16402,7 +16402,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 2737
+.word 2738
 	.no_dead_strip plt_System_SystemException__ctor
 plt_System_SystemException__ctor:
 _p_19:
@@ -16410,7 +16410,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 2739
+.word 2740
 	.no_dead_strip plt_System_SystemException__ctor_string_System_Exception
 plt_System_SystemException__ctor_string_System_Exception:
 _p_20:
@@ -16418,7 +16418,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 2744
+.word 2745
 	.no_dead_strip plt_System_SystemException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext
 plt_System_SystemException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext:
 _p_21:
@@ -16426,7 +16426,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 2749
+.word 2750
 	.no_dead_strip plt_System_Runtime_Fx_get_Trace
 plt_System_Runtime_Fx_get_Trace:
 _p_22:
@@ -16434,7 +16434,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 2754
+.word 2755
 	.no_dead_strip plt_System_Runtime_ExceptionTrace__ctor_string_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_ExceptionTrace__ctor_string_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_23:
@@ -16442,7 +16442,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 2756
+.word 2757
 	.no_dead_strip plt_System_Runtime_Fx_InitializeTracing
 plt_System_Runtime_Fx_InitializeTracing:
 _p_24:
@@ -16450,7 +16450,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 2758
+.word 2759
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_DefaultEtwProviderId
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_DefaultEtwProviderId:
 _p_25:
@@ -16458,7 +16458,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 2760
+.word 2761
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_26:
@@ -16466,7 +16466,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 2763
+.word 2764
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace__ctor_string_System_Guid
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace__ctor_string_System_Guid:
 _p_27:
@@ -16474,7 +16474,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 2766
+.word 2767
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_EtwProvider
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_EtwProvider:
 _p_28:
@@ -16482,7 +16482,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 2769
+.word 2770
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_RefreshState
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_RefreshState:
 _p_29:
@@ -16490,7 +16490,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 2772
+.word 2773
 	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
 plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_30:
@@ -16498,7 +16498,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 2775
+.word 2776
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_set_RefreshState_System_Action
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_set_RefreshState_System_Action:
 _p_31:
@@ -16506,7 +16506,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 2780
+.word 2781
 	.no_dead_strip plt_System_Runtime_Fx_UpdateLevel_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_Fx_UpdateLevel_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_32:
@@ -16514,7 +16514,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 2783
+.word 2784
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_33:
@@ -16522,7 +16522,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 2785
+.word 2786
 	.no_dead_strip plt_System_Collections_ObjectModel_ReadOnlyCollection_1_System_Exception_GetEnumerator
 plt_System_Collections_ObjectModel_ReadOnlyCollection_1_System_Exception_GetEnumerator:
 _p_34:
@@ -16530,7 +16530,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 2787
+.word 2788
 	.no_dead_strip plt_System_Runtime_Fx_IsFatal_System_Exception
 plt_System_Runtime_Fx_IsFatal_System_Exception:
 _p_35:
@@ -16538,7 +16538,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 2798
+.word 2799
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_36:
@@ -16546,7 +16546,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 2800
+.word 2801
 	.no_dead_strip plt_System_Runtime_TraceCore_ActionItemCallbackInvokedIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_TraceCore_ActionItemCallbackInvokedIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_37:
@@ -16554,7 +16554,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 2803
+.word 2804
 	.no_dead_strip plt_System_Runtime_TraceCore_ActionItemScheduledIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_TraceCore_ActionItemScheduledIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_38:
@@ -16562,7 +16562,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 2805
+.word 2806
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_SetEnd2EndActivityTracingEnabled_bool
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_SetEnd2EndActivityTracingEnabled_bool:
 _p_39:
@@ -16570,7 +16570,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 2807
+.word 2808
 	.no_dead_strip plt_System_Runtime_Fx_InternalException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext
 plt_System_Runtime_Fx_InternalException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext:
 _p_40:
@@ -16578,7 +16578,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 2810
+.word 2811
 	.no_dead_strip plt_System_Runtime_Fx_UpdateLevel
 plt_System_Runtime_Fx_UpdateLevel:
 _p_41:
@@ -16586,7 +16586,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 2812
+.word 2813
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_42:
@@ -16594,7 +16594,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 2814
+.word 2815
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_43:
@@ -16602,7 +16602,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 2822
+.word 2823
 	.no_dead_strip plt_System_Enum_ToString
 plt_System_Enum_ToString:
 _p_44:
@@ -16610,7 +16610,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 2827
+.word 2828
 	.no_dead_strip plt_System_Resources_ResourceManager__ctor_string_System_Reflection_Assembly
 plt_System_Resources_ResourceManager__ctor_string_System_Reflection_Assembly:
 _p_45:
@@ -16618,7 +16618,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 2832
+.word 2833
 	.no_dead_strip plt_System_Runtime_TraceCore_IsEtwEventEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace_int
 plt_System_Runtime_TraceCore_IsEtwEventEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace_int:
 _p_46:
@@ -16626,7 +16626,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 2837
+.word 2838
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception:
 _p_47:
@@ -16634,7 +16634,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 2839
+.word 2840
 	.no_dead_strip plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string_string_string
 plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string_string_string:
 _p_48:
@@ -16642,7 +16642,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 2842
+.word 2843
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_ShouldTraceToTraceSource_System_Runtime_TraceEventLevel
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_ShouldTraceToTraceSource_System_Runtime_TraceEventLevel:
 _p_49:
@@ -16650,7 +16650,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 2844
+.word 2845
 	.no_dead_strip plt_System_Runtime_TraceCore_get_ResourceManager
 plt_System_Runtime_TraceCore_get_ResourceManager:
 _p_50:
@@ -16658,7 +16658,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 2846
+.word 2847
 	.no_dead_strip plt_System_Resources_ResourceManager_GetString_string_System_Globalization_CultureInfo
 plt_System_Resources_ResourceManager_GetString_string_System_Globalization_CultureInfo:
 _p_51:
@@ -16666,7 +16666,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 2848
+.word 2849
 	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object_object_object
 plt_string_Format_System_IFormatProvider_string_object_object_object:
 _p_52:
@@ -16674,7 +16674,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 2853
+.word 2854
 	.no_dead_strip plt_System_Runtime_TraceCore_WriteTraceSource_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_string_System_Runtime_TracePayload
 plt_System_Runtime_TraceCore_WriteTraceSource_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_string_System_Runtime_TracePayload:
 _p_53:
@@ -16682,7 +16682,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 2858
+.word 2859
 	.no_dead_strip plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string_string
 plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string_string:
 _p_54:
@@ -16690,7 +16690,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 2860
+.word 2861
 	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object
 plt_string_Format_System_IFormatProvider_string_object:
 _p_55:
@@ -16698,7 +16698,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 2862
+.word 2863
 	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object_object
 plt_string_Format_System_IFormatProvider_string_object_object:
 _p_56:
@@ -16706,7 +16706,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 2867
+.word 2868
 	.no_dead_strip plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string
 plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string:
 _p_57:
@@ -16714,7 +16714,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 2872
+.word 2873
 	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object__
 plt_string_Format_System_IFormatProvider_string_object__:
 _p_58:
@@ -16722,7 +16722,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 2874
+.word 2875
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventDescriptor__ctor_int_byte_byte_byte_byte_int_long
 plt_System_Runtime_Diagnostics_EventDescriptor__ctor_int_byte_byte_byte_byte_int_long:
 _p_59:
@@ -16730,7 +16730,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 2879
+.word 2880
 	.no_dead_strip plt__jit_icall_mono_monitor_enter_internal
 plt__jit_icall_mono_monitor_enter_internal:
 _p_60:
@@ -16738,7 +16738,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 2882
+.word 2883
 	.no_dead_strip plt_System_Runtime_TraceCore_CreateEventDescriptors
 plt_System_Runtime_TraceCore_CreateEventDescriptors:
 _p_61:
@@ -16746,7 +16746,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 2885
+.word 2886
 	.no_dead_strip plt_System_Threading_Monitor_Exit_object
 plt_System_Threading_Monitor_Exit_object:
 _p_62:
@@ -16754,7 +16754,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 2887
+.word 2888
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_IsEtwProviderEnabled
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_IsEtwProviderEnabled:
 _p_63:
@@ -16762,7 +16762,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 2892
+.word 2893
 	.no_dead_strip plt_System_Runtime_TraceCore_EnsureEventDescriptors
 plt_System_Runtime_TraceCore_EnsureEventDescriptors:
 _p_64:
@@ -16770,7 +16770,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 2895
+.word 2896
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_IsEtwEventEnabled_System_Runtime_Diagnostics_EventDescriptor__bool
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_IsEtwEventEnabled_System_Runtime_Diagnostics_EventDescriptor__bool:
 _p_65:
@@ -16778,7 +16778,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 2897
+.word 2898
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string_string
 plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string_string:
 _p_66:
@@ -16786,7 +16786,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 2900
+.word 2901
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string
 plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string:
 _p_67:
@@ -16794,7 +16794,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 2903
+.word 2904
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string
 plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string:
 _p_68:
@@ -16802,7 +16802,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 2906
+.word 2907
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteTraceSource_System_Runtime_Diagnostics_EventDescriptor__string_System_Runtime_TracePayload
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteTraceSource_System_Runtime_Diagnostics_EventDescriptor__string_System_Runtime_TracePayload:
 _p_69:
@@ -16810,7 +16810,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 2909
+.word 2910
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_70:
@@ -16818,7 +16818,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 2912
+.word 2913
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_71:
@@ -16826,7 +16826,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 2917
+.word 2918
 	.no_dead_strip plt_System_Environment_get_OSVersion
 plt_System_Environment_get_OSVersion:
 _p_72:
@@ -16834,7 +16834,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 2919
+.word 2920
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_EtwRegister
 plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_EtwRegister:
 _p_73:
@@ -16842,7 +16842,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 2924
+.word 2925
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_74:
@@ -16850,7 +16850,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 2926
+.word 2927
 	.no_dead_strip plt_System_Globalization_CultureInfo_get_CurrentCulture
 plt_System_Globalization_CultureInfo_get_CurrentCulture:
 _p_75:
@@ -16858,7 +16858,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 2929
+.word 2930
 	.no_dead_strip plt_uint_ToString_string_System_IFormatProvider
 plt_uint_ToString_string_System_IFormatProvider:
 _p_76:
@@ -16866,7 +16866,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 2934
+.word 2935
 	.no_dead_strip plt_System_Runtime_InternalSR_EtwRegistrationFailed_object
 plt_System_Runtime_InternalSR_EtwRegistrationFailed_object:
 _p_77:
@@ -16874,7 +16874,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 2939
+.word 2940
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_Dispose_bool
 plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_Dispose_bool:
 _p_78:
@@ -16882,7 +16882,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 2941
+.word 2942
 	.no_dead_strip plt_System_GC_SuppressFinalize_object
 plt_System_GC_SuppressFinalize_object:
 _p_79:
@@ -16890,7 +16890,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 2943
+.word 2944
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_Deregister
 plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_Deregister:
 _p_80:
@@ -16898,7 +16898,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 2948
+.word 2949
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_IsEnabled_byte_long
 plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_IsEnabled_byte_long:
 _p_81:
@@ -16906,7 +16906,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 2950
+.word 2951
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_SetLastError_int
 plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_SetLastError_int:
 _p_82:
@@ -16914,7 +16914,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 2952
+.word 2953
 	.no_dead_strip plt_System_Diagnostics_TraceSource_get_Listeners
 plt_System_Diagnostics_TraceSource_get_Listeners:
 _p_83:
@@ -16922,7 +16922,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 2954
+.word 2955
 	.no_dead_strip plt_System_Diagnostics_TraceListenerCollection_Remove_string
 plt_System_Diagnostics_TraceListenerCollection_Remove_string:
 _p_84:
@@ -16930,7 +16930,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 2959
+.word 2960
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_UnsafeRemoveDefaultTraceListener_System_Diagnostics_TraceSource
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_UnsafeRemoveDefaultTraceListener_System_Diagnostics_TraceSource:
 _p_85:
@@ -16938,7 +16938,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 2964
+.word 2965
 	.no_dead_strip plt_System_Diagnostics_TraceListenerCollection_get_Count
 plt_System_Diagnostics_TraceListenerCollection_get_Count:
 _p_86:
@@ -16946,7 +16946,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 2966
+.word 2967
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_FixLevel_System_Diagnostics_SourceLevels
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_FixLevel_System_Diagnostics_SourceLevels:
 _p_87:
@@ -16954,7 +16954,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 2971
+.word 2972
 	.no_dead_strip plt_System_Diagnostics_TraceSource_get_Switch
 plt_System_Diagnostics_TraceSource_get_Switch:
 _p_88:
@@ -16962,7 +16962,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 2973
+.word 2974
 	.no_dead_strip plt_System_Diagnostics_SourceSwitch_set_Level_System_Diagnostics_SourceLevels
 plt_System_Diagnostics_SourceSwitch_set_Level_System_Diagnostics_SourceLevels:
 _p_89:
@@ -16970,7 +16970,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 2978
+.word 2979
 	.no_dead_strip plt_System_Diagnostics_SourceSwitch_get_Level
 plt_System_Diagnostics_SourceSwitch_get_Level:
 _p_90:
@@ -16978,7 +16978,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 2983
+.word 2984
 	.no_dead_strip plt_System_Diagnostics_Process_GetCurrentProcess
 plt_System_Diagnostics_Process_GetCurrentProcess:
 _p_91:
@@ -16986,7 +16986,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 2988
+.word 2989
 	.no_dead_strip plt_System_Diagnostics_Process_get_ProcessName
 plt_System_Diagnostics_Process_get_ProcessName:
 _p_92:
@@ -16994,7 +16994,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 2993
+.word 2994
 	.no_dead_strip plt_System_Diagnostics_Process_get_Id
 plt_System_Diagnostics_Process_get_Id:
 _p_93:
@@ -17002,7 +17002,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 2998
+.word 2999
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_TracingEnabled
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_TracingEnabled:
 _p_94:
@@ -17010,7 +17010,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 3003
+.word 3004
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_Level
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_Level:
 _p_95:
@@ -17018,7 +17018,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 3005
+.word 3006
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_ShouldTrace_System_Diagnostics_TraceEventType
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_ShouldTrace_System_Diagnostics_TraceEventType:
 _p_96:
@@ -17026,7 +17026,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 3007
+.word 3008
 	.no_dead_strip plt_System_Text_StringBuilder__ctor_int
 plt_System_Text_StringBuilder__ctor_int:
 _p_97:
@@ -17034,7 +17034,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 3009
+.word 3010
 	.no_dead_strip plt_System_Text_StringBuilder_Append_string
 plt_System_Text_StringBuilder_Append_string:
 _p_98:
@@ -17042,7 +17042,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 3014
+.word 3015
 	.no_dead_strip plt_System_Text_StringBuilder_Append_char
 plt_System_Text_StringBuilder_Append_char:
 _p_99:
@@ -17050,7 +17050,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
-.word 3019
+.word 3020
 	.no_dead_strip plt_System_AppDomain_get_CurrentDomain
 plt_System_AppDomain_get_CurrentDomain:
 _p_100:
@@ -17058,7 +17058,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 3024
+.word 3025
 	.no_dead_strip plt_System_AppDomain_add_UnhandledException_System_UnhandledExceptionEventHandler
 plt_System_AppDomain_add_UnhandledException_System_UnhandledExceptionEventHandler:
 _p_101:
@@ -17066,7 +17066,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 3029
+.word 3030
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_SetLevel_System_Diagnostics_SourceLevels
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_SetLevel_System_Diagnostics_SourceLevels:
 _p_102:
@@ -17074,7 +17074,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 3034
+.word 3035
 	.no_dead_strip plt_System_AppDomain_add_DomainUnload_System_EventHandler
 plt_System_AppDomain_add_DomainUnload_System_EventHandler:
 _p_103:
@@ -17082,7 +17082,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 3036
+.word 3037
 	.no_dead_strip plt_System_AppDomain_add_ProcessExit_System_EventHandler
 plt_System_AppDomain_add_ProcessExit_System_EventHandler:
 _p_104:
@@ -17090,7 +17090,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 3041
+.word 3042
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_ShutdownTracing
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_ShutdownTracing:
 _p_105:
@@ -17098,7 +17098,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 3046
+.word 3047
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_CreateDefaultSourceString_object
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_CreateDefaultSourceString_object:
 _p_106:
@@ -17106,7 +17106,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 3048
+.word 3049
 	.no_dead_strip plt_System_Exception_get_StackTrace
 plt_System_Exception_get_StackTrace:
 _p_107:
@@ -17114,7 +17114,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 3050
+.word 3051
 	.no_dead_strip plt_System_Diagnostics_StackTrace__ctor_bool
 plt_System_Diagnostics_StackTrace__ctor_bool:
 _p_108:
@@ -17122,7 +17122,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 3055
+.word 3056
 	.no_dead_strip plt_System_Diagnostics_StackTrace_GetFrames
 plt_System_Diagnostics_StackTrace_GetFrames:
 _p_109:
@@ -17130,7 +17130,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 3060
+.word 3061
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_110:
@@ -17138,7 +17138,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 3065
+.word 3066
 	.no_dead_strip plt_string_StartsWith_string_System_StringComparison
 plt_string_StartsWith_string_System_StringComparison:
 _p_111:
@@ -17146,7 +17146,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 3070
+.word 3071
 	.no_dead_strip plt_System_Diagnostics_StackTrace__ctor_int_bool
 plt_System_Diagnostics_StackTrace__ctor_int_bool:
 _p_112:
@@ -17154,7 +17154,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 3075
+.word 3076
 	.no_dead_strip plt_System_TimeSpan_FromMinutes_double
 plt_System_TimeSpan_FromMinutes_double:
 _p_113:
@@ -17162,7 +17162,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 3080
+.word 3081
 	.no_dead_strip plt__jit_icall_mono_monitor_enter_v4_internal
 plt__jit_icall_mono_monitor_enter_v4_internal:
 _p_114:
@@ -17170,7 +17170,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 3085
+.word 3086
 	.no_dead_strip plt_System_DateTime_get_UtcNow
 plt_System_DateTime_get_UtcNow:
 _p_115:
@@ -17178,7 +17178,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 3088
+.word 3089
 	.no_dead_strip plt_System_DateTime_Subtract_System_DateTime
 plt_System_DateTime_Subtract_System_DateTime:
 _p_116:
@@ -17186,7 +17186,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 3093
+.word 3094
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_UnsafeCreateEventLogger_string_System_Runtime_Diagnostics_DiagnosticTraceBase
 plt_System_Runtime_Diagnostics_EventLogger_UnsafeCreateEventLogger_string_System_Runtime_Diagnostics_DiagnosticTraceBase:
 _p_117:
@@ -17194,7 +17194,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 3098
+.word 3099
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_UnsafeLogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__
 plt_System_Runtime_Diagnostics_EventLogger_UnsafeLogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__:
 _p_118:
@@ -17202,7 +17202,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 3101
+.word 3102
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_119:
@@ -17210,7 +17210,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 3104
+.word 3105
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_120:
@@ -17218,7 +17218,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 3106
+.word 3107
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_LogTraceFailure_string_System_Exception
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_LogTraceFailure_string_System_Exception:
 _p_121:
@@ -17226,7 +17226,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 3109
+.word 3110
 	.no_dead_strip plt_System_AppDomain_get_FriendlyName
 plt_System_AppDomain_get_FriendlyName:
 _p_122:
@@ -17234,7 +17234,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 3111
+.word 3112
 	.no_dead_strip plt_System_Diagnostics_TraceSource__ctor_string
 plt_System_Diagnostics_TraceSource__ctor_string:
 _p_123:
@@ -17242,7 +17242,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 3116
+.word 3117
 	.no_dead_strip plt_System_Xml_XmlWriter_WriteElementString_string_string
 plt_System_Xml_XmlWriter_WriteElementString_string_string:
 _p_124:
@@ -17250,7 +17250,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 3121
+.word 3122
 	.no_dead_strip plt_System_Guid__ctor_string
 plt_System_Guid__ctor_string:
 _p_125:
@@ -17258,7 +17258,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 3126
+.word 3127
 	.no_dead_strip plt_System_Collections_Hashtable__ctor
 plt_System_Collections_Hashtable__ctor:
 _p_126:
@@ -17266,7 +17266,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 3131
+.word 3132
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase__ctor_string
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase__ctor_string:
 _p_127:
@@ -17274,7 +17274,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 3136
+.word 3137
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_128:
@@ -17282,7 +17282,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 3138
+.word 3139
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateTraceSource
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateTraceSource:
 _p_129:
@@ -17290,7 +17290,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 3143
+.word 3144
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger__ctor_string_System_Runtime_Diagnostics_DiagnosticTraceBase
 plt_System_Runtime_Diagnostics_EventLogger__ctor_string_System_Runtime_Diagnostics_DiagnosticTraceBase:
 _p_130:
@@ -17298,7 +17298,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 3146
+.word 3147
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_LogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__
 plt_System_Runtime_Diagnostics_EventLogger_LogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__:
 _p_131:
@@ -17306,7 +17306,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 3149
+.word 3150
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateEtwProvider_System_Guid
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateEtwProvider_System_Guid:
 _p_132:
@@ -17314,7 +17314,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 3152
+.word 3153
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_EtwTracingEnabled
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_EtwTracingEnabled:
 _p_133:
@@ -17322,7 +17322,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 3155
+.word 3156
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_AddDomainEventHandlersForCleanup
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_AddDomainEventHandlersForCleanup:
 _p_134:
@@ -17330,7 +17330,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 3158
+.word 3159
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_ShouldTrace_System_Runtime_TraceEventLevel
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_ShouldTrace_System_Runtime_TraceEventLevel:
 _p_135:
@@ -17338,7 +17338,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 3160
+.word 3161
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShouldTraceToEtw_System_Runtime_TraceEventLevel
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShouldTraceToEtw_System_Runtime_TraceEventLevel:
 _p_136:
@@ -17346,7 +17346,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 3162
+.word 3163
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateLegacyTraceCode_System_Runtime_Diagnostics_EventDescriptor__string__int_
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateLegacyTraceCode_System_Runtime_Diagnostics_EventDescriptor__string__int_:
 _p_137:
@@ -17354,7 +17354,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 3165
+.word 3166
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_BuildTrace_System_Runtime_Diagnostics_EventDescriptor__string_System_Runtime_TracePayload_string
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_BuildTrace_System_Runtime_Diagnostics_EventDescriptor__string_System_Runtime_TracePayload_string:
 _p_138:
@@ -17362,7 +17362,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 3168
+.word 3169
 	.no_dead_strip plt_System_Xml_XmlDocument__ctor
 plt_System_Xml_XmlDocument__ctor:
 _p_139:
@@ -17370,7 +17370,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 3171
+.word 3172
 	.no_dead_strip plt_System_Xml_XmlDocument_LoadXml_string
 plt_System_Xml_XmlDocument_LoadXml_string:
 _p_140:
@@ -17378,7 +17378,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 3176
+.word 3177
 	.no_dead_strip plt_System_Diagnostics_TraceSource_Flush
 plt_System_Diagnostics_TraceSource_Flush:
 _p_141:
@@ -17386,7 +17386,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 3181
+.word 3182
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool_Take
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool_Take:
 _p_142:
@@ -17394,7 +17394,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 3186
+.word 3187
 	.no_dead_strip plt_System_IO_StringWriter__ctor_System_Text_StringBuilder_System_IFormatProvider
 plt_System_IO_StringWriter__ctor_System_Text_StringBuilder_System_IFormatProvider:
 _p_143:
@@ -17402,7 +17402,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 3189
+.word 3190
 	.no_dead_strip plt_System_Xml_XmlTextWriter__ctor_System_IO_TextWriter
 plt_System_Xml_XmlTextWriter__ctor_System_IO_TextWriter:
 _p_144:
@@ -17410,7 +17410,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 3194
+.word 3195
 	.no_dead_strip plt_System_Xml_XmlWriter_WriteStartElement_string
 plt_System_Xml_XmlWriter_WriteStartElement_string:
 _p_145:
@@ -17418,7 +17418,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 3199
+.word 3200
 	.no_dead_strip plt_System_Xml_XmlWriter_WriteAttributeString_string_string
 plt_System_Xml_XmlWriter_WriteAttributeString_string_string:
 _p_146:
@@ -17426,7 +17426,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 3204
+.word 3205
 	.no_dead_strip plt_System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_System_Runtime_TraceEventOpcode
 plt_System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_System_Runtime_TraceEventOpcode:
 _p_147:
@@ -17434,7 +17434,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 3209
+.word 3210
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_LookupChannel_System_Runtime_TraceChannel
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_LookupChannel_System_Runtime_TraceChannel:
 _p_148:
@@ -17442,7 +17442,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 3211
+.word 3212
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool_Return_System_Text_StringBuilder
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool_Return_System_Text_StringBuilder:
 _p_149:
@@ -17450,7 +17450,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 3214
+.word 3215
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateMsdnTraceCode_string_string
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateMsdnTraceCode_string_string:
 _p_150:
@@ -17458,7 +17458,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 3217
+.word 3218
 	.no_dead_strip plt_int_ToString_System_IFormatProvider
 plt_int_ToString_System_IFormatProvider:
 _p_151:
@@ -17466,7 +17466,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 3220
+.word 3221
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception_bool
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception_bool:
 _p_152:
@@ -17474,7 +17474,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 3225
+.word 3226
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_CreateSourceString_object
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_CreateSourceString_object:
 _p_153:
@@ -17482,7 +17482,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 3228
+.word 3229
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ExceptionToTraceString_System_Exception_int
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ExceptionToTraceString_System_Exception_int:
 _p_154:
@@ -17490,7 +17490,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 3230
+.word 3231
 	.no_dead_strip plt_System_Runtime_TracePayload__ctor_string_string_string_string_string
 plt_System_Runtime_TracePayload__ctor_string_string_string_string_string:
 _p_155:
@@ -17498,7 +17498,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 3233
+.word 3234
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_IsEventEnabled_System_Runtime_Diagnostics_EventDescriptor_
 plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_IsEventEnabled_System_Runtime_Diagnostics_EventDescriptor_:
 _p_156:
@@ -17506,7 +17506,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 3235
+.word 3236
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceSource__ctor_string
 plt_System_Runtime_Diagnostics_DiagnosticTraceSource__ctor_string:
 _p_157:
@@ -17514,7 +17514,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 3237
+.word 3238
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_SetTraceSource_System_Diagnostics_TraceSource
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_SetTraceSource_System_Diagnostics_TraceSource:
 _p_158:
@@ -17522,7 +17522,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 3240
+.word 3241
 	.no_dead_strip plt_System_Guid_op_Inequality_System_Guid_System_Guid
 plt_System_Guid_op_Inequality_System_Guid_System_Guid:
 _p_159:
@@ -17530,7 +17530,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 3242
+.word 3243
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_160:
@@ -17538,7 +17538,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 3247
+.word 3248
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwProvider__ctor_System_Guid
 plt_System_Runtime_Diagnostics_EtwProvider__ctor_System_Guid:
 _p_161:
@@ -17546,7 +17546,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 3250
+.word 3251
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShutdownTraceSource
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShutdownTraceSource:
 _p_162:
@@ -17554,7 +17554,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 3253
+.word 3254
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShutdownEtwProvider
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShutdownEtwProvider:
 _p_163:
@@ -17562,7 +17562,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 3256
+.word 3257
 	.no_dead_strip plt_System_Runtime_TraceCore_AppDomainUnloadIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_TraceCore_AppDomainUnloadIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_164:
@@ -17570,7 +17570,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 3259
+.word 3260
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_ProcessName
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_ProcessName:
 _p_165:
@@ -17578,7 +17578,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 3261
+.word 3262
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_ProcessId
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_ProcessId:
 _p_166:
@@ -17586,7 +17586,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 3263
+.word 3264
 	.no_dead_strip plt_System_Runtime_TraceCore_AppDomainUnload_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_string_string
 plt_System_Runtime_TraceCore_AppDomainUnload_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_string_string:
 _p_167:
@@ -17594,7 +17594,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 3265
+.word 3266
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_Dispose
 plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_Dispose:
 _p_168:
@@ -17602,7 +17602,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 3267
+.word 3268
 	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogCriticalIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_TraceCore_TraceCodeEventLogCriticalIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_169:
@@ -17610,7 +17610,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 3269
+.word 3270
 	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogVerboseIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_TraceCore_TraceCodeEventLogVerboseIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_170:
@@ -17618,7 +17618,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 3271
+.word 3272
 	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogInfoIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_TraceCore_TraceCodeEventLogInfoIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_171:
@@ -17626,7 +17626,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 3273
+.word 3274
 	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogWarningIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_TraceCore_TraceCodeEventLogWarningIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_172:
@@ -17634,7 +17634,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 3275
+.word 3276
 	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogErrorIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_TraceCore_TraceCodeEventLogErrorIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_173:
@@ -17642,7 +17642,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 3277
+.word 3278
 	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogCritical_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
 plt_System_Runtime_TraceCore_TraceCodeEventLogCritical_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
 _p_174:
@@ -17650,7 +17650,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 3279
+.word 3280
 	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogVerbose_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
 plt_System_Runtime_TraceCore_TraceCodeEventLogVerbose_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
 _p_175:
@@ -17658,7 +17658,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 3281
+.word 3282
 	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogInfo_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
 plt_System_Runtime_TraceCore_TraceCodeEventLogInfo_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
 _p_176:
@@ -17666,7 +17666,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 3283
+.word 3284
 	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogWarning_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
 plt_System_Runtime_TraceCore_TraceCodeEventLogWarning_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
 _p_177:
@@ -17674,7 +17674,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 3285
+.word 3286
 	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogError_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
 plt_System_Runtime_TraceCore_TraceCodeEventLogError_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
 _p_178:
@@ -17682,7 +17682,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 3287
+.word 3288
 	.no_dead_strip plt_System_Runtime_TraceCore_UnhandledExceptionIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
 plt_System_Runtime_TraceCore_UnhandledExceptionIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace:
 _p_179:
@@ -17690,7 +17690,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 3289
+.word 3290
 	.no_dead_strip plt_System_Runtime_TraceCore_UnhandledException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
 plt_System_Runtime_TraceCore_UnhandledException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
 _p_180:
@@ -17698,7 +17698,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 3291
+.word 3292
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteExceptionToTraceString_System_Xml_XmlTextWriter_System_Exception_int_int
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteExceptionToTraceString_System_Xml_XmlTextWriter_System_Exception_int_int:
 _p_181:
@@ -17706,7 +17706,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 3293
+.word 3294
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteStartElement_System_Xml_XmlTextWriter_string_int_
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteStartElement_System_Xml_XmlTextWriter_string_int_:
 _p_182:
@@ -17714,7 +17714,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 3296
+.word 3297
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_XmlEncode_string
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_XmlEncode_string:
 _p_183:
@@ -17722,7 +17722,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 3299
+.word 3300
 	.no_dead_strip plt_System_Tuple_2_string_string__ctor_string_string
 plt_System_Tuple_2_string_string__ctor_string_string:
 _p_184:
@@ -17730,7 +17730,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 3301
+.word 3302
 	.no_dead_strip plt_System_Collections_Generic_List_1_System_Tuple_2_string_string_AddWithResize_System_Tuple_2_string_string
 plt_System_Collections_Generic_List_1_System_Tuple_2_string_string_AddWithResize_System_Tuple_2_string_string:
 _p_185:
@@ -17738,7 +17738,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 3312
+.word 3313
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_StackTraceString_System_Exception
 plt_System_Runtime_Diagnostics_DiagnosticTraceBase_StackTraceString_System_Exception:
 _p_186:
@@ -17746,7 +17746,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 3329
+.word 3330
 	.no_dead_strip plt_int_ToString_string_System_IFormatProvider
 plt_int_ToString_string_System_IFormatProvider:
 _p_187:
@@ -17754,7 +17754,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 3331
+.word 3332
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteXmlElementString_System_Xml_XmlTextWriter_string_string_int_
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteXmlElementString_System_Xml_XmlTextWriter_string_string_int_:
 _p_188:
@@ -17762,7 +17762,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 3336
+.word 3337
 	.no_dead_strip plt_System_Exception_get_Data
 plt_System_Exception_get_Data:
 _p_189:
@@ -17770,7 +17770,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 3339
+.word 3340
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetExceptionData_System_Exception
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetExceptionData_System_Exception:
 _p_190:
@@ -17778,7 +17778,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 3344
+.word 3345
 	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetInnerException_System_Exception_int_int
 plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetInnerException_System_Exception_int_int:
 _p_191:
@@ -17786,7 +17786,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 3347
+.word 3348
 	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_TryDequeue_System_Text_StringBuilder_
 plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_TryDequeue_System_Text_StringBuilder_:
 _p_192:
@@ -17794,7 +17794,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 3350
+.word 3351
 	.no_dead_strip plt_System_Text_StringBuilder__ctor
 plt_System_Text_StringBuilder__ctor:
 _p_193:
@@ -17802,7 +17802,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 3361
+.word 3362
 	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_get_Count
 plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_get_Count:
 _p_194:
@@ -17810,7 +17810,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 3366
+.word 3367
 	.no_dead_strip plt_System_Text_StringBuilder_Clear
 plt_System_Text_StringBuilder_Clear:
 _p_195:
@@ -17818,7 +17818,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 3377
+.word 3378
 	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_Enqueue_System_Text_StringBuilder
 plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_Enqueue_System_Text_StringBuilder:
 _p_196:
@@ -17826,7 +17826,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 3382
+.word 3383
 	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder__ctor
 plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder__ctor:
 _p_197:
@@ -17834,7 +17834,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 3393
+.word 3394
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticsEventProvider__ctor_System_Guid
 plt_System_Runtime_Diagnostics_DiagnosticsEventProvider__ctor_System_Guid:
 _p_198:
@@ -17842,7 +17842,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 3404
+.word 3405
 	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_int_intptr
 plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_int_intptr:
 _p_199:
@@ -17850,7 +17850,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 3406
+.word 3407
 	.no_dead_strip plt_System_Runtime_Fx_get_Exception
 plt_System_Runtime_Fx_get_Exception:
 _p_200:
@@ -17858,7 +17858,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 3408
+.word 3409
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_201:
@@ -17866,7 +17866,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 3410
+.word 3411
 	.no_dead_strip plt_System_Runtime_ExceptionTrace_ArgumentOutOfRange_string_object_string
 plt_System_Runtime_ExceptionTrace_ArgumentOutOfRange_string_object_string:
 _p_202:
@@ -17874,7 +17874,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 3413
+.word 3414
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventDescriptor_Equals_System_Runtime_Diagnostics_EventDescriptor
 plt_System_Runtime_Diagnostics_EventDescriptor_Equals_System_Runtime_Diagnostics_EventDescriptor:
 _p_203:
@@ -17882,7 +17882,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 3415
+.word 3416
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_IsInPartialTrust
 plt_System_Runtime_Diagnostics_EventLogger_IsInPartialTrust:
 _p_204:
@@ -17890,7 +17890,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 3418
+.word 3419
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger__ctor
 plt_System_Runtime_Diagnostics_EventLogger__ctor:
 _p_205:
@@ -17898,7 +17898,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 3421
+.word 3422
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_NormalizeEventLogParameter_string
 plt_System_Runtime_Diagnostics_EventLogger_NormalizeEventLogParameter_string:
 _p_206:
@@ -17906,7 +17906,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 3424
+.word 3425
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_UnsafeGetProcessName
 plt_System_Runtime_Diagnostics_EventLogger_UnsafeGetProcessName:
 _p_207:
@@ -17914,7 +17914,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 3427
+.word 3428
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_UnsafeGetProcessId
 plt_System_Runtime_Diagnostics_EventLogger_UnsafeGetProcessId:
 _p_208:
@@ -17922,7 +17922,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 3430
+.word 3431
 	.no_dead_strip plt_string_Substring_int_int
 plt_string_Substring_int_int:
 _p_209:
@@ -17930,7 +17930,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 3433
+.word 3434
 	.no_dead_strip plt_System_Security_Principal_WindowsIdentity_GetCurrent
 plt_System_Security_Principal_WindowsIdentity_GetCurrent:
 _p_210:
@@ -17938,7 +17938,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 3438
+.word 3439
 	.no_dead_strip plt_System_Security_Principal_SecurityIdentifier_GetBinaryForm_byte___int
 plt_System_Security_Principal_SecurityIdentifier_GetBinaryForm_byte___int:
 _p_211:
@@ -17946,7 +17946,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 3443
+.word 3444
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_Alloc_object_System_Runtime_InteropServices_GCHandleType
 plt_System_Runtime_InteropServices_GCHandle_Alloc_object_System_Runtime_InteropServices_GCHandleType:
 _p_212:
@@ -17954,7 +17954,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 3448
+.word 3449
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_AddrOfPinnedObject
 plt_System_Runtime_InteropServices_GCHandle_AddrOfPinnedObject:
 _p_213:
@@ -17962,7 +17962,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 3453
+.word 3454
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_UnsafeWriteEventLog_System_Diagnostics_TraceEventType_uint16_uint_string___byte___System_Runtime_InteropServices_GCHandle
 plt_System_Runtime_Diagnostics_EventLogger_UnsafeWriteEventLog_System_Diagnostics_TraceEventType_uint16_uint_string___byte___System_Runtime_InteropServices_GCHandle:
 _p_214:
@@ -17970,7 +17970,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 3458
+.word 3459
 	.no_dead_strip plt_intptr_op_Inequality_intptr_intptr
 plt_intptr_op_Inequality_intptr_intptr:
 _p_215:
@@ -17978,7 +17978,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 3461
+.word 3462
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_Free
 plt_System_Runtime_InteropServices_GCHandle_Free:
 _p_216:
@@ -17986,7 +17986,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 3466
+.word 3467
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string__ctor_int
 plt_System_Collections_Generic_Dictionary_2_string_string__ctor_int:
 _p_217:
@@ -17994,7 +17994,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 3471
+.word 3472
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string_set_Item_string_string
 plt_System_Collections_Generic_Dictionary_2_string_string_set_Item_string_string:
 _p_218:
@@ -18002,7 +18002,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 3482
+.word 3483
 	.no_dead_strip plt_uint16_ToString_System_IFormatProvider
 plt_uint16_ToString_System_IFormatProvider:
 _p_219:
@@ -18010,7 +18010,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 3493
+.word 3494
 	.no_dead_strip plt_uint_ToString_System_IFormatProvider
 plt_uint_ToString_System_IFormatProvider:
 _p_220:
@@ -18018,7 +18018,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 3498
+.word 3499
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_221:
@@ -18026,7 +18026,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 3503
+.word 3504
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string_Add_string_string
 plt_System_Collections_Generic_Dictionary_2_string_string_Add_string_string:
 _p_222:
@@ -18034,7 +18034,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 3508
+.word 3509
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_SafeLogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__
 plt_System_Runtime_Diagnostics_EventLogger_SafeLogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__:
 _p_223:
@@ -18042,7 +18042,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 3519
+.word 3520
 	.no_dead_strip plt_System_Runtime_ExceptionTrace_TraceHandledException_System_Exception_System_Diagnostics_TraceEventType
 plt_System_Runtime_ExceptionTrace_TraceHandledException_System_Exception_System_Diagnostics_TraceEventType:
 _p_224:
@@ -18050,7 +18050,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 3522
+.word 3523
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_EventLogEntryTypeFromEventType_System_Diagnostics_TraceEventType
 plt_System_Runtime_Diagnostics_EventLogger_EventLogEntryTypeFromEventType_System_Diagnostics_TraceEventType:
 _p_225:
@@ -18058,7 +18058,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 3524
+.word 3525
 	.no_dead_strip plt_string_IndexOf_char
 plt_string_IndexOf_char:
 _p_226:
@@ -18066,7 +18066,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 3527
+.word 3528
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_227:
@@ -18074,7 +18074,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 3544
+.word 3545
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_228:
@@ -18082,7 +18082,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 3571
+.word 3572
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_229:
@@ -18090,7 +18090,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 3588
+.word 3589
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_230:
@@ -18098,7 +18098,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 3619
+.word 3620
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_231:
@@ -18106,7 +18106,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 3639
+.word 3640
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_232:
@@ -18114,7 +18114,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 3686
+.word 3687
 	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
 plt_wrapper_alloc_object_Alloc_intptr:
 _p_233:
@@ -18122,7 +18122,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 3694
+.word 3695
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_234:
@@ -18130,7 +18130,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 3702
+.word 3703
 	.no_dead_strip plt_System_Runtime_ExceptionTrace_BreakOnException_System_Exception
 plt_System_Runtime_ExceptionTrace_BreakOnException_System_Exception:
 _p_235:
@@ -18138,7 +18138,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 3710
+.word 3711
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_236:
@@ -18146,7 +18146,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 3712
+.word 3713
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_237:
@@ -18154,7 +18154,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 3715
+.word 3716
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_238:
@@ -18162,7 +18162,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 3735
+.word 3736
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_239:
@@ -18170,7 +18170,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 3755
+.word 3756
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_240:
@@ -18178,7 +18178,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 3758
+.word 3759
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_241:
@@ -18186,7 +18186,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 3766
+.word 3767
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_242:
@@ -18194,7 +18194,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 3785
+.word 3786
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_243:
@@ -18202,7 +18202,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 3815
+.word 3816
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_244:
@@ -18210,7 +18210,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 3823
+.word 3824
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_245:
@@ -18218,7 +18218,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 3838
+.word 3839
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_246:
@@ -18226,7 +18226,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 3846
+.word 3847
 	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
 plt__jit_icall_mono_delegate_begin_invoke:
 _p_247:
@@ -18234,7 +18234,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 3865
+.word 3866
 	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
 plt__jit_icall_mono_delegate_end_invoke:
 _p_248:
@@ -18242,7 +18242,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 3868
+.word 3869
 	.no_dead_strip plt__jit_icall_monoeg_g_free
 plt__jit_icall_monoeg_g_free:
 _p_249:
@@ -18250,7 +18250,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 3871
+.word 3872
 	.no_dead_strip plt__jit_icall_mono_string_to_utf8str
 plt__jit_icall_mono_string_to_utf8str:
 _p_250:
@@ -18258,7 +18258,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 3873
+.word 3874
 	.no_dead_strip plt__jit_icall_ves_icall_string_new_wrapper
 plt__jit_icall_ves_icall_string_new_wrapper:
 _p_251:
@@ -18266,7 +18266,7 @@ adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 3876
+.word 3877
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -18301,7 +18301,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "39BD1B23-25DE-43B9-9FF6-F7452A825C10"
+	.asciz "79B49984-E3A8-4B8F-A8EE-0C54D07A5880"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -18389,13 +18389,13 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 219,3768,252,232,13,98,387000831,0
-	.long 7370,128,8,8,8,9,8388607,0
-	.long 4,25,9960,0,0,2584,2192,1096
+	.long 7371,128,8,8,8,9,8388607,0
+	.long 4,25,9968,0,0,2584,2192,1096
 	.long 0,1752,2112,1448,0,896,360,2576
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 217,104,16,13,235,203,156,59,15,53,117,208,251,97,254,96
+	.byte 64,121,80,63,71,48,168,19,103,172,114,25,83,153,37,121
 	.globl _mono_aot_module_System_ServiceModel_Internals_info
 	.align 3
 _mono_aot_module_System_ServiceModel_Internals_info:

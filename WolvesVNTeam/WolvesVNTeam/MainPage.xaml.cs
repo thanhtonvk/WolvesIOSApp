@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading;
 using Newtonsoft.Json;
+using Plugin.FirebasePushNotification;
 using WolvesVNTeam.ApiService;
 using WolvesVNTeam.GUI;
 using WolvesVNTeam.GUI.MainUITabbed.NewUITabbed;
@@ -20,6 +21,11 @@ namespace WolvesVNTeam
         {
             
             InitializeComponent();
+
+            if (Device.RuntimePlatform == Device.iOS)
+            {
+                CrossFirebasePushNotification.Current.OnNotificationReceived += Current_OnNotificationReceived;
+            }
             Img_Logo.Source = ImageSource.FromResource("WolvesVNTeam.Assets.logo.png");
             accountService = new AccountService();
             var email = Preferences.Get("email", "");
@@ -37,10 +43,19 @@ namespace WolvesVNTeam
 
 
         }
-        
+
+        private void Current_OnNotificationReceived(object source, FirebasePushNotificationDataEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("Thong bao");
+
+            string content = e.Data["ThongBao"].ToString();
+            Constants.pushNotifications("Thông báo", content);
+            //DisplayAlert("Notification", $"{e.Data["myData"]}", "OK");
+        }
+
         private async void autoLogin(string email, string password)
         {
-
+            System.Diagnostics.Debug.WriteLine("Auto login");
             var result = await accountService.LoginAsync(email, password);
 
             if (result.IsSuccessStatusCode)
@@ -70,7 +85,7 @@ namespace WolvesVNTeam
 
 
 
-                        await Navigation.PushModalAsync(new LoginUI());
+                        await Navigation.PushModalAsync(new MainUI());
                     }
                 }
                 else

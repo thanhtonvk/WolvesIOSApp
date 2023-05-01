@@ -22,7 +22,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 6.12.0 (2020-02/dffa5ab9224 Mon May 16 11:03:48 EDT 2022)"
+	.asciz "Mono AOT Compiler 6.12.0 (2020-02/6dd9def57ce Wed Nov  2 11:34:46 EDT 2022)"
 	.asciz "Octane.Xamarin.Forms.VideoPlayer.iOS.dll"
 	.asciz ""
 
@@ -377,10 +377,10 @@ bl _p_15
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_16
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_16
 
@@ -862,7 +862,7 @@ Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_Play:
 .word 0xaa0003fa
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9435430
+.word 0xf9435830
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000120
@@ -966,7 +966,7 @@ Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_Pause:
 .word 0xaa0003fa
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9434c30
+.word 0xf9435030
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x340001c0
@@ -1075,7 +1075,7 @@ Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_Stop:
 .word 0xaa0003fa
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9434430
+.word 0xf9434830
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x340001c0
@@ -1190,7 +1190,7 @@ Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_Seek_int:
 .word 0xaa1903e0
 .word 0xb98023a1
 .word 0xf9400322
-.word 0xf9433c50
+.word 0xf9434050
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000a60
@@ -2000,7 +2000,7 @@ bl _p_68
 .word 0x340002c0
 .word 0xaa1603e0
 .word 0xf94002c1
-.word 0xf9435830
+.word 0xf9435c30
 .word 0xd63f0200
 .word 0x14000011
 .word 0xb4000214
@@ -2526,10 +2526,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_16
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_16
 
@@ -2539,7 +2539,7 @@ Lme_22:
 	.no_dead_strip Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateFillMode
 Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateFillMode:
 .loc 1 1 0
-.word 0xa9be7bfd
+.word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xa9016bb9
 .word 0xaa0003fa
@@ -2574,7 +2574,7 @@ bl _p_87
 bl _p_87
 .word 0xa9416bb9
 .word 0x910003bf
-.word 0xa8c27bfd
+.word 0xa8c47bfd
 .word 0xd65f03c0
 
 Lme_23:
@@ -2599,7 +2599,7 @@ bl _p_88
 .word 0x9a9f17e1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941a850
+.word 0xf941ac50
 .word 0xd63f0200
 .word 0xf9400bba
 .word 0x910003bf
@@ -5089,10 +5089,10 @@ bl _p_166
 .word 0x910003bf
 .word 0xa8d77bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_16
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_16
 
@@ -5234,7 +5234,7 @@ bl _p_170
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc7
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
@@ -5571,7 +5571,7 @@ bl _p_174
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
 
@@ -5651,11 +5651,11 @@ bl _p_174
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 3 70 0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_125
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
 
@@ -5974,7 +5974,7 @@ bl _p_176
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
 
@@ -6050,11 +6050,11 @@ bl _p_176
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 3 70 0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_125
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
 
@@ -6136,7 +6136,7 @@ bl _p_170
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc7
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
@@ -6218,7 +6218,7 @@ bl _p_170
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc7
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
@@ -6296,7 +6296,7 @@ bl _p_170
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
@@ -6379,7 +6379,7 @@ bl _p_170
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc5
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
@@ -6466,7 +6466,7 @@ bl _p_170
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc2
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
@@ -6546,7 +6546,7 @@ bl _p_170
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc8
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
@@ -6620,7 +6620,7 @@ bl _p_170
 .word 0xaa0003f9
 .word 0xb5ffff20
 .word 0x17ffffcc
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
@@ -6700,7 +6700,7 @@ bl _p_170
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc8
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
@@ -6778,7 +6778,7 @@ bl _p_170
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
@@ -6860,7 +6860,7 @@ bl _p_170
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc7
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
@@ -6940,7 +6940,7 @@ bl _p_170
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc8
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
@@ -7018,7 +7018,7 @@ bl _p_170
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
@@ -7102,13 +7102,645 @@ bl _p_170
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc5
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
 Lme_70:
 .text
-ut_113:
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task___invoke_void_T_System_Threading_Tasks_Task__
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task___invoke_void_T_System_Threading_Tasks_Task__:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x350006a0
+.word 0x14000001
+.word 0xf9403f38
+.word 0xaa1803e0
+.word 0xb50001e0
+.word 0xf9401338
+.word 0xaa1803e0
+.word 0xb40000e0
+.word 0xf9401f20
+.word 0xf9400b22
+.word 0xaa1803e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400001d
+.word 0xf9401f20
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000018
+.word 0xb9801b00
+.word 0xaa0003f9
+.word 0xd2800017
+.word 0x93407ee0
+.word 0xb9801b01
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540003e9
+.word 0xd37df000
+.word 0x8b000300
+.word 0x91008000
+.word 0xf9400016
+.word 0xaa1603e2
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90023a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94023a0
+.word 0x110006f7
+.word 0xaa1703e0
+.word 0x6b19001f
+.word 0x54fffdab
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0x91022300
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1803e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f8
+.word 0xb5ffff20
+.word 0x17ffffca
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_71:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_string_invoke_TResult_T_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_string_invoke_TResult_T_System_Threading_Tasks_Task:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x350006e0
+.word 0x14000001
+.word 0xf9403f38
+.word 0xaa1803e0
+.word 0xb50001e0
+.word 0xf9401338
+.word 0xaa1803e0
+.word 0xb40000e0
+.word 0xf9401f20
+.word 0xf9400b22
+.word 0xaa1803e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400001f
+.word 0xf9401f20
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400001a
+.word 0xb9801b00
+.word 0xaa0003f9
+.word 0xd2800017
+.word 0x93407ee0
+.word 0xb9801b01
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000429
+.word 0xd37df000
+.word 0x8b000300
+.word 0x91008000
+.word 0xf9400016
+.word 0xaa1603e2
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90023a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94023a1
+.word 0xaa0003f6
+.word 0x110006f7
+.word 0xaa1703e0
+.word 0x6b19001f
+.word 0x54fffd8b
+.word 0xaa1603e0
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0x91022300
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1803e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f8
+.word 0xb5ffff20
+.word 0x17ffffc8
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_72:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult:
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xa90163b7
+.word 0xa9026bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x35000660
+.word 0x14000001
+.word 0xf9403f59
+.word 0xaa1903e0
+.word 0xb50001a0
+.word 0xf9401359
+.word 0xaa1903e0
+.word 0xb40000c0
+.word 0xf9401f40
+.word 0xf9400b41
+.word 0xaa1903e0
+.word 0xd63f0020
+.word 0x1400001d
+.word 0xf9401f40
+.word 0xf9400b40
+.word 0xd63f0000
+.word 0x14000019
+.word 0xb9801b20
+.word 0xaa0003fa
+.word 0xd2800018
+.word 0x93407f00
+.word 0xb9801b21
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540003e9
+.word 0xd37df000
+.word 0x8b000320
+.word 0x91008000
+.word 0xf9400017
+.word 0xaa1703e1
+.word 0xaa0103e0
+.word 0xf9001ba1
+.word 0xf9400c30
+.word 0xd63f0200
+.word 0xf9401ba1
+.word 0xaa0003f7
+.word 0x11000718
+.word 0xaa1803e0
+.word 0x6b1a001f
+.word 0x54fffdab
+.word 0xaa1703e0
+.word 0xa94163b7
+.word 0xa9426bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+.word 0x91022320
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1903e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f9
+.word 0xb5ffff20
+.word 0x17ffffcc
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_73:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x350006e0
+.word 0x14000001
+.word 0xf9403f38
+.word 0xaa1803e0
+.word 0xb50001e0
+.word 0xf9401338
+.word 0xaa1803e0
+.word 0xb40000e0
+.word 0xf9401f20
+.word 0xf9400b22
+.word 0xaa1803e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400001f
+.word 0xf9401f20
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400001a
+.word 0xb9801b00
+.word 0xaa0003f9
+.word 0xd2800017
+.word 0x93407ee0
+.word 0xb9801b01
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000429
+.word 0xd37df000
+.word 0x8b000300
+.word 0x91008000
+.word 0xf9400016
+.word 0xaa1603e2
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90023a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94023a1
+.word 0xaa0003f6
+.word 0x110006f7
+.word 0xaa1703e0
+.word 0x6b19001f
+.word 0x54fffd8b
+.word 0xaa1603e0
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0x91022300
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1803e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f8
+.word 0xb5ffff20
+.word 0x17ffffc8
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_74:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x350006a0
+.word 0x14000001
+.word 0xf9403f38
+.word 0xaa1803e0
+.word 0xb50001e0
+.word 0xf9401338
+.word 0xaa1803e0
+.word 0xb40000e0
+.word 0xf9401f20
+.word 0xf9400b22
+.word 0xaa1803e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400001d
+.word 0xf9401f20
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000018
+.word 0xb9801b00
+.word 0xaa0003f9
+.word 0xd2800017
+.word 0x93407ee0
+.word 0xb9801b01
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540003e9
+.word 0xd37df000
+.word 0x8b000300
+.word 0x91008000
+.word 0xf9400016
+.word 0xaa1603e2
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90023a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94023a0
+.word 0x110006f7
+.word 0xaa1703e0
+.word 0x6b19001f
+.word 0x54fffdab
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0x91022300
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1803e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f8
+.word 0xb5ffff20
+.word 0x17ffffca
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_75:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
+wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xa9036bb9
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x35000700
+.word 0x14000001
+.word 0xf9403f17
+.word 0xaa1703e0
+.word 0xb5000220
+.word 0xf9401317
+.word 0xaa1703e0
+.word 0xb4000100
+.word 0xf9401f00
+.word 0xf9400b03
+.word 0xaa1703e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0x1400001f
+.word 0xf9401f00
+.word 0xf9400b02
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000019
+.word 0xb9801ae0
+.word 0xaa0003f8
+.word 0xd2800016
+.word 0x93407ec0
+.word 0xb9801ae1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000409
+.word 0xd37df000
+.word 0x8b0002e0
+.word 0x91008000
+.word 0xf9400015
+.word 0xaa1503e3
+.word 0xaa0303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf90023a3
+.word 0xf9400c70
+.word 0xd63f0200
+.word 0xf94023a0
+.word 0x110006d6
+.word 0xaa1603e0
+.word 0x6b18001f
+.word 0x54fffd8b
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xa9436bb9
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0x910222e0
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1703e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f7
+.word 0xb5ffff20
+.word 0x17ffffc7
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_76:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x350006e0
+.word 0x14000001
+.word 0xf9403f38
+.word 0xaa1803e0
+.word 0xb50001e0
+.word 0xf9401338
+.word 0xaa1803e0
+.word 0xb40000e0
+.word 0xf9401f20
+.word 0xf9400b22
+.word 0xaa1803e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400001f
+.word 0xf9401f20
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400001a
+.word 0xb9801b00
+.word 0xaa0003f9
+.word 0xd2800017
+.word 0x93407ee0
+.word 0xb9801b01
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000429
+.word 0xd37df000
+.word 0x8b000300
+.word 0x91008000
+.word 0xf9400016
+.word 0xaa1603e2
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90023a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94023a1
+.word 0xaa0003f6
+.word 0x110006f7
+.word 0xaa1703e0
+.word 0x6b19001f
+.word 0x54fffd8b
+.word 0xaa1603e0
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0x91022300
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1803e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f8
+.word 0xb5ffff20
+.word 0x17ffffc8
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_77:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x350006e0
+.word 0x14000001
+.word 0xf9403f38
+.word 0xaa1803e0
+.word 0xb50001e0
+.word 0xf9401338
+.word 0xaa1803e0
+.word 0xb40000e0
+.word 0xf9401f20
+.word 0xf9400b22
+.word 0xaa1803e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400001f
+.word 0xf9401f20
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400001a
+.word 0xb9801b00
+.word 0xaa0003f9
+.word 0xd2800017
+.word 0x93407ee0
+.word 0xb9801b01
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000429
+.word 0xd37df000
+.word 0x8b000300
+.word 0x91008000
+.word 0xf9400016
+.word 0xaa1603e2
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90023a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94023a1
+.word 0xaa0003f6
+.word 0x110006f7
+.word 0xaa1703e0
+.word 0x6b19001f
+.word 0x54fffd8b
+.word 0xaa1603e0
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0x91022300
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1803e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f8
+.word 0xb5ffff20
+.word 0x17ffffc8
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_78:
+.text
+ut_121:
 add x0, x0, 16
 b System_Nullable_1_AVFoundation_AVPlayerStatus__ctor_AVFoundation_AVPlayerStatus
 .text
@@ -7132,9 +7764,9 @@ System_Nullable_1_AVFoundation_AVPlayerStatus__ctor_AVFoundation_AVPlayerStatus:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_71:
+Lme_79:
 .text
-ut_114:
+ut_122:
 add x0, x0, 16
 b System_Nullable_1_AVFoundation_AVPlayerStatus_get_HasValue
 .text
@@ -7151,9 +7783,9 @@ System_Nullable_1_AVFoundation_AVPlayerStatus_get_HasValue:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_72:
+Lme_7a:
 .text
-ut_115:
+ut_123:
 add x0, x0, 16
 b System_Nullable_1_AVFoundation_AVPlayerStatus_get_Value
 .text
@@ -7177,9 +7809,9 @@ System_Nullable_1_AVFoundation_AVPlayerStatus_get_Value:
 bl _p_171
 .word 0x17fffffa
 
-Lme_73:
+Lme_7b:
 .text
-ut_116:
+ut_124:
 add x0, x0, 16
 b System_Nullable_1_AVFoundation_AVPlayerStatus_GetValueOrDefault
 .text
@@ -7196,9 +7828,9 @@ System_Nullable_1_AVFoundation_AVPlayerStatus_GetValueOrDefault:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_74:
+Lme_7c:
 .text
-ut_117:
+ut_125:
 add x0, x0, 16
 b System_Nullable_1_AVFoundation_AVPlayerStatus_GetValueOrDefault_AVFoundation_AVPlayerStatus
 .text
@@ -7221,9 +7853,9 @@ System_Nullable_1_AVFoundation_AVPlayerStatus_GetValueOrDefault_AVFoundation_AVP
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_75:
+Lme_7d:
 .text
-ut_118:
+ut_126:
 add x0, x0, 16
 b System_Nullable_1_AVFoundation_AVPlayerStatus_Equals_object
 .text
@@ -7269,9 +7901,9 @@ bl _p_172
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_76:
+Lme_7e:
 .text
-ut_119:
+ut_127:
 add x0, x0, 16
 b System_Nullable_1_AVFoundation_AVPlayerStatus_GetHashCode
 .text
@@ -7301,9 +7933,9 @@ System_Nullable_1_AVFoundation_AVPlayerStatus_GetHashCode:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_77:
+Lme_7f:
 .text
-ut_120:
+ut_128:
 add x0, x0, 16
 b System_Nullable_1_AVFoundation_AVPlayerStatus_ToString
 .text
@@ -7341,9 +7973,9 @@ bl _p_173
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_78:
+Lme_80:
 .text
-ut_121:
+ut_129:
 add x0, x0, 16
 b System_Nullable_1_AVFoundation_AVPlayerStatus_Box_System_Nullable_1_AVFoundation_AVPlayerStatus
 .text
@@ -7375,9 +8007,9 @@ bl _p_12
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_79:
+Lme_81:
 .text
-ut_122:
+ut_130:
 add x0, x0, 16
 b System_Nullable_1_AVFoundation_AVPlayerStatus_Unbox_object
 .text
@@ -7437,13 +8069,13 @@ bl _p_35
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
 
-Lme_7a:
+Lme_82:
 .text
-ut_123:
+ut_131:
 add x0, x0, 16
 b System_Nullable_1_AVFoundation_AVPlayerStatus_UnboxExact_object
 .text
@@ -7517,17 +8149,17 @@ bl _p_35
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 3 70 0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_125
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
 
-Lme_7b:
+Lme_83:
 .text
-ut_124:
+ut_132:
 add x0, x0, 16
 b System_Nullable_1_intptr__ctor_intptr
 .text
@@ -7551,9 +8183,9 @@ System_Nullable_1_intptr__ctor_intptr:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_7c:
+Lme_84:
 .text
-ut_125:
+ut_133:
 add x0, x0, 16
 b System_Nullable_1_intptr_get_HasValue
 .text
@@ -7570,9 +8202,9 @@ System_Nullable_1_intptr_get_HasValue:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_7d:
+Lme_85:
 .text
-ut_126:
+ut_134:
 add x0, x0, 16
 b System_Nullable_1_intptr_get_Value
 .text
@@ -7596,9 +8228,9 @@ System_Nullable_1_intptr_get_Value:
 bl _p_171
 .word 0x17fffffa
 
-Lme_7e:
+Lme_86:
 .text
-ut_127:
+ut_135:
 add x0, x0, 16
 b System_Nullable_1_intptr_GetValueOrDefault
 .text
@@ -7615,9 +8247,9 @@ System_Nullable_1_intptr_GetValueOrDefault:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_7f:
+Lme_87:
 .text
-ut_128:
+ut_136:
 add x0, x0, 16
 b System_Nullable_1_intptr_GetValueOrDefault_intptr
 .text
@@ -7640,9 +8272,9 @@ System_Nullable_1_intptr_GetValueOrDefault_intptr:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_80:
+Lme_88:
 .text
-ut_129:
+ut_137:
 add x0, x0, 16
 b System_Nullable_1_intptr_Equals_object
 .text
@@ -7676,9 +8308,9 @@ bl _p_177
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_81:
+Lme_89:
 .text
-ut_130:
+ut_138:
 add x0, x0, 16
 b System_Nullable_1_intptr_GetHashCode
 .text
@@ -7704,9 +8336,9 @@ System_Nullable_1_intptr_GetHashCode:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_82:
+Lme_8a:
 .text
-ut_131:
+ut_139:
 add x0, x0, 16
 b System_Nullable_1_intptr_ToString
 .text
@@ -7732,9 +8364,9 @@ bl _p_178
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_83:
+Lme_8b:
 .text
-ut_132:
+ut_140:
 add x0, x0, 16
 b System_Nullable_1_intptr_Box_System_Nullable_1_intptr
 .text
@@ -7766,9 +8398,9 @@ bl _p_12
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_84:
+Lme_8c:
 .text
-ut_133:
+ut_141:
 add x0, x0, 16
 b System_Nullable_1_intptr_Unbox_object
 .text
@@ -7828,13 +8460,13 @@ bl _p_52
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
 
-Lme_85:
+Lme_8d:
 .text
-ut_134:
+ut_142:
 add x0, x0, 16
 b System_Nullable_1_intptr_UnboxExact_object
 .text
@@ -7908,15 +8540,15 @@ bl _p_52
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 3 70 0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_125
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
 
-Lme_86:
+Lme_8e:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_CoreMedia_CMTime_invoke_void_T_CoreMedia_CMTime
@@ -8009,11 +8641,11 @@ bl _p_170
 .word 0xaa0003f9
 .word 0xb5ffff20
 .word 0x17ffffb6
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_8b:
+Lme_93:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
@@ -8083,11 +8715,11 @@ bl _p_170
 .word 0xaa0003f9
 .word 0xb5ffff20
 .word 0x17ffffcc
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_8c:
+Lme_94:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_IO_Stream_invoke_TResult_T_object
@@ -8163,11 +8795,11 @@ bl _p_170
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc8
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_8d:
+Lme_95:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream
@@ -8241,11 +8873,11 @@ bl _p_170
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_8e:
+Lme_96:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_IO_Stream_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_IO_Stream_object
@@ -8323,11 +8955,11 @@ bl _p_170
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc7
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_8f:
+Lme_97:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult
@@ -8403,11 +9035,91 @@ bl _p_170
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc8
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_90:
+Lme_98:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_IO_Stream_invoke_TResult_T_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_IO_Stream_invoke_TResult_T_System_Threading_Tasks_Task:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x350006e0
+.word 0x14000001
+.word 0xf9403f38
+.word 0xaa1803e0
+.word 0xb50001e0
+.word 0xf9401338
+.word 0xaa1803e0
+.word 0xb40000e0
+.word 0xf9401f20
+.word 0xf9400b22
+.word 0xaa1803e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400001f
+.word 0xf9401f20
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400001a
+.word 0xb9801b00
+.word 0xaa0003f9
+.word 0xd2800017
+.word 0x93407ee0
+.word 0xb9801b01
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000429
+.word 0xd37df000
+.word 0x8b000300
+.word 0x91008000
+.word 0xf9400016
+.word 0xaa1603e2
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90023a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94023a1
+.word 0xaa0003f6
+.word 0x110006f7
+.word 0xaa1703e0
+.word 0x6b19001f
+.word 0x54fffd8b
+.word 0xaa1603e0
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0x91022300
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1803e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f8
+.word 0xb5ffff20
+.word 0x17ffffc8
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_99:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
@@ -8481,11 +9193,11 @@ bl _p_170
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_91:
+Lme_9a:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_Select_TSource_BYTE_TResult_REF_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
@@ -8698,7 +9410,7 @@ bl _p_199
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x0, [x16, #1048]
-.word 0xd2803061
+.word 0xd2807641
 bl _p_200
 bl _p_201
 bl _p_125
@@ -8707,14 +9419,14 @@ adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x0, [x16, #1048]
 .loc 4 18 0
-.word 0xd2802761
+.word 0xd2803ae1
 bl _p_200
 bl _p_201
 bl _p_125
 
-Lme_92:
+Lme_9b:
 .text
-ut_148:
+ut_157:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_BYTE__ctor_System_Array
 .text
@@ -8753,9 +9465,9 @@ ldr x2, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_94:
+Lme_9d:
 .text
-ut_149:
+ut_158:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_BYTE_Dispose
 .text
@@ -8771,9 +9483,9 @@ System_Array_InternalEnumerator_1_T_BYTE_Dispose:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_95:
+Lme_9e:
 .text
-ut_150:
+ut_159:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_BYTE_MoveNext
 .text
@@ -8818,9 +9530,9 @@ System_Array_InternalEnumerator_1_T_BYTE_MoveNext:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_96:
+Lme_9f:
 .text
-ut_151:
+ut_160:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_BYTE_get_Current
 .text
@@ -8874,25 +9586,25 @@ bl _p_203
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 5 269 0
-.word 0xd2934d00
+.word 0xd293ca00
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd2801a40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 .loc 5 271 0
-.word 0xd29357c0
+.word 0xd293d4c0
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd2801a40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 
-Lme_97:
+Lme_a0:
 .text
-ut_152:
+ut_161:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_BYTE_System_Collections_IEnumerator_Reset
 .text
@@ -8913,9 +9625,9 @@ System_Array_InternalEnumerator_1_T_BYTE_System_Collections_IEnumerator_Reset:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_98:
+Lme_a1:
 .text
-ut_153:
+ut_162:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_BYTE_System_Collections_IEnumerator_get_Current
 .text
@@ -8949,7 +9661,7 @@ bl _p_12
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_99:
+Lme_a2:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_BYTE
@@ -9019,7 +9731,7 @@ ldr x4, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_9a:
+Lme_a3:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_Iterator_1_TSource_BYTE__ctor
@@ -9041,7 +9753,7 @@ bl _p_212
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_9b:
+Lme_a4:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_Iterator_1_TSource_BYTE_get_Current
@@ -9056,7 +9768,7 @@ System_Linq_Enumerable_Iterator_1_TSource_BYTE_get_Current:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_9c:
+Lme_a5:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_Iterator_1_TSource_BYTE_Dispose
@@ -9080,11 +9792,11 @@ System_Linq_Enumerable_Iterator_1_TSource_BYTE_Dispose:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_16
 
-Lme_9e:
+Lme_a7:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_Iterator_1_TSource_BYTE_GetEnumerator
@@ -9124,7 +9836,7 @@ bl _p_212
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_9f:
+Lme_a8:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_Iterator_1_TSource_BYTE_Where_System_Func_2_TSource_BYTE_bool
@@ -9156,7 +9868,7 @@ bl _p_214
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_a1:
+Lme_aa:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerator_get_Current
@@ -9179,7 +9891,7 @@ bl _p_12
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a2:
+Lme_ab:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerable_GetEnumerator
@@ -9201,7 +9913,7 @@ bl _p_216
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a3:
+Lme_ac:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerator_Reset
@@ -9216,7 +9928,7 @@ bl _p_125
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_a4:
+Lme_ad:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__Insert_T_BYTE_int_T_BYTE
@@ -9228,10 +9940,10 @@ System_Array_InternalArray__Insert_T_BYTE_int_T_BYTE:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd2928b40
+.word 0xd2930840
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2801bc0
+.word 0xd2801c80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
@@ -9239,7 +9951,7 @@ bl _p_125
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_aa:
+Lme_b3:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IndexOf_T_BYTE_T_BYTE
@@ -9349,15 +10061,15 @@ bl _p_12
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 5 165 0
-.word 0xd29292c0
+.word 0xd2930fc0
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2801dc0
+.word 0xd2801e80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 
-Lme_ab:
+Lme_b4:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_T_BYTE_int
@@ -9387,15 +10099,15 @@ System_Array_InternalArray__get_Item_T_BYTE_int:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 .loc 5 193 0
-.word 0xd2843a40
+.word 0xd281e180
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800fa0
+.word 0xd2801000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 
-Lme_ac:
+Lme_b5:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__set_Item_T_BYTE_int_T_BYTE
@@ -9482,15 +10194,15 @@ bl _p_12
 .word 0xa8c67bfd
 .word 0xd65f03c0
 .loc 5 204 0
-.word 0xd2843a40
+.word 0xd281e180
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800fa0
+.word 0xd2801000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 
-Lme_ad:
+Lme_b6:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE__ctor
@@ -9535,7 +10247,7 @@ ldr x2, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_b3:
+Lme_bc:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE__ctor_int
@@ -9619,7 +10331,7 @@ ldr x2, [x16, #16]
 bl _p_225
 .word 0x17ffffc2
 
-Lme_b4:
+Lme_bd:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE__ctor_System_Collections_Generic_IEnumerable_1_T_BYTE
@@ -9791,7 +10503,23 @@ bl _p_229
 bl _p_230
 .word 0x17ffff71
 
-Lme_b5:
+Lme_be:
+.text
+	.align 4
+	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_get_Capacity
+System_Collections_Generic_List_1_T_BYTE_get_Capacity:
+.loc 7 99 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xf9400801
+.word 0xb9801820
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_bf:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_set_Capacity_int
@@ -9897,7 +10625,7 @@ ldr x2, [x16, #16]
 bl _p_225
 .word 0x17ffffb2
 
-Lme_b6:
+Lme_c0:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_get_Count
@@ -9912,7 +10640,7 @@ System_Collections_Generic_List_1_T_BYTE_get_Count:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_b7:
+Lme_c1:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_IsFixedSize
@@ -9926,7 +10654,7 @@ System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_IsFixedSiz
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_b8:
+Lme_c2:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_Generic_ICollection_T_get_IsReadOnly
@@ -9940,7 +10668,7 @@ System_Collections_Generic_List_1_T_BYTE_System_Collections_Generic_ICollection_
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_b9:
+Lme_c3:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_IsReadOnly
@@ -9954,7 +10682,7 @@ System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_IsReadOnly
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_ba:
+Lme_c4:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_get_IsSynchronized
@@ -9968,7 +10696,7 @@ System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_get_IsSy
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_bb:
+Lme_c5:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_get_SyncRoot
@@ -10022,11 +10750,11 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_16
 
-Lme_bc:
+Lme_c6:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_get_Item_int
@@ -10059,11 +10787,11 @@ System_Collections_Generic_List_1_T_BYTE_get_Item_int:
 .loc 7 161 0
 bl _p_232
 .word 0x17fffff1
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_bd:
+Lme_c7:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_set_Item_int_T_BYTE
@@ -10105,11 +10833,11 @@ System_Collections_Generic_List_1_T_BYTE_set_Item_int_T_BYTE:
 .loc 7 170 0
 bl _p_232
 .word 0x17ffffeb
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_be:
+Lme_c8:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_IsCompatibleObject_object
@@ -10143,7 +10871,7 @@ bl _p_12
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_bf:
+Lme_c9:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_Item_int
@@ -10175,7 +10903,7 @@ bl _p_12
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_c0:
+Lme_ca:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_set_Item_int_object
@@ -10259,11 +10987,11 @@ bl _p_125
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
 
-Lme_c1:
+Lme_cb:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_Add_T_BYTE
@@ -10321,11 +11049,11 @@ bl _p_242
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_c2:
+Lme_cc:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_AddWithResize_T_BYTE
@@ -10372,11 +11100,11 @@ bl _p_243
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_c3:
+Lme_cd:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Add_object
@@ -10469,11 +11197,11 @@ bl _p_245
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
 
-Lme_c4:
+Lme_ce:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_AddRange_System_Collections_Generic_IEnumerable_1_T_BYTE
@@ -10501,7 +11229,7 @@ bl _p_246
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_c5:
+Lme_cf:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_AsReadOnly
@@ -10531,7 +11259,7 @@ bl _p_248
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_c6:
+Lme_d0:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_Clear
@@ -10556,7 +11284,7 @@ System_Collections_Generic_List_1_T_BYTE_Clear:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_c7:
+Lme_d1:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_Contains_T_BYTE
@@ -10592,7 +11320,7 @@ bl _p_249
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_c8:
+Lme_d2:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Contains_object
@@ -10655,11 +11383,11 @@ bl _p_251
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
 
-Lme_c9:
+Lme_d3:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_CopyTo_T_BYTE__
@@ -10684,7 +11412,7 @@ bl _p_252
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_ca:
+Lme_d4:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_CopyTo_System_Array_int
@@ -10734,7 +11462,7 @@ bl _p_125
 bl _p_254
 .word 0x17ffffe8
 
-Lme_cb:
+Lme_d5:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_CopyTo_T_BYTE___int
@@ -10758,7 +11486,7 @@ bl _p_231
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_cc:
+Lme_d6:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_EnsureCapacity_int
@@ -10816,7 +11544,7 @@ bl _p_255
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_cd:
+Lme_d7:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_ForEach_System_Action_1_T_BYTE
@@ -10879,11 +11607,11 @@ bl _p_230
 bl _p_256
 .loc 7 583 0
 .word 0x17fffff7
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_ce:
+Lme_d8:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_GetEnumerator
@@ -10944,7 +11672,7 @@ ldr x3, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_cf:
+Lme_d9:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_Generic_IEnumerable_T_GetEnumerator
@@ -11010,7 +11738,7 @@ ldr x4, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_d0:
+Lme_da:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_IEnumerable_GetEnumerator
@@ -11076,7 +11804,7 @@ ldr x4, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_d1:
+Lme_db:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE
@@ -11111,7 +11839,7 @@ bl _p_260
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_d2:
+Lme_dc:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_IndexOf_object
@@ -11175,11 +11903,11 @@ bl _p_249
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
 
-Lme_d3:
+Lme_dd:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE_int
@@ -11226,7 +11954,7 @@ bl _p_260
 bl _p_232
 .word 0x17ffffe5
 
-Lme_d4:
+Lme_de:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE_int_int
@@ -11283,7 +12011,7 @@ bl _p_232
 bl _p_261
 .word 0x17ffffe8
 
-Lme_d5:
+Lme_df:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_Insert_int_T_BYTE
@@ -11371,11 +12099,11 @@ bl _p_231
 .word 0xd2800361
 bl _p_225
 .word 0x17ffffc1
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_d6:
+Lme_e0:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Insert_int_object
@@ -11459,11 +12187,11 @@ bl _p_125
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
 
-Lme_d7:
+Lme_e1:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_BYTE
@@ -11602,7 +12330,7 @@ bl _p_263
 .word 0xaa0003ef
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0x928012f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -11623,7 +12351,7 @@ bl _p_264
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x928005f0
+.word 0x92800bf0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -11709,7 +12437,7 @@ bl _p_232
 bl _p_230
 .word 0x17ffff33
 
-Lme_d8:
+Lme_e2:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_Remove_T_BYTE
@@ -11757,7 +12485,7 @@ bl _p_265
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_d9:
+Lme_e3:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Remove_object
@@ -11817,11 +12545,11 @@ bl _p_266
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
 
-Lme_da:
+Lme_e4:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_RemoveAll_System_Predicate_1_T_BYTE
@@ -11950,11 +12678,11 @@ System_Collections_Generic_List_1_T_BYTE_RemoveAll_System_Predicate_1_T_BYTE:
 .word 0xd2800100
 bl _p_230
 .word 0x17ffff9b
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_db:
+Lme_e5:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_RemoveAt_int
@@ -12009,7 +12737,7 @@ bl _p_231
 bl _p_232
 .word 0x17ffffe1
 
-Lme_dc:
+Lme_e6:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_RemoveRange_int_int
@@ -12087,7 +12815,7 @@ bl _p_225
 bl _p_254
 .word 0x17ffffd6
 
-Lme_dd:
+Lme_e7:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_Reverse
@@ -12125,7 +12853,7 @@ bl _p_268
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_de:
+Lme_e8:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_Reverse_int_int
@@ -12195,7 +12923,7 @@ bl _p_225
 bl _p_254
 .word 0x17ffffdc
 
-Lme_df:
+Lme_e9:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_Sort_System_Collections_Generic_IComparer_1_T_BYTE
@@ -12235,7 +12963,7 @@ bl _p_271
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_e0:
+Lme_ea:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_Sort_int_int_System_Collections_Generic_IComparer_1_T_BYTE
@@ -12307,7 +13035,7 @@ bl _p_225
 bl _p_254
 .word 0x17ffffdb
 
-Lme_e1:
+Lme_eb:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_Sort_System_Comparison_1_T_BYTE
@@ -12367,7 +13095,7 @@ bl _p_275
 bl _p_230
 .word 0x17ffffd7
 
-Lme_e2:
+Lme_ec:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_ToArray
@@ -12418,7 +13146,7 @@ bl _p_231
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_e3:
+Lme_ed:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_TrimExcess
@@ -12463,7 +13191,7 @@ bl _p_255
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_e4:
+Lme_ee:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE_AddEnumerable_System_Collections_Generic_IEnumerable_1_T_BYTE
@@ -12487,7 +13215,7 @@ bl _p_263
 .word 0xaa0003ef
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0x928012f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -12503,7 +13231,7 @@ bl _p_264
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x928005f0
+.word 0x92800bf0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -12591,11 +13319,11 @@ ldr x15, [x16, #752]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_e5:
+Lme_ef:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_BYTE__cctor
@@ -12620,9 +13348,9 @@ bl _p_223
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_e6:
+Lme_f0:
 .text
-ut_231:
+ut_241:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
 .text
@@ -12645,11 +13373,11 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Octane_Xam
 .word 0xd2800e02
 bl _p_276
 .word 0x14000009
-.word 0xd2896ea0
+.word 0xd289e980
 .word 0xf2a00020
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
@@ -12684,9 +13412,9 @@ bl _p_279
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_e7:
+Lme_f1:
 .text
-ut_232:
+ut_242:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
 .text
@@ -12813,18 +13541,18 @@ bl _p_279
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 .loc 8 72 0
-.word 0xd2896ea0
+.word 0xd289e980
 .word 0xf2a00020
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 
-Lme_e8:
+Lme_f2:
 .text
-ut_233:
+ut_243:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
 .text
@@ -12859,11 +13587,11 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Octane_Xamarin_Form
 .word 0xf9401c00
 .word 0xf9002fa0
 .word 0x14000009
-.word 0xd2896ea0
+.word 0xd289e980
 .word 0xf2a00020
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
@@ -12898,9 +13626,9 @@ bl _p_279
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_e9:
+Lme_f3:
 .text
-ut_234:
+ut_244:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_TaskAwaiter__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
 .text
@@ -12996,9 +13724,9 @@ bl _p_125
 .word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_ea:
+Lme_f4:
 .text
-ut_235:
+ut_245:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
 .text
@@ -13098,9 +13826,9 @@ bl _p_125
 .word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_eb:
+Lme_f5:
 .text
-ut_236:
+ut_246:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
 .text
@@ -13297,9 +14025,9 @@ bl _p_125
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_ec:
+Lme_f6:
 .text
-ut_237:
+ut_247:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
 .text
@@ -13325,7 +14053,7 @@ bl _p_300
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_ed:
+Lme_f7:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_SelectEnumerableIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
@@ -13377,7 +14105,7 @@ ldr x2, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_ee:
+Lme_f8:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_SelectIPartitionIterator_2_TSource_BYTE_TResult_REF__ctor_System_Linq_IPartition_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
@@ -13429,7 +14157,7 @@ ldr x2, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_ef:
+Lme_f9:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_SelectIListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IList_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
@@ -13481,7 +14209,7 @@ ldr x2, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_f0:
+Lme_fa:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_SelectListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_List_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
@@ -13533,7 +14261,7 @@ ldr x2, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_f1:
+Lme_fb:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_SelectArrayIterator_2_TSource_BYTE_TResult_REF__ctor_TSource_BYTE___System_Func_2_TSource_BYTE_TResult_REF
@@ -13585,7 +14313,7 @@ ldr x2, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_f2:
+Lme_fc:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_WhereEnumerableIterator_1_TSource_BYTE__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_bool
@@ -13645,7 +14373,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_f3:
+Lme_fd:
 .text
 	.align 4
 	.no_dead_strip System_ThrowHelper_IfNullAndNullsAreIllegalThenThrow_T_BYTE_object_System_ExceptionArgument
@@ -13668,7 +14396,7 @@ bl _p_230
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_f4:
+Lme_fe:
 .text
 	.align 4
 	.no_dead_strip System_Collections_ObjectModel_ReadOnlyCollection_1_T_BYTE__ctor_System_Collections_Generic_IList_1_T_BYTE
@@ -13707,9 +14435,9 @@ ldr x2, [x16, #16]
 bl _p_230
 .word 0x17ffffec
 
-Lme_f5:
+Lme_ff:
 .text
-ut_246:
+ut_256:
 add x0, x0, 16
 b System_Collections_Generic_List_1_Enumerator_T_BYTE__ctor_System_Collections_Generic_List_1_T_BYTE
 .text
@@ -13750,7 +14478,7 @@ ldr x1, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_f6:
+Lme_100:
 .text
 	.align 4
 	.no_dead_strip System_Array_IndexOf_T_BYTE_T_BYTE___T_BYTE_int_int
@@ -13802,39 +14530,39 @@ bl _p_308
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 12 683 0
-.word 0xd28f91c0
+.word 0xd2900ec0
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 .loc 12 688 0
-.word 0xd28c87c0
+.word 0xd28d0300
 bl _p_204
 .word 0xf90023a0
-.word 0xd2851f80
+.word 0xd2859bc0
 bl _p_204
 .word 0xaa0003e2
 .word 0xf94023a1
-.word 0xd2800fa0
+.word 0xd2801000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_125
 .loc 12 693 0
-.word 0xd28c93c0
+.word 0xd28d0f00
 bl _p_204
 .word 0xf90023a0
-.word 0xd28ce400
+.word 0xd28d5f40
 bl _p_204
 .word 0xaa0003e2
 .word 0xf94023a1
-.word 0xd2800fa0
+.word 0xd2801000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_125
 
-Lme_f7:
+Lme_101:
 .text
 	.align 4
 	.no_dead_strip System_Array_Reverse_T_BYTE_T_BYTE___int_int
@@ -13867,10 +14595,10 @@ adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x26, [x16, #1144]
 .word 0x14000001
-.word 0xd28ca700
+.word 0xd28d2240
 bl _p_204
 .word 0xaa0003e2
-.word 0xd2800fa0
+.word 0xd2801000
 .word 0xf2a04000
 .word 0xaa1a03e1
 bl _mono_create_corlib_exception_2
@@ -13917,23 +14645,23 @@ bl _p_125
 .word 0xa8c37bfd
 .word 0xd65f03c0
 .loc 12 911 0
-.word 0xd2902620
+.word 0xd290a320
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
-.word 0xd28f91c0
+.word 0xd2900ec0
 .loc 12 907 0
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 
-Lme_f8:
+Lme_102:
 .text
 	.align 4
 	.no_dead_strip System_Array_Sort_T_BYTE_T_BYTE___int_int_System_Collections_Generic_IComparer_1_T_BYTE
@@ -13968,10 +14696,10 @@ adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x26, [x16, #1136]
 .word 0x14000001
-.word 0xd28ca700
+.word 0xd28d2240
 bl _p_204
 .word 0xaa0003e2
-.word 0xd2800fa0
+.word 0xd2801000
 .word 0xf2a04000
 .word 0xaa1a03e1
 bl _mono_create_corlib_exception_2
@@ -14024,23 +14752,23 @@ bl _p_311
 .word 0xa8c67bfd
 .word 0xd65f03c0
 .loc 12 1106 0
-.word 0xd28f91c0
+.word 0xd2900ec0
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 .loc 12 1110 0
-.word 0xd2902620
+.word 0xd290a320
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 
-Lme_f9:
+Lme_103:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ArraySortHelper_1_T_BYTE_Sort_T_BYTE___int_int_System_Comparison_1_T_BYTE
@@ -14093,12 +14821,12 @@ bl _p_169
 .loc 13 124 0
 .word 0xf9001fa0
 .loc 13 126 0
-.word 0xd2926dc0
+.word 0xd292eac0
 bl _p_204
 .word 0xf9005fa0
 .word 0xf9401fa0
 .word 0xf90063a0
-.word 0xd2801980
+.word 0xd2801a40
 bl _p_315
 .word 0xf9405fa1
 .word 0xf94063a2
@@ -14111,9 +14839,9 @@ bl _p_125
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_fa:
+Lme_104:
 .text
-ut_251:
+ut_261:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
 .text
@@ -14226,7 +14954,7 @@ bl _p_125
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_fb:
+Lme_105:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
@@ -14243,7 +14971,7 @@ bl _p_319
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_fc:
+Lme_106:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
@@ -14264,7 +14992,7 @@ bl _p_320
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_fd:
+Lme_107:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
@@ -14290,7 +15018,7 @@ bl _p_321
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_fe:
+Lme_108:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
@@ -14321,7 +15049,7 @@ bl _p_321
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_ff:
+Lme_109:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
@@ -14345,7 +15073,7 @@ bl _p_322
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_100:
+Lme_10a:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
@@ -14410,7 +15138,7 @@ bl _p_323
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_101:
+Lme_10b:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
@@ -14439,7 +15167,7 @@ bl _p_324
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_102:
+Lme_10c:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
@@ -14469,7 +15197,7 @@ bl _p_324
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_103:
+Lme_10d:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
@@ -14521,23 +15249,23 @@ bl _p_325
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 14 336 0
-.word 0xd29ecbe0
+.word 0xd29f71c0
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 .loc 14 340 0
-.word 0xd29ece20
+.word 0xd29f7400
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 
-Lme_104:
+Lme_10e:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
@@ -14591,23 +15319,23 @@ bl _p_325
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 14 356 0
-.word 0xd29ecbe0
+.word 0xd29f71c0
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 .loc 14 360 0
-.word 0xd29ece20
+.word 0xd29f7400
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 
-Lme_105:
+Lme_10f:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
@@ -14688,11 +15416,11 @@ bl _p_328
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_16
 
-Lme_106:
+Lme_110:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
@@ -14733,7 +15461,7 @@ bl _p_329
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_107:
+Lme_111:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
@@ -14776,7 +15504,7 @@ bl _p_330
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_108:
+Lme_112:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
@@ -14794,7 +15522,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOn
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_109:
+Lme_113:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
@@ -14850,7 +15578,7 @@ bl _p_334
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_10a:
+Lme_114:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
@@ -14910,7 +15638,7 @@ ldr x0, [x16, #1184]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_10b:
+Lme_115:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
@@ -14986,7 +15714,7 @@ bl _p_183
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_10c:
+Lme_116:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
@@ -15010,7 +15738,7 @@ bl _p_336
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_10d:
+Lme_117:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
@@ -15041,7 +15769,7 @@ bl _p_337
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_10e:
+Lme_118:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
@@ -15063,7 +15791,7 @@ bl _p_339
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_10f:
+Lme_119:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
@@ -15085,7 +15813,30 @@ bl _p_339
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_110:
+Lme_11a:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskContinuationOptions
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskContinuationOptions:
+.loc 14 676 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+bl _p_338
+.word 0xaa0003e2
+.word 0xf90017bf
+.word 0xf9400ba0
+.word 0xf9400fa1
+.word 0xf94017a3
+.word 0xb98023a4
+bl _p_339
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_11b:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -15108,7 +15859,7 @@ bl _p_339
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_111:
+Lme_11c:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
@@ -15167,23 +15918,23 @@ bl _p_342
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 14 734 0
-.word 0xd29ece20
+.word 0xd29f7400
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
-.word 0xd29ed0a0
+.word 0xd29f7680
 .loc 14 729 0
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 
-Lme_112:
+Lme_11d:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -15208,7 +15959,7 @@ bl _p_343
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_113:
+Lme_11e:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
@@ -15269,23 +16020,23 @@ bl _p_342
 .word 0xa8c87bfd
 .word 0xd65f03c0
 .loc 14 927 0
-.word 0xd29ece20
+.word 0xd29f7400
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
-.word 0xd29ed0a0
+.word 0xd29f7680
 .loc 14 922 0
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 
-Lme_114:
+Lme_11f:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
@@ -15307,7 +16058,7 @@ bl _p_344
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_115:
+Lme_120:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -15373,16 +16124,16 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd29f15c0
+.word 0xd29fc6a0
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800fa0
+.word 0xd2801000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 .word 0x17ffffd4
 
-Lme_116:
+Lme_121:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
@@ -15444,7 +16195,7 @@ bl _p_346
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_117:
+Lme_122:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
@@ -15614,7 +16365,7 @@ bl _p_350
 .word 0xa8d17bfd
 .word 0xd65f03c0
 
-Lme_118:
+Lme_123:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
@@ -15641,7 +16392,7 @@ bl _p_351
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_119:
+Lme_124:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
@@ -15927,31 +16678,409 @@ bl _p_169
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 .loc 15 774 0
-.word 0xd29edda0
+.word 0xd29f8380
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
-.word 0xd29edaa0
+.word 0xd29f8080
 .loc 15 771 0
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
-.word 0xd2801be0
+.word 0xd2801ca0
 .word 0xaa1103e1
 bl _p_16
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xaa1103e1
 bl _p_16
 
-Lme_11a:
+Lme_125:
 .text
-ut_283:
+	.align 4
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_CreateCanceledTask_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken
+System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_CreateCanceledTask_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken:
+.loc 15 1325 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xb90033bf
+.word 0xb9003bbf
+.word 0xb98013a0
+.word 0x9100c3a1
+.word 0x9100e3a2
+bl _p_340
+.loc 15 1326 0
+.word 0x3900a3bf
+.word 0xb98033a0
+.word 0xf90027a0
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #1176]
+.word 0xd2800a01
+bl _p_12
+.word 0xf94027a3
+.word 0xf90023a0
+.word 0xd2800021
+.word 0xf94017a2
+.word 0xf9400fa4
+bl _p_356
+.word 0xf94023a0
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_126:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_ContinueWhenAllImpl_System_Threading_Tasks_Task___System_Action_1_System_Threading_Tasks_Task___System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken_System_Threading_Tasks_TaskScheduler
+System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_ContinueWhenAllImpl_System_Threading_Tasks_Task___System_Action_1_System_Threading_Tasks_Task___System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken_System_Threading_Tasks_TaskScheduler:
+.loc 15 1708 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xf90013b9
+.word 0xaa0003f7
+.word 0xf90017a1
+.word 0xaa0203f9
+.word 0xf9001ba3
+.word 0xf90023a4
+.word 0xaa1903e0
+bl _p_345
+.loc 15 1709 0
+.word 0xb4000e57
+.loc 15 1711 0
+.word 0xf94023a0
+.word 0xb4000d20
+.loc 15 1714 0
+.word 0xaa1703e0
+bl _p_357
+.word 0xaa0003f7
+.loc 15 1717 0
+.word 0x9100c3a0
+bl _p_358
+.word 0x53001c00
+.word 0x340001a0
+.word 0xd280041e
+.word 0xa1e0320
+.word 0x35000140
+.loc 15 1721 0
+.word 0xf9401ba0
+.word 0xf9002ba0
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x15, [x16, #1192]
+.word 0xaa1903e0
+.word 0xf9402ba1
+bl _p_359
+.word 0x14000051
+.loc 15 1725 0
+.word 0xaa1703e0
+bl _p_360
+.word 0xaa0003e2
+.loc 15 1728 0
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #1320]
+.word 0xf9400000
+.word 0xaa0003e1
+.loc 15 1725 0
+.word 0xaa0203f7
+.loc 15 1728 0
+.word 0xaa0103f6
+.word 0xb5000720
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xf9400000
+.word 0xf9003ba0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000a80
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #1336]
+.word 0xd2801001
+bl _p_12
+.word 0xf90037a0
+.word 0xf9403ba1
+.word 0xeb1f003f
+.word 0x10000011
+.word 0x540008e0
+.word 0xd5033bbf
+.word 0xf94037a0
+.word 0xf9001001
+.word 0x91008002
+.word 0xd349fc42
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1344]
+.word 0xf9001401
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1352]
+.word 0xf9002001
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1360]
+.word 0xf9401422
+.word 0xf9000c02
+.word 0xf9401021
+.word 0xf9000801
+.word 0x3901c01f
+.word 0xf90033a0
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1320]
+.word 0xd5033bbf
+.word 0xf94033a0
+.word 0xf9000020
+.word 0xaa0003f6
+.word 0xf9401ba0
+.word 0xf90027a0
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x15, [x16, #1368]
+.word 0x394002fe
+.word 0xaa1703e0
+.word 0xaa1603e1
+.word 0xf94017a2
+.word 0xf94023a3
+.word 0xf94027a4
+.word 0xaa1903e5
+bl _p_361
+.word 0xa9415fb6
+.word 0xf94013b9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.loc 15 1711 0
+.word 0xd29f7400
+bl _p_204
+.word 0xaa0003e1
+.word 0xd2800fe0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_125
+.word 0xd29f8f00
+.loc 15 1709 0
+bl _p_204
+.word 0xaa0003e1
+.word 0xd2800fe0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_125
+.word 0xd2801ca0
+.word 0xaa1103e1
+bl _p_16
+.word 0xd2800fc0
+.word 0xaa1103e1
+bl _p_16
+
+Lme_127:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_ContinueWhenAnyImpl_System_Threading_Tasks_Task___System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken_System_Threading_Tasks_TaskScheduler
+System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_ContinueWhenAnyImpl_System_Threading_Tasks_Task___System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken_System_Threading_Tasks_TaskScheduler:
+.loc 15 2051 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xf90013b9
+.word 0xaa0003f7
+.word 0xf90017a1
+.word 0xaa0203f9
+.word 0xf9001ba3
+.word 0xf90023a4
+.word 0xaa1903e0
+bl _p_345
+.loc 15 2052 0
+.word 0xb4000f97
+.loc 15 2053 0
+.word 0xb9801ae0
+.word 0x34000d00
+.loc 15 2055 0
+.word 0xf94023a0
+.word 0xb4000e20
+.loc 15 2058 0
+.word 0xaa1703e0
+bl _p_362
+.word 0xaa0003f7
+.loc 15 2061 0
+.word 0x9100c3a0
+bl _p_358
+.word 0x53001c00
+.word 0x340001a0
+.word 0xd280041e
+.word 0xa1e0320
+.word 0x35000140
+.loc 15 2065 0
+.word 0xf9401ba0
+.word 0xf9002ba0
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x15, [x16, #1192]
+.word 0xaa1903e0
+.word 0xf9402ba1
+bl _p_359
+.word 0x1400004e
+.loc 15 2069 0
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xf9400000
+.word 0xaa0003e1
+.word 0xaa1703f6
+.word 0xaa0103f7
+.word 0xb5000720
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xf9400000
+.word 0xf9003ba0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000be0
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xd2801001
+bl _p_12
+.word 0xf90037a0
+.word 0xf9403ba1
+.word 0xeb1f003f
+.word 0x10000011
+.word 0x54000a40
+.word 0xd5033bbf
+.word 0xf94037a0
+.word 0xf9001001
+.word 0x91008002
+.word 0xd349fc42
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1392]
+.word 0xf9001401
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1400]
+.word 0xf9002001
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1408]
+.word 0xf9401422
+.word 0xf9000c02
+.word 0xf9401021
+.word 0xf9000801
+.word 0x3901c01f
+.word 0xf90033a0
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1376]
+.word 0xd5033bbf
+.word 0xf94033a0
+.word 0xf9000020
+.word 0xaa0003f7
+.word 0xf9401ba0
+.word 0xf90027a0
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x15, [x16, #1416]
+.word 0x394002de
+.word 0xaa1603e0
+.word 0xaa1703e1
+.word 0xf94017a2
+.word 0xf94023a3
+.word 0xf94027a4
+.word 0xaa1903e5
+bl _p_363
+.word 0xa9415fb6
+.word 0xf94013b9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.loc 15 2053 0
+.word 0xd29f9080
+bl _p_204
+.word 0xf90033a0
+.word 0xd29f8f00
+bl _p_204
+.word 0xaa0003e2
+.word 0xf94033a1
+.word 0xd2800fc0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_2
+bl _p_125
+.loc 15 2055 0
+.word 0xd29f7400
+bl _p_204
+.word 0xaa0003e1
+.word 0xd2800fe0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_125
+.word 0xd29f8f00
+.loc 15 2052 0
+bl _p_204
+.word 0xaa0003e1
+.word 0xd2800fe0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_125
+.word 0xd2801ca0
+.word 0xaa1103e1
+bl _p_16
+.word 0xd2800fc0
+.word 0xaa1103e1
+bl _p_16
+
+Lme_128:
+.text
+ut_297:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
 .text
@@ -16015,9 +17144,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_11b:
+Lme_129:
 .text
-ut_284:
+ut_298:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 .text
@@ -16031,15 +17160,15 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 .word 0xf9000fa1
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_356
+bl _p_364
 .loc 8 486 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_11c:
+Lme_12a:
 .text
-ut_285:
+ut_299:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 .text
@@ -16062,7 +17191,7 @@ ldr x0, [x16, #1176]
 .word 0xd2800a01
 bl _p_12
 .word 0xf90017a0
-bl _p_357
+bl _p_365
 .word 0xf94017a0
 .word 0xaa0003e1
 .word 0xf90013a1
@@ -16089,9 +17218,9 @@ ldr x2, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_11d:
+Lme_12b:
 .text
-ut_286:
+ut_300:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 .text
@@ -16114,7 +17243,7 @@ adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x15, [x16, #1152]
 .word 0xf94013a0
-bl _p_358
+bl _p_366
 .word 0xf9001ba0
 .word 0x91004341
 .word 0xd5033bbf
@@ -16144,7 +17273,7 @@ bl _p_295
 .word 0xaa0003e1
 .word 0xd2800000
 .word 0xd2800022
-bl _p_359
+bl _p_367
 .loc 8 603 0
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
@@ -16157,7 +17286,7 @@ ldr x0, [x16, #1256]
 .word 0x3940033e
 bl _p_295
 .word 0x93407c00
-bl _p_360
+bl _p_368
 .loc 8 608 0
 .word 0xaa1903e0
 .word 0xf94013a1
@@ -16171,18 +17300,18 @@ bl _p_329
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 8 610 0
-.word 0xd28973e0
+.word 0xd289eec0
 .word 0xf2a00020
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd2801a40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 
-Lme_11e:
+Lme_12c:
 .text
-ut_287:
+ut_301:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 .text
@@ -16226,16 +17355,16 @@ add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x15, [x16, #1152]
 .word 0xaa1903e0
 .word 0xf94013a1
-bl _p_361
+bl _p_369
 .loc 8 638 0
 .word 0xf9400bb9
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_11f:
+Lme_12d:
 .text
-ut_288:
+ut_302:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
 .text
@@ -16274,7 +17403,7 @@ bl _p_317
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1320]
+ldr x1, [x16, #1424]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800019
@@ -16298,7 +17427,7 @@ bl _p_348
 bl _p_347
 .word 0x53001c1a
 .loc 8 673 0
-.word 0x340001ba
+.word 0x340001da
 .loc 8 677 0
 .word 0xa94163b7
 .word 0xa9426bb9
@@ -16306,26 +17435,27 @@ bl _p_347
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 8 649 0
-.word 0xd29faa20
+.word 0xd2802640
+.word 0xf2a00020
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 .loc 8 675 0
-.word 0xd28973e0
+.word 0xd289eec0
 .word 0xf2a00020
 bl _p_204
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd2801a40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_125
 
-Lme_120:
+Lme_12e:
 .text
-ut_289:
+ut_303:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 .text
@@ -16342,11 +17472,11 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1432]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1336]
+ldr x1, [x16, #1440]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x340004c0
@@ -16354,7 +17484,7 @@ ldr x1, [x16, #1336]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1344]
+ldr x0, [x16, #1448]
 .word 0xd2800221
 bl _p_12
 .word 0x91004001
@@ -16380,30 +17510,30 @@ ldr x2, [x16, #984]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1352]
+ldr x0, [x16, #1456]
 .word 0xf940001a
 .word 0x14000005
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1360]
+ldr x0, [x16, #1464]
 .word 0xf940001a
 .loc 8 759 0
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1368]
+ldr x0, [x16, #1472]
 .word 0xaa1a03e0
 .word 0x1400019c
 .loc 8 762 0
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1432]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1376]
+ldr x1, [x16, #1480]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x34000660
@@ -16411,7 +17541,7 @@ ldr x1, [x16, #1376]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1344]
+ldr x0, [x16, #1448]
 .word 0xd2800221
 bl _p_12
 .word 0x91004001
@@ -16427,7 +17557,7 @@ bl _p_12
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x2, [x16, #1384]
+ldr x2, [x16, #1488]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54003041
@@ -16445,7 +17575,7 @@ ldr x2, [x16, #1384]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1392]
+ldr x0, [x16, #1496]
 .word 0xf9400000
 .word 0x9280001e
 .word 0xf2bffffe
@@ -16463,24 +17593,24 @@ ldr x0, [x16, #1392]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1368]
+ldr x1, [x16, #1472]
 .word 0x14000161
 .loc 8 776 0
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1432]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1400]
+ldr x1, [x16, #1504]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x34000300
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1344]
+ldr x0, [x16, #1448]
 .word 0xd2800221
 bl _p_12
 .word 0x91004001
@@ -16496,7 +17626,7 @@ bl _p_12
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x2, [x16, #1408]
+ldr x2, [x16, #1512]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540028e1
@@ -16505,18 +17635,18 @@ ldr x2, [x16, #1408]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1432]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1416]
+ldr x1, [x16, #1520]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x34000300
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1344]
+ldr x0, [x16, #1448]
 .word 0xd2800221
 bl _p_12
 .word 0x91004001
@@ -16532,7 +17662,7 @@ bl _p_12
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x2, [x16, #1424]
+ldr x2, [x16, #1528]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540024e1
@@ -16541,18 +17671,18 @@ ldr x2, [x16, #1424]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1432]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1432]
+ldr x1, [x16, #1536]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x34000300
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1344]
+ldr x0, [x16, #1448]
 .word 0xd2800221
 bl _p_12
 .word 0x91004001
@@ -16568,7 +17698,7 @@ bl _p_12
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x2, [x16, #1440]
+ldr x2, [x16, #1544]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540020e1
@@ -16577,18 +17707,18 @@ ldr x2, [x16, #1440]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1432]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1448]
+ldr x1, [x16, #1552]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x34000300
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1344]
+ldr x0, [x16, #1448]
 .word 0xd2800221
 bl _p_12
 .word 0x91004001
@@ -16604,7 +17734,7 @@ bl _p_12
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x2, [x16, #1456]
+ldr x2, [x16, #1560]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54001ce1
@@ -16613,18 +17743,18 @@ ldr x2, [x16, #1456]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1432]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1464]
+ldr x1, [x16, #1568]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x34000300
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1344]
+ldr x0, [x16, #1448]
 .word 0xd2800221
 bl _p_12
 .word 0x91004001
@@ -16649,18 +17779,18 @@ ldr x2, [x16, #944]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1432]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1472]
+ldr x1, [x16, #1576]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x34000300
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1344]
+ldr x0, [x16, #1448]
 .word 0xd2800221
 bl _p_12
 .word 0x91004001
@@ -16676,7 +17806,7 @@ bl _p_12
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x2, [x16, #1480]
+ldr x2, [x16, #1584]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540014e1
@@ -16685,18 +17815,18 @@ ldr x2, [x16, #1480]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1432]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1488]
+ldr x1, [x16, #1592]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x34000300
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1344]
+ldr x0, [x16, #1448]
 .word 0xd2800221
 bl _p_12
 .word 0x91004001
@@ -16712,7 +17842,7 @@ bl _p_12
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x2, [x16, #1496]
+ldr x2, [x16, #1600]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540010e1
@@ -16721,18 +17851,18 @@ ldr x2, [x16, #1496]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1432]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1504]
+ldr x1, [x16, #1608]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x34000300
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1344]
+ldr x0, [x16, #1448]
 .word 0xd2800221
 bl _p_12
 .word 0x91004001
@@ -16748,7 +17878,7 @@ bl _p_12
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x2, [x16, #1512]
+ldr x2, [x16, #1616]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54000ce1
@@ -16757,18 +17887,18 @@ ldr x2, [x16, #1512]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1432]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1520]
+ldr x1, [x16, #1624]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x34000380
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1344]
+ldr x0, [x16, #1448]
 .word 0xd2800221
 bl _p_12
 .word 0x91004001
@@ -16797,11 +17927,11 @@ ldr x2, [x16, #1032]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1432]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1528]
+ldr x1, [x16, #1632]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x34000560
@@ -16811,7 +17941,7 @@ ldr x1, [x16, #1528]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1344]
+ldr x0, [x16, #1448]
 .word 0xd2800221
 bl _p_12
 .word 0xaa0003e1
@@ -16829,7 +17959,7 @@ bl _p_12
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x3, [x16, #1536]
+ldr x3, [x16, #1640]
 .word 0xeb03005f
 .word 0x10000011
 .word 0x540003c1
@@ -16842,7 +17972,7 @@ ldr x3, [x16, #1536]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1544]
+ldr x0, [x16, #1648]
 .word 0xf9400000
 .word 0x14000010
 .loc 8 794 0
@@ -16851,7 +17981,7 @@ ldr x0, [x16, #1544]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1544]
+ldr x0, [x16, #1648]
 .word 0xf9400000
 .word 0x1400000a
 .loc 8 800 0
@@ -16863,22 +17993,22 @@ ldr x0, [x16, #1176]
 bl _p_12
 .word 0xf9001ba0
 .word 0xf9400fa1
-bl _p_362
+bl _p_370
 .word 0xf9401ba0
 .word 0xf9400bba
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_121:
+Lme_12f:
 .text
-ut_290:
+ut_304:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
 .text
@@ -16892,14 +18022,14 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x15, [x16, #1552]
+ldr x15, [x16, #1656]
 .word 0xf9400ba0
-bl _p_363
+bl _p_371
 .word 0xaa0003e1
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1544]
+ldr x0, [x16, #1648]
 .word 0xf90013a0
 .word 0xd5033bbf
 .word 0xf94013a0
@@ -16908,7 +18038,7 @@ ldr x0, [x16, #1544]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_122:
+Lme_130:
 .text
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_Iterator_1_TSource_REF__ctor
@@ -16929,7 +18059,7 @@ bl _p_212
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_123:
+Lme_131:
 .text
 	.align 4
 	.no_dead_strip System_Array_IndexOfImpl_T_BYTE_T_BYTE___T_BYTE_int_int
@@ -16943,10 +18073,10 @@ System_Array_IndexOfImpl_T_BYTE_T_BYTE___T_BYTE_int_int:
 .word 0xf90013a2
 .word 0xf90017a3
 .word 0xf9401ba0
-bl _p_364
+bl _p_372
 .word 0xf90023a0
 .word 0xf9401ba0
-bl _p_365
+bl _p_373
 .word 0xf94023af
 .word 0xd63f0000
 .word 0xaa0003e5
@@ -16963,7 +18093,7 @@ bl _p_365
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_124:
+Lme_132:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ArraySortHelper_1_T_BYTE_Sort_T_BYTE___int_int_System_Collections_Generic_IComparer_1_T_BYTE
@@ -16982,11 +18112,11 @@ System_Collections_Generic_ArraySortHelper_1_T_BYTE_Sort_T_BYTE___int_int_System
 .loc 13 63 0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_366
+bl _p_374
 .word 0xf9005ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_367
+bl _p_375
 .word 0xf9405baf
 .word 0xd63f0000
 .word 0xf9001ba0
@@ -16996,20 +18126,20 @@ bl _p_367
 .word 0xf90067a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_368
+bl _p_376
 .word 0xaa0003e1
 .word 0xf9406fa0
-bl _p_369
+bl _p_377
 .word 0xf9006ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_370
+bl _p_378
 .word 0xd2801001
 bl _p_12
 .word 0xf90063a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_371
+bl _p_379
 .word 0xaa0003e3
 .word 0xf94063a0
 .word 0xf94067a1
@@ -17054,12 +18184,12 @@ bl _p_169
 .loc 13 76 0
 .word 0xf9001fa0
 .loc 13 78 0
-.word 0xd2926dc0
+.word 0xd292eac0
 bl _p_204
 .word 0xf9005fa0
 .word 0xf9401fa0
 .word 0xf90063a0
-.word 0xd2801980
+.word 0xd2801a40
 bl _p_315
 .word 0xf9405fa1
 .word 0xf94063a2
@@ -17072,7 +18202,7 @@ bl _p_125
 .word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_125:
+Lme_133:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ArraySortHelper_1_T_BYTE_get_Default
@@ -17088,13 +18218,13 @@ bl _p_312
 .word 0xb5000050
 bl _p_56
 .word 0xf9400ba0
-bl _p_372
+bl _p_380
 .word 0xf9400000
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_126:
+Lme_134:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ArraySortHelper_1_T_BYTE_IntrospectiveSort_T_BYTE___int_int_System_Comparison_1_T_BYTE
@@ -17138,7 +18268,7 @@ System_Collections_Generic_ArraySortHelper_1_T_BYTE_IntrospectiveSort_T_BYTE___i
 bl _p_312
 .word 0xf90037a0
 .word 0xf94023a0
-bl _p_373
+bl _p_381
 .word 0xaa0003e5
 .word 0xf94033a3
 .word 0xf94037af
@@ -17155,7 +18285,7 @@ bl _p_373
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_127:
+Lme_135:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
@@ -17241,13 +18371,13 @@ bl _p_170
 .word 0xaa0003f9
 .word 0xb5ffff20
 .word 0x17ffffbd
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_12c:
+Lme_13a:
 .text
-ut_301:
+ut_315:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 .text
@@ -17280,9 +18410,9 @@ ldr x2, [x16, #16]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_12d:
+Lme_13b:
 .text
-ut_302:
+ut_316:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 .text
@@ -17313,9 +18443,34 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_12e:
+Lme_13c:
 .text
-ut_303:
+ut_317:
+add x0, x0, 16
+b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+.text
+	.align 4
+	.no_dead_strip System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action:
+.loc 17 389 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400ba0
+.word 0xf9400000
+.word 0xf9400fa1
+.word 0xd2800022
+.word 0xd2800023
+bl _p_382
+.loc 17 390 0
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_13d:
+.text
+ut_318:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 .text
@@ -17332,15 +18487,15 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 .word 0xf9400fa1
 .word 0xd2800022
 .word 0xd2800003
-bl _p_374
+bl _p_382
 .loc 17 400 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_12f:
+Lme_13e:
 .text
-ut_304:
+ut_319:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
 .text
@@ -17353,7 +18508,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 .word 0xf9000bba
 .word 0xaa0003fa
 .word 0xf9400340
-bl _p_375
+bl _p_383
 .loc 17 411 0
 .word 0xf9400340
 .word 0xaa0003e1
@@ -17367,9 +18522,9 @@ bl _p_375
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_130:
+Lme_13f:
 .text
-ut_305:
+ut_320:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 .text
@@ -17388,11 +18543,11 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x15, [x16, #1560]
+ldr x15, [x16, #1664]
 .word 0x9100e3a0
 .word 0xf9400fa1
 .word 0x394083a2
-bl _p_376
+bl _p_384
 .word 0xf9401fa0
 .word 0xf90017a0
 .word 0xf94023a0
@@ -17422,9 +18577,9 @@ ldr x3, [x16, #16]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_131:
+Lme_140:
 .text
-ut_306:
+ut_321:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 .text
@@ -17446,9 +18601,9 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_132:
+Lme_141:
 .text
-ut_307:
+ut_322:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 .text
@@ -17485,9 +18640,9 @@ ldr x2, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_133:
+Lme_142:
 .text
-ut_308:
+ut_323:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 .text
@@ -17518,9 +18673,35 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_134:
+Lme_143:
 .text
-ut_309:
+ut_324:
+add x0, x0, 16
+b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+.text
+	.align 4
+	.no_dead_strip System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action:
+.loc 17 583 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xaa0003f9
+.word 0xf9000fa1
+.word 0xf9400320
+.word 0x39402322
+.word 0xf9400fa1
+.word 0xd2800023
+bl _p_382
+.loc 17 584 0
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_144:
+.text
+ut_325:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 .text
@@ -17537,16 +18718,16 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 .word 0x39402322
 .word 0xf9400fa1
 .word 0xd2800003
-bl _p_374
+bl _p_382
 .loc 17 594 0
 .word 0xf9400bb9
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_135:
+Lme_145:
 .text
-ut_310:
+ut_326:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
 .text
@@ -17559,7 +18740,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 .word 0xf9000bba
 .word 0xaa0003fa
 .word 0xf9400340
-bl _p_375
+bl _p_383
 .loc 17 605 0
 .word 0xf9400340
 .word 0xaa0003e1
@@ -17573,7 +18754,7 @@ bl _p_375
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_136:
+Lme_146:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
@@ -17647,11 +18828,11 @@ bl _p_170
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_137:
+Lme_147:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
@@ -17738,7 +18919,7 @@ ldr x2, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_138:
+Lme_148:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
@@ -17761,11 +18942,11 @@ bl _p_332
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1568]
+ldr x1, [x16, #1672]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x2, [x16, #1576]
+ldr x2, [x16, #1680]
 bl _p_183
 .word 0xaa0003f8
 .loc 18 153 0
@@ -17783,11 +18964,11 @@ bl _p_183
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1584]
+ldr x1, [x16, #1688]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x2, [x16, #1592]
+ldr x2, [x16, #1696]
 bl _p_183
 .word 0xaa0003f8
 .loc 18 159 0
@@ -17806,7 +18987,7 @@ bl _p_183
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_139:
+Lme_149:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object
@@ -17884,11 +19065,11 @@ bl _p_170
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc7
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_13a:
+Lme_14a:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
@@ -17980,11 +19161,11 @@ bl _p_170
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffb9
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_13f:
+Lme_14f:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
@@ -18076,11 +19257,11 @@ bl _p_170
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffb9
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_144:
+Lme_154:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
@@ -18092,7 +19273,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_145:
+Lme_155:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
@@ -18132,7 +19313,861 @@ bl _p_355
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_146:
+Lme_156:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
+.loc 14 1359 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xf9000bb8
+.word 0xf9000fa0
+.word 0xf90013a1
+.word 0xaa0203f8
+.word 0xf90017a3
+.word 0xf9001ba4
+.word 0xf90023a5
+.word 0xb9004bbf
+.word 0xb90053bf
+.word 0xf94013a0
+.word 0xb4000560
+.loc 14 1364 0
+.word 0xf94017a0
+.word 0xb4000440
+.loc 14 1371 0
+.word 0xb98043a0
+.word 0x910123a1
+.word 0x910143a2
+bl _p_340
+.loc 14 1376 0
+.word 0xb9804ba0
+.word 0xf90037a0
+.word 0xb98053a0
+.word 0xf9003ba0
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #1704]
+.word 0xd2800b01
+bl _p_12
+.word 0xf94037a4
+.word 0xf9403ba5
+.word 0xf90033a0
+.word 0xf9400fa1
+.word 0xf94013a2
+.word 0xaa1803e3
+bl _p_385
+.word 0xf94033a0
+.word 0xaa0003f8
+.loc 14 1383 0
+.word 0xf9400fa0
+.word 0xaa1803e1
+.word 0xf94017a2
+.word 0xf9401ba3
+.word 0xb98043a4
+bl _p_342
+.loc 14 1385 0
+.word 0xaa1803e0
+.word 0xf9400bb8
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.loc 14 1366 0
+.word 0xd29f7400
+bl _p_204
+.word 0xaa0003e1
+.word 0xd2800fe0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_125
+.word 0xd29f7b40
+.loc 14 1361 0
+bl _p_204
+.word 0xaa0003e1
+.word 0xd2800fe0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_125
+
+Lme_157:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+wrapper_delegate_invoke_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xa9036bb9
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+.word 0x390163bf
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x35000920
+.word 0x14000001
+.word 0xf9403f17
+.word 0xaa1703e0
+.word 0xb5000320
+.word 0xf9401317
+.word 0xaa1703e0
+.word 0xb4000180
+.word 0xf9401f00
+.word 0xf9400b03
+.word 0x910103a0
+.word 0xf90033a0
+.word 0xaa1703e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0xf94033be
+.word 0xf90003c0
+.word 0x1400002b
+.word 0xf9401f00
+.word 0xf9400b02
+.word 0x910103a0
+.word 0xf90033a0
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0xf94033be
+.word 0xf90003c0
+.word 0x14000021
+.word 0xb9801ae0
+.word 0xaa0003f8
+.word 0xd2800016
+.word 0x93407ec0
+.word 0xb9801ae1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000529
+.word 0xd37df000
+.word 0x8b0002e0
+.word 0x91008000
+.word 0xf9400015
+.word 0xaa1503e3
+.word 0x910143a0
+.word 0xf90033a0
+.word 0xaa0303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf9003ba3
+.word 0xf9400c70
+.word 0xd63f0200
+.word 0xf94033be
+.word 0xf90003c0
+.word 0xf9403ba0
+.word 0x398143a0
+.word 0x390163a0
+.word 0x110006d6
+.word 0xaa1603e0
+.word 0x6b18001f
+.word 0x54fffccb
+.word 0x398163a0
+.word 0x390103a0
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xa9436bb9
+.word 0xf94023a0
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0x910222e0
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1703e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f7
+.word 0xb5ffff20
+.word 0x17ffffb6
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_15c:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task___invoke_TResult
+wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task___invoke_TResult:
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xa90163b7
+.word 0xa9026bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x35000660
+.word 0x14000001
+.word 0xf9403f59
+.word 0xaa1903e0
+.word 0xb50001a0
+.word 0xf9401359
+.word 0xaa1903e0
+.word 0xb40000c0
+.word 0xf9401f40
+.word 0xf9400b41
+.word 0xaa1903e0
+.word 0xd63f0020
+.word 0x1400001d
+.word 0xf9401f40
+.word 0xf9400b40
+.word 0xd63f0000
+.word 0x14000019
+.word 0xb9801b20
+.word 0xaa0003fa
+.word 0xd2800018
+.word 0x93407f00
+.word 0xb9801b21
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540003e9
+.word 0xd37df000
+.word 0x8b000320
+.word 0x91008000
+.word 0xf9400017
+.word 0xaa1703e1
+.word 0xaa0103e0
+.word 0xf9001ba1
+.word 0xf9400c30
+.word 0xd63f0200
+.word 0xf9401ba1
+.word 0xaa0003f7
+.word 0x11000718
+.word 0xaa1803e0
+.word 0x6b1a001f
+.word 0x54fffdab
+.word 0xaa1703e0
+.word 0xa94163b7
+.word 0xa9426bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+.word 0x91022320
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1903e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f9
+.word 0xb5ffff20
+.word 0x17ffffcc
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_15d:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task___invoke_TResult_T_object
+wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task___invoke_TResult_T_object:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x350006e0
+.word 0x14000001
+.word 0xf9403f38
+.word 0xaa1803e0
+.word 0xb50001e0
+.word 0xf9401338
+.word 0xaa1803e0
+.word 0xb40000e0
+.word 0xf9401f20
+.word 0xf9400b22
+.word 0xaa1803e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400001f
+.word 0xf9401f20
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400001a
+.word 0xb9801b00
+.word 0xaa0003f9
+.word 0xd2800017
+.word 0x93407ee0
+.word 0xb9801b01
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000429
+.word 0xd37df000
+.word 0x8b000300
+.word 0x91008000
+.word 0xf9400016
+.word 0xaa1603e2
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90023a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94023a1
+.word 0xaa0003f6
+.word 0x110006f7
+.word 0xaa1703e0
+.word 0x6b19001f
+.word 0x54fffd8b
+.word 0xaa1603e0
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0x91022300
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1803e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f8
+.word 0xb5ffff20
+.word 0x17ffffc8
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_15e:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task__
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task__:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x350006a0
+.word 0x14000001
+.word 0xf9403f38
+.word 0xaa1803e0
+.word 0xb50001e0
+.word 0xf9401338
+.word 0xaa1803e0
+.word 0xb40000e0
+.word 0xf9401f20
+.word 0xf9400b22
+.word 0xaa1803e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400001d
+.word 0xf9401f20
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000018
+.word 0xb9801b00
+.word 0xaa0003f9
+.word 0xd2800017
+.word 0x93407ee0
+.word 0xb9801b01
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540003e9
+.word 0xd37df000
+.word 0x8b000300
+.word 0x91008000
+.word 0xf9400016
+.word 0xaa1603e2
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90023a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94023a0
+.word 0x110006f7
+.word 0xaa1703e0
+.word 0x6b19001f
+.word 0x54fffdab
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0x91022300
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1803e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f8
+.word 0xb5ffff20
+.word 0x17ffffca
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_15f:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xa9036bb9
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x35000700
+.word 0x14000001
+.word 0xf9403f17
+.word 0xaa1703e0
+.word 0xb5000220
+.word 0xf9401317
+.word 0xaa1703e0
+.word 0xb4000100
+.word 0xf9401f00
+.word 0xf9400b03
+.word 0xaa1703e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0x1400001f
+.word 0xf9401f00
+.word 0xf9400b02
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000019
+.word 0xb9801ae0
+.word 0xaa0003f8
+.word 0xd2800016
+.word 0x93407ec0
+.word 0xb9801ae1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000409
+.word 0xd37df000
+.word 0x8b0002e0
+.word 0x91008000
+.word 0xf9400015
+.word 0xaa1503e3
+.word 0xaa0303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf90023a3
+.word 0xf9400c70
+.word 0xd63f0200
+.word 0xf94023a0
+.word 0x110006d6
+.word 0xaa1603e0
+.word 0x6b18001f
+.word 0x54fffd8b
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xa9436bb9
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0x910222e0
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1703e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f7
+.word 0xb5ffff20
+.word 0x17ffffc7
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_160:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task___invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task___invoke_TResult_T_System_IAsyncResult:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x350006e0
+.word 0x14000001
+.word 0xf9403f38
+.word 0xaa1803e0
+.word 0xb50001e0
+.word 0xf9401338
+.word 0xaa1803e0
+.word 0xb40000e0
+.word 0xf9401f20
+.word 0xf9400b22
+.word 0xaa1803e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400001f
+.word 0xf9401f20
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400001a
+.word 0xb9801b00
+.word 0xaa0003f9
+.word 0xd2800017
+.word 0x93407ee0
+.word 0xb9801b01
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000429
+.word 0xd37df000
+.word 0x8b000300
+.word 0x91008000
+.word 0xf9400016
+.word 0xaa1603e2
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90023a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94023a1
+.word 0xaa0003f6
+.word 0x110006f7
+.word 0xaa1703e0
+.word 0x6b19001f
+.word 0x54fffd8b
+.word 0xaa1603e0
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0x91022300
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1803e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f8
+.word 0xb5ffff20
+.word 0x17ffffc8
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_161:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_Task___invoke_TResult_T_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_Task___invoke_TResult_T_System_Threading_Tasks_Task:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x350006e0
+.word 0x14000001
+.word 0xf9403f38
+.word 0xaa1803e0
+.word 0xb50001e0
+.word 0xf9401338
+.word 0xaa1803e0
+.word 0xb40000e0
+.word 0xf9401f20
+.word 0xf9400b22
+.word 0xaa1803e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400001f
+.word 0xf9401f20
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400001a
+.word 0xb9801b00
+.word 0xaa0003f9
+.word 0xd2800017
+.word 0x93407ee0
+.word 0xb9801b01
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000429
+.word 0xd37df000
+.word 0x8b000300
+.word 0x91008000
+.word 0xf9400016
+.word 0xaa1603e2
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90023a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94023a1
+.word 0xaa0003f6
+.word 0x110006f7
+.word 0xaa1703e0
+.word 0x6b19001f
+.word 0x54fffd8b
+.word 0xaa1603e0
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0x91022300
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1803e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f8
+.word 0xb5ffff20
+.word 0x17ffffc8
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_162:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__cctor
+System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__cctor:
+.word 0xa9be7bfd
+.word 0x910003fd
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #1712]
+.word 0xd2800201
+bl _p_12
+.word 0xaa0003e1
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xf9000ba0
+.word 0xd5033bbf
+.word 0xf9400ba0
+.word 0xf9000001
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_163:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
+.loc 14 1359 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xf9000bb8
+.word 0xf9000fa0
+.word 0xf90013a1
+.word 0xaa0203f8
+.word 0xf90017a3
+.word 0xf9001ba4
+.word 0xf90023a5
+.word 0xb9004bbf
+.word 0xb90053bf
+.word 0xf94013a0
+.word 0xb4000560
+.loc 14 1364 0
+.word 0xf94017a0
+.word 0xb4000440
+.loc 14 1371 0
+.word 0xb98043a0
+.word 0x910123a1
+.word 0x910143a2
+bl _p_340
+.loc 14 1376 0
+.word 0xb9804ba0
+.word 0xf90037a0
+.word 0xb98053a0
+.word 0xf9003ba0
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #1720]
+.word 0xd2800b01
+bl _p_12
+.word 0xf94037a4
+.word 0xf9403ba5
+.word 0xf90033a0
+.word 0xf9400fa1
+.word 0xf94013a2
+.word 0xaa1803e3
+bl _p_386
+.word 0xf94033a0
+.word 0xaa0003f8
+.loc 14 1383 0
+.word 0xf9400fa0
+.word 0xaa1803e1
+.word 0xf94017a2
+.word 0xf9401ba3
+.word 0xb98043a4
+bl _p_342
+.loc 14 1385 0
+.word 0xaa1803e0
+.word 0xf9400bb8
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.loc 14 1366 0
+.word 0xd29f7400
+bl _p_204
+.word 0xaa0003e1
+.word 0xd2800fe0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_125
+.word 0xd29f7b40
+.loc 14 1361 0
+bl _p_204
+.word 0xaa0003e1
+.word 0xd2800fe0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_125
+
+Lme_164:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
+wrapper_delegate_invoke_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xa9036bb9
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+.word 0x390163bf
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x35000920
+.word 0x14000001
+.word 0xf9403f17
+.word 0xaa1703e0
+.word 0xb5000320
+.word 0xf9401317
+.word 0xaa1703e0
+.word 0xb4000180
+.word 0xf9401f00
+.word 0xf9400b03
+.word 0x910103a0
+.word 0xf90033a0
+.word 0xaa1703e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0xf94033be
+.word 0xf90003c0
+.word 0x1400002b
+.word 0xf9401f00
+.word 0xf9400b02
+.word 0x910103a0
+.word 0xf90033a0
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0xf94033be
+.word 0xf90003c0
+.word 0x14000021
+.word 0xb9801ae0
+.word 0xaa0003f8
+.word 0xd2800016
+.word 0x93407ec0
+.word 0xb9801ae1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000529
+.word 0xd37df000
+.word 0x8b0002e0
+.word 0x91008000
+.word 0xf9400015
+.word 0xaa1503e3
+.word 0x910143a0
+.word 0xf90033a0
+.word 0xaa0303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf9003ba3
+.word 0xf9400c70
+.word 0xd63f0200
+.word 0xf94033be
+.word 0xf90003c0
+.word 0xf9403ba0
+.word 0x398143a0
+.word 0x390163a0
+.word 0x110006d6
+.word 0xaa1603e0
+.word 0x6b18001f
+.word 0x54fffccb
+.word 0x398163a0
+.word 0x390103a0
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xa9436bb9
+.word 0xf94023a0
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0x910222e0
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1703e0
+bl _p_169
+bl _p_170
+.word 0xaa0003f7
+.word 0xb5ffff20
+.word 0x17ffffb6
+.word 0xd2801980
+.word 0xaa1103e1
+bl _p_16
+
+Lme_169:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
@@ -18153,13 +20188,13 @@ bl _p_12
 .word 0xf9400ba2
 .word 0xd2880003
 .word 0xf94013a4
-bl _p_377
+bl _p_356
 .word 0xf9401ba0
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_147:
+Lme_16a:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_BYTE_get_Default
@@ -18171,7 +20206,7 @@ System_Collections_Generic_EqualityComparer_1_T_BYTE_get_Default:
 .word 0xf9000bba
 .word 0xf9000faf
 .word 0xf9400fa0
-bl _p_378
+bl _p_387
 .word 0xf9400000
 .word 0xf90013a0
 .word 0xd5033bbf
@@ -18181,10 +20216,10 @@ bl _p_378
 .word 0xb5000240
 .loc 19 36 0
 .word 0xf9400fa0
-bl _p_379
+bl _p_388
 .word 0xf9001ba0
 .word 0xf9400fa0
-bl _p_380
+bl _p_389
 .word 0xf9401baf
 .word 0xd63f0000
 .word 0xaa0003fa
@@ -18192,7 +20227,7 @@ bl _p_380
 .word 0xaa1a03e0
 .word 0xf90017a0
 .word 0xf9400fa0
-bl _p_378
+bl _p_387
 .word 0xf90013a0
 .word 0xf94017a1
 .word 0xd5033bbf
@@ -18205,7 +20240,7 @@ bl _p_378
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_148:
+Lme_16b:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Comparer_1_T_BYTE_get_Default
@@ -18217,7 +20252,7 @@ System_Collections_Generic_Comparer_1_T_BYTE_get_Default:
 .word 0xf9000bba
 .word 0xf9000faf
 .word 0xf9400fa0
-bl _p_381
+bl _p_390
 .word 0xf9400000
 .word 0xf90013a0
 .word 0xd5033bbf
@@ -18227,10 +20262,10 @@ bl _p_381
 .word 0xb5000240
 .loc 20 30 0
 .word 0xf9400fa0
-bl _p_382
+bl _p_391
 .word 0xf9001ba0
 .word 0xf9400fa0
-bl _p_383
+bl _p_392
 .word 0xf9401baf
 .word 0xd63f0000
 .word 0xaa0003fa
@@ -18238,7 +20273,7 @@ bl _p_383
 .word 0xaa1a03e0
 .word 0xf90017a0
 .word 0xf9400fa0
-bl _p_381
+bl _p_390
 .word 0xf90013a0
 .word 0xf94017a1
 .word 0xd5033bbf
@@ -18251,7 +20286,7 @@ bl _p_381
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_14a:
+Lme_16d:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ArraySortHelper_1_T_BYTE_IntroSort_T_BYTE___int_int_int_System_Comparison_1_T_BYTE
@@ -18290,7 +20325,7 @@ System_Collections_Generic_ArraySortHelper_1_T_BYTE_IntroSort_T_BYTE___int_int_i
 bl _p_312
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_384
+bl _p_393
 .word 0xaa0003e4
 .word 0xf9402baf
 .word 0xaa1603e0
@@ -18311,7 +20346,7 @@ bl _p_384
 bl _p_312
 .word 0xf9003ba0
 .word 0xf94023a0
-bl _p_384
+bl _p_393
 .word 0xaa0003e4
 .word 0xf94037a3
 .word 0xf9403baf
@@ -18324,7 +20359,7 @@ bl _p_384
 bl _p_312
 .word 0xf90033a0
 .word 0xf94023a0
-bl _p_384
+bl _p_393
 .word 0xaa0003e4
 .word 0xf94033af
 .word 0xaa1603e0
@@ -18339,7 +20374,7 @@ bl _p_384
 bl _p_312
 .word 0xf9002fa0
 .word 0xf94023a0
-bl _p_384
+bl _p_393
 .word 0xaa0003e4
 .word 0xf9402ba2
 .word 0xf9402faf
@@ -18354,7 +20389,7 @@ bl _p_384
 bl _p_312
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_385
+bl _p_394
 .word 0xaa0003e4
 .word 0xf9402baf
 .word 0xaa1603e0
@@ -18371,7 +20406,7 @@ bl _p_385
 bl _p_312
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_386
+bl _p_395
 .word 0xaa0003e4
 .word 0xf9402baf
 .word 0xaa1603e0
@@ -18388,7 +20423,7 @@ bl _p_386
 bl _p_312
 .word 0xf90033a0
 .word 0xf94023a0
-bl _p_387
+bl _p_396
 .word 0xaa0003e4
 .word 0xf94033af
 .word 0xaa1603e0
@@ -18405,7 +20440,7 @@ bl _p_387
 bl _p_312
 .word 0xf9002fa0
 .word 0xf94023a0
-bl _p_373
+bl _p_381
 .word 0xaa0003e5
 .word 0xf9402ba1
 .word 0xf9402faf
@@ -18427,7 +20462,443 @@ bl _p_373
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_14b:
+Lme_16e:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions:
+.loc 18 175 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa90163b7
+.word 0xf90013a0
+.word 0xf90017a1
+.word 0xf9001ba2
+.word 0xaa0303f8
+.word 0xf9001fa4
+.word 0xf90023a5
+.word 0xf9002bbf
+.word 0xf94013a0
+.word 0xf9002fa0
+.word 0xf9401ba0
+.word 0xf90033a0
+.word 0xaa1803f7
+.word 0xb9803ba0
+.word 0xd280009e
+.word 0xa1e0000
+.word 0x35000060
+.word 0xd2800018
+.word 0x14000017
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #96]
+.word 0xd63f0000
+.word 0xf9403000
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1168]
+.word 0xd29ffffe
+.word 0xf2affffe
+.word 0xa1e0021
+.word 0xd28007fe
+.word 0xa1e0022
+.word 0x531d7042
+.word 0x8b020000
+.word 0xf9400000
+.word 0x53067c21
+.word 0xd29ffffe
+.word 0xf2a03ffe
+.word 0xa1e0021
+.word 0x8b010000
+.word 0xf9400018
+.word 0xf9002bbf
+.word 0xf9402ba0
+.word 0xf90027a0
+.word 0xf9402fa0
+.word 0xf94033a1
+.word 0xaa1703e2
+.word 0xaa1803e3
+.word 0xf94027a4
+.word 0xb9803ba5
+.word 0xb98043a6
+.word 0xd2800007
+bl _p_323
+.loc 18 179 0
+.word 0xf94013a0
+.word 0x91014001
+.word 0xd5033bbf
+.word 0xf94017a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 18 180 0
+.word 0xa94163b7
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_16f:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult_InnerInvoke
+System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult_InnerInvoke:
+.loc 18 189 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xf90013ba
+.word 0xaa0003fa
+.word 0xf9402b59
+.loc 18 192 0
+.word 0xf9002b5f
+.loc 18 195 0
+.word 0xaa1903e0
+.word 0x3940033e
+bl _p_332
+.loc 18 199 0
+.word 0xf9400b40
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1728]
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x2, [x16, #1736]
+bl _p_183
+.word 0xaa0003f8
+.loc 18 200 0
+.word 0xaa1803e0
+.word 0xb40001a0
+.loc 18 202 0
+.word 0x9100c3a0
+.word 0xf9001fa0
+.word 0xaa1803e0
+.word 0xaa1903e1
+.word 0xf9400f10
+.word 0xd63f0200
+.word 0xf9401fbe
+.word 0xf90003c0
+.word 0x91012340
+.word 0x3980c3a1
+.word 0x39000001
+.loc 18 203 0
+.word 0x14000018
+.loc 18 205 0
+.word 0xf9400b40
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1744]
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x2, [x16, #1752]
+bl _p_183
+.word 0xaa0003f8
+.loc 18 206 0
+.word 0xaa1803e0
+.word 0xb40001a0
+.loc 18 208 0
+.word 0xf9400f42
+.word 0x9100a3a0
+.word 0xf9001fa0
+.word 0xaa1803e0
+.word 0xaa1903e1
+.word 0xf9400f10
+.word 0xd63f0200
+.word 0xf9401fbe
+.word 0xf90003c0
+.word 0x91012340
+.word 0x3980a3a1
+.word 0x39000001
+.loc 18 212 0
+.word 0xa94167b8
+.word 0xf94013ba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_170:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ctor
+System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ctor:
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_171:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ContinueWhenAllImplb__59_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ContinueWhenAllImplb__59_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object:
+.loc 15 1734 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xf90017a0
+.word 0xaa0103f9
+.word 0xf9001ba2
+.word 0xaa1903e0
+.word 0x3940033e
+bl _p_332
+.loc 15 1735 0
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1760]
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x2, [x16, #1768]
+.word 0xf9401ba0
+bl _p_397
+.word 0xf90027a0
+.word 0xaa1903e0
+.word 0x3940033e
+bl _p_398
+.word 0xaa0003e1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf90023a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94023a0
+.word 0x390063bf
+.word 0xf9400bb9
+.word 0xf9400fa0
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_172:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ContinueWhenAnyImplb__69_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
+System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ContinueWhenAnyImplb__69_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object:
+.loc 15 2072 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf90013a0
+.word 0xf90017a1
+.word 0xf9001ba2
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1776]
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x2, [x16, #1784]
+.word 0xf9401ba0
+bl _p_397
+.word 0xf9002fa0
+.word 0xf94017a0
+.word 0xf94017a1
+.word 0x3940003e
+bl _p_399
+.word 0xaa0003e1
+.word 0xf9402fa2
+.word 0x9100e3a0
+.word 0xf90023a0
+.word 0xaa0203e0
+.word 0xf9002ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94023be
+.word 0xf90003c0
+.word 0xf9402ba0
+.word 0x3980e3a0
+.word 0x390043a0
+.word 0xf9400ba0
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_173:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions:
+.loc 18 175 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa90163b7
+.word 0xf90013a0
+.word 0xf90017a1
+.word 0xf9001ba2
+.word 0xaa0303f8
+.word 0xf9001fa4
+.word 0xf90023a5
+.word 0xf9002bbf
+.word 0xf94013a0
+.word 0xf9002fa0
+.word 0xf9401ba0
+.word 0xf90033a0
+.word 0xaa1803f7
+.word 0xb9803ba0
+.word 0xd280009e
+.word 0xa1e0000
+.word 0x35000060
+.word 0xd2800018
+.word 0x14000017
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x0, [x16, #96]
+.word 0xd63f0000
+.word 0xf9403000
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1168]
+.word 0xd29ffffe
+.word 0xf2affffe
+.word 0xa1e0021
+.word 0xd28007fe
+.word 0xa1e0022
+.word 0x531d7042
+.word 0x8b020000
+.word 0xf9400000
+.word 0x53067c21
+.word 0xd29ffffe
+.word 0xf2a03ffe
+.word 0xa1e0021
+.word 0x8b010000
+.word 0xf9400018
+.word 0xf9002bbf
+.word 0xf9402ba0
+.word 0xf90027a0
+.word 0xf9402fa0
+.word 0xf94033a1
+.word 0xaa1703e2
+.word 0xaa1803e3
+.word 0xf94027a4
+.word 0xb9803ba5
+.word 0xb98043a6
+.word 0xd2800007
+bl _p_323
+.loc 18 179 0
+.word 0xf94013a0
+.word 0x91014001
+.word 0xd5033bbf
+.word 0xf94017a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 18 180 0
+.word 0xa94163b7
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_174:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult_InnerInvoke
+System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult_InnerInvoke:
+.loc 18 189 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xf90013ba
+.word 0xaa0003fa
+.word 0xf9402b59
+.loc 18 192 0
+.word 0xf9002b5f
+.loc 18 195 0
+.word 0xaa1903e0
+.word 0x3940033e
+bl _p_332
+.loc 18 199 0
+.word 0xf9400b40
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1792]
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x2, [x16, #1800]
+bl _p_183
+.word 0xaa0003f8
+.loc 18 200 0
+.word 0xaa1803e0
+.word 0xb40001a0
+.loc 18 202 0
+.word 0x9100c3a0
+.word 0xf9001fa0
+.word 0xaa1803e0
+.word 0xaa1903e1
+.word 0xf9400f10
+.word 0xd63f0200
+.word 0xf9401fbe
+.word 0xf90003c0
+.word 0x91012340
+.word 0x3980c3a1
+.word 0x39000001
+.loc 18 203 0
+.word 0x14000018
+.loc 18 205 0
+.word 0xf9400b40
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x1, [x16, #1808]
+
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x2, [x16, #1816]
+bl _p_183
+.word 0xaa0003f8
+.loc 18 206 0
+.word 0xaa1803e0
+.word 0xb40001a0
+.loc 18 208 0
+.word 0xf9400f42
+.word 0x9100a3a0
+.word 0xf9001fa0
+.word 0xaa1803e0
+.word 0xaa1903e1
+.word 0xf9400f10
+.word 0xd63f0200
+.word 0xf9401fbe
+.word 0xf90003c0
+.word 0x91012340
+.word 0x3980a3a1
+.word 0x39000001
+.loc 18 212 0
+.word 0xa94167b8
+.word 0xf94013ba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_175:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_BYTE_CreateComparer
@@ -18439,7 +20910,7 @@ System_Collections_Generic_EqualityComparer_1_T_BYTE_CreateComparer:
 .word 0xf90013ba
 .word 0xf90017af
 .word 0xf94017a0
-bl _p_388
+bl _p_400
 .word 0xaa0003fa
 .word 0xb400017a
 .word 0xf9400340
@@ -18449,7 +20920,7 @@ bl _p_388
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1600]
+ldr x1, [x16, #1824]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540023c1
@@ -18458,7 +20929,7 @@ ldr x1, [x16, #1600]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1832]
 .word 0xeb00035f
 .word 0x9a9f17e0
 .word 0x34000280
@@ -18466,12 +20937,12 @@ ldr x0, [x16, #1608]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1616]
+ldr x0, [x16, #1840]
 .word 0xd2800201
 bl _p_12
 .word 0xaa0003fa
 .word 0xf94017a0
-bl _p_389
+bl _p_401
 .word 0xaa0003f9
 .word 0xb400011a
 .word 0xf9400340
@@ -18487,7 +20958,7 @@ bl _p_389
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1624]
+ldr x0, [x16, #1848]
 .word 0xeb00033f
 .word 0x9a9f17e0
 .word 0x34000280
@@ -18495,12 +20966,12 @@ ldr x0, [x16, #1624]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1632]
+ldr x0, [x16, #1856]
 .word 0xd2800201
 bl _p_12
 .word 0xaa0003fa
 .word 0xf94017a0
-bl _p_389
+bl _p_401
 .word 0xaa0003f9
 .word 0xb400011a
 .word 0xf9400340
@@ -18514,7 +20985,7 @@ bl _p_389
 .word 0x140000e6
 .loc 19 70 0
 .word 0xf94017a0
-bl _p_390
+bl _p_402
 .word 0xaa0003e2
 .word 0xaa0203e0
 .word 0xaa1903e1
@@ -18527,12 +20998,12 @@ bl _p_390
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1864]
 .word 0xaa1903e1
-bl _p_391
+bl _p_403
 .word 0xaa0003fa
 .word 0xf94017a0
-bl _p_389
+bl _p_401
 .word 0xaa0003f9
 .word 0xb400011a
 .word 0xf9400340
@@ -18558,7 +21029,7 @@ bl _p_389
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1648]
+ldr x1, [x16, #1872]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x34000920
@@ -18580,7 +21051,7 @@ ldr x1, [x16, #1648]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1600]
+ldr x1, [x16, #1824]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54001541
@@ -18589,12 +21060,12 @@ ldr x1, [x16, #1600]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1880]
 .word 0xf9001fa0
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1664]
+ldr x0, [x16, #1888]
 .word 0xd2800021
 bl _p_103
 .word 0xaa0003e3
@@ -18624,12 +21095,12 @@ bl _p_103
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1672]
+ldr x0, [x16, #1896]
 .word 0xaa1803e1
-bl _p_391
+bl _p_403
 .word 0xaa0003fa
 .word 0xf94017a0
-bl _p_389
+bl _p_401
 .word 0xaa0003f9
 .word 0xb400011a
 .word 0xf9400340
@@ -18650,8 +21121,8 @@ bl _p_389
 .word 0x34000be0
 .loc 19 91 0
 .word 0xaa1903e0
-bl _p_392
-bl _p_393
+bl _p_404
+bl _p_405
 .word 0x93407c00
 .word 0xaa0003fa
 .word 0xaa1a03e0
@@ -18664,7 +21135,7 @@ bl _p_393
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1680]
+ldr x0, [x16, #1904]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -18672,12 +21143,12 @@ ldr x0, [x16, #1680]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1688]
+ldr x0, [x16, #1912]
 .word 0xaa1903e1
-bl _p_391
+bl _p_403
 .word 0xaa0003fa
 .word 0xf94017a0
-bl _p_389
+bl _p_401
 .word 0xaa0003f9
 .word 0xb400011a
 .word 0xf9400340
@@ -18693,12 +21164,12 @@ bl _p_389
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1696]
+ldr x0, [x16, #1920]
 .word 0xaa1903e1
-bl _p_391
+bl _p_403
 .word 0xaa0003fa
 .word 0xf94017a0
-bl _p_389
+bl _p_401
 .word 0xaa0003f9
 .word 0xb400011a
 .word 0xf9400340
@@ -18714,12 +21185,12 @@ bl _p_389
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1704]
+ldr x0, [x16, #1928]
 .word 0xaa1903e1
-bl _p_391
+bl _p_403
 .word 0xaa0003fa
 .word 0xf94017a0
-bl _p_389
+bl _p_401
 .word 0xaa0003f9
 .word 0xb400011a
 .word 0xf9400340
@@ -18735,12 +21206,12 @@ bl _p_389
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1712]
+ldr x0, [x16, #1936]
 .word 0xaa1903e1
-bl _p_391
+bl _p_403
 .word 0xaa0003fa
 .word 0xf94017a0
-bl _p_389
+bl _p_401
 .word 0xaa0003f9
 .word 0xb400011a
 .word 0xf9400340
@@ -18754,12 +21225,12 @@ bl _p_389
 .word 0x1400000d
 .loc 19 128 0
 .word 0xf94017a0
-bl _p_394
+bl _p_406
 .word 0xd2800201
 bl _p_12
 .word 0xf9001fa0
 .word 0xf94017a0
-bl _p_395
+bl _p_407
 .word 0xaa0003e1
 .word 0xf9401fa0
 .word 0xf9001ba0
@@ -18770,14 +21241,14 @@ bl _p_395
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_14c:
+Lme_176:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Comparer_1_T_BYTE_CreateComparer
@@ -18788,7 +21259,7 @@ System_Collections_Generic_Comparer_1_T_BYTE_CreateComparer:
 .word 0xa9016bb9
 .word 0xf90013af
 .word 0xf94013a0
-bl _p_396
+bl _p_408
 .word 0xaa0003fa
 .word 0xb400017a
 .word 0xf9400340
@@ -18798,14 +21269,14 @@ bl _p_396
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1600]
+ldr x1, [x16, #1824]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540010e1
 .word 0xaa1a03f9
 .loc 20 65 0
 .word 0xf94013a0
-bl _p_397
+bl _p_409
 .word 0xaa0003e2
 .word 0xaa0203e0
 .word 0xaa1a03e1
@@ -18818,12 +21289,12 @@ bl _p_397
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1720]
+ldr x0, [x16, #1944]
 .word 0xaa1903e1
-bl _p_391
+bl _p_403
 .word 0xaa0003fa
 .word 0xf94013a0
-bl _p_398
+bl _p_410
 .word 0xaa0003f9
 .word 0xb400011a
 .word 0xf9400340
@@ -18849,7 +21320,7 @@ bl _p_398
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1728]
+ldr x1, [x16, #1952]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x34000920
@@ -18871,7 +21342,7 @@ ldr x1, [x16, #1728]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x1, [x16, #1600]
+ldr x1, [x16, #1824]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540008a1
@@ -18880,12 +21351,12 @@ ldr x1, [x16, #1600]
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1736]
+ldr x0, [x16, #1960]
 .word 0xf9001fa0
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1664]
+ldr x0, [x16, #1888]
 .word 0xd2800021
 bl _p_103
 .word 0xaa0003e3
@@ -18915,12 +21386,12 @@ bl _p_103
 
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x0, [x16, #1744]
+ldr x0, [x16, #1968]
 .word 0xaa1903e1
-bl _p_391
+bl _p_403
 .word 0xaa0003fa
 .word 0xf94013a0
-bl _p_398
+bl _p_410
 .word 0xaa0003f9
 .word 0xb400011a
 .word 0xf9400340
@@ -18934,12 +21405,12 @@ bl _p_398
 .word 0x1400000d
 .loc 20 85 0
 .word 0xf94013a0
-bl _p_399
+bl _p_411
 .word 0xd2800201
 bl _p_12
 .word 0xf9001fa0
 .word 0xf94013a0
-bl _p_400
+bl _p_412
 .word 0xaa0003e1
 .word 0xf9401fa0
 .word 0xf9001ba0
@@ -18949,14 +21420,14 @@ bl _p_400
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_16
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_14d:
+Lme_177:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ArraySortHelper_1_T_BYTE_PickPivotAndPartition_T_BYTE___int_int_System_Comparison_1_T_BYTE
@@ -18983,7 +21454,7 @@ System_Collections_Generic_ArraySortHelper_1_T_BYTE_PickPivotAndPartition_T_BYTE
 bl _p_312
 .word 0xf9004ba0
 .word 0xf94023a0
-bl _p_384
+bl _p_393
 .word 0xaa0003e4
 .word 0xf94047a3
 .word 0xf9404baf
@@ -18997,7 +21468,7 @@ bl _p_384
 bl _p_312
 .word 0xf90043a0
 .word 0xf94023a0
-bl _p_384
+bl _p_393
 .word 0xaa0003e4
 .word 0xf94043af
 .word 0xaa1703e0
@@ -19010,7 +21481,7 @@ bl _p_384
 bl _p_312
 .word 0xf9003fa0
 .word 0xf94023a0
-bl _p_384
+bl _p_393
 .word 0xaa0003e4
 .word 0xf9403ba2
 .word 0xf9403faf
@@ -19038,7 +21509,7 @@ bl _p_384
 bl _p_312
 .word 0xf90033a0
 .word 0xf94023a0
-bl _p_401
+bl _p_413
 .word 0xaa0003e3
 .word 0xf9402ba1
 .word 0xf9402fa2
@@ -19095,7 +21566,7 @@ bl _p_401
 bl _p_312
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_401
+bl _p_413
 .word 0xaa0003e3
 .word 0xf9402baf
 .word 0xaa1703e0
@@ -19112,7 +21583,7 @@ bl _p_401
 bl _p_312
 .word 0xf9002fa0
 .word 0xf94023a0
-bl _p_401
+bl _p_413
 .word 0xaa0003e3
 .word 0xf9402ba2
 .word 0xf9402faf
@@ -19127,11 +21598,11 @@ bl _p_401
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_14e:
+Lme_178:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ArraySortHelper_1_T_BYTE_Heapsort_T_BYTE___int_int_System_Comparison_1_T_BYTE
@@ -19160,7 +21631,7 @@ System_Collections_Generic_ArraySortHelper_1_T_BYTE_Heapsort_T_BYTE___int_int_Sy
 bl _p_312
 .word 0xf90023a0
 .word 0xf9401fa0
-bl _p_402
+bl _p_414
 .word 0xaa0003e5
 .word 0xf94023af
 .word 0xaa1703e0
@@ -19185,7 +21656,7 @@ bl _p_402
 bl _p_312
 .word 0xf9002fa0
 .word 0xf9401fa0
-bl _p_401
+bl _p_413
 .word 0xaa0003e3
 .word 0xf9402ba2
 .word 0xf9402faf
@@ -19199,7 +21670,7 @@ bl _p_401
 bl _p_312
 .word 0xf90027a0
 .word 0xf9401fa0
-bl _p_402
+bl _p_414
 .word 0xaa0003e5
 .word 0xf94023a2
 .word 0xf94027af
@@ -19221,7 +21692,7 @@ bl _p_402
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_14f:
+Lme_179:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ArraySortHelper_1_T_BYTE_InsertionSort_T_BYTE___int_int_System_Comparison_1_T_BYTE
@@ -19314,11 +21785,11 @@ System_Collections_Generic_ArraySortHelper_1_T_BYTE_InsertionSort_T_BYTE___int_i
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_150:
+Lme_17a:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ArraySortHelper_1_T_BYTE_SwapIfGreater_T_BYTE___System_Comparison_1_T_BYTE_int_int
@@ -19400,11 +21871,11 @@ System_Collections_Generic_ArraySortHelper_1_T_BYTE_SwapIfGreater_T_BYTE___Syste
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_151:
+Lme_17b:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_T_BYTE__ctor
@@ -19416,7 +21887,7 @@ System_Collections_Generic_ObjectEqualityComparer_1_T_BYTE__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_152:
+Lme_17c:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectComparer_1_T_BYTE__ctor
@@ -19428,7 +21899,7 @@ System_Collections_Generic_ObjectComparer_1_T_BYTE__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_153:
+Lme_17d:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ArraySortHelper_1_T_BYTE_Swap_T_BYTE___int_int
@@ -19488,11 +21959,11 @@ System_Collections_Generic_ArraySortHelper_1_T_BYTE_Swap_T_BYTE___int_int:
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_154:
+Lme_17e:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ArraySortHelper_1_T_BYTE_DownHeap_T_BYTE___int_int_int_System_Comparison_1_T_BYTE
@@ -19621,11 +22092,11 @@ System_Collections_Generic_ArraySortHelper_1_T_BYTE_DownHeap_T_BYTE___int_int_in
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_16
 
-Lme_155:
+Lme_17f:
 .text
 	.align 3
 jit_code_end:
@@ -19748,6 +22219,14 @@ bl wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_string_
 bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
 bl wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
 bl wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task___invoke_void_T_System_Threading_Tasks_Task__
+bl wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_string_invoke_TResult_T_System_Threading_Tasks_Task
+bl wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+bl wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+bl wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
+bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+bl wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task
 bl System_Nullable_1_AVFoundation_AVPlayerStatus__ctor_AVFoundation_AVPlayerStatus
 bl System_Nullable_1_AVFoundation_AVPlayerStatus_get_HasValue
 bl System_Nullable_1_AVFoundation_AVPlayerStatus_get_Value
@@ -19780,6 +22259,7 @@ bl wrapper_delegate_invoke_System_Func_2_object_System_IO_Stream_invoke_TResult_
 bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream
 bl wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_IO_Stream_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_IO_Stream_object
 bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult
+bl wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_IO_Stream_invoke_TResult_T_System_Threading_Tasks_Task
 bl wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
 bl System_Linq_Enumerable_Select_TSource_BYTE_TResult_REF_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
 bl method_addresses
@@ -19817,6 +22297,7 @@ bl method_addresses
 bl System_Collections_Generic_List_1_T_BYTE__ctor
 bl System_Collections_Generic_List_1_T_BYTE__ctor_int
 bl System_Collections_Generic_List_1_T_BYTE__ctor_System_Collections_Generic_IEnumerable_1_T_BYTE
+bl System_Collections_Generic_List_1_T_BYTE_get_Capacity
 bl System_Collections_Generic_List_1_T_BYTE_set_Capacity_int
 bl System_Collections_Generic_List_1_T_BYTE_get_Count
 bl System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_IsFixedSize
@@ -19908,6 +22389,7 @@ bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaite
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
+bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskContinuationOptions
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -19918,6 +22400,9 @@ bl System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_St
 bl System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 bl System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
 bl System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
+bl System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_CreateCanceledTask_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken
+bl System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_ContinueWhenAllImpl_System_Threading_Tasks_Task___System_Action_1_System_Threading_Tasks_Task___System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken_System_Threading_Tasks_TaskScheduler
+bl System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_ContinueWhenAnyImpl_System_Threading_Tasks_Task___System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken_System_Threading_Tasks_TaskScheduler
 bl System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
 bl System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 bl System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
@@ -19938,12 +22423,14 @@ bl method_addresses
 bl wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
 bl System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 bl System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+bl System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 bl System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 bl System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
 bl System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 bl System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 bl System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 bl System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+bl System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 bl System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 bl System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
 bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
@@ -19962,11 +22449,37 @@ bl method_addresses
 bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
 bl System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
 bl System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
+bl System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl wrapper_delegate_invoke_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+bl wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task___invoke_TResult
+bl wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task___invoke_TResult_T_object
+bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task__
+bl wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task___invoke_TResult_T_System_IAsyncResult
+bl wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_Task___invoke_TResult_T_System_Threading_Tasks_Task
+bl System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__cctor
+bl System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl wrapper_delegate_invoke_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
 bl System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
 bl System_Collections_Generic_EqualityComparer_1_T_BYTE_get_Default
 bl method_addresses
 bl System_Collections_Generic_Comparer_1_T_BYTE_get_Default
 bl System_Collections_Generic_ArraySortHelper_1_T_BYTE_IntroSort_T_BYTE___int_int_int_System_Comparison_1_T_BYTE
+bl System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+bl System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult_InnerInvoke
+bl System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ctor
+bl System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ContinueWhenAllImplb__59_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+bl System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ContinueWhenAnyImplb__69_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
+bl System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+bl System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult_InnerInvoke
 bl System_Collections_Generic_EqualityComparer_1_T_BYTE_CreateComparer
 bl System_Collections_Generic_Comparer_1_T_BYTE_CreateComparer
 bl System_Collections_Generic_ArraySortHelper_1_T_BYTE_PickPivotAndPartition_T_BYTE___int_int_System_Comparison_1_T_BYTE
@@ -19986,14 +22499,14 @@ unbox_trampolines:
 	.long 54,55,56,57,58,59,60,61
 	.long 66,67,68,69,70,71,72,73
 	.long 74,75,76,77,78,79,80,81
-	.long 82,83,84,85,86,87,113,114
-	.long 115,116,117,118,119,120,121,122
+	.long 82,83,84,85,86,87,121,122
 	.long 123,124,125,126,127,128,129,130
-	.long 131,132,133,134,148,149,150,151
-	.long 152,153,231,232,233,234,235,236
-	.long 237,246,251,283,284,285,286,287
-	.long 288,289,290,301,302,303,304,305
-	.long 306,307,308,309,310
+	.long 131,132,133,134,135,136,137,138
+	.long 139,140,141,142,157,158,159,160
+	.long 161,162,241,242,243,244,245,246
+	.long 247,256,261,297,298,299,300,301
+	.long 302,303,304,315,316,317,318,319
+	.long 320,321,322,323,324,325,326
 unbox_trampolines_end:
 
 	.long 0
@@ -20030,14 +22543,6 @@ bl ut_84
 bl ut_85
 bl ut_86
 bl ut_87
-bl ut_113
-bl ut_114
-bl ut_115
-bl ut_116
-bl ut_117
-bl ut_118
-bl ut_119
-bl ut_120
 bl ut_121
 bl ut_122
 bl ut_123
@@ -20052,39 +22557,49 @@ bl ut_131
 bl ut_132
 bl ut_133
 bl ut_134
-bl ut_148
-bl ut_149
-bl ut_150
-bl ut_151
-bl ut_152
-bl ut_153
-bl ut_231
-bl ut_232
-bl ut_233
-bl ut_234
-bl ut_235
-bl ut_236
-bl ut_237
+bl ut_135
+bl ut_136
+bl ut_137
+bl ut_138
+bl ut_139
+bl ut_140
+bl ut_141
+bl ut_142
+bl ut_157
+bl ut_158
+bl ut_159
+bl ut_160
+bl ut_161
+bl ut_162
+bl ut_241
+bl ut_242
+bl ut_243
+bl ut_244
+bl ut_245
 bl ut_246
-bl ut_251
-bl ut_283
-bl ut_284
-bl ut_285
-bl ut_286
-bl ut_287
-bl ut_288
-bl ut_289
-bl ut_290
+bl ut_247
+bl ut_256
+bl ut_261
+bl ut_297
+bl ut_298
+bl ut_299
+bl ut_300
 bl ut_301
 bl ut_302
 bl ut_303
 bl ut_304
-bl ut_305
-bl ut_306
-bl ut_307
-bl ut_308
-bl ut_309
-bl ut_310
+bl ut_315
+bl ut_316
+bl ut_317
+bl ut_318
+bl ut_319
+bl ut_320
+bl ut_321
+bl ut_322
+bl ut_323
+bl ut_324
+bl ut_325
+bl ut_326
 
 	.long 0
 .section __TEXT, __const
@@ -20103,42 +22618,43 @@ unwind_info:
 	.byte 157,28,158,27,68,13,29,68,152,26,153,25,68,154,24,22,12,31,0,68,14,224,2,157,44,158,43,68,13,29,68,148
 	.byte 42,149,41,68,150,40,26,12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,151,5,68,152,4,153,3,68,154
 	.byte 2,14,12,31,0,68,14,144,1,157,18,158,17,68,13,29,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152
-	.byte 12,153,11,68,154,10,19,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18,154,17,16,12,31,0,68,14
-	.byte 80,157,10,158,9,68,13,29,68,153,8,21,12,31,0,68,14,48,157,6,158,5,68,13,29,68,151,4,152,3,68,153
-	.byte 2,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8,17,12,31,0,68,14,144,1,157,18,158,17,68,13
-	.byte 29,68,153,16,13,12,31,0,68,14,64,157,8,158,7,68,13,29,24,12,31,0,68,14,128,2,157,32,158,31,68,13
-	.byte 29,68,151,30,152,29,68,153,28,154,27,19,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,153,24,154,23,19
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13,22,12,31,0,68,14,240,2,157,46,158,45,68
-	.byte 13,29,68,152,44,153,43,68,154,42,28,12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6
-	.byte 152,5,68,153,4,154,3,16,12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,16,12,31,0,68,14,64,157
-	.byte 8,158,7,68,13,29,68,154,6,26,12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153
-	.byte 5,68,154,4,23,12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,152,5,68,153,4,154,3,24,12,31,0
-	.byte 68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,153,14,154,13,16,12,31,0,68,14,48,157,6,158,5
-	.byte 68,13,29,68,153,4,13,12,31,0,68,14,80,157,10,158,9,68,13,29,31,12,31,0,68,14,112,157,14,158,13,68
-	.byte 13,29,68,148,12,149,11,68,150,10,151,9,68,152,8,153,7,68,154,6,23,12,31,0,68,14,96,157,12,158,11,68
-	.byte 13,29,68,149,10,150,9,68,151,8,152,7,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7,14
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,18,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153
-	.byte 5,13,12,31,0,68,14,112,157,14,158,13,68,13,29,21,12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4
-	.byte 153,3,68,154,2,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14,153,13,68,154,12,18,12,31,0
-	.byte 68,14,96,157,12,158,11,68,13,29,68,153,10,154,9,22,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151
-	.byte 18,152,17,68,153,16,14,12,31,0,68,14,160,1,157,20,158,19,68,13,29,22,12,31,0,68,14,224,1,157,28,158
-	.byte 27,68,13,29,68,150,26,151,25,68,152,24,30,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,148,18,149,17
-	.byte 68,150,16,151,15,68,152,14,68,154,13,19,12,31,0,68,14,80,157,10,158,9,68,13,29,68,151,8,68,153,7,21
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,68,153,9,154,8,22,12,31,0,68,14,176,1,157,22,158
-	.byte 21,68,13,29,68,150,20,151,19,68,152,18,21,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68
-	.byte 153,8,13,12,31,0,68,14,96,157,12,158,11,68,13,29,18,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153
-	.byte 6,154,5,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,17,12,31,0,68,14,128,1,157,16,158,15
+	.byte 12,153,11,68,154,10,18,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5,19,12,31,0,68,14,160
+	.byte 1,157,20,158,19,68,13,29,68,153,18,154,17,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,21,12
+	.byte 31,0,68,14,48,157,6,158,5,68,13,29,68,151,4,152,3,68,153,2,16,12,31,0,68,14,80,157,10,158,9,68
+	.byte 13,29,68,154,8,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,13,12,31,0,68,14,64,157,8
+	.byte 158,7,68,13,29,24,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,151,30,152,29,68,153,28,154,27,19,12
+	.byte 31,0,68,14,208,1,157,26,158,25,68,13,29,68,153,24,154,23,19,12,31,0,68,14,128,1,157,16,158,15,68,13
+	.byte 29,68,153,14,154,13,22,12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,152,44,153,43,68,154,42,28,12,31
+	.byte 0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3,16,12,31,0,68,14
+	.byte 32,157,4,158,3,68,13,29,68,153,2,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,26,12,31,0
+	.byte 68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4,23,12,31,0,68,14,64,157,8
+	.byte 158,7,68,13,29,68,151,6,152,5,68,153,4,154,3,24,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151
+	.byte 16,152,15,68,153,14,154,13,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4,13,12,31,0,68,14,80
+	.byte 157,10,158,9,68,13,29,31,12,31,0,68,14,112,157,14,158,13,68,13,29,68,148,12,149,11,68,150,10,151,9,68
+	.byte 152,8,153,7,68,154,6,23,12,31,0,68,14,96,157,12,158,11,68,13,29,68,149,10,150,9,68,151,8,152,7,18
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7,14,12,31,0,68,14,128,1,157,16,158,15,68,13
+	.byte 29,18,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,13,12,31,0,68,14,112,157,14,158,13,68
+	.byte 13,29,21,12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3,68,154,2,22,12,31,0,68,14,128,1
+	.byte 157,16,158,15,68,13,29,68,152,14,153,13,68,154,12,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
+	.byte 154,9,22,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16,14,12,31,0,68,14,160
+	.byte 1,157,20,158,19,68,13,29,22,12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,150,26,151,25,68,152,24,30
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,148,18,149,17,68,150,16,151,15,68,152,14,68,154,13,19,12
+	.byte 31,0,68,14,80,157,10,158,9,68,13,29,68,151,8,68,153,7,21,12,31,0,68,14,96,157,12,158,11,68,13,29
+	.byte 68,151,10,68,153,9,154,8,22,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,151,19,68,152,18,21
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,13,12,31,0,68,14,96,157,12,158,11
+	.byte 68,13,29,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,17,12,31,0,68,14,128,1,157,16,158,15
 	.byte 68,13,29,68,152,14,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,16,12,31,0,68,14,80,157,10
 	.byte 158,9,68,13,29,68,150,8,19,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,153,32,154,31,23,12,31,0
-	.byte 68,14,176,1,157,22,158,21,68,13,29,68,150,20,68,152,19,68,154,18,14,12,31,0,68,14,224,1,157,28,158,27
-	.byte 68,13,29,24,12,31,0,68,14,112,157,14,158,13,68,13,29,68,148,12,68,151,11,152,10,68,153,9,23,12,31,0
-	.byte 68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9,16,12,31,0,68,14,48,157,6,158,5,68
-	.byte 13,29,68,152,4,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,26,12,31,0,68,14,112,157
-	.byte 14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,68,154,8,29,12,31,0,68,14,128,1,157,16,158,15,68
-	.byte 13,29,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,29,12,31,0,68,14,160,1,157,20,158,19,68,13,29
-	.byte 68,149,18,150,17,68,151,16,152,15,68,153,14,154,13,26,12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10
-	.byte 151,9,68,152,8,153,7,68,154,6,31,12,31,0,68,14,80,157,10,158,9,68,13,29,68,148,8,149,7,68,150,6
-	.byte 151,5,68,152,4,153,3,68,154,2,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
+	.byte 68,14,176,1,157,22,158,21,68,13,29,68,150,20,68,152,19,68,154,18,22,12,31,0,68,14,128,1,157,16,158,15
+	.byte 68,13,29,68,150,14,151,13,68,153,12,14,12,31,0,68,14,224,1,157,28,158,27,68,13,29,24,12,31,0,68,14
+	.byte 112,157,14,158,13,68,13,29,68,148,12,68,151,11,152,10,68,153,9,23,12,31,0,68,14,112,157,14,158,13,68,13
+	.byte 29,68,151,12,152,11,68,153,10,154,9,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,18,12,31,0
+	.byte 68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,26,12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12
+	.byte 151,11,68,152,10,153,9,68,154,8,29,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151
+	.byte 12,152,11,68,153,10,154,9,29,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,149,18,150,17,68,151,16,152
+	.byte 15,68,153,14,154,13,26,12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154
+	.byte 6,31,12,31,0,68,14,80,157,10,158,9,68,13,29,68,148,8,149,7,68,150,6,151,5,68,152,4,153,3,68,154
+	.byte 2,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
 
 .text
 	.align 4
@@ -20149,3221 +22665,3317 @@ plt_UIKit_UIDevice_get_CurrentDevice:
 _p_1:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1984]
 br x16
-.word 6910
+.word 8013
 	.no_dead_strip plt_UIKit_UIDevice_get_Model
 plt_UIKit_UIDevice_get_Model:
 _p_2:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1992]
 br x16
-.word 6915
+.word 8018
 	.no_dead_strip plt_UIKit_UIDevice_get_SystemVersion
 plt_UIKit_UIDevice_get_SystemVersion:
 _p_3:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #2000]
 br x16
-.word 6920
+.word 8023
 	.no_dead_strip plt_string_Concat_string_string_string_string
 plt_string_Concat_string_string_string_string:
 _p_4:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #2008]
 br x16
-.word 6925
+.word 8028
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_Diagnostics_Log_Info_string
 plt_Octane_Xamarin_Forms_VideoPlayer_Diagnostics_Log_Info_string:
 _p_5:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #2016]
 br x16
-.word 6930
+.word 8033
 	.no_dead_strip plt_Xamarin_Forms_DependencyService_Register_Octane_Xamarin_Forms_VideoPlayer_Interfaces_IPlatformFeatures_Octane_Xamarin_Forms_VideoPlayer_iOS_PlatformFeatures
 plt_Xamarin_Forms_DependencyService_Register_Octane_Xamarin_Forms_VideoPlayer_Interfaces_IPlatformFeatures_Octane_Xamarin_Forms_VideoPlayer_iOS_PlatformFeatures:
 _p_6:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #2024]
 br x16
-.word 6935
+.word 8038
 	.no_dead_strip plt_Foundation_NSBundle_get_MainBundle
 plt_Foundation_NSBundle_get_MainBundle:
 _p_7:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #2032]
 br x16
-.word 6947
+.word 8050
 	.no_dead_strip plt_Foundation_NSBundle_get_BundleIdentifier
 plt_Foundation_NSBundle_get_BundleIdentifier:
 _p_8:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #2040]
 br x16
-.word 6952
+.word 8055
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_9:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #2048]
 br x16
-.word 6957
+.word 8060
 	.no_dead_strip plt_System_Text_Encoding_get_UTF8
 plt_System_Text_Encoding_get_UTF8:
 _p_10:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #2056]
 br x16
-.word 6960
+.word 8063
 	.no_dead_strip plt_System_Security_Cryptography_HashAlgorithm_ComputeHash_byte__
 plt_System_Security_Cryptography_HashAlgorithm_ComputeHash_byte__:
 _p_11:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #2064]
 br x16
-.word 6965
+.word 8068
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_12:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #2072]
 br x16
-.word 6970
+.word 8073
 	.no_dead_strip plt_System_Linq_Enumerable_Select_byte_string_System_Collections_Generic_IEnumerable_1_byte_System_Func_2_byte_string
 plt_System_Linq_Enumerable_Select_byte_string_System_Collections_Generic_IEnumerable_1_byte_System_Func_2_byte_string:
 _p_13:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #2080]
 br x16
-.word 6978
+.word 8081
 	.no_dead_strip plt_System_Linq_Enumerable_ToArray_string_System_Collections_Generic_IEnumerable_1_string
 plt_System_Linq_Enumerable_ToArray_string_System_Collections_Generic_IEnumerable_1_string:
 _p_14:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #2088]
 br x16
-.word 6990
+.word 8093
 	.no_dead_strip plt_string_Join_string_string__
 plt_string_Join_string_string__:
 _p_15:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #2096]
 br x16
-.word 7002
+.word 8105
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_16:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #2104]
 br x16
-.word 7007
+.word 8110
 	.no_dead_strip plt_Foundation_NSThread_get_MainThread
 plt_Foundation_NSThread_get_MainThread:
 _p_17:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #2112]
 br x16
-.word 7009
+.word 8112
 	.no_dead_strip plt_Foundation_NSThread_Cancel
 plt_Foundation_NSThread_Cancel:
 _p_18:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #2120]
 br x16
-.word 7014
+.word 8117
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_FileVideoSource_get_File
 plt_Octane_Xamarin_Forms_VideoPlayer_FileVideoSource_get_File:
 _p_19:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #2128]
 br x16
-.word 7019
+.word 8122
 	.no_dead_strip plt_System_IO_File_Exists_string
 plt_System_IO_File_Exists_string:
 _p_20:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #2136]
 br x16
-.word 7024
+.word 8127
 	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_string_string
 plt_System_Threading_Tasks_Task_FromResult_string_string:
 _p_21:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #2144]
 br x16
-.word 7029
+.word 8132
 	.no_dead_strip plt_string_memset_byte__int_int
 plt_string_memset_byte__int_int:
 _p_22:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #2152]
 br x16
-.word 7041
+.word 8144
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_:
 _p_23:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #2160]
 br x16
-.word 7046
+.word 8149
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_get_Task:
 _p_24:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #2168]
 br x16
-.word 7058
+.word 8161
 	.no_dead_strip plt_System_Security_Cryptography_HashAlgorithm_ComputeHash_System_IO_Stream
 plt_System_Security_Cryptography_HashAlgorithm_ComputeHash_System_IO_Stream:
 _p_25:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #2176]
 br x16
-.word 7069
+.word 8172
 	.no_dead_strip plt_System_Convert_ToBase64String_byte__
 plt_System_Convert_ToBase64String_byte__:
 _p_26:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #2184]
 br x16
-.word 7074
+.word 8177
 	.no_dead_strip plt_string_Replace_string_string
 plt_string_Replace_string_string:
 _p_27:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #2192]
 br x16
-.word 7079
+.word 8182
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_28:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #2200]
 br x16
-.word 7084
+.word 8187
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_UriVideoSource_get_Uri
 plt_Octane_Xamarin_Forms_VideoPlayer_UriVideoSource_get_Uri:
 _p_29:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #2208]
 br x16
-.word 7089
+.word 8192
 	.no_dead_strip plt_System_Uri_op_Inequality_System_Uri_System_Uri
 plt_System_Uri_op_Inequality_System_Uri_System_Uri:
 _p_30:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #2216]
 br x16
-.word 7094
+.word 8197
 	.no_dead_strip plt_System_Uri_get_AbsoluteUri
 plt_System_Uri_get_AbsoluteUri:
 _p_31:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #2224]
 br x16
-.word 7099
+.word 8202
 	.no_dead_strip plt_AVKit_AVPlayerViewController_get_Player
 plt_AVKit_AVPlayerViewController_get_Player:
 _p_32:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2232]
 br x16
-.word 7104
+.word 8207
 	.no_dead_strip plt_AVFoundation_AVPlayer_Play
 plt_AVFoundation_AVPlayer_Play:
 _p_33:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2240]
 br x16
-.word 7109
+.word 8212
 	.no_dead_strip plt_AVFoundation_AVPlayer_get_Status
 plt_AVFoundation_AVPlayer_get_Status:
 _p_34:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2248]
 br x16
-.word 7114
+.word 8217
 	.no_dead_strip plt_System_Nullable_1_AVFoundation_AVPlayerStatus__ctor_AVFoundation_AVPlayerStatus
 plt_System_Nullable_1_AVFoundation_AVPlayerStatus__ctor_AVFoundation_AVPlayerStatus:
 _p_35:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2256]
 br x16
-.word 7119
+.word 8222
 	.no_dead_strip plt_AVFoundation_AVPlayer_Pause
 plt_AVFoundation_AVPlayer_Pause:
 _p_36:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2264]
 br x16
-.word 7130
+.word 8233
 	.no_dead_strip plt_AVFoundation_AVPlayer_get_CurrentTime
 plt_AVFoundation_AVPlayer_get_CurrentTime:
 _p_37:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #2272]
 br x16
-.word 7135
+.word 8238
 	.no_dead_strip plt_CoreMedia_CMTime_get_Seconds
 plt_CoreMedia_CMTime_get_Seconds:
 _p_38:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2280]
 br x16
-.word 7140
+.word 8243
 	.no_dead_strip plt_AVFoundation_AVPlayer_get_CurrentItem
 plt_AVFoundation_AVPlayer_get_CurrentItem:
 _p_39:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2288]
 br x16
-.word 7145
+.word 8248
 	.no_dead_strip plt_AVFoundation_AVPlayerItem_get_Duration
 plt_AVFoundation_AVPlayerItem_get_Duration:
 _p_40:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2296]
 br x16
-.word 7150
+.word 8253
 	.no_dead_strip plt_string_Format_string_object_object_object
 plt_string_Format_string_object_object_object:
 _p_41:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2304]
 br x16
-.word 7155
+.word 8258
 	.no_dead_strip plt_CoreMedia_CMTime_FromSeconds_double_int
 plt_CoreMedia_CMTime_FromSeconds_double_int:
 _p_42:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2312]
 br x16
-.word 7160
+.word 8263
 	.no_dead_strip plt_AVFoundation_AVPlayer_Seek_CoreMedia_CMTime
 plt_AVFoundation_AVPlayer_Seek_CoreMedia_CMTime:
 _p_43:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2320]
 br x16
-.word 7165
+.word 8268
 	.no_dead_strip plt_AVFoundation_AVPlayerItem_get_CanStepBackward
 plt_AVFoundation_AVPlayerItem_get_CanStepBackward:
 _p_44:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2328]
 br x16
-.word 7170
+.word 8273
 	.no_dead_strip plt_AVFoundation_AVPlayerItem_get_CanStepForward
 plt_AVFoundation_AVPlayerItem_get_CanStepForward:
 _p_45:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2112]
+ldr x16, [x16, #2336]
 br x16
-.word 7175
+.word 8278
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
 _p_46:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #2344]
 br x16
-.word 7180
+.word 8283
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementChangedd__15_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementChangedd__15_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementChangedd__15_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementChangedd__15_:
 _p_47:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2352]
 br x16
-.word 7185
+.word 8288
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementPropertyChangedd__16_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementPropertyChangedd__16_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementPropertyChangedd__16_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementPropertyChangedd__16_:
 _p_48:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2360]
 br x16
-.word 7197
+.word 8300
 	.no_dead_strip plt_Foundation_NSString_op_Explicit_string
 plt_Foundation_NSString_op_Explicit_string:
 _p_49:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2368]
 br x16
-.word 7209
+.word 8312
 	.no_dead_strip plt_Foundation_NSObject_AddObserver_Foundation_NSObject_Foundation_NSString_Foundation_NSKeyValueObservingOptions_intptr
 plt_Foundation_NSObject_AddObserver_Foundation_NSObject_Foundation_NSString_Foundation_NSKeyValueObservingOptions_intptr:
 _p_50:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2376]
 br x16
-.word 7214
+.word 8317
 	.no_dead_strip plt_Foundation_NSNotification_get_Object
 plt_Foundation_NSNotification_get_Object:
 _p_51:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2384]
 br x16
-.word 7219
+.word 8322
 	.no_dead_strip plt_System_Nullable_1_intptr__ctor_intptr
 plt_System_Nullable_1_intptr__ctor_intptr:
 _p_52:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2392]
 br x16
-.word 7224
+.word 8327
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_CreateVideoPlayerEventArgs
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_CreateVideoPlayerEventArgs:
 _p_53:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2400]
 br x16
-.word 7235
+.word 8338
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_OnCompleted_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerEventArgs
 plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_OnCompleted_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerEventArgs:
 _p_54:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2408]
 br x16
-.word 7237
+.word 8340
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_get_Repeat
 plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_get_Repeat:
 _p_55:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2416]
 br x16
-.word 7242
+.word 8345
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_56:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2424]
 br x16
-.word 7247
+.word 8350
 	.no_dead_strip plt_Foundation_NSObject_FromObject_object
 plt_Foundation_NSObject_FromObject_object:
 _p_57:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2432]
 br x16
-.word 7250
+.word 8353
 	.no_dead_strip plt_Foundation_NSObject_RemoveObserver_Foundation_NSObject_string
 plt_Foundation_NSObject_RemoveObserver_Foundation_NSObject_string:
 _p_58:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2440]
 br x16
-.word 7255
+.word 8358
 	.no_dead_strip plt_Foundation_NSNotificationCenter_get_DefaultCenter
 plt_Foundation_NSNotificationCenter_get_DefaultCenter:
 _p_59:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2448]
 br x16
-.word 7260
+.word 8363
 	.no_dead_strip plt_Foundation_NSNotificationCenter_RemoveObserver_Foundation_NSObject
 plt_Foundation_NSNotificationCenter_RemoveObserver_Foundation_NSObject:
 _p_60:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2456]
 br x16
-.word 7265
+.word 8368
 	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
 plt_Foundation_NSString_op_Implicit_Foundation_NSString:
 _p_61:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2464]
 br x16
-.word 7270
+.word 8373
 	.no_dead_strip plt_string_Equals_string_string
 plt_string_Equals_string_string:
 _p_62:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2472]
 br x16
-.word 7275
+.word 8378
 	.no_dead_strip plt_AVFoundation_AVPlayerItem_get_Status
 plt_AVFoundation_AVPlayerItem_get_Status:
 _p_63:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2480]
 br x16
-.word 7280
+.word 8383
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_CreateVideoPlayerStateChangedEventArgs_Octane_Xamarin_Forms_VideoPlayer_Constants_PlayerState
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_CreateVideoPlayerStateChangedEventArgs_Octane_Xamarin_Forms_VideoPlayer_Constants_PlayerState:
 _p_64:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2488]
 br x16
-.word 7285
+.word 8388
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_OnPlayerStateChanged_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerStateChangedEventArgs
 plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_OnPlayerStateChanged_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerStateChangedEventArgs:
 _p_65:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2496]
 br x16
-.word 7287
+.word 8390
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_get_AutoPlay
 plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_get_AutoPlay:
 _p_66:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2504]
 br x16
-.word 7292
+.word 8395
 	.no_dead_strip plt_AVFoundation_AVPlayerItem_get_CurrentTime
 plt_AVFoundation_AVPlayerItem_get_CurrentTime:
 _p_67:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2512]
 br x16
-.word 7297
+.word 8400
 	.no_dead_strip plt_CoreMedia_CMTime_op_Equality_CoreMedia_CMTime_CoreMedia_CMTime
 plt_CoreMedia_CMTime_op_Equality_CoreMedia_CMTime_CoreMedia_CMTime:
 _p_68:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2520]
 br x16
-.word 7302
+.word 8405
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_CreateVideoPlayerErrorEventArgs
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_CreateVideoPlayerErrorEventArgs:
 _p_69:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2528]
 br x16
-.word 7307
+.word 8410
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_OnFailed_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerErrorEventArgs
 plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_OnFailed_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerErrorEventArgs:
 _p_70:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2536]
 br x16
-.word 7309
+.word 8412
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindablePropertyKey_object
 plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindablePropertyKey_object:
 _p_71:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2544]
 br x16
-.word 7314
+.word 8417
 	.no_dead_strip plt_AVFoundation_AVPlayer_get_Rate
 plt_AVFoundation_AVPlayer_get_Rate:
 _p_72:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2552]
 br x16
-.word 7319
+.word 8422
 	.no_dead_strip plt_CoreMedia_CMTime_op_Inequality_CoreMedia_CMTime_CoreMedia_CMTime
 plt_CoreMedia_CMTime_op_Inequality_CoreMedia_CMTime_CoreMedia_CMTime:
 _p_73:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2560]
 br x16
-.word 7324
+.word 8427
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_OnPaused_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerEventArgs
 plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_OnPaused_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerEventArgs:
 _p_74:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2568]
 br x16
-.word 7329
+.word 8432
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_OnPlaying_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerEventArgs
 plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_OnPlaying_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerEventArgs:
 _p_75:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2576]
 br x16
-.word 7334
+.word 8437
 	.no_dead_strip plt_Foundation_NSObject_ObserveValue_Foundation_NSString_Foundation_NSObject_Foundation_NSDictionary_intptr
 plt_Foundation_NSObject_ObserveValue_Foundation_NSString_Foundation_NSObject_Foundation_NSDictionary_intptr:
 _p_76:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2584]
 br x16
-.word 7339
+.word 8442
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_get_DisplayControls
 plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_get_DisplayControls:
 _p_77:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2592]
 br x16
-.word 7344
+.word 8447
 	.no_dead_strip plt_AVKit_AVPlayerViewController_set_ShowsPlaybackControls_bool
 plt_AVKit_AVPlayerViewController_set_ShowsPlaybackControls_bool:
 _p_78:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2600]
 br x16
-.word 7349
+.word 8452
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_get_Volume
 plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_get_Volume:
 _p_79:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2608]
 br x16
-.word 7354
+.word 8457
 	.no_dead_strip plt_AVFoundation_AVPlayer_set_Volume_single
 plt_AVFoundation_AVPlayer_set_Volume_single:
 _p_80:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2616]
 br x16
-.word 7359
+.word 8462
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_:
 _p_81:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2624]
 br x16
-.word 7364
+.word 8467
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task:
 _p_82:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2632]
 br x16
-.word 7376
+.word 8479
 	.no_dead_strip plt_AVFoundation_AVPlayer_RemoveTimeObserver_Foundation_NSObject
 plt_AVFoundation_AVPlayer_RemoveTimeObserver_Foundation_NSObject:
 _p_83:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2640]
 br x16
-.word 7381
+.word 8484
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_get_TimeElapsedInterval
 plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_get_TimeElapsedInterval:
 _p_84:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2424]
+ldr x16, [x16, #2648]
 br x16
-.word 7386
+.word 8489
 	.no_dead_strip plt_AVFoundation_AVPlayer_AddPeriodicTimeObserver_CoreMedia_CMTime_CoreFoundation_DispatchQueue_System_Action_1_CoreMedia_CMTime
 plt_AVFoundation_AVPlayer_AddPeriodicTimeObserver_CoreMedia_CMTime_CoreFoundation_DispatchQueue_System_Action_1_CoreMedia_CMTime:
 _p_85:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2656]
 br x16
-.word 7391
+.word 8494
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_get_FillMode
 plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_get_FillMode:
 _p_86:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2664]
 br x16
-.word 7396
+.word 8499
 	.no_dead_strip plt_AVKit_AVPlayerViewController_set_VideoGravity_AVFoundation_AVLayerVideoGravity
 plt_AVKit_AVPlayerViewController_set_VideoGravity_AVFoundation_AVLayerVideoGravity:
 _p_87:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2672]
 br x16
-.word 7401
+.word 8504
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_IsVisible
 plt_Xamarin_Forms_VisualElement_get_IsVisible:
 _p_88:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2680]
 br x16
-.word 7406
+.word 8509
 	.no_dead_strip plt_System_TimeSpan_FromSeconds_double
 plt_System_TimeSpan_FromSeconds_double:
 _p_89:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2688]
 br x16
-.word 7411
+.word 8514
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerEventArgs__ctor_System_TimeSpan_System_TimeSpan_single
 plt_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerEventArgs__ctor_System_TimeSpan_System_TimeSpan_single:
 _p_90:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2696]
 br x16
-.word 7416
+.word 8519
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerStateChangedEventArgs__ctor_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerEventArgs_Octane_Xamarin_Forms_VideoPlayer_Constants_PlayerState
 plt_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerStateChangedEventArgs__ctor_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerEventArgs_Octane_Xamarin_Forms_VideoPlayer_Constants_PlayerState:
 _p_91:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2704]
 br x16
-.word 7421
+.word 8524
 	.no_dead_strip plt_AVFoundation_AVPlayer_get_Error
 plt_AVFoundation_AVPlayer_get_Error:
 _p_92:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2712]
 br x16
-.word 7426
+.word 8529
 	.no_dead_strip plt_Foundation_NSError_get_Code
 plt_Foundation_NSError_get_Code:
 _p_93:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2720]
 br x16
-.word 7431
+.word 8534
 	.no_dead_strip plt_System_Enum_GetName_System_Type_object
 plt_System_Enum_GetName_System_Type_object:
 _p_94:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2728]
 br x16
-.word 7436
+.word 8539
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerErrorEventArgs__ctor_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerEventArgs_string_object
 plt_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerErrorEventArgs__ctor_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerEventArgs_string_object:
 _p_95:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2736]
 br x16
-.word 7441
+.word 8544
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UnRegisterEvents
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UnRegisterEvents:
 _p_96:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2744]
 br x16
-.word 7446
+.word 8549
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_97:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2752]
 br x16
-.word 7448
+.word 8551
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_UIKit_UIView_Dispose_bool
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_UIKit_UIView_Dispose_bool:
 _p_98:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2760]
 br x16
-.word 7453
+.word 8556
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_UIKit_UIView__ctor
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_UIKit_UIView__ctor:
 _p_99:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2768]
 br x16
-.word 7464
+.word 8567
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_UIKit_UIView_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_UIKit_UIView_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer:
 _p_100:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2776]
 br x16
-.word 7475
+.word 8578
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_UIKit_UIView_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_UIKit_UIView_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs:
 _p_101:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2784]
 br x16
-.word 7486
+.word 8589
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_102:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2792]
 br x16
-.word 7497
+.word 8600
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_103:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2800]
 br x16
-.word 7502
+.word 8605
 	.no_dead_strip plt_System_Environment_get_NewLine
 plt_System_Environment_get_NewLine:
 _p_104:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2584]
+ldr x16, [x16, #2808]
 br x16
-.word 7510
+.word 8613
 	.no_dead_strip plt_System_Exception_get_StackTrace
 plt_System_Exception_get_StackTrace:
 _p_105:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2816]
 br x16
-.word 7515
+.word 8618
 	.no_dead_strip plt_string_Concat_string__
 plt_string_Concat_string__:
 _p_106:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2824]
 br x16
-.word 7520
+.word 8623
 	.no_dead_strip plt_byte_ToString_string
 plt_byte_ToString_string:
 _p_107:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2608]
+ldr x16, [x16, #2832]
 br x16
-.word 7525
+.word 8628
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_StreamVideoSource_get_Stream
 plt_Octane_Xamarin_Forms_VideoPlayer_StreamVideoSource_get_Stream:
 _p_108:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2840]
 br x16
-.word 7530
+.word 8633
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_StreamVideoSource_GetStreamAsync_System_Threading_CancellationToken
 plt_Octane_Xamarin_Forms_VideoPlayer_StreamVideoSource_GetStreamAsync_System_Threading_CancellationToken:
 _p_109:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2848]
 br x16
-.word 7535
+.word 8638
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_IO_Stream_ConfigureAwait_bool
 plt_System_Threading_Tasks_Task_1_System_IO_Stream_ConfigureAwait_bool:
 _p_110:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2856]
 br x16
-.word 7540
+.word 8643
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_:
 _p_111:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2640]
+ldr x16, [x16, #2864]
 br x16
-.word 7551
+.word 8654
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_GetResult:
 _p_112:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2872]
 br x16
-.word 7563
+.word 8666
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler_GetFileName_System_IO_Stream_string
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler_GetFileName_System_IO_Stream_string:
 _p_113:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2880]
 br x16
-.word 7574
+.word 8677
 	.no_dead_strip plt_System_IO_Path_GetTempPath
 plt_System_IO_Path_GetTempPath:
 _p_114:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2888]
 br x16
-.word 7576
+.word 8679
 	.no_dead_strip plt_System_IO_Path_Combine_string_string
 plt_System_IO_Path_Combine_string_string:
 _p_115:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2896]
 br x16
-.word 7581
+.word 8684
 	.no_dead_strip plt_System_IO_Directory_Exists_string
 plt_System_IO_Directory_Exists_string:
 _p_116:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2904]
 br x16
-.word 7586
+.word 8689
 	.no_dead_strip plt_System_IO_Directory_CreateDirectory_string
 plt_System_IO_Directory_CreateDirectory_string:
 _p_117:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2912]
 br x16
-.word 7591
+.word 8694
 	.no_dead_strip plt_System_IO_File_Create_string
 plt_System_IO_File_Create_string:
 _p_118:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2920]
 br x16
-.word 7596
+.word 8699
 	.no_dead_strip plt_System_IO_Stream_CopyToAsync_System_IO_Stream
 plt_System_IO_Stream_CopyToAsync_System_IO_Stream:
 _p_119:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2928]
 br x16
-.word 7601
+.word 8704
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_TaskAwaiter__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_TaskAwaiter__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_:
 _p_120:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2936]
 br x16
-.word 7606
+.word 8709
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_121:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2720]
+ldr x16, [x16, #2944]
 br x16
-.word 7618
+.word 8721
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult:
 _p_122:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2952]
 br x16
-.word 7621
+.word 8724
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetException_System_Exception:
 _p_123:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2960]
 br x16
-.word 7626
+.word 8729
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_124:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2968]
 br x16
-.word 7637
+.word 8740
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_125:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2976]
 br x16
-.word 7640
+.word 8743
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetResult_string
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetResult_string:
 _p_126:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2984]
 br x16
-.word 7642
+.word 8745
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_127:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2992]
 br x16
-.word 7653
+.word 8756
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__n__0_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__n__0_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer:
 _p_128:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #3000]
 br x16
-.word 7664
+.word 8767
 	.no_dead_strip plt_AVKit_AVPlayerViewController__ctor
 plt_AVKit_AVPlayerViewController__ctor:
 _p_129:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #3008]
 br x16
-.word 7666
+.word 8769
 	.no_dead_strip plt_UIKit_UIViewController_get_View
 plt_UIKit_UIViewController_get_View:
 _p_130:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2792]
+ldr x16, [x16, #3016]
 br x16
-.word 7671
+.word 8774
 	.no_dead_strip plt_UIKit_UIView_get_Bounds
 plt_UIKit_UIView_get_Bounds:
 _p_131:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2800]
+ldr x16, [x16, #3024]
 br x16
-.word 7676
+.word 8779
 	.no_dead_strip plt_UIKit_UIView_set_Bounds_CoreGraphics_CGRect
 plt_UIKit_UIView_set_Bounds_CoreGraphics_CGRect:
 _p_132:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #3032]
 br x16
-.word 7681
+.word 8784
 	.no_dead_strip plt_UIKit_UIView_get_AutoresizingMask
 plt_UIKit_UIView_get_AutoresizingMask:
 _p_133:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2816]
+ldr x16, [x16, #3040]
 br x16
-.word 7686
+.word 8789
 	.no_dead_strip plt_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing
 plt_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing:
 _p_134:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2824]
+ldr x16, [x16, #3048]
 br x16
-.word 7691
+.word 8794
 	.no_dead_strip plt_AVFoundation_AVPlayer__ctor
 plt_AVFoundation_AVPlayer__ctor:
 _p_135:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2832]
+ldr x16, [x16, #3056]
 br x16
-.word 7696
+.word 8799
 	.no_dead_strip plt_AVKit_AVPlayerViewController_set_Player_AVFoundation_AVPlayer
 plt_AVKit_AVPlayerViewController_set_Player_AVFoundation_AVPlayer:
 _p_136:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2840]
+ldr x16, [x16, #3064]
 br x16
-.word 7701
+.word 8804
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_UIKit_UIView_SetNativeControl_UIKit_UIView
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_UIKit_UIView_SetNativeControl_UIKit_UIView:
 _p_137:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2848]
+ldr x16, [x16, #3072]
 br x16
-.word 7706
+.word 8809
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateDisplayControls
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateDisplayControls:
 _p_138:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #3080]
 br x16
-.word 7717
+.word 8820
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateVolume
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateVolume:
 _p_139:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2864]
+ldr x16, [x16, #3088]
 br x16
-.word 7719
+.word 8822
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateFillMode
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateFillMode:
 _p_140:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2872]
+ldr x16, [x16, #3096]
 br x16
-.word 7721
+.word 8824
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateTimeElapsedInterval
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateTimeElapsedInterval:
 _p_141:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2880]
+ldr x16, [x16, #3104]
 br x16
-.word 7723
+.word 8826
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateVisibility
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateVisibility:
 _p_142:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2888]
+ldr x16, [x16, #3112]
 br x16
-.word 7725
+.word 8828
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_RegisterEvents
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_RegisterEvents:
 _p_143:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2896]
+ldr x16, [x16, #3120]
 br x16
-.word 7727
+.word 8830
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateSource_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateSource_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer:
 _p_144:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2904]
+ldr x16, [x16, #3128]
 br x16
-.word 7729
+.word 8832
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementChangedd__15_System_Runtime_CompilerServices_TaskAwaiter__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementChangedd__15_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementChangedd__15_System_Runtime_CompilerServices_TaskAwaiter__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementChangedd__15_:
 _p_145:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2912]
+ldr x16, [x16, #3136]
 br x16
-.word 7731
+.word 8834
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
 _p_146:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2920]
+ldr x16, [x16, #3144]
 br x16
-.word 7743
+.word 8846
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
 _p_147:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2928]
+ldr x16, [x16, #3152]
 br x16
-.word 7748
+.word 8851
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_148:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2936]
+ldr x16, [x16, #3160]
 br x16
-.word 7753
+.word 8856
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__n__1_object_System_ComponentModel_PropertyChangedEventArgs
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__n__1_object_System_ComponentModel_PropertyChangedEventArgs:
 _p_149:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2944]
+ldr x16, [x16, #3168]
 br x16
-.word 7758
+.word 8861
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_150:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2952]
+ldr x16, [x16, #3176]
 br x16
-.word 7760
+.word 8863
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementPropertyChangedd__16_System_Runtime_CompilerServices_TaskAwaiter__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementPropertyChangedd__16_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementPropertyChangedd__16_System_Runtime_CompilerServices_TaskAwaiter__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__OnElementPropertyChangedd__16_:
 _p_151:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2960]
+ldr x16, [x16, #3184]
 br x16
-.word 7765
+.word 8868
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_get_Source
 plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_get_Source:
 _p_152:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2968]
+ldr x16, [x16, #3192]
 br x16
-.word 7777
+.word 8880
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_VideoSourceHandler_Create_Octane_Xamarin_Forms_VideoPlayer_VideoSource
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_VideoSourceHandler_Create_Octane_Xamarin_Forms_VideoPlayer_VideoSource:
 _p_153:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2976]
+ldr x16, [x16, #3200]
 br x16
-.word 7782
+.word 8885
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_string_GetAwaiter
 plt_System_Threading_Tasks_Task_1_string_GetAwaiter:
 _p_154:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2984]
+ldr x16, [x16, #3208]
 br x16
-.word 7784
+.word 8887
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_:
 _p_155:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #2992]
+ldr x16, [x16, #3216]
 br x16
-.word 7795
+.word 8898
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_GetResult:
 _p_156:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3000]
+ldr x16, [x16, #3224]
 br x16
-.word 7807
+.word 8910
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_157:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3008]
+ldr x16, [x16, #3232]
 br x16
-.word 7818
+.word 8921
 	.no_dead_strip plt_Foundation_NSUrl_FromFilename_string
 plt_Foundation_NSUrl_FromFilename_string:
 _p_158:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3016]
+ldr x16, [x16, #3240]
 br x16
-.word 7823
+.word 8926
 	.no_dead_strip plt_Foundation_NSUrl_FromString_string
 plt_Foundation_NSUrl_FromString_string:
 _p_159:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3024]
+ldr x16, [x16, #3248]
 br x16
-.word 7828
+.word 8931
 	.no_dead_strip plt_AVFoundation_AVPlayerItem_FromUrl_Foundation_NSUrl
 plt_AVFoundation_AVPlayerItem_FromUrl_Foundation_NSUrl:
 _p_160:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3032]
+ldr x16, [x16, #3256]
 br x16
-.word 7833
+.word 8936
 	.no_dead_strip plt_AVFoundation_AVPlayer_ReplaceCurrentItemWithPlayerItem_AVFoundation_AVPlayerItem
 plt_AVFoundation_AVPlayer_ReplaceCurrentItemWithPlayerItem_AVFoundation_AVPlayerItem:
 _p_161:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3040]
+ldr x16, [x16, #3264]
 br x16
-.word 7838
+.word 8941
 	.no_dead_strip plt_AVFoundation_AVPlayerItem_get_DidPlayToEndTimeNotification
 plt_AVFoundation_AVPlayerItem_get_DidPlayToEndTimeNotification:
 _p_162:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3048]
+ldr x16, [x16, #3272]
 br x16
-.word 7843
+.word 8946
 	.no_dead_strip plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification_Foundation_NSObject
 plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification_Foundation_NSObject:
 _p_163:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3056]
+ldr x16, [x16, #3280]
 br x16
-.word 7848
+.word 8951
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_Diagnostics_Log_Error_System_Exception
 plt_Octane_Xamarin_Forms_VideoPlayer_Diagnostics_Log_Error_System_Exception:
 _p_164:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3064]
+ldr x16, [x16, #3288]
 br x16
-.word 7853
+.word 8956
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception:
 _p_165:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3072]
+ldr x16, [x16, #3296]
 br x16
-.word 7858
+.word 8961
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult:
 _p_166:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3080]
+ldr x16, [x16, #3304]
 br x16
-.word 7863
+.word 8966
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_167:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3088]
+ldr x16, [x16, #3312]
 br x16
-.word 7868
+.word 8971
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_OnTimeElapsed_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerEventArgs
 plt_Octane_Xamarin_Forms_VideoPlayer_VideoPlayer_OnTimeElapsed_Octane_Xamarin_Forms_VideoPlayer_Events_VideoPlayerEventArgs:
 _p_168:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3096]
+ldr x16, [x16, #3320]
 br x16
-.word 7873
+.word 8976
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_169:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3104]
+ldr x16, [x16, #3328]
 br x16
-.word 7878
+.word 8981
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_170:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3112]
+ldr x16, [x16, #3336]
 br x16
-.word 7880
+.word 8983
 	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue
 plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue:
 _p_171:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3120]
+ldr x16, [x16, #3344]
 br x16
-.word 7883
+.word 8986
 	.no_dead_strip plt_System_Enum_Equals_object
 plt_System_Enum_Equals_object:
 _p_172:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3128]
+ldr x16, [x16, #3352]
 br x16
-.word 7888
+.word 8991
 	.no_dead_strip plt_System_Enum_ToString
 plt_System_Enum_ToString:
 _p_173:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3136]
+ldr x16, [x16, #3360]
 br x16
-.word 7893
+.word 8996
 	.no_dead_strip plt_System_Nullable_1_UIKit_UIUserInterfaceStyle__ctor_UIKit_UIUserInterfaceStyle
 plt_System_Nullable_1_UIKit_UIUserInterfaceStyle__ctor_UIKit_UIUserInterfaceStyle:
 _p_174:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3144]
+ldr x16, [x16, #3368]
 br x16
-.word 7898
+.word 9001
 	.no_dead_strip plt_bool_Equals_object
 plt_bool_Equals_object:
 _p_175:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3152]
+ldr x16, [x16, #3376]
 br x16
-.word 7913
+.word 9016
 	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
 plt_System_Nullable_1_bool__ctor_bool:
 _p_176:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3160]
+ldr x16, [x16, #3384]
 br x16
-.word 7918
+.word 9021
 	.no_dead_strip plt_intptr_Equals_object
 plt_intptr_Equals_object:
 _p_177:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3168]
+ldr x16, [x16, #3392]
 br x16
-.word 7933
+.word 9036
 	.no_dead_strip plt_intptr_ToString
 plt_intptr_ToString:
 _p_178:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3176]
+ldr x16, [x16, #3400]
 br x16
-.word 7938
+.word 9041
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_179:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3184]
+ldr x16, [x16, #3408]
 br x16
-.word 7966
+.word 9070
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_180:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3192]
+ldr x16, [x16, #3416]
 br x16
-.word 7978
+.word 9082
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_181:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3200]
+ldr x16, [x16, #3424]
 br x16
-.word 7999
+.word 9103
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_182:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3208]
+ldr x16, [x16, #3432]
 br x16
-.word 8027
+.word 9131
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_183:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3216]
+ldr x16, [x16, #3440]
 br x16
-.word 8035
+.word 9139
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_184:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3224]
+ldr x16, [x16, #3448]
 br x16
-.word 8043
+.word 9147
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_185:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3232]
+ldr x16, [x16, #3456]
 br x16
-.word 8059
+.word 9163
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_186:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3240]
+ldr x16, [x16, #3464]
 br x16
-.word 8067
+.word 9171
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_187:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3248]
+ldr x16, [x16, #3472]
 br x16
-.word 8092
+.word 9196
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_188:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3256]
+ldr x16, [x16, #3480]
 br x16
-.word 8100
+.word 9204
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_189:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3264]
+ldr x16, [x16, #3488]
 br x16
-.word 8115
+.word 9219
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_190:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3272]
+ldr x16, [x16, #3496]
 br x16
-.word 8129
+.word 9233
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_191:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3280]
+ldr x16, [x16, #3504]
 br x16
-.word 8137
+.word 9241
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_192:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3288]
+ldr x16, [x16, #3512]
 br x16
-.word 8162
+.word 9266
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_193:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3296]
+ldr x16, [x16, #3520]
 br x16
-.word 8170
+.word 9274
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_194:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3304]
+ldr x16, [x16, #3528]
 br x16
-.word 8195
+.word 9299
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_195:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3312]
+ldr x16, [x16, #3536]
 br x16
-.word 8209
+.word 9313
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_196:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3320]
+ldr x16, [x16, #3544]
 br x16
-.word 8223
+.word 9327
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_197:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3328]
+ldr x16, [x16, #3552]
 br x16
-.word 8231
+.word 9335
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_198:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3336]
+ldr x16, [x16, #3560]
 br x16
-.word 8256
+.word 9360
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_199:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3344]
+ldr x16, [x16, #3568]
 br x16
-.word 8264
+.word 9368
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_200:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3352]
+ldr x16, [x16, #3576]
 br x16
-.word 8283
+.word 9387
 	.no_dead_strip plt_System_Linq_Error_ArgumentNull_string
 plt_System_Linq_Error_ArgumentNull_string:
 _p_201:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3360]
+ldr x16, [x16, #3584]
 br x16
-.word 8286
+.word 9390
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_202:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3368]
+ldr x16, [x16, #3592]
 br x16
-.word 8291
+.word 9395
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_203:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3376]
+ldr x16, [x16, #3600]
 br x16
-.word 8311
+.word 9415
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_204:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3384]
+ldr x16, [x16, #3608]
 br x16
-.word 8331
+.word 9435
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_205:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3392]
+ldr x16, [x16, #3616]
 br x16
-.word 8334
+.word 9438
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_206:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3400]
+ldr x16, [x16, #3624]
 br x16
-.word 8342
+.word 9446
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_207:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3408]
+ldr x16, [x16, #3632]
 br x16
-.word 8361
+.word 9465
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_208:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3416]
+ldr x16, [x16, #3640]
 br x16
-.word 8391
+.word 9495
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_209:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3424]
+ldr x16, [x16, #3648]
 br x16
-.word 8399
+.word 9503
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_210:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3432]
+ldr x16, [x16, #3656]
 br x16
-.word 8414
+.word 9518
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_211:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3440]
+ldr x16, [x16, #3664]
 br x16
-.word 8422
+.word 9526
 	.no_dead_strip plt_System_Environment_get_CurrentManagedThreadId
 plt_System_Environment_get_CurrentManagedThreadId:
 _p_212:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3448]
+ldr x16, [x16, #3672]
 br x16
-.word 8441
+.word 9545
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_213:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3456]
+ldr x16, [x16, #3680]
 br x16
-.word 8452
+.word 9556
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_214:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3464]
+ldr x16, [x16, #3688]
 br x16
-.word 8460
+.word 9564
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_215:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3472]
+ldr x16, [x16, #3696]
 br x16
-.word 8479
+.word 9583
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_216:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3480]
+ldr x16, [x16, #3704]
 br x16
-.word 8487
+.word 9591
 	.no_dead_strip plt_System_Linq_Error_NotSupported
 plt_System_Linq_Error_NotSupported:
 _p_217:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3488]
+ldr x16, [x16, #3712]
 br x16
-.word 8506
+.word 9610
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_218:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3496]
+ldr x16, [x16, #3720]
 br x16
-.word 8526
+.word 9630
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_219:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3504]
+ldr x16, [x16, #3728]
 br x16
-.word 8534
+.word 9638
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_220:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3512]
+ldr x16, [x16, #3736]
 br x16
-.word 8548
+.word 9652
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_221:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3520]
+ldr x16, [x16, #3744]
 br x16
-.word 8577
+.word 9681
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_222:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3528]
+ldr x16, [x16, #3752]
 br x16
-.word 8585
+.word 9689
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_223:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3536]
+ldr x16, [x16, #3760]
 br x16
-.word 8593
+.word 9697
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_224:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3544]
+ldr x16, [x16, #3768]
 br x16
-.word 8601
+.word 9705
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource:
 _p_225:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3552]
+ldr x16, [x16, #3776]
 br x16
-.word 8611
+.word 9715
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_226:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3560]
+ldr x16, [x16, #3784]
 br x16
-.word 8623
+.word 9727
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_227:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3568]
+ldr x16, [x16, #3792]
 br x16
-.word 8631
+.word 9735
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_228:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3576]
+ldr x16, [x16, #3800]
 br x16
-.word 8650
+.word 9754
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_229:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3584]
+ldr x16, [x16, #3808]
 br x16
-.word 8669
+.word 9773
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
 _p_230:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3592]
+ldr x16, [x16, #3816]
 br x16
-.word 8688
+.word 9792
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_231:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3600]
+ldr x16, [x16, #3824]
 br x16
-.word 8693
+.word 9797
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRange_IndexException
 plt_System_ThrowHelper_ThrowArgumentOutOfRange_IndexException:
 _p_232:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3608]
+ldr x16, [x16, #3832]
 br x16
-.word 8698
+.word 9802
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_233:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3616]
+ldr x16, [x16, #3840]
 br x16
-.word 8703
+.word 9807
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_234:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3624]
+ldr x16, [x16, #3848]
 br x16
-.word 8711
+.word 9815
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_235:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3632]
+ldr x16, [x16, #3856]
 br x16
-.word 8719
+.word 9823
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_236:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3640]
+ldr x16, [x16, #3864]
 br x16
-.word 8738
+.word 9842
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_237:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3648]
+ldr x16, [x16, #3872]
 br x16
-.word 8758
+.word 9862
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_238:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3656]
+ldr x16, [x16, #3880]
 br x16
-.word 8778
+.word 9882
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_239:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3664]
+ldr x16, [x16, #3888]
 br x16
-.word 8786
+.word 9890
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_240:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3672]
+ldr x16, [x16, #3896]
 br x16
-.word 8805
+.word 9909
 	.no_dead_strip plt_System_ThrowHelper_ThrowWrongValueTypeArgumentException_object_System_Type
 plt_System_ThrowHelper_ThrowWrongValueTypeArgumentException_object_System_Type:
 _p_241:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3680]
+ldr x16, [x16, #3904]
 br x16
-.word 8813
+.word 9917
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_242:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3688]
+ldr x16, [x16, #3912]
 br x16
-.word 8818
+.word 9922
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_243:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3696]
+ldr x16, [x16, #3920]
 br x16
-.word 8837
+.word 9941
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_244:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3704]
+ldr x16, [x16, #3928]
 br x16
-.word 8856
+.word 9960
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_245:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3712]
+ldr x16, [x16, #3936]
 br x16
-.word 8875
+.word 9979
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_246:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3720]
+ldr x16, [x16, #3944]
 br x16
-.word 8894
+.word 9998
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_247:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3728]
+ldr x16, [x16, #3952]
 br x16
-.word 8920
+.word 10024
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_248:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3736]
+ldr x16, [x16, #3960]
 br x16
-.word 8928
+.word 10032
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_249:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3744]
+ldr x16, [x16, #3968]
 br x16
-.word 8947
+.word 10051
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_250:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3752]
+ldr x16, [x16, #3976]
 br x16
-.word 8966
+.word 10070
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_251:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3760]
+ldr x16, [x16, #3984]
 br x16
-.word 8985
+.word 10089
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_252:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3768]
+ldr x16, [x16, #3992]
 br x16
-.word 9004
+.word 10108
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_Argument_InvalidArrayType
 plt_System_ThrowHelper_ThrowArgumentException_Argument_InvalidArrayType:
 _p_253:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3776]
+ldr x16, [x16, #4000]
 br x16
-.word 9023
+.word 10127
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
 _p_254:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3784]
+ldr x16, [x16, #4008]
 br x16
-.word 9028
+.word 10132
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_255:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3792]
+ldr x16, [x16, #4016]
 br x16
-.word 9033
+.word 10137
 	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
 plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion:
 _p_256:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3800]
+ldr x16, [x16, #4024]
 br x16
-.word 9052
+.word 10156
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_257:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3808]
+ldr x16, [x16, #4032]
 br x16
-.word 9064
+.word 10168
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_258:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3816]
+ldr x16, [x16, #4040]
 br x16
-.word 9072
+.word 10176
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_259:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3824]
+ldr x16, [x16, #4048]
 br x16
-.word 9091
+.word 10195
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_260:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3832]
+ldr x16, [x16, #4056]
 br x16
-.word 9111
+.word 10215
 	.no_dead_strip plt_System_ThrowHelper_ThrowCountArgumentOutOfRange_ArgumentOutOfRange_Count
 plt_System_ThrowHelper_ThrowCountArgumentOutOfRange_ArgumentOutOfRange_Count:
 _p_261:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3840]
+ldr x16, [x16, #4064]
 br x16
-.word 9131
+.word 10235
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_262:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3848]
+ldr x16, [x16, #4072]
 br x16
-.word 9136
+.word 10240
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_263:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3856]
+ldr x16, [x16, #4080]
 br x16
-.word 9162
+.word 10266
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_264:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3864]
+ldr x16, [x16, #4088]
 br x16
-.word 9188
+.word 10292
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_265:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3872]
+ldr x16, [x16, #0]
 br x16
-.word 9207
+.word 10311
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_266:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3880]
+ldr x16, [x16, #8]
 br x16
-.word 9226
+.word 10330
 	.no_dead_strip plt_System_ThrowHelper_ThrowIndexArgumentOutOfRange_NeedNonNegNumException
 plt_System_ThrowHelper_ThrowIndexArgumentOutOfRange_NeedNonNegNumException:
 _p_267:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3888]
+ldr x16, [x16, #16]
 br x16
-.word 9245
+.word 10349
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_268:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3896]
+ldr x16, [x16, #24]
 br x16
-.word 9250
+.word 10354
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_269:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3904]
+ldr x16, [x16, #32]
 br x16
-.word 9269
+.word 10373
 	.no_dead_strip plt__rgctx_fetch_75
 plt__rgctx_fetch_75:
 _p_270:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3912]
+ldr x16, [x16, #40]
 br x16
-.word 9289
+.word 10393
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_271:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3920]
+ldr x16, [x16, #48]
 br x16
-.word 9309
+.word 10413
 	.no_dead_strip plt__rgctx_fetch_77
 plt__rgctx_fetch_77:
 _p_272:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3928]
+ldr x16, [x16, #56]
 br x16
-.word 9328
+.word 10432
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_273:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3936]
+ldr x16, [x16, #64]
 br x16
-.word 9348
+.word 10452
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_274:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3944]
+ldr x16, [x16, #72]
 br x16
-.word 9375
+.word 10479
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_275:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3952]
+ldr x16, [x16, #80]
 br x16
-.word 9383
+.word 10487
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_276:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3960]
+ldr x16, [x16, #88]
 br x16
-.word 9402
+.word 10506
 	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
 plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_277:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3968]
+ldr x16, [x16, #96]
 br x16
-.word 9407
+.word 10511
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_MoveNext
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_MoveNext:
 _p_278:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3976]
+ldr x16, [x16, #104]
 br x16
-.word 9412
+.word 10516
 	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
 plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_279:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3984]
+ldr x16, [x16, #112]
 br x16
-.word 9414
+.word 10518
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_280:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #3992]
+ldr x16, [x16, #120]
 br x16
-.word 9434
+.word 10538
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_281:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #4000]
+ldr x16, [x16, #128]
 br x16
-.word 9469
+.word 10573
 	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
 plt_wrapper_alloc_object_Alloc_intptr:
 _p_282:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #4008]
+ldr x16, [x16, #136]
 br x16
-.word 9477
+.word 10581
 	.no_dead_strip plt__rgctx_fetch_83
 plt__rgctx_fetch_83:
 _p_283:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #4016]
+ldr x16, [x16, #144]
 br x16
-.word 9485
+.word 10589
 	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
 plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
 _p_284:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #4024]
+ldr x16, [x16, #152]
 br x16
-.word 9493
+.word 10597
 	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
 plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_285:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #4032]
+ldr x16, [x16, #160]
 br x16
-.word 9498
+.word 10602
 	.no_dead_strip plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_MoveNext
 plt_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_MoveNext:
 _p_286:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #4040]
+ldr x16, [x16, #168]
 br x16
-.word 9501
+.word 10605
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_287:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #4048]
+ldr x16, [x16, #176]
 br x16
-.word 9503
+.word 10607
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_288:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #4056]
+ldr x16, [x16, #184]
 br x16
-.word 9508
+.word 10612
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action:
 _p_289:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #4064]
+ldr x16, [x16, #192]
 br x16
-.word 9513
+.word 10617
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_290:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #4072]
+ldr x16, [x16, #200]
 br x16
-.word 9518
+.word 10622
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_UnsafeOnCompleted_System_Action:
 _p_291:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #4080]
+ldr x16, [x16, #208]
 br x16
-.word 9523
+.word 10627
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_292:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+0
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #4088]
+ldr x16, [x16, #216]
 br x16
-.word 9555
+.word 10659
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
 plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_293:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #0]
+ldr x16, [x16, #224]
 br x16
-.word 9590
+.word 10694
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
 _p_294:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #8]
+ldr x16, [x16, #232]
 br x16
-.word 9595
+.word 10699
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_295:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #16]
+ldr x16, [x16, #240]
 br x16
-.word 9600
+.word 10704
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_296:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #24]
+ldr x16, [x16, #248]
 br x16
-.word 9605
+.word 10709
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
 _p_297:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #32]
+ldr x16, [x16, #256]
 br x16
-.word 9613
+.word 10717
 	.no_dead_strip plt__rgctx_fetch_86
 plt__rgctx_fetch_86:
 _p_298:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #40]
+ldr x16, [x16, #264]
 br x16
-.word 9618
+.word 10722
 	.no_dead_strip plt__rgctx_fetch_87
 plt__rgctx_fetch_87:
 _p_299:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #48]
+ldr x16, [x16, #272]
 br x16
-.word 9626
+.word 10730
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_:
 _p_300:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #56]
+ldr x16, [x16, #280]
 br x16
-.word 9634
+.word 10738
 	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor
 plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor:
 _p_301:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #64]
+ldr x16, [x16, #288]
 br x16
-.word 9661
+.word 10765
 	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_0
 plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_0:
 _p_302:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #72]
+ldr x16, [x16, #296]
 br x16
-.word 9686
+.word 10790
 	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_1
 plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_1:
 _p_303:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #80]
+ldr x16, [x16, #304]
 br x16
-.word 9711
+.word 10815
 	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_2
 plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_2:
 _p_304:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #88]
+ldr x16, [x16, #312]
 br x16
-.word 9736
+.word 10840
 	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_3
 plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_3:
 _p_305:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #96]
+ldr x16, [x16, #320]
 br x16
-.word 9761
+.word 10865
 	.no_dead_strip plt__rgctx_fetch_88
 plt__rgctx_fetch_88:
 _p_306:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #104]
+ldr x16, [x16, #328]
 br x16
-.word 9782
+.word 10886
 	.no_dead_strip plt__rgctx_fetch_89
 plt__rgctx_fetch_89:
 _p_307:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #112]
+ldr x16, [x16, #336]
 br x16
-.word 9816
+.word 10920
 	.no_dead_strip plt__rgctx_fetch_90
 plt__rgctx_fetch_90:
 _p_308:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #120]
+ldr x16, [x16, #344]
 br x16
-.word 9836
+.word 10940
 	.no_dead_strip plt__rgctx_fetch_91
 plt__rgctx_fetch_91:
 _p_309:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #128]
+ldr x16, [x16, #352]
 br x16
-.word 9878
+.word 10982
 	.no_dead_strip plt__rgctx_fetch_92
 plt__rgctx_fetch_92:
 _p_310:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #136]
+ldr x16, [x16, #360]
 br x16
-.word 9886
+.word 10990
 	.no_dead_strip plt__rgctx_fetch_93
 plt__rgctx_fetch_93:
 _p_311:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #144]
+ldr x16, [x16, #368]
 br x16
-.word 9905
+.word 11009
 	.no_dead_strip plt__rgctx_fetch_94
 plt__rgctx_fetch_94:
 _p_312:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #152]
+ldr x16, [x16, #376]
 br x16
-.word 9924
+.word 11028
 	.no_dead_strip plt__rgctx_fetch_95
 plt__rgctx_fetch_95:
 _p_313:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #160]
+ldr x16, [x16, #384]
 br x16
-.word 9932
+.word 11036
 	.no_dead_strip plt_System_Collections_Generic_IntrospectiveSortUtilities_ThrowOrIgnoreBadComparer_object
 plt_System_Collections_Generic_IntrospectiveSortUtilities_ThrowOrIgnoreBadComparer_object:
 _p_314:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #168]
+ldr x16, [x16, #392]
 br x16
-.word 9951
+.word 11055
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_315:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #176]
+ldr x16, [x16, #400]
 br x16
-.word 9956
+.word 11060
 	.no_dead_strip plt_System_InvalidOperationException__ctor_string_System_Exception
 plt_System_InvalidOperationException__ctor_string_System_Exception:
 _p_316:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #184]
+ldr x16, [x16, #408]
 br x16
-.word 9959
+.word 11063
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
 _p_317:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #192]
+ldr x16, [x16, #416]
 br x16
-.word 9964
+.word 11068
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_UnsafeOnCompleted_System_Action:
 _p_318:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #424]
 br x16
-.word 9975
+.word 11079
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
 plt_System_Threading_Tasks_Task__ctor:
 _p_319:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #208]
+ldr x16, [x16, #432]
 br x16
-.word 9992
+.word 11096
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_320:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #216]
+ldr x16, [x16, #440]
 br x16
-.word 9997
+.word 11101
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_321:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #448]
 br x16
-.word 10002
+.word 11106
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_322:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #232]
+ldr x16, [x16, #456]
 br x16
-.word 10007
+.word 11111
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_323:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #464]
 br x16
-.word 10022
+.word 11126
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_324:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #472]
 br x16
-.word 10037
+.word 11141
 	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
 plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
 _p_325:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #480]
 br x16
-.word 10042
+.word 11146
 	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
 plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
 _p_326:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #488]
 br x16
-.word 10047
+.word 11151
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
 plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
 _p_327:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #496]
 br x16
-.word 10052
+.word 11156
 	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
 plt_System_Threading_Tasks_Task_FinishStageThree:
 _p_328:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #504]
 br x16
-.word 10057
+.word 11161
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
 _p_329:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #512]
 br x16
-.word 10062
+.word 11166
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
 _p_330:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #520]
 br x16
-.word 10077
+.word 11181
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
 _p_331:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #528]
 br x16
-.word 10092
+.word 11196
 	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
 plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
 _p_332:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #536]
 br x16
-.word 10097
+.word 11201
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompletedSuccessfully
 plt_System_Threading_Tasks_Task_get_IsCompletedSuccessfully:
 _p_333:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #544]
 br x16
-.word 10102
+.word 11206
 	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
 plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
 _p_334:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #552]
 br x16
-.word 10107
+.word 11211
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_335:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #560]
 br x16
-.word 10112
+.word 11216
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
 _p_336:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #568]
 br x16
-.word 10127
+.word 11231
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_337:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #576]
 br x16
-.word 10142
+.word 11246
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
 plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_338:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #584]
 br x16
-.word 10157
+.word 11261
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_339:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #368]
+ldr x16, [x16, #592]
 br x16
-.word 10162
+.word 11266
 	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
 plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
 _p_340:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #376]
+ldr x16, [x16, #600]
 br x16
-.word 10177
+.word 11281
 	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
 plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions:
 _p_341:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #608]
 br x16
-.word 10182
+.word 11286
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_342:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #616]
 br x16
-.word 10197
+.word 11301
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_343:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #624]
 br x16
-.word 10202
+.word 11306
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_344:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #632]
 br x16
-.word 10217
+.word 11321
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_345:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #640]
 br x16
-.word 10232
+.word 11336
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_346:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #648]
 br x16
-.word 10237
+.word 11341
 	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetCanceled_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_TrySetCanceled_System_Threading_CancellationToken_object:
 _p_347:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #656]
 br x16
-.word 10252
+.word 11356
 	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetException_object
 plt_System_Threading_Tasks_Task_TrySetException_object:
 _p_348:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #664]
 br x16
-.word 10257
+.word 11361
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_RemoveFromActiveTasksNonInlined_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_DebuggerSupport_RemoveFromActiveTasksNonInlined_System_Threading_Tasks_Task:
 _p_349:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #672]
 br x16
-.word 10262
+.word 11366
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
 _p_350:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #680]
 br x16
-.word 10267
+.word 11371
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
 _p_351:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #688]
 br x16
-.word 10282
+.word 11386
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_352:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #696]
 br x16
-.word 10297
+.word 11401
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
 _p_353:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #704]
 br x16
-.word 10302
+.word 11406
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_AddToActiveTasksNonInlined_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_DebuggerSupport_AddToActiveTasksNonInlined_System_Threading_Tasks_Task:
 _p_354:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #712]
 br x16
-.word 10317
+.word 11421
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_355:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #496]
-br x16
-.word 10322
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
-_p_356:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #504]
-br x16
-.word 10337
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
-_p_357:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #512]
-br x16
-.word 10342
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
-_p_358:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #520]
-br x16
-.word 10357
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
-plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
-_p_359:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #528]
-br x16
-.word 10372
-	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
-plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
-_p_360:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #536]
-br x16
-.word 10377
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
-_p_361:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #544]
-br x16
-.word 10382
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
-_p_362:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #552]
-br x16
-.word 10397
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
-_p_363:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #560]
-br x16
-.word 10412
-	.no_dead_strip plt__rgctx_fetch_96
-plt__rgctx_fetch_96:
-_p_364:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #568]
-br x16
-.word 10450
-	.no_dead_strip plt__rgctx_fetch_97
-plt__rgctx_fetch_97:
-_p_365:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #576]
-br x16
-.word 10458
-	.no_dead_strip plt__rgctx_fetch_98
-plt__rgctx_fetch_98:
-_p_366:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #584]
-br x16
-.word 10484
-	.no_dead_strip plt__rgctx_fetch_99
-plt__rgctx_fetch_99:
-_p_367:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #592]
-br x16
-.word 10492
-	.no_dead_strip plt__rgctx_fetch_100
-plt__rgctx_fetch_100:
-_p_368:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #600]
-br x16
-.word 10518
-	.no_dead_strip plt__jit_icall_mono_ldvirtfn_gshared
-plt__jit_icall_mono_ldvirtfn_gshared:
-_p_369:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #608]
-br x16
-.word 10537
-	.no_dead_strip plt__rgctx_fetch_101
-plt__rgctx_fetch_101:
-_p_370:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #616]
-br x16
-.word 10546
-	.no_dead_strip plt__rgctx_fetch_102
-plt__rgctx_fetch_102:
-_p_371:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #624]
-br x16
-.word 10554
-	.no_dead_strip plt__rgctx_fetch_103
-plt__rgctx_fetch_103:
-_p_372:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #632]
-br x16
-.word 10573
-	.no_dead_strip plt__rgctx_fetch_104
-plt__rgctx_fetch_104:
-_p_373:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #640]
-br x16
-.word 10581
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
-plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
-_p_374:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #648]
-br x16
-.word 10600
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
-_p_375:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #656]
-br x16
-.word 10605
-	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
-_p_376:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #664]
-br x16
-.word 10610
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
-_p_377:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #672]
-br x16
-.word 10625
-	.no_dead_strip plt__rgctx_fetch_105
-plt__rgctx_fetch_105:
-_p_378:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #680]
-br x16
-.word 10640
-	.no_dead_strip plt__rgctx_fetch_106
-plt__rgctx_fetch_106:
-_p_379:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #688]
-br x16
-.word 10648
-	.no_dead_strip plt__rgctx_fetch_107
-plt__rgctx_fetch_107:
-_p_380:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #696]
-br x16
-.word 10656
-	.no_dead_strip plt__rgctx_fetch_108
-plt__rgctx_fetch_108:
-_p_381:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #704]
-br x16
-.word 10675
-	.no_dead_strip plt__rgctx_fetch_109
-plt__rgctx_fetch_109:
-_p_382:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
-ldr x16, [x16, #712]
-br x16
-.word 10683
-	.no_dead_strip plt__rgctx_fetch_110
-plt__rgctx_fetch_110:
-_p_383:
-adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
-add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #720]
 br x16
-.word 10691
-	.no_dead_strip plt__rgctx_fetch_111
-plt__rgctx_fetch_111:
-_p_384:
+.word 11426
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
+_p_356:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #728]
 br x16
-.word 10710
-	.no_dead_strip plt__rgctx_fetch_112
-plt__rgctx_fetch_112:
-_p_385:
+.word 11441
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiContinuationTasksAndCopy_System_Threading_Tasks_Task__
+plt_System_Threading_Tasks_TaskFactory_CheckMultiContinuationTasksAndCopy_System_Threading_Tasks_Task__:
+_p_357:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #736]
 br x16
-.word 10729
-	.no_dead_strip plt__rgctx_fetch_113
-plt__rgctx_fetch_113:
-_p_386:
+.word 11456
+	.no_dead_strip plt_System_Threading_CancellationToken_get_IsCancellationRequested
+plt_System_Threading_CancellationToken_get_IsCancellationRequested:
+_p_358:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #744]
 br x16
-.word 10748
-	.no_dead_strip plt__rgctx_fetch_114
-plt__rgctx_fetch_114:
-_p_387:
+.word 11461
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_CreateCanceledTask_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_CreateCanceledTask_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken:
+_p_359:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #752]
 br x16
-.word 10767
-	.no_dead_strip plt__rgctx_fetch_115
-plt__rgctx_fetch_115:
-_p_388:
+.word 11466
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CommonCWAllLogic_System_Threading_Tasks_Task__
+plt_System_Threading_Tasks_TaskFactory_CommonCWAllLogic_System_Threading_Tasks_Task__:
+_p_360:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #760]
 br x16
-.word 10786
-	.no_dead_strip plt__rgctx_fetch_116
-plt__rgctx_fetch_116:
-_p_389:
+.word 11481
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
+_p_361:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #768]
 br x16
-.word 10794
-	.no_dead_strip plt__rgctx_fetch_117
-plt__rgctx_fetch_117:
-_p_390:
+.word 11486
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CommonCWAnyLogic_System_Collections_Generic_IList_1_System_Threading_Tasks_Task
+plt_System_Threading_Tasks_TaskFactory_CommonCWAnyLogic_System_Collections_Generic_IList_1_System_Threading_Tasks_Task:
+_p_362:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #776]
 br x16
-.word 10809
-	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
-plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
-_p_391:
+.word 11503
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
+_p_363:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #784]
 br x16
-.word 10817
-	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
-plt_System_Enum_GetUnderlyingType_System_Type:
-_p_392:
+.word 11508
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+_p_364:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #792]
 br x16
-.word 10822
-	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
-plt_System_Type_GetTypeCode_System_Type:
-_p_393:
+.word 11525
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
+_p_365:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #800]
 br x16
-.word 10827
-	.no_dead_strip plt__rgctx_fetch_118
-plt__rgctx_fetch_118:
-_p_394:
+.word 11530
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
+_p_366:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #808]
 br x16
-.word 10839
-	.no_dead_strip plt__rgctx_fetch_119
-plt__rgctx_fetch_119:
-_p_395:
+.word 11545
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
+plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
+_p_367:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #816]
 br x16
-.word 10847
-	.no_dead_strip plt__rgctx_fetch_120
-plt__rgctx_fetch_120:
-_p_396:
+.word 11560
+	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
+plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
+_p_368:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #824]
 br x16
-.word 10866
-	.no_dead_strip plt__rgctx_fetch_121
-plt__rgctx_fetch_121:
-_p_397:
+.word 11565
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
+_p_369:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #832]
 br x16
-.word 10881
-	.no_dead_strip plt__rgctx_fetch_122
-plt__rgctx_fetch_122:
-_p_398:
+.word 11570
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
+_p_370:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #840]
 br x16
-.word 10889
-	.no_dead_strip plt__rgctx_fetch_123
-plt__rgctx_fetch_123:
-_p_399:
+.word 11585
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
+_p_371:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #848]
 br x16
-.word 10904
-	.no_dead_strip plt__rgctx_fetch_124
-plt__rgctx_fetch_124:
-_p_400:
+.word 11600
+	.no_dead_strip plt__rgctx_fetch_96
+plt__rgctx_fetch_96:
+_p_372:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #856]
 br x16
-.word 10912
-	.no_dead_strip plt__rgctx_fetch_125
-plt__rgctx_fetch_125:
-_p_401:
+.word 11638
+	.no_dead_strip plt__rgctx_fetch_97
+plt__rgctx_fetch_97:
+_p_373:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 10931
-	.no_dead_strip plt__rgctx_fetch_126
-plt__rgctx_fetch_126:
-_p_402:
+.word 11646
+	.no_dead_strip plt__rgctx_fetch_98
+plt__rgctx_fetch_98:
+_p_374:
 adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
 add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 10950
+.word 11672
+	.no_dead_strip plt__rgctx_fetch_99
+plt__rgctx_fetch_99:
+_p_375:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #880]
+br x16
+.word 11680
+	.no_dead_strip plt__rgctx_fetch_100
+plt__rgctx_fetch_100:
+_p_376:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #888]
+br x16
+.word 11706
+	.no_dead_strip plt__jit_icall_mono_ldvirtfn_gshared
+plt__jit_icall_mono_ldvirtfn_gshared:
+_p_377:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #896]
+br x16
+.word 11725
+	.no_dead_strip plt__rgctx_fetch_101
+plt__rgctx_fetch_101:
+_p_378:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #904]
+br x16
+.word 11734
+	.no_dead_strip plt__rgctx_fetch_102
+plt__rgctx_fetch_102:
+_p_379:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #912]
+br x16
+.word 11742
+	.no_dead_strip plt__rgctx_fetch_103
+plt__rgctx_fetch_103:
+_p_380:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #920]
+br x16
+.word 11761
+	.no_dead_strip plt__rgctx_fetch_104
+plt__rgctx_fetch_104:
+_p_381:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #928]
+br x16
+.word 11769
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
+plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
+_p_382:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #936]
+br x16
+.word 11788
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
+_p_383:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #944]
+br x16
+.word 11793
+	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+_p_384:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #952]
+br x16
+.word 11798
+	.no_dead_strip plt_System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+plt_System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions:
+_p_385:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #960]
+br x16
+.word 11813
+	.no_dead_strip plt_System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+plt_System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions:
+_p_386:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #968]
+br x16
+.word 11828
+	.no_dead_strip plt__rgctx_fetch_105
+plt__rgctx_fetch_105:
+_p_387:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #976]
+br x16
+.word 11843
+	.no_dead_strip plt__rgctx_fetch_106
+plt__rgctx_fetch_106:
+_p_388:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #984]
+br x16
+.word 11851
+	.no_dead_strip plt__rgctx_fetch_107
+plt__rgctx_fetch_107:
+_p_389:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #992]
+br x16
+.word 11859
+	.no_dead_strip plt__rgctx_fetch_108
+plt__rgctx_fetch_108:
+_p_390:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1000]
+br x16
+.word 11878
+	.no_dead_strip plt__rgctx_fetch_109
+plt__rgctx_fetch_109:
+_p_391:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1008]
+br x16
+.word 11886
+	.no_dead_strip plt__rgctx_fetch_110
+plt__rgctx_fetch_110:
+_p_392:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1016]
+br x16
+.word 11894
+	.no_dead_strip plt__rgctx_fetch_111
+plt__rgctx_fetch_111:
+_p_393:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1024]
+br x16
+.word 11913
+	.no_dead_strip plt__rgctx_fetch_112
+plt__rgctx_fetch_112:
+_p_394:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1032]
+br x16
+.word 11932
+	.no_dead_strip plt__rgctx_fetch_113
+plt__rgctx_fetch_113:
+_p_395:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1040]
+br x16
+.word 11951
+	.no_dead_strip plt__rgctx_fetch_114
+plt__rgctx_fetch_114:
+_p_396:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1048]
+br x16
+.word 11970
+	.no_dead_strip plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr
+plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr:
+_p_397:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1056]
+br x16
+.word 11989
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___get_Result
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___get_Result:
+_p_398:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1064]
+br x16
+.word 11997
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result:
+_p_399:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1072]
+br x16
+.word 12012
+	.no_dead_strip plt__rgctx_fetch_115
+plt__rgctx_fetch_115:
+_p_400:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1080]
+br x16
+.word 12027
+	.no_dead_strip plt__rgctx_fetch_116
+plt__rgctx_fetch_116:
+_p_401:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1088]
+br x16
+.word 12035
+	.no_dead_strip plt__rgctx_fetch_117
+plt__rgctx_fetch_117:
+_p_402:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1096]
+br x16
+.word 12050
+	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
+plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
+_p_403:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1104]
+br x16
+.word 12058
+	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
+plt_System_Enum_GetUnderlyingType_System_Type:
+_p_404:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1112]
+br x16
+.word 12063
+	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
+plt_System_Type_GetTypeCode_System_Type:
+_p_405:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1120]
+br x16
+.word 12068
+	.no_dead_strip plt__rgctx_fetch_118
+plt__rgctx_fetch_118:
+_p_406:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1128]
+br x16
+.word 12080
+	.no_dead_strip plt__rgctx_fetch_119
+plt__rgctx_fetch_119:
+_p_407:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1136]
+br x16
+.word 12088
+	.no_dead_strip plt__rgctx_fetch_120
+plt__rgctx_fetch_120:
+_p_408:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1144]
+br x16
+.word 12107
+	.no_dead_strip plt__rgctx_fetch_121
+plt__rgctx_fetch_121:
+_p_409:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1152]
+br x16
+.word 12122
+	.no_dead_strip plt__rgctx_fetch_122
+plt__rgctx_fetch_122:
+_p_410:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1160]
+br x16
+.word 12130
+	.no_dead_strip plt__rgctx_fetch_123
+plt__rgctx_fetch_123:
+_p_411:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1168]
+br x16
+.word 12145
+	.no_dead_strip plt__rgctx_fetch_124
+plt__rgctx_fetch_124:
+_p_412:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1176]
+br x16
+.word 12153
+	.no_dead_strip plt__rgctx_fetch_125
+plt__rgctx_fetch_125:
+_p_413:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1184]
+br x16
+.word 12172
+	.no_dead_strip plt__rgctx_fetch_126
+plt__rgctx_fetch_126:
+_p_414:
+adrp x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGE+4096
+add x16, x16, mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got@PAGEOFF
+ldr x16, [x16, #1192]
+br x16
+.word 12191
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got, 4976
+.lcomm mono_aot_Octane_Xamarin_Forms_VideoPlayer_iOS_got, 5296
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -23481,14 +26093,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 219,4976,403,342,26,98,387000831,0
-	.long 15426,128,8,8,8,9,8388607,0
-	.long 4,25,25080,0,0,9648,8920,7904
-	.long 0,8368,8880,8064,0,5680,512,9640
+	.long 247,5296,415,384,43,98,387000831,0
+	.long 16821,128,8,8,8,9,8388607,0
+	.long 4,25,29376,0,0,12544,11816,10680
+	.long 0,11184,11768,10840,0,8120,576,12536
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 45,246,147,244,110,175,33,155,189,222,253,229,27,176,85,86
+	.byte 15,43,190,183,157,231,198,217,227,81,158,227,38,192,132,150
 	.globl _mono_aot_module_Octane_Xamarin_Forms_VideoPlayer_iOS_info
 	.align 3
 _mono_aot_module_Octane_Xamarin_Forms_VideoPlayer_iOS_info:
@@ -31976,7 +34588,7 @@ Lfde35_start:
 LDIFF_SYM1371=Lme_23 - Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer_UpdateFillMode
 	.long LDIFF_SYM1371
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
 Lfde35_end:
 
@@ -36030,72 +38642,813 @@ Lfde99_end:
 LTDIE_228:
 
 	.byte 5
-	.asciz "System_Nullable`1"
+	.asciz "System_Action`1"
 
-	.byte 32,16
-LDIFF_SYM1913=LTDIE_1 - Ldebug_info_start
+	.byte 128,1,16
+LDIFF_SYM1913=LTDIE_16 - Ldebug_info_start
 	.long LDIFF_SYM1913
-	.byte 2,35,0,6
-	.asciz "hasValue"
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
 
-LDIFF_SYM1914=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM1914=LTDIE_228 - Ldebug_info_start
 	.long LDIFF_SYM1914
-	.byte 2,35,16,6
-	.asciz "value"
-
-LDIFF_SYM1915=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1915
-	.byte 2,35,24,0,7
-	.asciz "System_Nullable`1"
-
-LDIFF_SYM1916=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM1916
 LTDIE_228_POINTER:
 
 	.byte 13
-LDIFF_SYM1917=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM1917
+LDIFF_SYM1915=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1915
 LTDIE_228_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1918=LTDIE_228 - Ldebug_info_start
+LDIFF_SYM1916=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1916
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task[]>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task___invoke_void_T_System_Threading_Tasks_Task__"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task___invoke_void_T_System_Threading_Tasks_Task__
+	.quad Lme_71
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1917=LTDIE_228_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1917
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1918=LDIE_SZARRAY - Ldebug_info_start
 	.long LDIFF_SYM1918
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1919=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1919
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM1920=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1920
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM1921=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1921
+	.byte 1,104,11
+	.asciz "V_3"
+
+LDIFF_SYM1922=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1922
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM1923=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1923
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1924=Lfde100_end - Lfde100_start
+	.long LDIFF_SYM1924
+Lfde100_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task___invoke_void_T_System_Threading_Tasks_Task__
+
+LDIFF_SYM1925=Lme_71 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task___invoke_void_T_System_Threading_Tasks_Task__
+	.long LDIFF_SYM1925
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.align 3
+Lfde100_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_229:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 128,1,16
+LDIFF_SYM1926=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1926
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1927=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1927
+LTDIE_229_POINTER:
+
+	.byte 13
+LDIFF_SYM1928=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1928
+LTDIE_229_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1929=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1929
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task,_string>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_string_invoke_TResult_T_System_Threading_Tasks_Task"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_string_invoke_TResult_T_System_Threading_Tasks_Task
+	.quad Lme_72
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1930=LTDIE_229_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1930
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1931=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1931
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1932=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1932
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM1933=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1933
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM1934=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1934
+	.byte 1,104,11
+	.asciz "V_3"
+
+LDIFF_SYM1935=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1935
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM1936=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1936
+	.byte 1,104,11
+	.asciz "V_5"
+
+LDIFF_SYM1937=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1937
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1938=Lfde101_end - Lfde101_start
+	.long LDIFF_SYM1938
+Lfde101_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_string_invoke_TResult_T_System_Threading_Tasks_Task
+
+LDIFF_SYM1939=Lme_72 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_string_invoke_TResult_T_System_Threading_Tasks_Task
+	.long LDIFF_SYM1939
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.align 3
+Lfde101_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_230:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 128,1,16
+LDIFF_SYM1940=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1940
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1941=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1941
+LTDIE_230_POINTER:
+
+	.byte 13
+LDIFF_SYM1942=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1942
+LTDIE_230_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1943=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1943
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Threading.Tasks.Task>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.quad Lme_73
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1944=LTDIE_230_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1944
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1945=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1945
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1946=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1946
+	.byte 1,106,11
+	.asciz "V_2"
+
+LDIFF_SYM1947=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1947
+	.byte 1,105,11
+	.asciz "V_3"
+
+LDIFF_SYM1948=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1948
+	.byte 1,103,11
+	.asciz "V_4"
+
+LDIFF_SYM1949=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1949
+	.byte 1,105,11
+	.asciz "V_5"
+
+LDIFF_SYM1950=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1950
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1951=Lfde102_end - Lfde102_start
+	.long LDIFF_SYM1951
+Lfde102_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+
+LDIFF_SYM1952=Lme_73 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.long LDIFF_SYM1952
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,152,5,68,153,4,154,3
+	.align 3
+Lfde102_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_231:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 128,1,16
+LDIFF_SYM1953=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1953
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1954=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1954
+LTDIE_231_POINTER:
+
+	.byte 13
+LDIFF_SYM1955=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1955
+LTDIE_231_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1956=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1956
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.Task>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.quad Lme_74
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1957=LTDIE_231_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1957
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1958=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1958
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1959=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1959
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM1960=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1960
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM1961=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1961
+	.byte 1,104,11
+	.asciz "V_3"
+
+LDIFF_SYM1962=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1962
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM1963=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1963
+	.byte 1,104,11
+	.asciz "V_5"
+
+LDIFF_SYM1964=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1964
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1965=Lfde103_end - Lfde103_start
+	.long LDIFF_SYM1965
+Lfde103_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+
+LDIFF_SYM1966=Lme_74 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.long LDIFF_SYM1966
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.align 3
+Lfde103_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_232:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 128,1,16
+LDIFF_SYM1967=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1967
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1968=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1968
+LTDIE_232_POINTER:
+
+	.byte 13
+LDIFF_SYM1969=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1969
+LTDIE_232_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1970=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1970
+LTDIE_233:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM1971=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM1971
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM1972=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1972
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM1973=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1973
+LTDIE_233_POINTER:
+
+	.byte 13
+LDIFF_SYM1974=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1974
+LTDIE_233_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1975=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1975
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad Lme_75
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1976=LTDIE_232_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1976
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1977=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1977
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1978=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1978
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM1979=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1979
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM1980=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1980
+	.byte 1,104,11
+	.asciz "V_3"
+
+LDIFF_SYM1981=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1981
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM1982=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1982
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1983=Lfde104_end - Lfde104_start
+	.long LDIFF_SYM1983
+Lfde104_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+
+LDIFF_SYM1984=Lme_75 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1984
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.align 3
+Lfde104_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_234:
+
+	.byte 5
+	.asciz "System_Action`2"
+
+	.byte 128,1,16
+LDIFF_SYM1985=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1985
+	.byte 2,35,0,0,7
+	.asciz "System_Action`2"
+
+LDIFF_SYM1986=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1986
+LTDIE_234_POINTER:
+
+	.byte 13
+LDIFF_SYM1987=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1987
+LTDIE_234_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1988=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1988
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_object>:invoke_void_T1_T2"
+	.asciz "wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
+	.quad Lme_76
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1989=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1989
+	.byte 1,104,3
+	.asciz "param0"
+
+LDIFF_SYM1990=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1990
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM1991=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1991
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1992=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1992
+	.byte 1,102,11
+	.asciz "V_1"
+
+LDIFF_SYM1993=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1993
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM1994=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1994
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM1995=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1995
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1996=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1996
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1997=Lfde105_end - Lfde105_start
+	.long LDIFF_SYM1997
+Lfde105_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
+
+LDIFF_SYM1998=Lme_76 - wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
+	.long LDIFF_SYM1998
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
+	.align 3
+Lfde105_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_235:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 128,1,16
+LDIFF_SYM1999=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1999
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM2000=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM2000
+LTDIE_235_POINTER:
+
+	.byte 13
+LDIFF_SYM2001=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM2001
+LTDIE_235_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2002=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM2002
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Threading.Tasks.Task>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+	.quad Lme_77
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2003=LTDIE_235_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2003
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM2004=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2004
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM2005=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2005
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM2006=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2006
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM2007=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2007
+	.byte 1,104,11
+	.asciz "V_3"
+
+LDIFF_SYM2008=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2008
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM2009=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2009
+	.byte 1,104,11
+	.asciz "V_5"
+
+LDIFF_SYM2010=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2010
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2011=Lfde106_end - Lfde106_start
+	.long LDIFF_SYM2011
+Lfde106_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+
+LDIFF_SYM2012=Lme_77 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM2012
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.align 3
+Lfde106_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_236:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 128,1,16
+LDIFF_SYM2013=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2013
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM2014=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM2014
+LTDIE_236_POINTER:
+
+	.byte 13
+LDIFF_SYM2015=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM2015
+LTDIE_236_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2016=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM2016
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task,_System.Threading.Tasks.Task>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task
+	.quad Lme_78
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2017=LTDIE_236_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2017
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM2018=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2018
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM2019=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2019
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM2020=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2020
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM2021=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2021
+	.byte 1,104,11
+	.asciz "V_3"
+
+LDIFF_SYM2022=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2022
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM2023=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2023
+	.byte 1,104,11
+	.asciz "V_5"
+
+LDIFF_SYM2024=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2024
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2025=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM2025
+Lfde107_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task
+
+LDIFF_SYM2026=Lme_78 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task
+	.long LDIFF_SYM2026
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.align 3
+Lfde107_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_237:
+
+	.byte 5
+	.asciz "System_Nullable`1"
+
+	.byte 32,16
+LDIFF_SYM2027=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2027
+	.byte 2,35,0,6
+	.asciz "hasValue"
+
+LDIFF_SYM2028=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2028
+	.byte 2,35,16,6
+	.asciz "value"
+
+LDIFF_SYM2029=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM2029
+	.byte 2,35,24,0,7
+	.asciz "System_Nullable`1"
+
+LDIFF_SYM2030=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM2030
+LTDIE_237_POINTER:
+
+	.byte 13
+LDIFF_SYM2031=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM2031
+LTDIE_237_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2032=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM2032
 	.byte 2
 	.asciz "System.Nullable`1<AVFoundation.AVPlayerStatus>:.ctor"
 	.asciz "System_Nullable_1_AVFoundation_AVPlayerStatus__ctor_AVFoundation_AVPlayerStatus"
 
 	.byte 1,27
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus__ctor_AVFoundation_AVPlayerStatus
-	.quad Lme_71
+	.quad Lme_79
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1919=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1919
+LDIFF_SYM2033=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2033
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1920=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1920
+LDIFF_SYM2034=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM2034
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1921=Lfde100_end - Lfde100_start
-	.long LDIFF_SYM1921
-Lfde100_start:
+LDIFF_SYM2035=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM2035
+Lfde108_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus__ctor_AVFoundation_AVPlayerStatus
 
-LDIFF_SYM1922=Lme_71 - System_Nullable_1_AVFoundation_AVPlayerStatus__ctor_AVFoundation_AVPlayerStatus
-	.long LDIFF_SYM1922
+LDIFF_SYM2036=Lme_79 - System_Nullable_1_AVFoundation_AVPlayerStatus__ctor_AVFoundation_AVPlayerStatus
+	.long LDIFF_SYM2036
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2
 	.align 3
-Lfde100_end:
+Lfde108_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36105,31 +39458,31 @@ Lfde100_end:
 
 	.byte 1,36
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_get_HasValue
-	.quad Lme_72
+	.quad Lme_7a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1923=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1923
+LDIFF_SYM2037=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2037
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1924=Lfde101_end - Lfde101_start
-	.long LDIFF_SYM1924
-Lfde101_start:
+LDIFF_SYM2038=Lfde109_end - Lfde109_start
+	.long LDIFF_SYM2038
+Lfde109_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_get_HasValue
 
-LDIFF_SYM1925=Lme_72 - System_Nullable_1_AVFoundation_AVPlayerStatus_get_HasValue
-	.long LDIFF_SYM1925
+LDIFF_SYM2039=Lme_7a - System_Nullable_1_AVFoundation_AVPlayerStatus_get_HasValue
+	.long LDIFF_SYM2039
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde101_end:
+Lfde109_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36139,31 +39492,31 @@ Lfde101_end:
 
 	.byte 1,44
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_get_Value
-	.quad Lme_73
+	.quad Lme_7b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1926=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1926
+LDIFF_SYM2040=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2040
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1927=Lfde102_end - Lfde102_start
-	.long LDIFF_SYM1927
-Lfde102_start:
+LDIFF_SYM2041=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM2041
+Lfde110_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_get_Value
 
-LDIFF_SYM1928=Lme_73 - System_Nullable_1_AVFoundation_AVPlayerStatus_get_Value
-	.long LDIFF_SYM1928
+LDIFF_SYM2042=Lme_7b - System_Nullable_1_AVFoundation_AVPlayerStatus_get_Value
+	.long LDIFF_SYM2042
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
-Lfde102_end:
+Lfde110_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36173,31 +39526,31 @@ Lfde102_end:
 
 	.byte 1,55
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_GetValueOrDefault
-	.quad Lme_74
+	.quad Lme_7c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1929=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1929
+LDIFF_SYM2043=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2043
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1930=Lfde103_end - Lfde103_start
-	.long LDIFF_SYM1930
-Lfde103_start:
+LDIFF_SYM2044=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM2044
+Lfde111_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_GetValueOrDefault
 
-LDIFF_SYM1931=Lme_74 - System_Nullable_1_AVFoundation_AVPlayerStatus_GetValueOrDefault
-	.long LDIFF_SYM1931
+LDIFF_SYM2045=Lme_7c - System_Nullable_1_AVFoundation_AVPlayerStatus_GetValueOrDefault
+	.long LDIFF_SYM2045
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde103_end:
+Lfde111_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36207,36 +39560,36 @@ Lfde103_end:
 
 	.byte 1,61
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_GetValueOrDefault_AVFoundation_AVPlayerStatus
-	.quad Lme_75
+	.quad Lme_7d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1932=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1932
+LDIFF_SYM2046=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2046
 	.byte 1,105,3
 	.asciz "defaultValue"
 
-LDIFF_SYM1933=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1933
+LDIFF_SYM2047=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM2047
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1934=Lfde104_end - Lfde104_start
-	.long LDIFF_SYM1934
-Lfde104_start:
+LDIFF_SYM2048=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM2048
+Lfde112_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_GetValueOrDefault_AVFoundation_AVPlayerStatus
 
-LDIFF_SYM1935=Lme_75 - System_Nullable_1_AVFoundation_AVPlayerStatus_GetValueOrDefault_AVFoundation_AVPlayerStatus
-	.long LDIFF_SYM1935
+LDIFF_SYM2049=Lme_7d - System_Nullable_1_AVFoundation_AVPlayerStatus_GetValueOrDefault_AVFoundation_AVPlayerStatus
+	.long LDIFF_SYM2049
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2
 	.align 3
-Lfde104_end:
+Lfde112_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36246,36 +39599,36 @@ Lfde104_end:
 
 	.byte 1,66
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_Equals_object
-	.quad Lme_76
+	.quad Lme_7e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1936=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1936
+LDIFF_SYM2050=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2050
 	.byte 2,141,16,3
 	.asciz "other"
 
-LDIFF_SYM1937=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1937
+LDIFF_SYM2051=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2051
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1938=Lfde105_end - Lfde105_start
-	.long LDIFF_SYM1938
-Lfde105_start:
+LDIFF_SYM2052=Lfde113_end - Lfde113_start
+	.long LDIFF_SYM2052
+Lfde113_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_Equals_object
 
-LDIFF_SYM1939=Lme_76 - System_Nullable_1_AVFoundation_AVPlayerStatus_Equals_object
-	.long LDIFF_SYM1939
+LDIFF_SYM2053=Lme_7e - System_Nullable_1_AVFoundation_AVPlayerStatus_Equals_object
+	.long LDIFF_SYM2053
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde105_end:
+Lfde113_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36285,31 +39638,31 @@ Lfde105_end:
 
 	.byte 1,73
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_GetHashCode
-	.quad Lme_77
+	.quad Lme_7f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1940=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1940
+LDIFF_SYM2054=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2054
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1941=Lfde106_end - Lfde106_start
-	.long LDIFF_SYM1941
-Lfde106_start:
+LDIFF_SYM2055=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM2055
+Lfde114_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_GetHashCode
 
-LDIFF_SYM1942=Lme_77 - System_Nullable_1_AVFoundation_AVPlayerStatus_GetHashCode
-	.long LDIFF_SYM1942
+LDIFF_SYM2056=Lme_7f - System_Nullable_1_AVFoundation_AVPlayerStatus_GetHashCode
+	.long LDIFF_SYM2056
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde106_end:
+Lfde114_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36319,31 +39672,31 @@ Lfde106_end:
 
 	.byte 1,78
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_ToString
-	.quad Lme_78
+	.quad Lme_80
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1943=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1943
+LDIFF_SYM2057=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2057
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1944=Lfde107_end - Lfde107_start
-	.long LDIFF_SYM1944
-Lfde107_start:
+LDIFF_SYM2058=Lfde115_end - Lfde115_start
+	.long LDIFF_SYM2058
+Lfde115_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_ToString
 
-LDIFF_SYM1945=Lme_78 - System_Nullable_1_AVFoundation_AVPlayerStatus_ToString
-	.long LDIFF_SYM1945
+LDIFF_SYM2059=Lme_80 - System_Nullable_1_AVFoundation_AVPlayerStatus_ToString
+	.long LDIFF_SYM2059
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde107_end:
+Lfde115_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36353,31 +39706,31 @@ Lfde107_end:
 
 	.byte 2,52
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_Box_System_Nullable_1_AVFoundation_AVPlayerStatus
-	.quad Lme_79
+	.quad Lme_81
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1946=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1946
+LDIFF_SYM2060=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2060
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1947=Lfde108_end - Lfde108_start
-	.long LDIFF_SYM1947
-Lfde108_start:
+LDIFF_SYM2061=Lfde116_end - Lfde116_start
+	.long LDIFF_SYM2061
+Lfde116_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_Box_System_Nullable_1_AVFoundation_AVPlayerStatus
 
-LDIFF_SYM1948=Lme_79 - System_Nullable_1_AVFoundation_AVPlayerStatus_Box_System_Nullable_1_AVFoundation_AVPlayerStatus
-	.long LDIFF_SYM1948
+LDIFF_SYM2062=Lme_81 - System_Nullable_1_AVFoundation_AVPlayerStatus_Box_System_Nullable_1_AVFoundation_AVPlayerStatus
+	.long LDIFF_SYM2062
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde108_end:
+Lfde116_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36387,36 +39740,36 @@ Lfde108_end:
 
 	.byte 2,60
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_Unbox_object
-	.quad Lme_7a
+	.quad Lme_82
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1949=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1949
+LDIFF_SYM2063=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2063
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1950=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1950
+LDIFF_SYM2064=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2064
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1951=Lfde109_end - Lfde109_start
-	.long LDIFF_SYM1951
-Lfde109_start:
+LDIFF_SYM2065=Lfde117_end - Lfde117_start
+	.long LDIFF_SYM2065
+Lfde117_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_Unbox_object
 
-LDIFF_SYM1952=Lme_7a - System_Nullable_1_AVFoundation_AVPlayerStatus_Unbox_object
-	.long LDIFF_SYM1952
+LDIFF_SYM2066=Lme_82 - System_Nullable_1_AVFoundation_AVPlayerStatus_Unbox_object
+	.long LDIFF_SYM2066
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde109_end:
+Lfde117_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36426,107 +39779,107 @@ Lfde109_end:
 
 	.byte 2,67
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_UnboxExact_object
-	.quad Lme_7b
+	.quad Lme_83
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1953=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1953
+LDIFF_SYM2067=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2067
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1954=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1954
+LDIFF_SYM2068=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2068
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1955=Lfde110_end - Lfde110_start
-	.long LDIFF_SYM1955
-Lfde110_start:
+LDIFF_SYM2069=Lfde118_end - Lfde118_start
+	.long LDIFF_SYM2069
+Lfde118_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_AVFoundation_AVPlayerStatus_UnboxExact_object
 
-LDIFF_SYM1956=Lme_7b - System_Nullable_1_AVFoundation_AVPlayerStatus_UnboxExact_object
-	.long LDIFF_SYM1956
+LDIFF_SYM2070=Lme_83 - System_Nullable_1_AVFoundation_AVPlayerStatus_UnboxExact_object
+	.long LDIFF_SYM2070
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde110_end:
+Lfde118_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_229:
+LTDIE_238:
 
 	.byte 5
 	.asciz "System_Nullable`1"
 
 	.byte 32,16
-LDIFF_SYM1957=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1957
+LDIFF_SYM2071=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2071
 	.byte 2,35,0,6
 	.asciz "hasValue"
 
-LDIFF_SYM1958=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1958
+LDIFF_SYM2072=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2072
 	.byte 2,35,16,6
 	.asciz "value"
 
-LDIFF_SYM1959=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1959
+LDIFF_SYM2073=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2073
 	.byte 2,35,24,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM1960=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1960
-LTDIE_229_POINTER:
+LDIFF_SYM2074=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM2074
+LTDIE_238_POINTER:
 
 	.byte 13
-LDIFF_SYM1961=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1961
-LTDIE_229_REFERENCE:
+LDIFF_SYM2075=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM2075
+LTDIE_238_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1962=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1962
+LDIFF_SYM2076=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM2076
 	.byte 2
 	.asciz "System.Nullable`1<intptr>:.ctor"
 	.asciz "System_Nullable_1_intptr__ctor_intptr"
 
 	.byte 1,27
 	.quad System_Nullable_1_intptr__ctor_intptr
-	.quad Lme_7c
+	.quad Lme_84
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1963=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1963
+LDIFF_SYM2077=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2077
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1964=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1964
+LDIFF_SYM2078=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2078
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1965=Lfde111_end - Lfde111_start
-	.long LDIFF_SYM1965
-Lfde111_start:
+LDIFF_SYM2079=Lfde119_end - Lfde119_start
+	.long LDIFF_SYM2079
+Lfde119_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr__ctor_intptr
 
-LDIFF_SYM1966=Lme_7c - System_Nullable_1_intptr__ctor_intptr
-	.long LDIFF_SYM1966
+LDIFF_SYM2080=Lme_84 - System_Nullable_1_intptr__ctor_intptr
+	.long LDIFF_SYM2080
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2
 	.align 3
-Lfde111_end:
+Lfde119_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36536,31 +39889,31 @@ Lfde111_end:
 
 	.byte 1,36
 	.quad System_Nullable_1_intptr_get_HasValue
-	.quad Lme_7d
+	.quad Lme_85
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1967=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1967
+LDIFF_SYM2081=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2081
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1968=Lfde112_end - Lfde112_start
-	.long LDIFF_SYM1968
-Lfde112_start:
+LDIFF_SYM2082=Lfde120_end - Lfde120_start
+	.long LDIFF_SYM2082
+Lfde120_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_get_HasValue
 
-LDIFF_SYM1969=Lme_7d - System_Nullable_1_intptr_get_HasValue
-	.long LDIFF_SYM1969
+LDIFF_SYM2083=Lme_85 - System_Nullable_1_intptr_get_HasValue
+	.long LDIFF_SYM2083
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde112_end:
+Lfde120_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36570,31 +39923,31 @@ Lfde112_end:
 
 	.byte 1,44
 	.quad System_Nullable_1_intptr_get_Value
-	.quad Lme_7e
+	.quad Lme_86
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1970=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1970
+LDIFF_SYM2084=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2084
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1971=Lfde113_end - Lfde113_start
-	.long LDIFF_SYM1971
-Lfde113_start:
+LDIFF_SYM2085=Lfde121_end - Lfde121_start
+	.long LDIFF_SYM2085
+Lfde121_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_get_Value
 
-LDIFF_SYM1972=Lme_7e - System_Nullable_1_intptr_get_Value
-	.long LDIFF_SYM1972
+LDIFF_SYM2086=Lme_86 - System_Nullable_1_intptr_get_Value
+	.long LDIFF_SYM2086
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
-Lfde113_end:
+Lfde121_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36604,31 +39957,31 @@ Lfde113_end:
 
 	.byte 1,55
 	.quad System_Nullable_1_intptr_GetValueOrDefault
-	.quad Lme_7f
+	.quad Lme_87
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1973=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1973
+LDIFF_SYM2087=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2087
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1974=Lfde114_end - Lfde114_start
-	.long LDIFF_SYM1974
-Lfde114_start:
+LDIFF_SYM2088=Lfde122_end - Lfde122_start
+	.long LDIFF_SYM2088
+Lfde122_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_GetValueOrDefault
 
-LDIFF_SYM1975=Lme_7f - System_Nullable_1_intptr_GetValueOrDefault
-	.long LDIFF_SYM1975
+LDIFF_SYM2089=Lme_87 - System_Nullable_1_intptr_GetValueOrDefault
+	.long LDIFF_SYM2089
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde114_end:
+Lfde122_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36638,36 +39991,36 @@ Lfde114_end:
 
 	.byte 1,61
 	.quad System_Nullable_1_intptr_GetValueOrDefault_intptr
-	.quad Lme_80
+	.quad Lme_88
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1976=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1976
+LDIFF_SYM2090=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2090
 	.byte 1,105,3
 	.asciz "defaultValue"
 
-LDIFF_SYM1977=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1977
+LDIFF_SYM2091=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2091
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1978=Lfde115_end - Lfde115_start
-	.long LDIFF_SYM1978
-Lfde115_start:
+LDIFF_SYM2092=Lfde123_end - Lfde123_start
+	.long LDIFF_SYM2092
+Lfde123_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_GetValueOrDefault_intptr
 
-LDIFF_SYM1979=Lme_80 - System_Nullable_1_intptr_GetValueOrDefault_intptr
-	.long LDIFF_SYM1979
+LDIFF_SYM2093=Lme_88 - System_Nullable_1_intptr_GetValueOrDefault_intptr
+	.long LDIFF_SYM2093
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2
 	.align 3
-Lfde115_end:
+Lfde123_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36677,36 +40030,36 @@ Lfde115_end:
 
 	.byte 1,66
 	.quad System_Nullable_1_intptr_Equals_object
-	.quad Lme_81
+	.quad Lme_89
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1980=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1980
+LDIFF_SYM2094=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2094
 	.byte 2,141,16,3
 	.asciz "other"
 
-LDIFF_SYM1981=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1981
+LDIFF_SYM2095=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2095
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1982=Lfde116_end - Lfde116_start
-	.long LDIFF_SYM1982
-Lfde116_start:
+LDIFF_SYM2096=Lfde124_end - Lfde124_start
+	.long LDIFF_SYM2096
+Lfde124_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_Equals_object
 
-LDIFF_SYM1983=Lme_81 - System_Nullable_1_intptr_Equals_object
-	.long LDIFF_SYM1983
+LDIFF_SYM2097=Lme_89 - System_Nullable_1_intptr_Equals_object
+	.long LDIFF_SYM2097
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde116_end:
+Lfde124_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36716,31 +40069,31 @@ Lfde116_end:
 
 	.byte 1,73
 	.quad System_Nullable_1_intptr_GetHashCode
-	.quad Lme_82
+	.quad Lme_8a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1984=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1984
+LDIFF_SYM2098=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2098
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1985=Lfde117_end - Lfde117_start
-	.long LDIFF_SYM1985
-Lfde117_start:
+LDIFF_SYM2099=Lfde125_end - Lfde125_start
+	.long LDIFF_SYM2099
+Lfde125_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_GetHashCode
 
-LDIFF_SYM1986=Lme_82 - System_Nullable_1_intptr_GetHashCode
-	.long LDIFF_SYM1986
+LDIFF_SYM2100=Lme_8a - System_Nullable_1_intptr_GetHashCode
+	.long LDIFF_SYM2100
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde117_end:
+Lfde125_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36750,31 +40103,31 @@ Lfde117_end:
 
 	.byte 1,78
 	.quad System_Nullable_1_intptr_ToString
-	.quad Lme_83
+	.quad Lme_8b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1987=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1987
+LDIFF_SYM2101=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2101
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1988=Lfde118_end - Lfde118_start
-	.long LDIFF_SYM1988
-Lfde118_start:
+LDIFF_SYM2102=Lfde126_end - Lfde126_start
+	.long LDIFF_SYM2102
+Lfde126_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_ToString
 
-LDIFF_SYM1989=Lme_83 - System_Nullable_1_intptr_ToString
-	.long LDIFF_SYM1989
+LDIFF_SYM2103=Lme_8b - System_Nullable_1_intptr_ToString
+	.long LDIFF_SYM2103
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde118_end:
+Lfde126_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36784,31 +40137,31 @@ Lfde118_end:
 
 	.byte 2,52
 	.quad System_Nullable_1_intptr_Box_System_Nullable_1_intptr
-	.quad Lme_84
+	.quad Lme_8c
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1990=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1990
+LDIFF_SYM2104=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2104
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1991=Lfde119_end - Lfde119_start
-	.long LDIFF_SYM1991
-Lfde119_start:
+LDIFF_SYM2105=Lfde127_end - Lfde127_start
+	.long LDIFF_SYM2105
+Lfde127_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_Box_System_Nullable_1_intptr
 
-LDIFF_SYM1992=Lme_84 - System_Nullable_1_intptr_Box_System_Nullable_1_intptr
-	.long LDIFF_SYM1992
+LDIFF_SYM2106=Lme_8c - System_Nullable_1_intptr_Box_System_Nullable_1_intptr
+	.long LDIFF_SYM2106
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde119_end:
+Lfde127_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36818,36 +40171,36 @@ Lfde119_end:
 
 	.byte 2,60
 	.quad System_Nullable_1_intptr_Unbox_object
-	.quad Lme_85
+	.quad Lme_8d
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1993=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1993
+LDIFF_SYM2107=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2107
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1994=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1994
+LDIFF_SYM2108=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2108
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1995=Lfde120_end - Lfde120_start
-	.long LDIFF_SYM1995
-Lfde120_start:
+LDIFF_SYM2109=Lfde128_end - Lfde128_start
+	.long LDIFF_SYM2109
+Lfde128_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_Unbox_object
 
-LDIFF_SYM1996=Lme_85 - System_Nullable_1_intptr_Unbox_object
-	.long LDIFF_SYM1996
+LDIFF_SYM2110=Lme_8d - System_Nullable_1_intptr_Unbox_object
+	.long LDIFF_SYM2110
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde120_end:
+Lfde128_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -36857,684 +40210,775 @@ Lfde120_end:
 
 	.byte 2,67
 	.quad System_Nullable_1_intptr_UnboxExact_object
-	.quad Lme_86
+	.quad Lme_8e
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1997=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1997
+LDIFF_SYM2111=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2111
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1998=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1998
+LDIFF_SYM2112=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2112
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1999=Lfde121_end - Lfde121_start
-	.long LDIFF_SYM1999
-Lfde121_start:
+LDIFF_SYM2113=Lfde129_end - Lfde129_start
+	.long LDIFF_SYM2113
+Lfde129_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_UnboxExact_object
 
-LDIFF_SYM2000=Lme_86 - System_Nullable_1_intptr_UnboxExact_object
-	.long LDIFF_SYM2000
+LDIFF_SYM2114=Lme_8e - System_Nullable_1_intptr_UnboxExact_object
+	.long LDIFF_SYM2114
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde121_end:
+Lfde129_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_230:
+LTDIE_239:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 128,1,16
-LDIFF_SYM2001=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2001
+LDIFF_SYM2115=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2115
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM2002=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM2002
-LTDIE_230_POINTER:
+LDIFF_SYM2116=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM2116
+LTDIE_239_POINTER:
 
 	.byte 13
-LDIFF_SYM2003=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM2003
-LTDIE_230_REFERENCE:
+LDIFF_SYM2117=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM2117
+LTDIE_239_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2004=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM2004
+LDIFF_SYM2118=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM2118
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<CoreMedia.CMTime>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_CoreMedia_CMTime_invoke_void_T_CoreMedia_CMTime"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_CoreMedia_CMTime_invoke_void_T_CoreMedia_CMTime
-	.quad Lme_8b
+	.quad Lme_93
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2005=LTDIE_230_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2005
+LDIFF_SYM2119=LTDIE_239_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2119
 	.byte 1,106,3
 	.asciz "param0"
 
-LDIFF_SYM2006=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2006
+LDIFF_SYM2120=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2120
 	.byte 1,80,11
 	.asciz "V_0"
 
-LDIFF_SYM2007=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2007
+LDIFF_SYM2121=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2121
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2008=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2008
+LDIFF_SYM2122=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2122
 	.byte 1,106,11
 	.asciz "V_2"
 
-LDIFF_SYM2009=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2009
+LDIFF_SYM2123=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2123
 	.byte 1,105,11
 	.asciz "V_3"
 
-LDIFF_SYM2010=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2010
+LDIFF_SYM2124=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2124
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM2011=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2011
+LDIFF_SYM2125=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2125
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2012=Lfde122_end - Lfde122_start
-	.long LDIFF_SYM2012
-Lfde122_start:
+LDIFF_SYM2126=Lfde130_end - Lfde130_start
+	.long LDIFF_SYM2126
+Lfde130_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_CoreMedia_CMTime_invoke_void_T_CoreMedia_CMTime
 
-LDIFF_SYM2013=Lme_8b - wrapper_delegate_invoke_System_Action_1_CoreMedia_CMTime_invoke_void_T_CoreMedia_CMTime
-	.long LDIFF_SYM2013
+LDIFF_SYM2127=Lme_93 - wrapper_delegate_invoke_System_Action_1_CoreMedia_CMTime_invoke_void_T_CoreMedia_CMTime
+	.long LDIFF_SYM2127
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,153,14,154,13
 	.align 3
-Lfde122_end:
+Lfde130_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_231:
+LTDIE_240:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 128,1,16
-LDIFF_SYM2014=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2014
+LDIFF_SYM2128=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2128
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM2015=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM2015
-LTDIE_231_POINTER:
+LDIFF_SYM2129=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM2129
+LTDIE_240_POINTER:
 
 	.byte 13
-LDIFF_SYM2016=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM2016
-LTDIE_231_REFERENCE:
+LDIFF_SYM2130=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM2130
+LTDIE_240_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2017=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM2017
+LDIFF_SYM2131=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM2131
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.IO.Stream>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
-	.quad Lme_8c
+	.quad Lme_94
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2018=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2018
+LDIFF_SYM2132=LTDIE_240_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2132
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2019=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2019
+LDIFF_SYM2133=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2133
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2020=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2020
+LDIFF_SYM2134=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2134
 	.byte 1,106,11
 	.asciz "V_2"
 
-LDIFF_SYM2021=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2021
+LDIFF_SYM2135=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2135
 	.byte 1,105,11
 	.asciz "V_3"
 
-LDIFF_SYM2022=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2022
+LDIFF_SYM2136=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2136
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM2023=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2023
+LDIFF_SYM2137=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2137
 	.byte 1,105,11
 	.asciz "V_5"
 
-LDIFF_SYM2024=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2024
+LDIFF_SYM2138=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2138
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2025=Lfde123_end - Lfde123_start
-	.long LDIFF_SYM2025
-Lfde123_start:
+LDIFF_SYM2139=Lfde131_end - Lfde131_start
+	.long LDIFF_SYM2139
+Lfde131_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
 
-LDIFF_SYM2026=Lme_8c - wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
-	.long LDIFF_SYM2026
+LDIFF_SYM2140=Lme_94 - wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
+	.long LDIFF_SYM2140
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde123_end:
+Lfde131_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_232:
+LTDIE_241:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM2027=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2027
+LDIFF_SYM2141=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2141
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2028=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM2028
-LTDIE_232_POINTER:
+LDIFF_SYM2142=LTDIE_241 - Ldebug_info_start
+	.long LDIFF_SYM2142
+LTDIE_241_POINTER:
 
 	.byte 13
-LDIFF_SYM2029=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM2029
-LTDIE_232_REFERENCE:
+LDIFF_SYM2143=LTDIE_241 - Ldebug_info_start
+	.long LDIFF_SYM2143
+LTDIE_241_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2030=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM2030
+LDIFF_SYM2144=LTDIE_241 - Ldebug_info_start
+	.long LDIFF_SYM2144
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.IO.Stream>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_IO_Stream_invoke_TResult_T_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_IO_Stream_invoke_TResult_T_object
-	.quad Lme_8d
+	.quad Lme_95
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2031=LTDIE_232_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2031
+LDIFF_SYM2145=LTDIE_241_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2145
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2032=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2032
+LDIFF_SYM2146=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2146
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2033=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2033
+LDIFF_SYM2147=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2147
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2034=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2034
+LDIFF_SYM2148=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2148
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM2035=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2035
+LDIFF_SYM2149=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2149
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM2036=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2036
+LDIFF_SYM2150=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2150
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM2037=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2037
+LDIFF_SYM2151=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2151
 	.byte 1,104,11
 	.asciz "V_5"
 
-LDIFF_SYM2038=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2038
+LDIFF_SYM2152=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2152
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2039=Lfde124_end - Lfde124_start
-	.long LDIFF_SYM2039
-Lfde124_start:
+LDIFF_SYM2153=Lfde132_end - Lfde132_start
+	.long LDIFF_SYM2153
+Lfde132_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_IO_Stream_invoke_TResult_T_object
 
-LDIFF_SYM2040=Lme_8d - wrapper_delegate_invoke_System_Func_2_object_System_IO_Stream_invoke_TResult_T_object
-	.long LDIFF_SYM2040
+LDIFF_SYM2154=Lme_95 - wrapper_delegate_invoke_System_Func_2_object_System_IO_Stream_invoke_TResult_T_object
+	.long LDIFF_SYM2154
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde124_end:
+Lfde132_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_233:
+LTDIE_242:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 128,1,16
-LDIFF_SYM2041=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2041
+LDIFF_SYM2155=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2155
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM2042=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM2042
-LTDIE_233_POINTER:
+LDIFF_SYM2156=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM2156
+LTDIE_242_POINTER:
 
 	.byte 13
-LDIFF_SYM2043=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM2043
-LTDIE_233_REFERENCE:
+LDIFF_SYM2157=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM2157
+LTDIE_242_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2044=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM2044
-LTDIE_234:
+LDIFF_SYM2158=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM2158
+LTDIE_243:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM2045=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM2045
+LDIFF_SYM2159=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM2159
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM2046=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2046
+LDIFF_SYM2160=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2160
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM2047=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM2047
-LTDIE_234_POINTER:
+LDIFF_SYM2161=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM2161
+LTDIE_243_POINTER:
 
 	.byte 13
-LDIFF_SYM2048=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM2048
-LTDIE_234_REFERENCE:
+LDIFF_SYM2162=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM2162
+LTDIE_243_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2049=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM2049
+LDIFF_SYM2163=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM2163
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.IO.Stream>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream
-	.quad Lme_8e
+	.quad Lme_96
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2050=LTDIE_233_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2050
+LDIFF_SYM2164=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2164
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2051=LTDIE_234_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2051
+LDIFF_SYM2165=LTDIE_243_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2165
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2052=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2052
+LDIFF_SYM2166=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2166
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2053=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2053
+LDIFF_SYM2167=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2167
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM2054=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2054
+LDIFF_SYM2168=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2168
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM2055=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2055
+LDIFF_SYM2169=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2169
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM2056=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2056
+LDIFF_SYM2170=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2170
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2057=Lfde125_end - Lfde125_start
-	.long LDIFF_SYM2057
-Lfde125_start:
+LDIFF_SYM2171=Lfde133_end - Lfde133_start
+	.long LDIFF_SYM2171
+Lfde133_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream
 
-LDIFF_SYM2058=Lme_8e - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream
-	.long LDIFF_SYM2058
+LDIFF_SYM2172=Lme_96 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_IO_Stream_invoke_void_T_System_Threading_Tasks_Task_1_System_IO_Stream
+	.long LDIFF_SYM2172
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde125_end:
+Lfde133_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_235:
+LTDIE_244:
 
 	.byte 5
 	.asciz "System_Action`2"
 
 	.byte 128,1,16
-LDIFF_SYM2059=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2059
+LDIFF_SYM2173=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2173
 	.byte 2,35,0,0,7
 	.asciz "System_Action`2"
 
-LDIFF_SYM2060=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM2060
-LTDIE_235_POINTER:
+LDIFF_SYM2174=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM2174
+LTDIE_244_POINTER:
 
 	.byte 13
-LDIFF_SYM2061=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM2061
-LTDIE_235_REFERENCE:
+LDIFF_SYM2175=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM2175
+LTDIE_244_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2062=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM2062
+LDIFF_SYM2176=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM2176
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`2<System.Threading.Tasks.Task`1<System.IO.Stream>,_object>:invoke_void_T1_T2"
 	.asciz "wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_IO_Stream_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_IO_Stream_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_IO_Stream_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_IO_Stream_object
-	.quad Lme_8f
+	.quad Lme_97
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2063=LTDIE_235_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2063
+LDIFF_SYM2177=LTDIE_244_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2177
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2064=LTDIE_234_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2064
+LDIFF_SYM2178=LTDIE_243_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2178
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2065=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2065
+LDIFF_SYM2179=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2179
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2066=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2066
+LDIFF_SYM2180=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2180
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2067=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2067
+LDIFF_SYM2181=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2181
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2068=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2068
+LDIFF_SYM2182=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2182
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2069=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2069
+LDIFF_SYM2183=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2183
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2070=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2070
+LDIFF_SYM2184=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2184
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2071=Lfde126_end - Lfde126_start
-	.long LDIFF_SYM2071
-Lfde126_start:
+LDIFF_SYM2185=Lfde134_end - Lfde134_start
+	.long LDIFF_SYM2185
+Lfde134_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_IO_Stream_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_IO_Stream_object
 
-LDIFF_SYM2072=Lme_8f - wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_IO_Stream_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_IO_Stream_object
-	.long LDIFF_SYM2072
+LDIFF_SYM2186=Lme_97 - wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_IO_Stream_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_IO_Stream_object
+	.long LDIFF_SYM2186
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde126_end:
+Lfde134_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_236:
+LTDIE_245:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM2073=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2073
+LDIFF_SYM2187=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2187
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2074=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM2074
-LTDIE_236_POINTER:
+LDIFF_SYM2188=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM2188
+LTDIE_245_POINTER:
 
 	.byte 13
-LDIFF_SYM2075=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM2075
-LTDIE_236_REFERENCE:
+LDIFF_SYM2189=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM2189
+LTDIE_245_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2076=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM2076
+LDIFF_SYM2190=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM2190
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.IO.Stream>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_90
+	.quad Lme_98
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2077=LTDIE_236_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2077
+LDIFF_SYM2191=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2191
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2078=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2078
+LDIFF_SYM2192=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2192
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2079=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2079
+LDIFF_SYM2193=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2193
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2080=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2080
+LDIFF_SYM2194=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2194
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM2081=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2081
+LDIFF_SYM2195=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2195
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM2082=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2082
+LDIFF_SYM2196=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2196
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM2083=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2083
+LDIFF_SYM2197=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2197
 	.byte 1,104,11
 	.asciz "V_5"
 
-LDIFF_SYM2084=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2084
+LDIFF_SYM2198=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2198
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2085=Lfde127_end - Lfde127_start
-	.long LDIFF_SYM2085
-Lfde127_start:
+LDIFF_SYM2199=Lfde135_end - Lfde135_start
+	.long LDIFF_SYM2199
+Lfde135_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM2086=Lme_90 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM2086
+LDIFF_SYM2200=Lme_98 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_IO_Stream_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM2200
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde127_end:
+Lfde135_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_237:
+LTDIE_246:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 128,1,16
+LDIFF_SYM2201=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2201
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM2202=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM2202
+LTDIE_246_POINTER:
+
+	.byte 13
+LDIFF_SYM2203=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM2203
+LTDIE_246_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2204=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM2204
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task,_System.IO.Stream>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_IO_Stream_invoke_TResult_T_System_Threading_Tasks_Task"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_IO_Stream_invoke_TResult_T_System_Threading_Tasks_Task
+	.quad Lme_99
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2205=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2205
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM2206=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2206
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM2207=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2207
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM2208=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2208
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM2209=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2209
+	.byte 1,104,11
+	.asciz "V_3"
+
+LDIFF_SYM2210=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2210
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM2211=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2211
+	.byte 1,104,11
+	.asciz "V_5"
+
+LDIFF_SYM2212=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2212
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2213=Lfde136_end - Lfde136_start
+	.long LDIFF_SYM2213
+Lfde136_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_IO_Stream_invoke_TResult_T_System_Threading_Tasks_Task
+
+LDIFF_SYM2214=Lme_99 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_IO_Stream_invoke_TResult_T_System_Threading_Tasks_Task
+	.long LDIFF_SYM2214
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.align 3
+Lfde136_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_247:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 128,1,16
-LDIFF_SYM2087=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2087
+LDIFF_SYM2215=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2215
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM2088=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM2088
-LTDIE_237_POINTER:
+LDIFF_SYM2216=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM2216
+LTDIE_247_POINTER:
 
 	.byte 13
-LDIFF_SYM2089=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM2089
-LTDIE_237_REFERENCE:
+LDIFF_SYM2217=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM2217
+LTDIE_247_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2090=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM2090
+LDIFF_SYM2218=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM2218
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<Foundation.NSNotification>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
-	.quad Lme_91
+	.quad Lme_9a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2091=LTDIE_237_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2091
+LDIFF_SYM2219=LTDIE_247_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2219
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2092=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2092
+LDIFF_SYM2220=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2220
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2093=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2093
+LDIFF_SYM2221=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2221
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2094=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2094
+LDIFF_SYM2222=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2222
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM2095=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2095
+LDIFF_SYM2223=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2223
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM2096=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2096
+LDIFF_SYM2224=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2224
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM2097=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2097
+LDIFF_SYM2225=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2225
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2098=Lfde128_end - Lfde128_start
-	.long LDIFF_SYM2098
-Lfde128_start:
+LDIFF_SYM2226=Lfde137_end - Lfde137_start
+	.long LDIFF_SYM2226
+Lfde137_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
 
-LDIFF_SYM2099=Lme_91 - wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
-	.long LDIFF_SYM2099
+LDIFF_SYM2227=Lme_9a - wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
+	.long LDIFF_SYM2227
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde128_end:
+Lfde137_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_238:
+LTDIE_248:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEnumerable`1"
@@ -37542,80 +40986,80 @@ LTDIE_238:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEnumerable`1"
 
-LDIFF_SYM2100=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM2100
-LTDIE_238_POINTER:
+LDIFF_SYM2228=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM2228
+LTDIE_248_POINTER:
 
 	.byte 13
-LDIFF_SYM2101=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM2101
-LTDIE_238_REFERENCE:
+LDIFF_SYM2229=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM2229
+LTDIE_248_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2102=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM2102
-LTDIE_239:
+LDIFF_SYM2230=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM2230
+LTDIE_249:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM2103=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2103
+LDIFF_SYM2231=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2231
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2104=LTDIE_239 - Ldebug_info_start
-	.long LDIFF_SYM2104
-LTDIE_239_POINTER:
+LDIFF_SYM2232=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM2232
+LTDIE_249_POINTER:
 
 	.byte 13
-LDIFF_SYM2105=LTDIE_239 - Ldebug_info_start
-	.long LDIFF_SYM2105
-LTDIE_239_REFERENCE:
+LDIFF_SYM2233=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM2233
+LTDIE_249_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2106=LTDIE_239 - Ldebug_info_start
-	.long LDIFF_SYM2106
-LTDIE_240:
+LDIFF_SYM2234=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM2234
+LTDIE_250:
 
 	.byte 5
 	.asciz "_Iterator`1"
 
 	.byte 28,16
-LDIFF_SYM2107=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2107
+LDIFF_SYM2235=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2235
 	.byte 2,35,0,6
 	.asciz "_threadId"
 
-LDIFF_SYM2108=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2108
+LDIFF_SYM2236=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2236
 	.byte 2,35,16,6
 	.asciz "_state"
 
-LDIFF_SYM2109=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2109
+LDIFF_SYM2237=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2237
 	.byte 2,35,20,6
 	.asciz "_current"
 
-LDIFF_SYM2110=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2110
+LDIFF_SYM2238=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2238
 	.byte 2,35,24,0,7
 	.asciz "_Iterator`1"
 
-LDIFF_SYM2111=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM2111
-LTDIE_240_POINTER:
+LDIFF_SYM2239=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM2239
+LTDIE_250_POINTER:
 
 	.byte 13
-LDIFF_SYM2112=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM2112
-LTDIE_240_REFERENCE:
+LDIFF_SYM2240=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM2240
+LTDIE_250_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2113=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM2113
-LTDIE_241:
+LDIFF_SYM2241=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM2241
+LTDIE_251:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IList`1"
@@ -37623,19 +41067,19 @@ LTDIE_241:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM2114=LTDIE_241 - Ldebug_info_start
-	.long LDIFF_SYM2114
-LTDIE_241_POINTER:
+LDIFF_SYM2242=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM2242
+LTDIE_251_POINTER:
 
 	.byte 13
-LDIFF_SYM2115=LTDIE_241 - Ldebug_info_start
-	.long LDIFF_SYM2115
-LTDIE_241_REFERENCE:
+LDIFF_SYM2243=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM2243
+LTDIE_251_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2116=LTDIE_241 - Ldebug_info_start
-	.long LDIFF_SYM2116
-LTDIE_242:
+LDIFF_SYM2244=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM2244
+LTDIE_252:
 
 	.byte 17
 	.asciz "System_Linq_IPartition`1"
@@ -37643,62 +41087,62 @@ LTDIE_242:
 	.byte 16,7
 	.asciz "System_Linq_IPartition`1"
 
-LDIFF_SYM2117=LTDIE_242 - Ldebug_info_start
-	.long LDIFF_SYM2117
-LTDIE_242_POINTER:
+LDIFF_SYM2245=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM2245
+LTDIE_252_POINTER:
 
 	.byte 13
-LDIFF_SYM2118=LTDIE_242 - Ldebug_info_start
-	.long LDIFF_SYM2118
-LTDIE_242_REFERENCE:
+LDIFF_SYM2246=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM2246
+LTDIE_252_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2119=LTDIE_242 - Ldebug_info_start
-	.long LDIFF_SYM2119
-LTDIE_243:
+LDIFF_SYM2247=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM2247
+LTDIE_253:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM2120=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2120
+LDIFF_SYM2248=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2248
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM2121=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2121
+LDIFF_SYM2249=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2249
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM2122=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2122
+LDIFF_SYM2250=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2250
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM2123=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2123
+LDIFF_SYM2251=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2251
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM2124=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2124
+LDIFF_SYM2252=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2252
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM2125=LTDIE_243 - Ldebug_info_start
-	.long LDIFF_SYM2125
-LTDIE_243_POINTER:
+LDIFF_SYM2253=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM2253
+LTDIE_253_POINTER:
 
 	.byte 13
-LDIFF_SYM2126=LTDIE_243 - Ldebug_info_start
-	.long LDIFF_SYM2126
-LTDIE_243_REFERENCE:
+LDIFF_SYM2254=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM2254
+LTDIE_253_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2127=LTDIE_243 - Ldebug_info_start
-	.long LDIFF_SYM2127
-LTDIE_244:
+LDIFF_SYM2255=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM2255
+LTDIE_254:
 
 	.byte 17
 	.asciz "System_Linq_IPartition`1"
@@ -37706,155 +41150,155 @@ LTDIE_244:
 	.byte 16,7
 	.asciz "System_Linq_IPartition`1"
 
-LDIFF_SYM2128=LTDIE_244 - Ldebug_info_start
-	.long LDIFF_SYM2128
-LTDIE_244_POINTER:
+LDIFF_SYM2256=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM2256
+LTDIE_254_POINTER:
 
 	.byte 13
-LDIFF_SYM2129=LTDIE_244 - Ldebug_info_start
-	.long LDIFF_SYM2129
-LTDIE_244_REFERENCE:
+LDIFF_SYM2257=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM2257
+LTDIE_254_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2130=LTDIE_244 - Ldebug_info_start
-	.long LDIFF_SYM2130
+LDIFF_SYM2258=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM2258
 	.byte 2
 	.asciz "System.Linq.Enumerable:Select<TSource_BYTE,_TResult_REF>"
 	.asciz "System_Linq_Enumerable_Select_TSource_BYTE_TResult_REF_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF"
 
 	.byte 3,16
 	.quad System_Linq_Enumerable_Select_TSource_BYTE_TResult_REF_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
-	.quad Lme_92
+	.quad Lme_9b
 
 	.byte 2,118,16,3
 	.asciz "source"
 
-LDIFF_SYM2131=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2131
+LDIFF_SYM2259=LTDIE_248_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2259
 	.byte 1,105,3
 	.asciz "selector"
 
-LDIFF_SYM2132=LTDIE_239_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2132
+LDIFF_SYM2260=LTDIE_249_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2260
 	.byte 1,106,11
 	.asciz "iterator"
 
-LDIFF_SYM2133=LTDIE_240_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2133
+LDIFF_SYM2261=LTDIE_250_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2261
 	.byte 1,104,11
 	.asciz "ilist"
 
-LDIFF_SYM2134=LTDIE_241_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2134
+LDIFF_SYM2262=LTDIE_251_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2262
 	.byte 1,104,11
 	.asciz "partition"
 
-LDIFF_SYM2135=LTDIE_242_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2135
+LDIFF_SYM2263=LTDIE_252_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2263
 	.byte 1,104,11
 	.asciz "array"
 
-LDIFF_SYM2136=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2136
+LDIFF_SYM2264=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2264
 	.byte 1,103,11
 	.asciz "list"
 
-LDIFF_SYM2137=LTDIE_243_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2137
+LDIFF_SYM2265=LTDIE_253_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2265
 	.byte 1,105,11
 	.asciz "V_5"
 
-LDIFF_SYM2138=LTDIE_244_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2138
+LDIFF_SYM2266=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2266
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2139=Lfde129_end - Lfde129_start
-	.long LDIFF_SYM2139
-Lfde129_start:
+LDIFF_SYM2267=Lfde138_end - Lfde138_start
+	.long LDIFF_SYM2267
+Lfde138_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_Select_TSource_BYTE_TResult_REF_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
 
-LDIFF_SYM2140=Lme_92 - System_Linq_Enumerable_Select_TSource_BYTE_TResult_REF_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
-	.long LDIFF_SYM2140
+LDIFF_SYM2268=Lme_9b - System_Linq_Enumerable_Select_TSource_BYTE_TResult_REF_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
+	.long LDIFF_SYM2268
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde129_end:
+Lfde138_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_245:
+LTDIE_255:
 
 	.byte 5
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM2141=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2141
+LDIFF_SYM2269=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2269
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM2142=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2142
+LDIFF_SYM2270=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2270
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM2143=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2143
+LDIFF_SYM2271=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2271
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM2144=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM2144
-LTDIE_245_POINTER:
+LDIFF_SYM2272=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM2272
+LTDIE_255_POINTER:
 
 	.byte 13
-LDIFF_SYM2145=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM2145
-LTDIE_245_REFERENCE:
+LDIFF_SYM2273=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM2273
+LTDIE_255_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2146=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM2146
+LDIFF_SYM2274=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM2274
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_BYTE>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_BYTE__ctor_System_Array"
 
 	.byte 4,250,1
 	.quad System_Array_InternalEnumerator_1_T_BYTE__ctor_System_Array
-	.quad Lme_94
+	.quad Lme_9d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2147=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2147
+LDIFF_SYM2275=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2275
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM2148=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2148
+LDIFF_SYM2276=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2276
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2149=Lfde130_end - Lfde130_start
-	.long LDIFF_SYM2149
-Lfde130_start:
+LDIFF_SYM2277=Lfde139_end - Lfde139_start
+	.long LDIFF_SYM2277
+Lfde139_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_BYTE__ctor_System_Array
 
-LDIFF_SYM2150=Lme_94 - System_Array_InternalEnumerator_1_T_BYTE__ctor_System_Array
-	.long LDIFF_SYM2150
+LDIFF_SYM2278=Lme_9d - System_Array_InternalEnumerator_1_T_BYTE__ctor_System_Array
+	.long LDIFF_SYM2278
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
-Lfde130_end:
+Lfde139_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -37864,31 +41308,31 @@ Lfde130_end:
 
 	.byte 4,128,2
 	.quad System_Array_InternalEnumerator_1_T_BYTE_Dispose
-	.quad Lme_95
+	.quad Lme_9e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2151=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2151
+LDIFF_SYM2279=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2279
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2152=Lfde131_end - Lfde131_start
-	.long LDIFF_SYM2152
-Lfde131_start:
+LDIFF_SYM2280=Lfde140_end - Lfde140_start
+	.long LDIFF_SYM2280
+Lfde140_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_BYTE_Dispose
 
-LDIFF_SYM2153=Lme_95 - System_Array_InternalEnumerator_1_T_BYTE_Dispose
-	.long LDIFF_SYM2153
+LDIFF_SYM2281=Lme_9e - System_Array_InternalEnumerator_1_T_BYTE_Dispose
+	.long LDIFF_SYM2281
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde131_end:
+Lfde140_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -37898,36 +41342,36 @@ Lfde131_end:
 
 	.byte 4,132,2
 	.quad System_Array_InternalEnumerator_1_T_BYTE_MoveNext
-	.quad Lme_96
+	.quad Lme_9f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2154=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2154
+LDIFF_SYM2282=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2282
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2155=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2155
+LDIFF_SYM2283=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2283
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2156=Lfde132_end - Lfde132_start
-	.long LDIFF_SYM2156
-Lfde132_start:
+LDIFF_SYM2284=Lfde141_end - Lfde141_start
+	.long LDIFF_SYM2284
+Lfde141_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_BYTE_MoveNext
 
-LDIFF_SYM2157=Lme_96 - System_Array_InternalEnumerator_1_T_BYTE_MoveNext
-	.long LDIFF_SYM2157
+LDIFF_SYM2285=Lme_9f - System_Array_InternalEnumerator_1_T_BYTE_MoveNext
+	.long LDIFF_SYM2285
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4,154,3
 	.align 3
-Lfde132_end:
+Lfde141_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -37937,31 +41381,31 @@ Lfde132_end:
 
 	.byte 4,140,2
 	.quad System_Array_InternalEnumerator_1_T_BYTE_get_Current
-	.quad Lme_97
+	.quad Lme_a0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2158=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2158
+LDIFF_SYM2286=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2286
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2159=Lfde133_end - Lfde133_start
-	.long LDIFF_SYM2159
-Lfde133_start:
+LDIFF_SYM2287=Lfde142_end - Lfde142_start
+	.long LDIFF_SYM2287
+Lfde142_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_BYTE_get_Current
 
-LDIFF_SYM2160=Lme_97 - System_Array_InternalEnumerator_1_T_BYTE_get_Current
-	.long LDIFF_SYM2160
+LDIFF_SYM2288=Lme_a0 - System_Array_InternalEnumerator_1_T_BYTE_get_Current
+	.long LDIFF_SYM2288
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde133_end:
+Lfde142_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -37971,31 +41415,31 @@ Lfde133_end:
 
 	.byte 4,151,2
 	.quad System_Array_InternalEnumerator_1_T_BYTE_System_Collections_IEnumerator_Reset
-	.quad Lme_98
+	.quad Lme_a1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2161=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2161
+LDIFF_SYM2289=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2289
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2162=Lfde134_end - Lfde134_start
-	.long LDIFF_SYM2162
-Lfde134_start:
+LDIFF_SYM2290=Lfde143_end - Lfde143_start
+	.long LDIFF_SYM2290
+Lfde143_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_BYTE_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM2163=Lme_98 - System_Array_InternalEnumerator_1_T_BYTE_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM2163
+LDIFF_SYM2291=Lme_a1 - System_Array_InternalEnumerator_1_T_BYTE_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM2291
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde134_end:
+Lfde143_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38005,31 +41449,31 @@ Lfde134_end:
 
 	.byte 4,156,2
 	.quad System_Array_InternalEnumerator_1_T_BYTE_System_Collections_IEnumerator_get_Current
-	.quad Lme_99
+	.quad Lme_a2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2164=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2164
+LDIFF_SYM2292=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2292
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2165=Lfde135_end - Lfde135_start
-	.long LDIFF_SYM2165
-Lfde135_start:
+LDIFF_SYM2293=Lfde144_end - Lfde144_start
+	.long LDIFF_SYM2293
+Lfde144_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_BYTE_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM2166=Lme_99 - System_Array_InternalEnumerator_1_T_BYTE_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM2166
+LDIFF_SYM2294=Lme_a2 - System_Array_InternalEnumerator_1_T_BYTE_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM2294
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde135_end:
+Lfde144_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38039,102 +41483,102 @@ Lfde135_end:
 
 	.byte 4,84
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_BYTE
-	.quad Lme_9a
+	.quad Lme_a3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2167=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2167
+LDIFF_SYM2295=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2295
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2168=Lfde136_end - Lfde136_start
-	.long LDIFF_SYM2168
-Lfde136_start:
+LDIFF_SYM2296=Lfde145_end - Lfde145_start
+	.long LDIFF_SYM2296
+Lfde145_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_BYTE
 
-LDIFF_SYM2169=Lme_9a - System_Array_InternalArray__IEnumerable_GetEnumerator_T_BYTE
-	.long LDIFF_SYM2169
+LDIFF_SYM2297=Lme_a3 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_BYTE
+	.long LDIFF_SYM2297
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde136_end:
+Lfde145_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_246:
+LTDIE_256:
 
 	.byte 5
 	.asciz "_Iterator`1"
 
 	.byte 28,16
-LDIFF_SYM2170=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2170
+LDIFF_SYM2298=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2298
 	.byte 2,35,0,6
 	.asciz "_threadId"
 
-LDIFF_SYM2171=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2171
+LDIFF_SYM2299=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2299
 	.byte 2,35,16,6
 	.asciz "_state"
 
-LDIFF_SYM2172=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2172
+LDIFF_SYM2300=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2300
 	.byte 2,35,20,6
 	.asciz "_current"
 
-LDIFF_SYM2173=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2173
+LDIFF_SYM2301=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2301
 	.byte 2,35,24,0,7
 	.asciz "_Iterator`1"
 
-LDIFF_SYM2174=LTDIE_246 - Ldebug_info_start
-	.long LDIFF_SYM2174
-LTDIE_246_POINTER:
+LDIFF_SYM2302=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM2302
+LTDIE_256_POINTER:
 
 	.byte 13
-LDIFF_SYM2175=LTDIE_246 - Ldebug_info_start
-	.long LDIFF_SYM2175
-LTDIE_246_REFERENCE:
+LDIFF_SYM2303=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM2303
+LTDIE_256_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2176=LTDIE_246 - Ldebug_info_start
-	.long LDIFF_SYM2176
+LDIFF_SYM2304=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM2304
 	.byte 2
 	.asciz "System.Linq.Enumerable/Iterator`1<TSource_BYTE>:.ctor"
 	.asciz "System_Linq_Enumerable_Iterator_1_TSource_BYTE__ctor"
 
 	.byte 5,41
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE__ctor
-	.quad Lme_9b
+	.quad Lme_a4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2177=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2177
+LDIFF_SYM2305=LTDIE_256_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2305
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2178=Lfde137_end - Lfde137_start
-	.long LDIFF_SYM2178
-Lfde137_start:
+LDIFF_SYM2306=Lfde146_end - Lfde146_start
+	.long LDIFF_SYM2306
+Lfde146_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE__ctor
 
-LDIFF_SYM2179=Lme_9b - System_Linq_Enumerable_Iterator_1_TSource_BYTE__ctor
-	.long LDIFF_SYM2179
+LDIFF_SYM2307=Lme_a4 - System_Linq_Enumerable_Iterator_1_TSource_BYTE__ctor
+	.long LDIFF_SYM2307
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde137_end:
+Lfde146_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38144,31 +41588,31 @@ Lfde137_end:
 
 	.byte 5,49
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE_get_Current
-	.quad Lme_9c
+	.quad Lme_a5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2180=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2180
+LDIFF_SYM2308=LTDIE_256_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2308
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2181=Lfde138_end - Lfde138_start
-	.long LDIFF_SYM2181
-Lfde138_start:
+LDIFF_SYM2309=Lfde147_end - Lfde147_start
+	.long LDIFF_SYM2309
+Lfde147_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE_get_Current
 
-LDIFF_SYM2182=Lme_9c - System_Linq_Enumerable_Iterator_1_TSource_BYTE_get_Current
-	.long LDIFF_SYM2182
+LDIFF_SYM2310=Lme_a5 - System_Linq_Enumerable_Iterator_1_TSource_BYTE_get_Current
+	.long LDIFF_SYM2310
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde138_end:
+Lfde147_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38178,31 +41622,31 @@ Lfde138_end:
 
 	.byte 5,68
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE_Dispose
-	.quad Lme_9e
+	.quad Lme_a7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2183=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2183
+LDIFF_SYM2311=LTDIE_256_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2311
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2184=Lfde139_end - Lfde139_start
-	.long LDIFF_SYM2184
-Lfde139_start:
+LDIFF_SYM2312=Lfde148_end - Lfde148_start
+	.long LDIFF_SYM2312
+Lfde148_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE_Dispose
 
-LDIFF_SYM2185=Lme_9e - System_Linq_Enumerable_Iterator_1_TSource_BYTE_Dispose
-	.long LDIFF_SYM2185
+LDIFF_SYM2313=Lme_a7 - System_Linq_Enumerable_Iterator_1_TSource_BYTE_Dispose
+	.long LDIFF_SYM2313
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde139_end:
+Lfde148_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38212,92 +41656,92 @@ Lfde139_end:
 
 	.byte 5,82
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE_GetEnumerator
-	.quad Lme_9f
+	.quad Lme_a8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2186=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2186
+LDIFF_SYM2314=LTDIE_256_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2314
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2187=Lfde140_end - Lfde140_start
-	.long LDIFF_SYM2187
-Lfde140_start:
+LDIFF_SYM2315=Lfde149_end - Lfde149_start
+	.long LDIFF_SYM2315
+Lfde149_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE_GetEnumerator
 
-LDIFF_SYM2188=Lme_9f - System_Linq_Enumerable_Iterator_1_TSource_BYTE_GetEnumerator
-	.long LDIFF_SYM2188
+LDIFF_SYM2316=Lme_a8 - System_Linq_Enumerable_Iterator_1_TSource_BYTE_GetEnumerator
+	.long LDIFF_SYM2316
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde140_end:
+Lfde149_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_247:
+LTDIE_257:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM2189=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2189
+LDIFF_SYM2317=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2317
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2190=LTDIE_247 - Ldebug_info_start
-	.long LDIFF_SYM2190
-LTDIE_247_POINTER:
+LDIFF_SYM2318=LTDIE_257 - Ldebug_info_start
+	.long LDIFF_SYM2318
+LTDIE_257_POINTER:
 
 	.byte 13
-LDIFF_SYM2191=LTDIE_247 - Ldebug_info_start
-	.long LDIFF_SYM2191
-LTDIE_247_REFERENCE:
+LDIFF_SYM2319=LTDIE_257 - Ldebug_info_start
+	.long LDIFF_SYM2319
+LTDIE_257_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2192=LTDIE_247 - Ldebug_info_start
-	.long LDIFF_SYM2192
+LDIFF_SYM2320=LTDIE_257 - Ldebug_info_start
+	.long LDIFF_SYM2320
 	.byte 2
 	.asciz "System.Linq.Enumerable/Iterator`1<TSource_BYTE>:Where"
 	.asciz "System_Linq_Enumerable_Iterator_1_TSource_BYTE_Where_System_Func_2_TSource_BYTE_bool"
 
 	.byte 5,109
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE_Where_System_Func_2_TSource_BYTE_bool
-	.quad Lme_a1
+	.quad Lme_aa
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2193=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2193
+LDIFF_SYM2321=LTDIE_256_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2321
 	.byte 2,141,16,3
 	.asciz "predicate"
 
-LDIFF_SYM2194=LTDIE_247_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2194
+LDIFF_SYM2322=LTDIE_257_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2322
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2195=Lfde141_end - Lfde141_start
-	.long LDIFF_SYM2195
-Lfde141_start:
+LDIFF_SYM2323=Lfde150_end - Lfde150_start
+	.long LDIFF_SYM2323
+Lfde150_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE_Where_System_Func_2_TSource_BYTE_bool
 
-LDIFF_SYM2196=Lme_a1 - System_Linq_Enumerable_Iterator_1_TSource_BYTE_Where_System_Func_2_TSource_BYTE_bool
-	.long LDIFF_SYM2196
+LDIFF_SYM2324=Lme_aa - System_Linq_Enumerable_Iterator_1_TSource_BYTE_Where_System_Func_2_TSource_BYTE_bool
+	.long LDIFF_SYM2324
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde141_end:
+Lfde150_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38307,31 +41751,31 @@ Lfde141_end:
 
 	.byte 5,112
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerator_get_Current
-	.quad Lme_a2
+	.quad Lme_ab
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2197=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2197
+LDIFF_SYM2325=LTDIE_256_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2325
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2198=Lfde142_end - Lfde142_start
-	.long LDIFF_SYM2198
-Lfde142_start:
+LDIFF_SYM2326=Lfde151_end - Lfde151_start
+	.long LDIFF_SYM2326
+Lfde151_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM2199=Lme_a2 - System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM2199
+LDIFF_SYM2327=Lme_ab - System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM2327
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde142_end:
+Lfde151_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38341,31 +41785,31 @@ Lfde142_end:
 
 	.byte 5,114
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerable_GetEnumerator
-	.quad Lme_a3
+	.quad Lme_ac
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2200=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2200
+LDIFF_SYM2328=LTDIE_256_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2328
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2201=Lfde143_end - Lfde143_start
-	.long LDIFF_SYM2201
-Lfde143_start:
+LDIFF_SYM2329=Lfde152_end - Lfde152_start
+	.long LDIFF_SYM2329
+Lfde152_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerable_GetEnumerator
 
-LDIFF_SYM2202=Lme_a3 - System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerable_GetEnumerator
-	.long LDIFF_SYM2202
+LDIFF_SYM2330=Lme_ac - System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerable_GetEnumerator
+	.long LDIFF_SYM2330
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde143_end:
+Lfde152_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38375,31 +41819,31 @@ Lfde143_end:
 
 	.byte 5,116
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerator_Reset
-	.quad Lme_a4
+	.quad Lme_ad
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2203=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2203
+LDIFF_SYM2331=LTDIE_256_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2331
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2204=Lfde144_end - Lfde144_start
-	.long LDIFF_SYM2204
-Lfde144_start:
+LDIFF_SYM2332=Lfde153_end - Lfde153_start
+	.long LDIFF_SYM2332
+Lfde153_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM2205=Lme_a4 - System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM2205
+LDIFF_SYM2333=Lme_ad - System_Linq_Enumerable_Iterator_1_TSource_BYTE_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM2333
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde144_end:
+Lfde153_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38409,41 +41853,41 @@ Lfde144_end:
 
 	.byte 4,154,1
 	.quad System_Array_InternalArray__Insert_T_BYTE_int_T_BYTE
-	.quad Lme_aa
+	.quad Lme_b3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2206=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2206
+LDIFF_SYM2334=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2334
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM2207=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2207
+LDIFF_SYM2335=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2335
 	.byte 0,3
 	.asciz "item"
 
-LDIFF_SYM2208=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2208
+LDIFF_SYM2336=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2336
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2209=Lfde145_end - Lfde145_start
-	.long LDIFF_SYM2209
-Lfde145_start:
+LDIFF_SYM2337=Lfde154_end - Lfde154_start
+	.long LDIFF_SYM2337
+Lfde154_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__Insert_T_BYTE_int_T_BYTE
 
-LDIFF_SYM2210=Lme_aa - System_Array_InternalArray__Insert_T_BYTE_int_T_BYTE
-	.long LDIFF_SYM2210
+LDIFF_SYM2338=Lme_b3 - System_Array_InternalArray__Insert_T_BYTE_int_T_BYTE
+	.long LDIFF_SYM2338
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde145_end:
+Lfde154_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38453,51 +41897,51 @@ Lfde145_end:
 
 	.byte 4,164,1
 	.quad System_Array_InternalArray__IndexOf_T_BYTE_T_BYTE
-	.quad Lme_ab
+	.quad Lme_b4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2211=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2211
+LDIFF_SYM2339=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2339
 	.byte 1,105,3
 	.asciz "item"
 
-LDIFF_SYM2212=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2212
+LDIFF_SYM2340=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2340
 	.byte 1,106,11
 	.asciz "length"
 
-LDIFF_SYM2213=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2213
+LDIFF_SYM2341=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2341
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM2214=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2214
+LDIFF_SYM2342=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2342
 	.byte 1,103,11
 	.asciz "value"
 
-LDIFF_SYM2215=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2215
+LDIFF_SYM2343=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2343
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2216=Lfde146_end - Lfde146_start
-	.long LDIFF_SYM2216
-Lfde146_start:
+LDIFF_SYM2344=Lfde155_end - Lfde155_start
+	.long LDIFF_SYM2344
+Lfde155_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IndexOf_T_BYTE_T_BYTE
 
-LDIFF_SYM2217=Lme_ab - System_Array_InternalArray__IndexOf_T_BYTE_T_BYTE
-	.long LDIFF_SYM2217
+LDIFF_SYM2345=Lme_b4 - System_Array_InternalArray__IndexOf_T_BYTE_T_BYTE
+	.long LDIFF_SYM2345
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,148,12,149,11,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
-Lfde146_end:
+Lfde155_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38507,41 +41951,41 @@ Lfde146_end:
 
 	.byte 4,192,1
 	.quad System_Array_InternalArray__get_Item_T_BYTE_int
-	.quad Lme_ac
+	.quad Lme_b5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2218=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2218
+LDIFF_SYM2346=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2346
 	.byte 2,141,24,3
 	.asciz "index"
 
-LDIFF_SYM2219=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2219
+LDIFF_SYM2347=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2347
 	.byte 1,106,11
 	.asciz "value"
 
-LDIFF_SYM2220=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2220
+LDIFF_SYM2348=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2348
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2221=Lfde147_end - Lfde147_start
-	.long LDIFF_SYM2221
-Lfde147_start:
+LDIFF_SYM2349=Lfde156_end - Lfde156_start
+	.long LDIFF_SYM2349
+Lfde156_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__get_Item_T_BYTE_int
 
-LDIFF_SYM2222=Lme_ac - System_Array_InternalArray__get_Item_T_BYTE_int
-	.long LDIFF_SYM2222
+LDIFF_SYM2350=Lme_b5 - System_Array_InternalArray__get_Item_T_BYTE_int
+	.long LDIFF_SYM2350
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde147_end:
+Lfde156_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38551,122 +41995,122 @@ Lfde147_end:
 
 	.byte 4,203,1
 	.quad System_Array_InternalArray__set_Item_T_BYTE_int_T_BYTE
-	.quad Lme_ad
+	.quad Lme_b6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2223=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2223
+LDIFF_SYM2351=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2351
 	.byte 1,104,3
 	.asciz "index"
 
-LDIFF_SYM2224=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2224
+LDIFF_SYM2352=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2352
 	.byte 2,141,48,3
 	.asciz "item"
 
-LDIFF_SYM2225=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2225
+LDIFF_SYM2353=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2353
 	.byte 2,141,56,11
 	.asciz "oarray"
 
-LDIFF_SYM2226=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2226
+LDIFF_SYM2354=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2354
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2227=Lfde148_end - Lfde148_start
-	.long LDIFF_SYM2227
-Lfde148_start:
+LDIFF_SYM2355=Lfde157_end - Lfde157_start
+	.long LDIFF_SYM2355
+Lfde157_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__set_Item_T_BYTE_int_T_BYTE
 
-LDIFF_SYM2228=Lme_ad - System_Array_InternalArray__set_Item_T_BYTE_int_T_BYTE
-	.long LDIFF_SYM2228
+LDIFF_SYM2356=Lme_b6 - System_Array_InternalArray__set_Item_T_BYTE_int_T_BYTE
+	.long LDIFF_SYM2356
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,149,10,150,9,68,151,8,152,7
 	.align 3
-Lfde148_end:
+Lfde157_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_248:
+LTDIE_258:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM2229=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2229
+LDIFF_SYM2357=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2357
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM2230=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2230
+LDIFF_SYM2358=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2358
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM2231=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2231
+LDIFF_SYM2359=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2359
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM2232=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2232
+LDIFF_SYM2360=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2360
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM2233=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2233
+LDIFF_SYM2361=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2361
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM2234=LTDIE_248 - Ldebug_info_start
-	.long LDIFF_SYM2234
-LTDIE_248_POINTER:
+LDIFF_SYM2362=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM2362
+LTDIE_258_POINTER:
 
 	.byte 13
-LDIFF_SYM2235=LTDIE_248 - Ldebug_info_start
-	.long LDIFF_SYM2235
-LTDIE_248_REFERENCE:
+LDIFF_SYM2363=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM2363
+LTDIE_258_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2236=LTDIE_248 - Ldebug_info_start
-	.long LDIFF_SYM2236
+LDIFF_SYM2364=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM2364
 	.byte 2
 	.asciz "System.Collections.Generic.List`1<T_BYTE>:.ctor"
 	.asciz "System_Collections_Generic_List_1_T_BYTE__ctor"
 
 	.byte 6,40
 	.quad System_Collections_Generic_List_1_T_BYTE__ctor
-	.quad Lme_b3
+	.quad Lme_bc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2237=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2237
+LDIFF_SYM2365=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2365
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2238=Lfde149_end - Lfde149_start
-	.long LDIFF_SYM2238
-Lfde149_start:
+LDIFF_SYM2366=Lfde158_end - Lfde158_start
+	.long LDIFF_SYM2366
+Lfde158_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE__ctor
 
-LDIFF_SYM2239=Lme_b3 - System_Collections_Generic_List_1_T_BYTE__ctor
-	.long LDIFF_SYM2239
+LDIFF_SYM2367=Lme_bc - System_Collections_Generic_List_1_T_BYTE__ctor
+	.long LDIFF_SYM2367
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde149_end:
+Lfde158_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38676,39 +42120,39 @@ Lfde149_end:
 
 	.byte 6,49
 	.quad System_Collections_Generic_List_1_T_BYTE__ctor_int
-	.quad Lme_b4
+	.quad Lme_bd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2240=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2240
+LDIFF_SYM2368=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2368
 	.byte 2,141,16,3
 	.asciz "capacity"
 
-LDIFF_SYM2241=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2241
+LDIFF_SYM2369=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2369
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2242=Lfde150_end - Lfde150_start
-	.long LDIFF_SYM2242
-Lfde150_start:
+LDIFF_SYM2370=Lfde159_end - Lfde159_start
+	.long LDIFF_SYM2370
+Lfde159_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE__ctor_int
 
-LDIFF_SYM2243=Lme_b4 - System_Collections_Generic_List_1_T_BYTE__ctor_int
-	.long LDIFF_SYM2243
+LDIFF_SYM2371=Lme_bd - System_Collections_Generic_List_1_T_BYTE__ctor_int
+	.long LDIFF_SYM2371
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde150_end:
+Lfde159_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_249:
+LTDIE_259:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEnumerable`1"
@@ -38716,19 +42160,19 @@ LTDIE_249:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEnumerable`1"
 
-LDIFF_SYM2244=LTDIE_249 - Ldebug_info_start
-	.long LDIFF_SYM2244
-LTDIE_249_POINTER:
+LDIFF_SYM2372=LTDIE_259 - Ldebug_info_start
+	.long LDIFF_SYM2372
+LTDIE_259_POINTER:
 
 	.byte 13
-LDIFF_SYM2245=LTDIE_249 - Ldebug_info_start
-	.long LDIFF_SYM2245
-LTDIE_249_REFERENCE:
+LDIFF_SYM2373=LTDIE_259 - Ldebug_info_start
+	.long LDIFF_SYM2373
+LTDIE_259_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2246=LTDIE_249 - Ldebug_info_start
-	.long LDIFF_SYM2246
-LTDIE_250:
+LDIFF_SYM2374=LTDIE_259 - Ldebug_info_start
+	.long LDIFF_SYM2374
+LTDIE_260:
 
 	.byte 17
 	.asciz "System_Collections_Generic_ICollection`1"
@@ -38736,64 +42180,98 @@ LTDIE_250:
 	.byte 16,7
 	.asciz "System_Collections_Generic_ICollection`1"
 
-LDIFF_SYM2247=LTDIE_250 - Ldebug_info_start
-	.long LDIFF_SYM2247
-LTDIE_250_POINTER:
+LDIFF_SYM2375=LTDIE_260 - Ldebug_info_start
+	.long LDIFF_SYM2375
+LTDIE_260_POINTER:
 
 	.byte 13
-LDIFF_SYM2248=LTDIE_250 - Ldebug_info_start
-	.long LDIFF_SYM2248
-LTDIE_250_REFERENCE:
+LDIFF_SYM2376=LTDIE_260 - Ldebug_info_start
+	.long LDIFF_SYM2376
+LTDIE_260_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2249=LTDIE_250 - Ldebug_info_start
-	.long LDIFF_SYM2249
+LDIFF_SYM2377=LTDIE_260 - Ldebug_info_start
+	.long LDIFF_SYM2377
 	.byte 2
 	.asciz "System.Collections.Generic.List`1<T_BYTE>:.ctor"
 	.asciz "System_Collections_Generic_List_1_T_BYTE__ctor_System_Collections_Generic_IEnumerable_1_T_BYTE"
 
 	.byte 6,64
 	.quad System_Collections_Generic_List_1_T_BYTE__ctor_System_Collections_Generic_IEnumerable_1_T_BYTE
-	.quad Lme_b5
+	.quad Lme_be
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2250=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2250
+LDIFF_SYM2378=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2378
 	.byte 2,141,32,3
 	.asciz "collection"
 
-LDIFF_SYM2251=LTDIE_249_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2251
+LDIFF_SYM2379=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2379
 	.byte 1,106,11
 	.asciz "c"
 
-LDIFF_SYM2252=LTDIE_250_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2252
+LDIFF_SYM2380=LTDIE_260_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2380
 	.byte 1,105,11
 	.asciz "count"
 
-LDIFF_SYM2253=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2253
+LDIFF_SYM2381=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2381
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2254=Lfde151_end - Lfde151_start
-	.long LDIFF_SYM2254
-Lfde151_start:
+LDIFF_SYM2382=Lfde160_end - Lfde160_start
+	.long LDIFF_SYM2382
+Lfde160_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE__ctor_System_Collections_Generic_IEnumerable_1_T_BYTE
 
-LDIFF_SYM2255=Lme_b5 - System_Collections_Generic_List_1_T_BYTE__ctor_System_Collections_Generic_IEnumerable_1_T_BYTE
-	.long LDIFF_SYM2255
+LDIFF_SYM2383=Lme_be - System_Collections_Generic_List_1_T_BYTE__ctor_System_Collections_Generic_IEnumerable_1_T_BYTE
+	.long LDIFF_SYM2383
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde151_end:
+Lfde160_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Collections.Generic.List`1<T_BYTE>:get_Capacity"
+	.asciz "System_Collections_Generic_List_1_T_BYTE_get_Capacity"
+
+	.byte 6,99
+	.quad System_Collections_Generic_List_1_T_BYTE_get_Capacity
+	.quad Lme_bf
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2384=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2384
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2385=Lfde161_end - Lfde161_start
+	.long LDIFF_SYM2385
+Lfde161_start:
+
+	.long 0
+	.align 3
+	.quad System_Collections_Generic_List_1_T_BYTE_get_Capacity
+
+LDIFF_SYM2386=Lme_bf - System_Collections_Generic_List_1_T_BYTE_get_Capacity
+	.long LDIFF_SYM2386
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde161_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38803,41 +42281,41 @@ Lfde151_end:
 
 	.byte 6,103
 	.quad System_Collections_Generic_List_1_T_BYTE_set_Capacity_int
-	.quad Lme_b6
+	.quad Lme_c0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2256=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2256
+LDIFF_SYM2387=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2387
 	.byte 2,141,24,3
 	.asciz "value"
 
-LDIFF_SYM2257=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2257
+LDIFF_SYM2388=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2388
 	.byte 1,106,11
 	.asciz "newItems"
 
-LDIFF_SYM2258=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2258
+LDIFF_SYM2389=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2389
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2259=Lfde152_end - Lfde152_start
-	.long LDIFF_SYM2259
-Lfde152_start:
+LDIFF_SYM2390=Lfde162_end - Lfde162_start
+	.long LDIFF_SYM2390
+Lfde162_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_set_Capacity_int
 
-LDIFF_SYM2260=Lme_b6 - System_Collections_Generic_List_1_T_BYTE_set_Capacity_int
-	.long LDIFF_SYM2260
+LDIFF_SYM2391=Lme_c0 - System_Collections_Generic_List_1_T_BYTE_set_Capacity_int
+	.long LDIFF_SYM2391
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde152_end:
+Lfde162_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38847,31 +42325,31 @@ Lfde152_end:
 
 	.byte 6,128,1
 	.quad System_Collections_Generic_List_1_T_BYTE_get_Count
-	.quad Lme_b7
+	.quad Lme_c1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2261=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2261
+LDIFF_SYM2392=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2392
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2262=Lfde153_end - Lfde153_start
-	.long LDIFF_SYM2262
-Lfde153_start:
+LDIFF_SYM2393=Lfde163_end - Lfde163_start
+	.long LDIFF_SYM2393
+Lfde163_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_get_Count
 
-LDIFF_SYM2263=Lme_b7 - System_Collections_Generic_List_1_T_BYTE_get_Count
-	.long LDIFF_SYM2263
+LDIFF_SYM2394=Lme_c1 - System_Collections_Generic_List_1_T_BYTE_get_Count
+	.long LDIFF_SYM2394
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde153_end:
+Lfde163_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38881,31 +42359,31 @@ Lfde153_end:
 
 	.byte 6,130,1
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_IsFixedSize
-	.quad Lme_b8
+	.quad Lme_c2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2264=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2264
+LDIFF_SYM2395=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2395
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2265=Lfde154_end - Lfde154_start
-	.long LDIFF_SYM2265
-Lfde154_start:
+LDIFF_SYM2396=Lfde164_end - Lfde164_start
+	.long LDIFF_SYM2396
+Lfde164_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_IsFixedSize
 
-LDIFF_SYM2266=Lme_b8 - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_IsFixedSize
-	.long LDIFF_SYM2266
+LDIFF_SYM2397=Lme_c2 - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_IsFixedSize
+	.long LDIFF_SYM2397
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde154_end:
+Lfde164_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38915,31 +42393,31 @@ Lfde154_end:
 
 	.byte 6,133,1
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_Generic_ICollection_T_get_IsReadOnly
-	.quad Lme_b9
+	.quad Lme_c3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2267=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2267
+LDIFF_SYM2398=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2398
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2268=Lfde155_end - Lfde155_start
-	.long LDIFF_SYM2268
-Lfde155_start:
+LDIFF_SYM2399=Lfde165_end - Lfde165_start
+	.long LDIFF_SYM2399
+Lfde165_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_Generic_ICollection_T_get_IsReadOnly
 
-LDIFF_SYM2269=Lme_b9 - System_Collections_Generic_List_1_T_BYTE_System_Collections_Generic_ICollection_T_get_IsReadOnly
-	.long LDIFF_SYM2269
+LDIFF_SYM2400=Lme_c3 - System_Collections_Generic_List_1_T_BYTE_System_Collections_Generic_ICollection_T_get_IsReadOnly
+	.long LDIFF_SYM2400
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde155_end:
+Lfde165_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38949,31 +42427,31 @@ Lfde155_end:
 
 	.byte 6,135,1
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_IsReadOnly
-	.quad Lme_ba
+	.quad Lme_c4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2270=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2270
+LDIFF_SYM2401=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2401
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2271=Lfde156_end - Lfde156_start
-	.long LDIFF_SYM2271
-Lfde156_start:
+LDIFF_SYM2402=Lfde166_end - Lfde166_start
+	.long LDIFF_SYM2402
+Lfde166_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_IsReadOnly
 
-LDIFF_SYM2272=Lme_ba - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_IsReadOnly
-	.long LDIFF_SYM2272
+LDIFF_SYM2403=Lme_c4 - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_IsReadOnly
+	.long LDIFF_SYM2403
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde156_end:
+Lfde166_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -38983,31 +42461,31 @@ Lfde156_end:
 
 	.byte 6,138,1
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_get_IsSynchronized
-	.quad Lme_bb
+	.quad Lme_c5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2273=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2273
+LDIFF_SYM2404=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2404
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2274=Lfde157_end - Lfde157_start
-	.long LDIFF_SYM2274
-Lfde157_start:
+LDIFF_SYM2405=Lfde167_end - Lfde167_start
+	.long LDIFF_SYM2405
+Lfde167_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_get_IsSynchronized
 
-LDIFF_SYM2275=Lme_bb - System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_get_IsSynchronized
-	.long LDIFF_SYM2275
+LDIFF_SYM2406=Lme_c5 - System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_get_IsSynchronized
+	.long LDIFF_SYM2406
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde157_end:
+Lfde167_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39017,31 +42495,31 @@ Lfde157_end:
 
 	.byte 6,145,1
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_get_SyncRoot
-	.quad Lme_bc
+	.quad Lme_c6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2276=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2276
+LDIFF_SYM2407=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2407
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2277=Lfde158_end - Lfde158_start
-	.long LDIFF_SYM2277
-Lfde158_start:
+LDIFF_SYM2408=Lfde168_end - Lfde168_start
+	.long LDIFF_SYM2408
+Lfde168_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_get_SyncRoot
 
-LDIFF_SYM2278=Lme_bc - System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_get_SyncRoot
-	.long LDIFF_SYM2278
+LDIFF_SYM2409=Lme_c6 - System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_get_SyncRoot
+	.long LDIFF_SYM2409
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde158_end:
+Lfde168_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39051,36 +42529,36 @@ Lfde158_end:
 
 	.byte 6,159,1
 	.quad System_Collections_Generic_List_1_T_BYTE_get_Item_int
-	.quad Lme_bd
+	.quad Lme_c7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2279=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2279
+LDIFF_SYM2410=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2410
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM2280=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2280
+LDIFF_SYM2411=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2411
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2281=Lfde159_end - Lfde159_start
-	.long LDIFF_SYM2281
-Lfde159_start:
+LDIFF_SYM2412=Lfde169_end - Lfde169_start
+	.long LDIFF_SYM2412
+Lfde169_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_get_Item_int
 
-LDIFF_SYM2282=Lme_bd - System_Collections_Generic_List_1_T_BYTE_get_Item_int
-	.long LDIFF_SYM2282
+LDIFF_SYM2413=Lme_c7 - System_Collections_Generic_List_1_T_BYTE_get_Item_int
+	.long LDIFF_SYM2413
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde159_end:
+Lfde169_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39090,41 +42568,41 @@ Lfde159_end:
 
 	.byte 6,168,1
 	.quad System_Collections_Generic_List_1_T_BYTE_set_Item_int_T_BYTE
-	.quad Lme_be
+	.quad Lme_c8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2283=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2283
+LDIFF_SYM2414=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2414
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM2284=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2284
+LDIFF_SYM2415=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2415
 	.byte 2,141,24,3
 	.asciz "value"
 
-LDIFF_SYM2285=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2285
+LDIFF_SYM2416=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2416
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2286=Lfde160_end - Lfde160_start
-	.long LDIFF_SYM2286
-Lfde160_start:
+LDIFF_SYM2417=Lfde170_end - Lfde170_start
+	.long LDIFF_SYM2417
+Lfde170_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_set_Item_int_T_BYTE
 
-LDIFF_SYM2287=Lme_be - System_Collections_Generic_List_1_T_BYTE_set_Item_int_T_BYTE
-	.long LDIFF_SYM2287
+LDIFF_SYM2418=Lme_c8 - System_Collections_Generic_List_1_T_BYTE_set_Item_int_T_BYTE
+	.long LDIFF_SYM2418
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde160_end:
+Lfde170_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39134,36 +42612,36 @@ Lfde160_end:
 
 	.byte 6,181,1
 	.quad System_Collections_Generic_List_1_T_BYTE_IsCompatibleObject_object
-	.quad Lme_bf
+	.quad Lme_c9
 
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM2288=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2288
+LDIFF_SYM2419=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2419
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM2289=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2289
+LDIFF_SYM2420=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2420
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2290=Lfde161_end - Lfde161_start
-	.long LDIFF_SYM2290
-Lfde161_start:
+LDIFF_SYM2421=Lfde171_end - Lfde171_start
+	.long LDIFF_SYM2421
+Lfde171_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_IsCompatibleObject_object
 
-LDIFF_SYM2291=Lme_bf - System_Collections_Generic_List_1_T_BYTE_IsCompatibleObject_object
-	.long LDIFF_SYM2291
+LDIFF_SYM2422=Lme_c9 - System_Collections_Generic_List_1_T_BYTE_IsCompatibleObject_object
+	.long LDIFF_SYM2422
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde161_end:
+Lfde171_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39173,36 +42651,36 @@ Lfde161_end:
 
 	.byte 6,188,1
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_Item_int
-	.quad Lme_c0
+	.quad Lme_ca
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2292=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2292
+LDIFF_SYM2423=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2423
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM2293=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2293
+LDIFF_SYM2424=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2424
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2294=Lfde162_end - Lfde162_start
-	.long LDIFF_SYM2294
-Lfde162_start:
+LDIFF_SYM2425=Lfde172_end - Lfde172_start
+	.long LDIFF_SYM2425
+Lfde172_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_Item_int
 
-LDIFF_SYM2295=Lme_c0 - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_Item_int
-	.long LDIFF_SYM2295
+LDIFF_SYM2426=Lme_ca - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_get_Item_int
+	.long LDIFF_SYM2426
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde162_end:
+Lfde172_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39212,41 +42690,41 @@ Lfde162_end:
 
 	.byte 6,192,1
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_set_Item_int_object
-	.quad Lme_c1
+	.quad Lme_cb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2296=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2296
+LDIFF_SYM2427=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2427
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM2297=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2297
+LDIFF_SYM2428=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2428
 	.byte 2,141,24,3
 	.asciz "value"
 
-LDIFF_SYM2298=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2298
+LDIFF_SYM2429=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2429
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2299=Lfde163_end - Lfde163_start
-	.long LDIFF_SYM2299
-Lfde163_start:
+LDIFF_SYM2430=Lfde173_end - Lfde173_start
+	.long LDIFF_SYM2430
+Lfde173_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_set_Item_int_object
 
-LDIFF_SYM2300=Lme_c1 - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_set_Item_int_object
-	.long LDIFF_SYM2300
+LDIFF_SYM2431=Lme_cb - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_set_Item_int_object
+	.long LDIFF_SYM2431
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde163_end:
+Lfde173_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39256,46 +42734,46 @@ Lfde163_end:
 
 	.byte 6,212,1
 	.quad System_Collections_Generic_List_1_T_BYTE_Add_T_BYTE
-	.quad Lme_c2
+	.quad Lme_cc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2301=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2301
+LDIFF_SYM2432=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2432
 	.byte 2,141,32,3
 	.asciz "item"
 
-LDIFF_SYM2302=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2302
+LDIFF_SYM2433=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2433
 	.byte 2,141,40,11
 	.asciz "array"
 
-LDIFF_SYM2303=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2303
+LDIFF_SYM2434=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2434
 	.byte 1,105,11
 	.asciz "size"
 
-LDIFF_SYM2304=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2304
+LDIFF_SYM2435=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2435
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2305=Lfde164_end - Lfde164_start
-	.long LDIFF_SYM2305
-Lfde164_start:
+LDIFF_SYM2436=Lfde174_end - Lfde174_start
+	.long LDIFF_SYM2436
+Lfde174_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_Add_T_BYTE
 
-LDIFF_SYM2306=Lme_c2 - System_Collections_Generic_List_1_T_BYTE_Add_T_BYTE
-	.long LDIFF_SYM2306
+LDIFF_SYM2437=Lme_cc - System_Collections_Generic_List_1_T_BYTE_Add_T_BYTE
+	.long LDIFF_SYM2437
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5
 	.align 3
-Lfde164_end:
+Lfde174_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39305,41 +42783,41 @@ Lfde164_end:
 
 	.byte 6,230,1
 	.quad System_Collections_Generic_List_1_T_BYTE_AddWithResize_T_BYTE
-	.quad Lme_c3
+	.quad Lme_cd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2307=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2307
+LDIFF_SYM2438=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2438
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM2308=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2308
+LDIFF_SYM2439=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2439
 	.byte 2,141,24,11
 	.asciz "size"
 
-LDIFF_SYM2309=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2309
+LDIFF_SYM2440=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2440
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2310=Lfde165_end - Lfde165_start
-	.long LDIFF_SYM2310
-Lfde165_start:
+LDIFF_SYM2441=Lfde175_end - Lfde175_start
+	.long LDIFF_SYM2441
+Lfde175_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_AddWithResize_T_BYTE
 
-LDIFF_SYM2311=Lme_c3 - System_Collections_Generic_List_1_T_BYTE_AddWithResize_T_BYTE
-	.long LDIFF_SYM2311
+LDIFF_SYM2442=Lme_cd - System_Collections_Generic_List_1_T_BYTE_AddWithResize_T_BYTE
+	.long LDIFF_SYM2442
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde165_end:
+Lfde175_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39349,36 +42827,36 @@ Lfde165_end:
 
 	.byte 6,238,1
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Add_object
-	.quad Lme_c4
+	.quad Lme_ce
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2312=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2312
+LDIFF_SYM2443=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2443
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM2313=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2313
+LDIFF_SYM2444=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2444
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2314=Lfde166_end - Lfde166_start
-	.long LDIFF_SYM2314
-Lfde166_start:
+LDIFF_SYM2445=Lfde176_end - Lfde176_start
+	.long LDIFF_SYM2445
+Lfde176_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Add_object
 
-LDIFF_SYM2315=Lme_c4 - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Add_object
-	.long LDIFF_SYM2315
+LDIFF_SYM2446=Lme_ce - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Add_object
+	.long LDIFF_SYM2446
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde166_end:
+Lfde176_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39388,36 +42866,36 @@ Lfde166_end:
 
 	.byte 6,129,2
 	.quad System_Collections_Generic_List_1_T_BYTE_AddRange_System_Collections_Generic_IEnumerable_1_T_BYTE
-	.quad Lme_c5
+	.quad Lme_cf
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2316=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2316
+LDIFF_SYM2447=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2447
 	.byte 2,141,16,3
 	.asciz "collection"
 
-LDIFF_SYM2317=LTDIE_249_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2317
+LDIFF_SYM2448=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2448
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2318=Lfde167_end - Lfde167_start
-	.long LDIFF_SYM2318
-Lfde167_start:
+LDIFF_SYM2449=Lfde177_end - Lfde177_start
+	.long LDIFF_SYM2449
+Lfde177_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_AddRange_System_Collections_Generic_IEnumerable_1_T_BYTE
 
-LDIFF_SYM2319=Lme_c5 - System_Collections_Generic_List_1_T_BYTE_AddRange_System_Collections_Generic_IEnumerable_1_T_BYTE
-	.long LDIFF_SYM2319
+LDIFF_SYM2450=Lme_cf - System_Collections_Generic_List_1_T_BYTE_AddRange_System_Collections_Generic_IEnumerable_1_T_BYTE
+	.long LDIFF_SYM2450
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde167_end:
+Lfde177_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39427,31 +42905,31 @@ Lfde167_end:
 
 	.byte 6,132,2
 	.quad System_Collections_Generic_List_1_T_BYTE_AsReadOnly
-	.quad Lme_c6
+	.quad Lme_d0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2320=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2320
+LDIFF_SYM2451=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2451
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2321=Lfde168_end - Lfde168_start
-	.long LDIFF_SYM2321
-Lfde168_start:
+LDIFF_SYM2452=Lfde178_end - Lfde178_start
+	.long LDIFF_SYM2452
+Lfde178_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_AsReadOnly
 
-LDIFF_SYM2322=Lme_c6 - System_Collections_Generic_List_1_T_BYTE_AsReadOnly
-	.long LDIFF_SYM2322
+LDIFF_SYM2453=Lme_d0 - System_Collections_Generic_List_1_T_BYTE_AsReadOnly
+	.long LDIFF_SYM2453
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde168_end:
+Lfde178_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39461,36 +42939,36 @@ Lfde168_end:
 
 	.byte 6,176,2
 	.quad System_Collections_Generic_List_1_T_BYTE_Clear
-	.quad Lme_c7
+	.quad Lme_d1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2323=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2323
+LDIFF_SYM2454=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2454
 	.byte 2,141,16,11
 	.asciz "size"
 
-LDIFF_SYM2324=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2324
+LDIFF_SYM2455=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2455
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2325=Lfde169_end - Lfde169_start
-	.long LDIFF_SYM2325
-Lfde169_start:
+LDIFF_SYM2456=Lfde179_end - Lfde179_start
+	.long LDIFF_SYM2456
+Lfde179_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_Clear
 
-LDIFF_SYM2326=Lme_c7 - System_Collections_Generic_List_1_T_BYTE_Clear
-	.long LDIFF_SYM2326
+LDIFF_SYM2457=Lme_d1 - System_Collections_Generic_List_1_T_BYTE_Clear
+	.long LDIFF_SYM2457
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde169_end:
+Lfde179_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39500,36 +42978,36 @@ Lfde169_end:
 
 	.byte 6,206,2
 	.quad System_Collections_Generic_List_1_T_BYTE_Contains_T_BYTE
-	.quad Lme_c8
+	.quad Lme_d2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2327=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2327
+LDIFF_SYM2458=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2458
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM2328=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2328
+LDIFF_SYM2459=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2459
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2329=Lfde170_end - Lfde170_start
-	.long LDIFF_SYM2329
-Lfde170_start:
+LDIFF_SYM2460=Lfde180_end - Lfde180_start
+	.long LDIFF_SYM2460
+Lfde180_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_Contains_T_BYTE
 
-LDIFF_SYM2330=Lme_c8 - System_Collections_Generic_List_1_T_BYTE_Contains_T_BYTE
-	.long LDIFF_SYM2330
+LDIFF_SYM2461=Lme_d2 - System_Collections_Generic_List_1_T_BYTE_Contains_T_BYTE
+	.long LDIFF_SYM2461
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde170_end:
+Lfde180_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39539,36 +43017,36 @@ Lfde170_end:
 
 	.byte 6,211,2
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Contains_object
-	.quad Lme_c9
+	.quad Lme_d3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2331=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2331
+LDIFF_SYM2462=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2462
 	.byte 2,141,24,3
 	.asciz "item"
 
-LDIFF_SYM2332=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2332
+LDIFF_SYM2463=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2463
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2333=Lfde171_end - Lfde171_start
-	.long LDIFF_SYM2333
-Lfde171_start:
+LDIFF_SYM2464=Lfde181_end - Lfde181_start
+	.long LDIFF_SYM2464
+Lfde181_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Contains_object
 
-LDIFF_SYM2334=Lme_c9 - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Contains_object
-	.long LDIFF_SYM2334
+LDIFF_SYM2465=Lme_d3 - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Contains_object
+	.long LDIFF_SYM2465
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde171_end:
+Lfde181_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39578,36 +43056,36 @@ Lfde171_end:
 
 	.byte 6,237,2
 	.quad System_Collections_Generic_List_1_T_BYTE_CopyTo_T_BYTE__
-	.quad Lme_ca
+	.quad Lme_d4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2335=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2335
+LDIFF_SYM2466=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2466
 	.byte 2,141,16,3
 	.asciz "array"
 
-LDIFF_SYM2336=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2336
+LDIFF_SYM2467=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2467
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2337=Lfde172_end - Lfde172_start
-	.long LDIFF_SYM2337
-Lfde172_start:
+LDIFF_SYM2468=Lfde182_end - Lfde182_start
+	.long LDIFF_SYM2468
+Lfde182_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_CopyTo_T_BYTE__
 
-LDIFF_SYM2338=Lme_ca - System_Collections_Generic_List_1_T_BYTE_CopyTo_T_BYTE__
-	.long LDIFF_SYM2338
+LDIFF_SYM2469=Lme_d4 - System_Collections_Generic_List_1_T_BYTE_CopyTo_T_BYTE__
+	.long LDIFF_SYM2469
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde172_end:
+Lfde182_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39617,41 +43095,41 @@ Lfde172_end:
 
 	.byte 6,243,2
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_CopyTo_System_Array_int
-	.quad Lme_cb
+	.quad Lme_d5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2339=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2339
+LDIFF_SYM2470=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2470
 	.byte 2,141,24,3
 	.asciz "array"
 
-LDIFF_SYM2340=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2340
+LDIFF_SYM2471=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2471
 	.byte 1,105,3
 	.asciz "arrayIndex"
 
-LDIFF_SYM2341=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2341
+LDIFF_SYM2472=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2472
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2342=Lfde173_end - Lfde173_start
-	.long LDIFF_SYM2342
-Lfde173_start:
+LDIFF_SYM2473=Lfde183_end - Lfde183_start
+	.long LDIFF_SYM2473
+Lfde183_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_CopyTo_System_Array_int
 
-LDIFF_SYM2343=Lme_cb - System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_CopyTo_System_Array_int
-	.long LDIFF_SYM2343
+LDIFF_SYM2474=Lme_d5 - System_Collections_Generic_List_1_T_BYTE_System_Collections_ICollection_CopyTo_System_Array_int
+	.long LDIFF_SYM2474
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde173_end:
+Lfde183_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39661,41 +43139,41 @@ Lfde173_end:
 
 	.byte 6,149,3
 	.quad System_Collections_Generic_List_1_T_BYTE_CopyTo_T_BYTE___int
-	.quad Lme_cc
+	.quad Lme_d6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2344=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2344
+LDIFF_SYM2475=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2475
 	.byte 2,141,16,3
 	.asciz "array"
 
-LDIFF_SYM2345=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2345
+LDIFF_SYM2476=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2476
 	.byte 2,141,24,3
 	.asciz "arrayIndex"
 
-LDIFF_SYM2346=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2346
+LDIFF_SYM2477=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2477
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2347=Lfde174_end - Lfde174_start
-	.long LDIFF_SYM2347
-Lfde174_start:
+LDIFF_SYM2478=Lfde184_end - Lfde184_start
+	.long LDIFF_SYM2478
+Lfde184_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_CopyTo_T_BYTE___int
 
-LDIFF_SYM2348=Lme_cc - System_Collections_Generic_List_1_T_BYTE_CopyTo_T_BYTE___int
-	.long LDIFF_SYM2348
+LDIFF_SYM2479=Lme_d6 - System_Collections_Generic_List_1_T_BYTE_CopyTo_T_BYTE___int
+	.long LDIFF_SYM2479
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde174_end:
+Lfde184_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39705,112 +43183,112 @@ Lfde174_end:
 
 	.byte 6,159,3
 	.quad System_Collections_Generic_List_1_T_BYTE_EnsureCapacity_int
-	.quad Lme_cd
+	.quad Lme_d7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2349=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2349
+LDIFF_SYM2480=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2480
 	.byte 2,141,32,3
 	.asciz "min"
 
-LDIFF_SYM2350=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2350
+LDIFF_SYM2481=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2481
 	.byte 2,141,40,11
 	.asciz "newCapacity"
 
-LDIFF_SYM2351=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2351
+LDIFF_SYM2482=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2482
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2352=Lfde175_end - Lfde175_start
-	.long LDIFF_SYM2352
-Lfde175_start:
+LDIFF_SYM2483=Lfde185_end - Lfde185_start
+	.long LDIFF_SYM2483
+Lfde185_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_EnsureCapacity_int
 
-LDIFF_SYM2353=Lme_cd - System_Collections_Generic_List_1_T_BYTE_EnsureCapacity_int
-	.long LDIFF_SYM2353
+LDIFF_SYM2484=Lme_d7 - System_Collections_Generic_List_1_T_BYTE_EnsureCapacity_int
+	.long LDIFF_SYM2484
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5
 	.align 3
-Lfde175_end:
+Lfde185_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_251:
+LTDIE_261:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 128,1,16
-LDIFF_SYM2354=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2354
+LDIFF_SYM2485=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2485
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM2355=LTDIE_251 - Ldebug_info_start
-	.long LDIFF_SYM2355
-LTDIE_251_POINTER:
+LDIFF_SYM2486=LTDIE_261 - Ldebug_info_start
+	.long LDIFF_SYM2486
+LTDIE_261_POINTER:
 
 	.byte 13
-LDIFF_SYM2356=LTDIE_251 - Ldebug_info_start
-	.long LDIFF_SYM2356
-LTDIE_251_REFERENCE:
+LDIFF_SYM2487=LTDIE_261 - Ldebug_info_start
+	.long LDIFF_SYM2487
+LTDIE_261_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2357=LTDIE_251 - Ldebug_info_start
-	.long LDIFF_SYM2357
+LDIFF_SYM2488=LTDIE_261 - Ldebug_info_start
+	.long LDIFF_SYM2488
 	.byte 2
 	.asciz "System.Collections.Generic.List`1<T_BYTE>:ForEach"
 	.asciz "System_Collections_Generic_List_1_T_BYTE_ForEach_System_Action_1_T_BYTE"
 
 	.byte 6,181,4
 	.quad System_Collections_Generic_List_1_T_BYTE_ForEach_System_Action_1_T_BYTE
-	.quad Lme_ce
+	.quad Lme_d8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2358=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2358
+LDIFF_SYM2489=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2489
 	.byte 2,141,40,3
 	.asciz "action"
 
-LDIFF_SYM2359=LTDIE_251_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2359
+LDIFF_SYM2490=LTDIE_261_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2490
 	.byte 1,106,11
 	.asciz "version"
 
-LDIFF_SYM2360=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2360
+LDIFF_SYM2491=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2491
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM2361=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2361
+LDIFF_SYM2492=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2492
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2362=Lfde176_end - Lfde176_start
-	.long LDIFF_SYM2362
-Lfde176_start:
+LDIFF_SYM2493=Lfde186_end - Lfde186_start
+	.long LDIFF_SYM2493
+Lfde186_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_ForEach_System_Action_1_T_BYTE
 
-LDIFF_SYM2363=Lme_ce - System_Collections_Generic_List_1_T_BYTE_ForEach_System_Action_1_T_BYTE
-	.long LDIFF_SYM2363
+LDIFF_SYM2494=Lme_d8 - System_Collections_Generic_List_1_T_BYTE_ForEach_System_Action_1_T_BYTE
+	.long LDIFF_SYM2494
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3,68,154,2
 	.align 3
-Lfde176_end:
+Lfde186_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39820,31 +43298,31 @@ Lfde176_end:
 
 	.byte 6,207,4
 	.quad System_Collections_Generic_List_1_T_BYTE_GetEnumerator
-	.quad Lme_cf
+	.quad Lme_d9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2364=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2364
+LDIFF_SYM2495=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2495
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2365=Lfde177_end - Lfde177_start
-	.long LDIFF_SYM2365
-Lfde177_start:
+LDIFF_SYM2496=Lfde187_end - Lfde187_start
+	.long LDIFF_SYM2496
+Lfde187_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_GetEnumerator
 
-LDIFF_SYM2366=Lme_cf - System_Collections_Generic_List_1_T_BYTE_GetEnumerator
-	.long LDIFF_SYM2366
+LDIFF_SYM2497=Lme_d9 - System_Collections_Generic_List_1_T_BYTE_GetEnumerator
+	.long LDIFF_SYM2497
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde177_end:
+Lfde187_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39854,31 +43332,31 @@ Lfde177_end:
 
 	.byte 6,210,4
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_Generic_IEnumerable_T_GetEnumerator
-	.quad Lme_d0
+	.quad Lme_da
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2367=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2367
+LDIFF_SYM2498=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2498
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2368=Lfde178_end - Lfde178_start
-	.long LDIFF_SYM2368
-Lfde178_start:
+LDIFF_SYM2499=Lfde188_end - Lfde188_start
+	.long LDIFF_SYM2499
+Lfde188_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_Generic_IEnumerable_T_GetEnumerator
 
-LDIFF_SYM2369=Lme_d0 - System_Collections_Generic_List_1_T_BYTE_System_Collections_Generic_IEnumerable_T_GetEnumerator
-	.long LDIFF_SYM2369
+LDIFF_SYM2500=Lme_da - System_Collections_Generic_List_1_T_BYTE_System_Collections_Generic_IEnumerable_T_GetEnumerator
+	.long LDIFF_SYM2500
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde178_end:
+Lfde188_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39888,31 +43366,31 @@ Lfde178_end:
 
 	.byte 6,213,4
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IEnumerable_GetEnumerator
-	.quad Lme_d1
+	.quad Lme_db
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2370=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2370
+LDIFF_SYM2501=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2501
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2371=Lfde179_end - Lfde179_start
-	.long LDIFF_SYM2371
-Lfde179_start:
+LDIFF_SYM2502=Lfde189_end - Lfde189_start
+	.long LDIFF_SYM2502
+Lfde189_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IEnumerable_GetEnumerator
 
-LDIFF_SYM2372=Lme_d1 - System_Collections_Generic_List_1_T_BYTE_System_Collections_IEnumerable_GetEnumerator
-	.long LDIFF_SYM2372
+LDIFF_SYM2503=Lme_db - System_Collections_Generic_List_1_T_BYTE_System_Collections_IEnumerable_GetEnumerator
+	.long LDIFF_SYM2503
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde179_end:
+Lfde189_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39922,36 +43400,36 @@ Lfde179_end:
 
 	.byte 6,248,4
 	.quad System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE
-	.quad Lme_d2
+	.quad Lme_dc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2373=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2373
+LDIFF_SYM2504=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2504
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM2374=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2374
+LDIFF_SYM2505=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2505
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2375=Lfde180_end - Lfde180_start
-	.long LDIFF_SYM2375
-Lfde180_start:
+LDIFF_SYM2506=Lfde190_end - Lfde190_start
+	.long LDIFF_SYM2506
+Lfde190_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE
 
-LDIFF_SYM2376=Lme_d2 - System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE
-	.long LDIFF_SYM2376
+LDIFF_SYM2507=Lme_dc - System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE
+	.long LDIFF_SYM2507
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde180_end:
+Lfde190_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -39961,36 +43439,36 @@ Lfde180_end:
 
 	.byte 6,252,4
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_IndexOf_object
-	.quad Lme_d3
+	.quad Lme_dd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2377=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2377
+LDIFF_SYM2508=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2508
 	.byte 2,141,24,3
 	.asciz "item"
 
-LDIFF_SYM2378=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2378
+LDIFF_SYM2509=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2509
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2379=Lfde181_end - Lfde181_start
-	.long LDIFF_SYM2379
-Lfde181_start:
+LDIFF_SYM2510=Lfde191_end - Lfde191_start
+	.long LDIFF_SYM2510
+Lfde191_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_IndexOf_object
 
-LDIFF_SYM2380=Lme_d3 - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_IndexOf_object
-	.long LDIFF_SYM2380
+LDIFF_SYM2511=Lme_dd - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_IndexOf_object
+	.long LDIFF_SYM2511
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde181_end:
+Lfde191_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40000,41 +43478,41 @@ Lfde181_end:
 
 	.byte 6,142,5
 	.quad System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE_int
-	.quad Lme_d4
+	.quad Lme_de
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2381=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2381
+LDIFF_SYM2512=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2512
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM2382=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2382
+LDIFF_SYM2513=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2513
 	.byte 2,141,24,3
 	.asciz "index"
 
-LDIFF_SYM2383=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2383
+LDIFF_SYM2514=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2514
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2384=Lfde182_end - Lfde182_start
-	.long LDIFF_SYM2384
-Lfde182_start:
+LDIFF_SYM2515=Lfde192_end - Lfde192_start
+	.long LDIFF_SYM2515
+Lfde192_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE_int
 
-LDIFF_SYM2385=Lme_d4 - System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE_int
-	.long LDIFF_SYM2385
+LDIFF_SYM2516=Lme_de - System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE_int
+	.long LDIFF_SYM2516
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde182_end:
+Lfde192_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40044,46 +43522,46 @@ Lfde182_end:
 
 	.byte 6,158,5
 	.quad System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE_int_int
-	.quad Lme_d5
+	.quad Lme_df
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2386=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2386
+LDIFF_SYM2517=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2517
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM2387=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2387
+LDIFF_SYM2518=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2518
 	.byte 2,141,24,3
 	.asciz "index"
 
-LDIFF_SYM2388=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2388
+LDIFF_SYM2519=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2519
 	.byte 2,141,32,3
 	.asciz "count"
 
-LDIFF_SYM2389=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2389
+LDIFF_SYM2520=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2520
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2390=Lfde183_end - Lfde183_start
-	.long LDIFF_SYM2390
-Lfde183_start:
+LDIFF_SYM2521=Lfde193_end - Lfde193_start
+	.long LDIFF_SYM2521
+Lfde193_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE_int_int
 
-LDIFF_SYM2391=Lme_d5 - System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE_int_int
-	.long LDIFF_SYM2391
+LDIFF_SYM2522=Lme_df - System_Collections_Generic_List_1_T_BYTE_IndexOf_T_BYTE_int_int
+	.long LDIFF_SYM2522
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde183_end:
+Lfde193_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40093,41 +43571,41 @@ Lfde183_end:
 
 	.byte 6,174,5
 	.quad System_Collections_Generic_List_1_T_BYTE_Insert_int_T_BYTE
-	.quad Lme_d6
+	.quad Lme_e0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2392=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2392
+LDIFF_SYM2523=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2523
 	.byte 2,141,24,3
 	.asciz "index"
 
-LDIFF_SYM2393=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2393
+LDIFF_SYM2524=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2524
 	.byte 1,105,3
 	.asciz "item"
 
-LDIFF_SYM2394=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2394
+LDIFF_SYM2525=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2525
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2395=Lfde184_end - Lfde184_start
-	.long LDIFF_SYM2395
-Lfde184_start:
+LDIFF_SYM2526=Lfde194_end - Lfde194_start
+	.long LDIFF_SYM2526
+Lfde194_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_Insert_int_T_BYTE
 
-LDIFF_SYM2396=Lme_d6 - System_Collections_Generic_List_1_T_BYTE_Insert_int_T_BYTE
-	.long LDIFF_SYM2396
+LDIFF_SYM2527=Lme_e0 - System_Collections_Generic_List_1_T_BYTE_Insert_int_T_BYTE
+	.long LDIFF_SYM2527
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde184_end:
+Lfde194_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40137,44 +43615,44 @@ Lfde184_end:
 
 	.byte 6,190,5
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Insert_int_object
-	.quad Lme_d7
+	.quad Lme_e1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2397=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2397
+LDIFF_SYM2528=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2528
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM2398=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2398
+LDIFF_SYM2529=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2529
 	.byte 2,141,24,3
 	.asciz "item"
 
-LDIFF_SYM2399=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2399
+LDIFF_SYM2530=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2530
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2400=Lfde185_end - Lfde185_start
-	.long LDIFF_SYM2400
-Lfde185_start:
+LDIFF_SYM2531=Lfde195_end - Lfde195_start
+	.long LDIFF_SYM2531
+Lfde195_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Insert_int_object
 
-LDIFF_SYM2401=Lme_d7 - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Insert_int_object
-	.long LDIFF_SYM2401
+LDIFF_SYM2532=Lme_e1 - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Insert_int_object
+	.long LDIFF_SYM2532
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde185_end:
+Lfde195_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_252:
+LTDIE_262:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEnumerator`1"
@@ -40182,74 +43660,74 @@ LTDIE_252:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEnumerator`1"
 
-LDIFF_SYM2402=LTDIE_252 - Ldebug_info_start
-	.long LDIFF_SYM2402
-LTDIE_252_POINTER:
+LDIFF_SYM2533=LTDIE_262 - Ldebug_info_start
+	.long LDIFF_SYM2533
+LTDIE_262_POINTER:
 
 	.byte 13
-LDIFF_SYM2403=LTDIE_252 - Ldebug_info_start
-	.long LDIFF_SYM2403
-LTDIE_252_REFERENCE:
+LDIFF_SYM2534=LTDIE_262 - Ldebug_info_start
+	.long LDIFF_SYM2534
+LTDIE_262_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2404=LTDIE_252 - Ldebug_info_start
-	.long LDIFF_SYM2404
+LDIFF_SYM2535=LTDIE_262 - Ldebug_info_start
+	.long LDIFF_SYM2535
 	.byte 2
 	.asciz "System.Collections.Generic.List`1<T_BYTE>:InsertRange"
 	.asciz "System_Collections_Generic_List_1_T_BYTE_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_BYTE"
 
 	.byte 6,209,5
 	.quad System_Collections_Generic_List_1_T_BYTE_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_BYTE
-	.quad Lme_d8
+	.quad Lme_e2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2405=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2405
+LDIFF_SYM2536=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2536
 	.byte 2,141,40,3
 	.asciz "index"
 
-LDIFF_SYM2406=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2406
+LDIFF_SYM2537=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2537
 	.byte 1,105,3
 	.asciz "collection"
 
-LDIFF_SYM2407=LTDIE_249_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2407
+LDIFF_SYM2538=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2538
 	.byte 1,106,11
 	.asciz "c"
 
-LDIFF_SYM2408=LTDIE_250_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2408
+LDIFF_SYM2539=LTDIE_260_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2539
 	.byte 1,104,11
 	.asciz "count"
 
-LDIFF_SYM2409=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2409
+LDIFF_SYM2540=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2540
 	.byte 1,106,11
 	.asciz "en"
 
-LDIFF_SYM2410=LTDIE_252_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2410
+LDIFF_SYM2541=LTDIE_262_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2541
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2411=Lfde186_end - Lfde186_start
-	.long LDIFF_SYM2411
-Lfde186_start:
+LDIFF_SYM2542=Lfde196_end - Lfde196_start
+	.long LDIFF_SYM2542
+Lfde196_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_BYTE
 
-LDIFF_SYM2412=Lme_d8 - System_Collections_Generic_List_1_T_BYTE_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_BYTE
-	.long LDIFF_SYM2412
+LDIFF_SYM2543=Lme_e2 - System_Collections_Generic_List_1_T_BYTE_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_BYTE
+	.long LDIFF_SYM2543
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14,153,13,68,154,12
 	.align 3
-Lfde186_end:
+Lfde196_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40259,41 +43737,41 @@ Lfde186_end:
 
 	.byte 6,215,6
 	.quad System_Collections_Generic_List_1_T_BYTE_Remove_T_BYTE
-	.quad Lme_d9
+	.quad Lme_e3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2413=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2413
+LDIFF_SYM2544=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2544
 	.byte 2,141,24,3
 	.asciz "item"
 
-LDIFF_SYM2414=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2414
+LDIFF_SYM2545=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2545
 	.byte 1,106,11
 	.asciz "index"
 
-LDIFF_SYM2415=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2415
+LDIFF_SYM2546=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2546
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2416=Lfde187_end - Lfde187_start
-	.long LDIFF_SYM2416
-Lfde187_start:
+LDIFF_SYM2547=Lfde197_end - Lfde197_start
+	.long LDIFF_SYM2547
+Lfde197_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_Remove_T_BYTE
 
-LDIFF_SYM2417=Lme_d9 - System_Collections_Generic_List_1_T_BYTE_Remove_T_BYTE
-	.long LDIFF_SYM2417
+LDIFF_SYM2548=Lme_e3 - System_Collections_Generic_List_1_T_BYTE_Remove_T_BYTE
+	.long LDIFF_SYM2548
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde187_end:
+Lfde197_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40303,107 +43781,107 @@ Lfde187_end:
 
 	.byte 6,227,6
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Remove_object
-	.quad Lme_da
+	.quad Lme_e4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2418=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2418
+LDIFF_SYM2549=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2549
 	.byte 2,141,24,3
 	.asciz "item"
 
-LDIFF_SYM2419=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2419
+LDIFF_SYM2550=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2550
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2420=Lfde188_end - Lfde188_start
-	.long LDIFF_SYM2420
-Lfde188_start:
+LDIFF_SYM2551=Lfde198_end - Lfde198_start
+	.long LDIFF_SYM2551
+Lfde198_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Remove_object
 
-LDIFF_SYM2421=Lme_da - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Remove_object
-	.long LDIFF_SYM2421
+LDIFF_SYM2552=Lme_e4 - System_Collections_Generic_List_1_T_BYTE_System_Collections_IList_Remove_object
+	.long LDIFF_SYM2552
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde188_end:
+Lfde198_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_253:
+LTDIE_263:
 
 	.byte 5
 	.asciz "System_Predicate`1"
 
 	.byte 128,1,16
-LDIFF_SYM2422=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2422
+LDIFF_SYM2553=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2553
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM2423=LTDIE_253 - Ldebug_info_start
-	.long LDIFF_SYM2423
-LTDIE_253_POINTER:
+LDIFF_SYM2554=LTDIE_263 - Ldebug_info_start
+	.long LDIFF_SYM2554
+LTDIE_263_POINTER:
 
 	.byte 13
-LDIFF_SYM2424=LTDIE_253 - Ldebug_info_start
-	.long LDIFF_SYM2424
-LTDIE_253_REFERENCE:
+LDIFF_SYM2555=LTDIE_263 - Ldebug_info_start
+	.long LDIFF_SYM2555
+LTDIE_263_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2425=LTDIE_253 - Ldebug_info_start
-	.long LDIFF_SYM2425
+LDIFF_SYM2556=LTDIE_263 - Ldebug_info_start
+	.long LDIFF_SYM2556
 	.byte 2
 	.asciz "System.Collections.Generic.List`1<T_BYTE>:RemoveAll"
 	.asciz "System_Collections_Generic_List_1_T_BYTE_RemoveAll_System_Predicate_1_T_BYTE"
 
 	.byte 6,237,6
 	.quad System_Collections_Generic_List_1_T_BYTE_RemoveAll_System_Predicate_1_T_BYTE
-	.quad Lme_db
+	.quad Lme_e5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2426=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2426
+LDIFF_SYM2557=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2557
 	.byte 2,141,40,3
 	.asciz "match"
 
-LDIFF_SYM2427=LTDIE_253_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2427
+LDIFF_SYM2558=LTDIE_263_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2558
 	.byte 1,106,11
 	.asciz "freeIndex"
 
-LDIFF_SYM2428=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2428
+LDIFF_SYM2559=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2559
 	.byte 1,105,11
 	.asciz "current"
 
-LDIFF_SYM2429=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2429
+LDIFF_SYM2560=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2560
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2430=Lfde189_end - Lfde189_start
-	.long LDIFF_SYM2430
-Lfde189_start:
+LDIFF_SYM2561=Lfde199_end - Lfde199_start
+	.long LDIFF_SYM2561
+Lfde199_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_RemoveAll_System_Predicate_1_T_BYTE
 
-LDIFF_SYM2431=Lme_db - System_Collections_Generic_List_1_T_BYTE_RemoveAll_System_Predicate_1_T_BYTE
-	.long LDIFF_SYM2431
+LDIFF_SYM2562=Lme_e5 - System_Collections_Generic_List_1_T_BYTE_RemoveAll_System_Predicate_1_T_BYTE
+	.long LDIFF_SYM2562
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3,68,154,2
 	.align 3
-Lfde189_end:
+Lfde199_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40413,41 +43891,41 @@ Lfde189_end:
 
 	.byte 6,148,7
 	.quad System_Collections_Generic_List_1_T_BYTE_RemoveAt_int
-	.quad Lme_dc
+	.quad Lme_e6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2432=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2432
+LDIFF_SYM2563=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2563
 	.byte 2,141,24,3
 	.asciz "index"
 
-LDIFF_SYM2433=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2433
+LDIFF_SYM2564=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2564
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2434=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2434
+LDIFF_SYM2565=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2565
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2435=Lfde190_end - Lfde190_start
-	.long LDIFF_SYM2435
-Lfde190_start:
+LDIFF_SYM2566=Lfde200_end - Lfde200_start
+	.long LDIFF_SYM2566
+Lfde200_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_RemoveAt_int
 
-LDIFF_SYM2436=Lme_dc - System_Collections_Generic_List_1_T_BYTE_RemoveAt_int
-	.long LDIFF_SYM2436
+LDIFF_SYM2567=Lme_e6 - System_Collections_Generic_List_1_T_BYTE_RemoveAt_int
+	.long LDIFF_SYM2567
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
-Lfde190_end:
+Lfde200_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40457,41 +43935,41 @@ Lfde190_end:
 
 	.byte 6,167,7
 	.quad System_Collections_Generic_List_1_T_BYTE_RemoveRange_int_int
-	.quad Lme_dd
+	.quad Lme_e7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2437=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2437
+LDIFF_SYM2568=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2568
 	.byte 2,141,32,3
 	.asciz "index"
 
-LDIFF_SYM2438=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2438
+LDIFF_SYM2569=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2569
 	.byte 1,105,3
 	.asciz "count"
 
-LDIFF_SYM2439=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2439
+LDIFF_SYM2570=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2570
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2440=Lfde191_end - Lfde191_start
-	.long LDIFF_SYM2440
-Lfde191_start:
+LDIFF_SYM2571=Lfde201_end - Lfde201_start
+	.long LDIFF_SYM2571
+Lfde201_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_RemoveRange_int_int
 
-LDIFF_SYM2441=Lme_dd - System_Collections_Generic_List_1_T_BYTE_RemoveRange_int_int
-	.long LDIFF_SYM2441
+LDIFF_SYM2572=Lme_e7 - System_Collections_Generic_List_1_T_BYTE_RemoveRange_int_int
+	.long LDIFF_SYM2572
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4,154,3
 	.align 3
-Lfde191_end:
+Lfde201_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40501,31 +43979,31 @@ Lfde191_end:
 
 	.byte 6,199,7
 	.quad System_Collections_Generic_List_1_T_BYTE_Reverse
-	.quad Lme_de
+	.quad Lme_e8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2442=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2442
+LDIFF_SYM2573=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2573
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2443=Lfde192_end - Lfde192_start
-	.long LDIFF_SYM2443
-Lfde192_start:
+LDIFF_SYM2574=Lfde202_end - Lfde202_start
+	.long LDIFF_SYM2574
+Lfde202_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_Reverse
 
-LDIFF_SYM2444=Lme_de - System_Collections_Generic_List_1_T_BYTE_Reverse
-	.long LDIFF_SYM2444
+LDIFF_SYM2575=Lme_e8 - System_Collections_Generic_List_1_T_BYTE_Reverse
+	.long LDIFF_SYM2575
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde192_end:
+Lfde202_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40535,44 +44013,44 @@ Lfde192_end:
 
 	.byte 6,208,7
 	.quad System_Collections_Generic_List_1_T_BYTE_Reverse_int_int
-	.quad Lme_df
+	.quad Lme_e9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2445=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2445
+LDIFF_SYM2576=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2576
 	.byte 2,141,24,3
 	.asciz "index"
 
-LDIFF_SYM2446=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2446
+LDIFF_SYM2577=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2577
 	.byte 2,141,32,3
 	.asciz "count"
 
-LDIFF_SYM2447=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2447
+LDIFF_SYM2578=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2578
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2448=Lfde193_end - Lfde193_start
-	.long LDIFF_SYM2448
-Lfde193_start:
+LDIFF_SYM2579=Lfde203_end - Lfde203_start
+	.long LDIFF_SYM2579
+Lfde203_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_Reverse_int_int
 
-LDIFF_SYM2449=Lme_df - System_Collections_Generic_List_1_T_BYTE_Reverse_int_int
-	.long LDIFF_SYM2449
+LDIFF_SYM2580=Lme_e9 - System_Collections_Generic_List_1_T_BYTE_Reverse_int_int
+	.long LDIFF_SYM2580
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde193_end:
+Lfde203_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_254:
+LTDIE_264:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IComparer`1"
@@ -40580,54 +44058,54 @@ LTDIE_254:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IComparer`1"
 
-LDIFF_SYM2450=LTDIE_254 - Ldebug_info_start
-	.long LDIFF_SYM2450
-LTDIE_254_POINTER:
+LDIFF_SYM2581=LTDIE_264 - Ldebug_info_start
+	.long LDIFF_SYM2581
+LTDIE_264_POINTER:
 
 	.byte 13
-LDIFF_SYM2451=LTDIE_254 - Ldebug_info_start
-	.long LDIFF_SYM2451
-LTDIE_254_REFERENCE:
+LDIFF_SYM2582=LTDIE_264 - Ldebug_info_start
+	.long LDIFF_SYM2582
+LTDIE_264_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2452=LTDIE_254 - Ldebug_info_start
-	.long LDIFF_SYM2452
+LDIFF_SYM2583=LTDIE_264 - Ldebug_info_start
+	.long LDIFF_SYM2583
 	.byte 2
 	.asciz "System.Collections.Generic.List`1<T_BYTE>:Sort"
 	.asciz "System_Collections_Generic_List_1_T_BYTE_Sort_System_Collections_Generic_IComparer_1_T_BYTE"
 
 	.byte 6,236,7
 	.quad System_Collections_Generic_List_1_T_BYTE_Sort_System_Collections_Generic_IComparer_1_T_BYTE
-	.quad Lme_e0
+	.quad Lme_ea
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2453=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2453
+LDIFF_SYM2584=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2584
 	.byte 2,141,16,3
 	.asciz "comparer"
 
-LDIFF_SYM2454=LTDIE_254_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2454
+LDIFF_SYM2585=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2585
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2455=Lfde194_end - Lfde194_start
-	.long LDIFF_SYM2455
-Lfde194_start:
+LDIFF_SYM2586=Lfde204_end - Lfde204_start
+	.long LDIFF_SYM2586
+Lfde204_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_Sort_System_Collections_Generic_IComparer_1_T_BYTE
 
-LDIFF_SYM2456=Lme_e0 - System_Collections_Generic_List_1_T_BYTE_Sort_System_Collections_Generic_IComparer_1_T_BYTE
-	.long LDIFF_SYM2456
+LDIFF_SYM2587=Lme_ea - System_Collections_Generic_List_1_T_BYTE_Sort_System_Collections_Generic_IComparer_1_T_BYTE
+	.long LDIFF_SYM2587
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde194_end:
+Lfde204_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40637,107 +44115,107 @@ Lfde194_end:
 
 	.byte 6,248,7
 	.quad System_Collections_Generic_List_1_T_BYTE_Sort_int_int_System_Collections_Generic_IComparer_1_T_BYTE
-	.quad Lme_e1
+	.quad Lme_eb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2457=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2457
+LDIFF_SYM2588=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2588
 	.byte 2,141,24,3
 	.asciz "index"
 
-LDIFF_SYM2458=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2458
+LDIFF_SYM2589=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2589
 	.byte 2,141,32,3
 	.asciz "count"
 
-LDIFF_SYM2459=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2459
+LDIFF_SYM2590=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2590
 	.byte 1,105,3
 	.asciz "comparer"
 
-LDIFF_SYM2460=LTDIE_254_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2460
+LDIFF_SYM2591=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2591
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2461=Lfde195_end - Lfde195_start
-	.long LDIFF_SYM2461
-Lfde195_start:
+LDIFF_SYM2592=Lfde205_end - Lfde205_start
+	.long LDIFF_SYM2592
+Lfde205_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_Sort_int_int_System_Collections_Generic_IComparer_1_T_BYTE
 
-LDIFF_SYM2462=Lme_e1 - System_Collections_Generic_List_1_T_BYTE_Sort_int_int_System_Collections_Generic_IComparer_1_T_BYTE
-	.long LDIFF_SYM2462
+LDIFF_SYM2593=Lme_eb - System_Collections_Generic_List_1_T_BYTE_Sort_int_int_System_Collections_Generic_IComparer_1_T_BYTE
+	.long LDIFF_SYM2593
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde195_end:
+Lfde205_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_255:
+LTDIE_265:
 
 	.byte 5
 	.asciz "System_Comparison`1"
 
 	.byte 128,1,16
-LDIFF_SYM2463=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2463
+LDIFF_SYM2594=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2594
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM2464=LTDIE_255 - Ldebug_info_start
-	.long LDIFF_SYM2464
-LTDIE_255_POINTER:
+LDIFF_SYM2595=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2595
+LTDIE_265_POINTER:
 
 	.byte 13
-LDIFF_SYM2465=LTDIE_255 - Ldebug_info_start
-	.long LDIFF_SYM2465
-LTDIE_255_REFERENCE:
+LDIFF_SYM2596=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2596
+LTDIE_265_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2466=LTDIE_255 - Ldebug_info_start
-	.long LDIFF_SYM2466
+LDIFF_SYM2597=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2597
 	.byte 2
 	.asciz "System.Collections.Generic.List`1<T_BYTE>:Sort"
 	.asciz "System_Collections_Generic_List_1_T_BYTE_Sort_System_Comparison_1_T_BYTE"
 
 	.byte 6,142,8
 	.quad System_Collections_Generic_List_1_T_BYTE_Sort_System_Comparison_1_T_BYTE
-	.quad Lme_e2
+	.quad Lme_ec
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2467=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2467
+LDIFF_SYM2598=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2598
 	.byte 2,141,16,3
 	.asciz "comparison"
 
-LDIFF_SYM2468=LTDIE_255_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2468
+LDIFF_SYM2599=LTDIE_265_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2599
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2469=Lfde196_end - Lfde196_start
-	.long LDIFF_SYM2469
-Lfde196_start:
+LDIFF_SYM2600=Lfde206_end - Lfde206_start
+	.long LDIFF_SYM2600
+Lfde206_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_Sort_System_Comparison_1_T_BYTE
 
-LDIFF_SYM2470=Lme_e2 - System_Collections_Generic_List_1_T_BYTE_Sort_System_Comparison_1_T_BYTE
-	.long LDIFF_SYM2470
+LDIFF_SYM2601=Lme_ec - System_Collections_Generic_List_1_T_BYTE_Sort_System_Comparison_1_T_BYTE
+	.long LDIFF_SYM2601
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde196_end:
+Lfde206_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40747,36 +44225,36 @@ Lfde196_end:
 
 	.byte 6,158,8
 	.quad System_Collections_Generic_List_1_T_BYTE_ToArray
-	.quad Lme_e3
+	.quad Lme_ed
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2471=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2471
+LDIFF_SYM2602=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2602
 	.byte 2,141,24,11
 	.asciz "array"
 
-LDIFF_SYM2472=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2472
+LDIFF_SYM2603=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2603
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2473=Lfde197_end - Lfde197_start
-	.long LDIFF_SYM2473
-Lfde197_start:
+LDIFF_SYM2604=Lfde207_end - Lfde207_start
+	.long LDIFF_SYM2604
+Lfde207_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_ToArray
 
-LDIFF_SYM2474=Lme_e3 - System_Collections_Generic_List_1_T_BYTE_ToArray
-	.long LDIFF_SYM2474
+LDIFF_SYM2605=Lme_ed - System_Collections_Generic_List_1_T_BYTE_ToArray
+	.long LDIFF_SYM2605
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde197_end:
+Lfde207_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40786,36 +44264,36 @@ Lfde197_end:
 
 	.byte 6,179,8
 	.quad System_Collections_Generic_List_1_T_BYTE_TrimExcess
-	.quad Lme_e4
+	.quad Lme_ee
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2475=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2475
+LDIFF_SYM2606=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2606
 	.byte 2,141,16,11
 	.asciz "threshold"
 
-LDIFF_SYM2476=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2476
+LDIFF_SYM2607=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2607
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2477=Lfde198_end - Lfde198_start
-	.long LDIFF_SYM2477
-Lfde198_start:
+LDIFF_SYM2608=Lfde208_end - Lfde208_start
+	.long LDIFF_SYM2608
+Lfde208_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_TrimExcess
 
-LDIFF_SYM2478=Lme_e4 - System_Collections_Generic_List_1_T_BYTE_TrimExcess
-	.long LDIFF_SYM2478
+LDIFF_SYM2609=Lme_ee - System_Collections_Generic_List_1_T_BYTE_TrimExcess
+	.long LDIFF_SYM2609
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde198_end:
+Lfde208_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40825,51 +44303,51 @@ Lfde198_end:
 
 	.byte 6,208,8
 	.quad System_Collections_Generic_List_1_T_BYTE_AddEnumerable_System_Collections_Generic_IEnumerable_1_T_BYTE
-	.quad Lme_e5
+	.quad Lme_ef
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2479=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2479
+LDIFF_SYM2610=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2610
 	.byte 2,141,32,3
 	.asciz "enumerable"
 
-LDIFF_SYM2480=LTDIE_249_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2480
+LDIFF_SYM2611=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2611
 	.byte 1,106,11
 	.asciz "en"
 
-LDIFF_SYM2481=LTDIE_252_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2481
+LDIFF_SYM2612=LTDIE_262_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2612
 	.byte 2,141,40,11
 	.asciz "current"
 
-LDIFF_SYM2482=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2482
+LDIFF_SYM2613=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2613
 	.byte 1,106,11
 	.asciz "V_2"
 
-LDIFF_SYM2483=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2483
+LDIFF_SYM2614=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2614
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2484=Lfde199_end - Lfde199_start
-	.long LDIFF_SYM2484
-Lfde199_start:
+LDIFF_SYM2615=Lfde209_end - Lfde209_start
+	.long LDIFF_SYM2615
+Lfde209_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE_AddEnumerable_System_Collections_Generic_IEnumerable_1_T_BYTE
 
-LDIFF_SYM2485=Lme_e5 - System_Collections_Generic_List_1_T_BYTE_AddEnumerable_System_Collections_Generic_IEnumerable_1_T_BYTE
-	.long LDIFF_SYM2485
+LDIFF_SYM2616=Lme_ef - System_Collections_Generic_List_1_T_BYTE_AddEnumerable_System_Collections_Generic_IEnumerable_1_T_BYTE
+	.long LDIFF_SYM2616
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde199_end:
+Lfde209_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -40879,487 +44357,487 @@ Lfde199_end:
 
 	.byte 6,34
 	.quad System_Collections_Generic_List_1_T_BYTE__cctor
-	.quad Lme_e6
+	.quad Lme_f0
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2486=Lfde200_end - Lfde200_start
-	.long LDIFF_SYM2486
-Lfde200_start:
+LDIFF_SYM2617=Lfde210_end - Lfde210_start
+	.long LDIFF_SYM2617
+Lfde210_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_T_BYTE__cctor
 
-LDIFF_SYM2487=Lme_e6 - System_Collections_Generic_List_1_T_BYTE__cctor
-	.long LDIFF_SYM2487
+LDIFF_SYM2618=Lme_f0 - System_Collections_Generic_List_1_T_BYTE__cctor
+	.long LDIFF_SYM2618
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde200_end:
+Lfde210_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_256:
+LTDIE_266:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
 	.byte 40,16
-LDIFF_SYM2488=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2488
+LDIFF_SYM2619=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2619
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM2489=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2489
+LDIFF_SYM2620=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2620
 	.byte 2,35,16,6
 	.asciz "m_task"
 
-LDIFF_SYM2490=LTDIE_222_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2490
+LDIFF_SYM2621=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2621
 	.byte 2,35,32,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
-LDIFF_SYM2491=LTDIE_256 - Ldebug_info_start
-	.long LDIFF_SYM2491
-LTDIE_256_POINTER:
+LDIFF_SYM2622=LTDIE_266 - Ldebug_info_start
+	.long LDIFF_SYM2622
+LTDIE_266_POINTER:
 
 	.byte 13
-LDIFF_SYM2492=LTDIE_256 - Ldebug_info_start
-	.long LDIFF_SYM2492
-LTDIE_256_REFERENCE:
+LDIFF_SYM2623=LTDIE_266 - Ldebug_info_start
+	.long LDIFF_SYM2623
+LTDIE_266_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2493=LTDIE_256 - Ldebug_info_start
-	.long LDIFF_SYM2493
+LDIFF_SYM2624=LTDIE_266 - Ldebug_info_start
+	.long LDIFF_SYM2624
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<string>:Start<Octane.Xamarin.Forms.VideoPlayer.iOS.SourceHandlers.StreamVideoSourceHandler/<LoadVideoAsync>d__0>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_"
 
 	.byte 7,203,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
-	.quad Lme_e7
+	.quad Lme_f1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2494=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2494
+LDIFF_SYM2625=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2625
 	.byte 0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM2495=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2495
+LDIFF_SYM2626=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2626
 	.byte 2,141,24,11
 	.asciz "ecs"
 
-LDIFF_SYM2496=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2496
+LDIFF_SYM2627=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2627
 	.byte 3,141,144,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2497=Lfde201_end - Lfde201_start
-	.long LDIFF_SYM2497
-Lfde201_start:
+LDIFF_SYM2628=Lfde211_end - Lfde211_start
+	.long LDIFF_SYM2628
+Lfde211_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
 
-LDIFF_SYM2498=Lme_e7 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
-	.long LDIFF_SYM2498
+LDIFF_SYM2629=Lme_f1 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
+	.long LDIFF_SYM2629
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29
 	.align 3
-Lfde201_end:
+Lfde211_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_257:
+LTDIE_267:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
 
 	.byte 48,16
-LDIFF_SYM2499=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2499
+LDIFF_SYM2630=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2630
 	.byte 2,35,0,6
 	.asciz "m_synchronizationContext"
 
-LDIFF_SYM2500=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2500
+LDIFF_SYM2631=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2631
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM2501=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2501
+LDIFF_SYM2632=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2632
 	.byte 2,35,8,6
 	.asciz "m_task"
 
-LDIFF_SYM2502=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2502
+LDIFF_SYM2633=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2633
 	.byte 2,35,24,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
 
-LDIFF_SYM2503=LTDIE_257 - Ldebug_info_start
-	.long LDIFF_SYM2503
-LTDIE_257_POINTER:
+LDIFF_SYM2634=LTDIE_267 - Ldebug_info_start
+	.long LDIFF_SYM2634
+LTDIE_267_POINTER:
 
 	.byte 13
-LDIFF_SYM2504=LTDIE_257 - Ldebug_info_start
-	.long LDIFF_SYM2504
-LTDIE_257_REFERENCE:
+LDIFF_SYM2635=LTDIE_267 - Ldebug_info_start
+	.long LDIFF_SYM2635
+LTDIE_267_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2505=LTDIE_257 - Ldebug_info_start
-	.long LDIFF_SYM2505
+LDIFF_SYM2636=LTDIE_267 - Ldebug_info_start
+	.long LDIFF_SYM2636
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start<TStateMachine_GSHAREDVT>"
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_"
 
 	.byte 7,72
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
-	.quad Lme_e8
+	.quad Lme_f2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2506=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2506
+LDIFF_SYM2637=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2637
 	.byte 2,141,40,3
 	.asciz "stateMachine"
 
-LDIFF_SYM2507=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2507
+LDIFF_SYM2638=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2638
 	.byte 2,141,48,11
 	.asciz "ecs"
 
-LDIFF_SYM2508=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2508
+LDIFF_SYM2639=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2639
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2509=Lfde202_end - Lfde202_start
-	.long LDIFF_SYM2509
-Lfde202_start:
+LDIFF_SYM2640=Lfde212_end - Lfde212_start
+	.long LDIFF_SYM2640
+Lfde212_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
 
-LDIFF_SYM2510=Lme_e8 - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
-	.long LDIFF_SYM2510
+LDIFF_SYM2641=Lme_f2 - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
+	.long LDIFF_SYM2641
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16
 	.align 3
-Lfde202_end:
+Lfde212_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_258:
+LTDIE_268:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder"
 
 	.byte 40,16
-LDIFF_SYM2511=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2511
+LDIFF_SYM2642=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2642
 	.byte 2,35,0,6
 	.asciz "m_builder"
 
-LDIFF_SYM2512=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2512
+LDIFF_SYM2643=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2643
 	.byte 2,35,0,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder"
 
-LDIFF_SYM2513=LTDIE_258 - Ldebug_info_start
-	.long LDIFF_SYM2513
-LTDIE_258_POINTER:
+LDIFF_SYM2644=LTDIE_268 - Ldebug_info_start
+	.long LDIFF_SYM2644
+LTDIE_268_POINTER:
 
 	.byte 13
-LDIFF_SYM2514=LTDIE_258 - Ldebug_info_start
-	.long LDIFF_SYM2514
-LTDIE_258_REFERENCE:
+LDIFF_SYM2645=LTDIE_268 - Ldebug_info_start
+	.long LDIFF_SYM2645
+LTDIE_268_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2515=LTDIE_258 - Ldebug_info_start
-	.long LDIFF_SYM2515
+LDIFF_SYM2646=LTDIE_268 - Ldebug_info_start
+	.long LDIFF_SYM2646
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Octane.Xamarin.Forms.VideoPlayer.iOS.Renderers.VideoPlayerRenderer/<UpdateSource>d__23>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_"
 
 	.byte 7,176,2
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
-	.quad Lme_e9
+	.quad Lme_f3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2516=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2516
+LDIFF_SYM2647=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2647
 	.byte 0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM2517=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2517
+LDIFF_SYM2648=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2648
 	.byte 2,141,24,11
 	.asciz "ecs"
 
-LDIFF_SYM2518=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2518
+LDIFF_SYM2649=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2649
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2519=Lfde203_end - Lfde203_start
-	.long LDIFF_SYM2519
-Lfde203_start:
+LDIFF_SYM2650=Lfde213_end - Lfde213_start
+	.long LDIFF_SYM2650
+Lfde213_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
 
-LDIFF_SYM2520=Lme_e9 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
-	.long LDIFF_SYM2520
+LDIFF_SYM2651=Lme_f3 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
+	.long LDIFF_SYM2651
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde203_end:
+Lfde213_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_259:
+LTDIE_269:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter"
 
 	.byte 24,16
-LDIFF_SYM2521=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2521
+LDIFF_SYM2652=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2652
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM2522=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2522
+LDIFF_SYM2653=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2653
 	.byte 2,35,0,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter"
 
-LDIFF_SYM2523=LTDIE_259 - Ldebug_info_start
-	.long LDIFF_SYM2523
-LTDIE_259_POINTER:
+LDIFF_SYM2654=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2654
+LTDIE_269_POINTER:
 
 	.byte 13
-LDIFF_SYM2524=LTDIE_259 - Ldebug_info_start
-	.long LDIFF_SYM2524
-LTDIE_259_REFERENCE:
+LDIFF_SYM2655=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2655
+LTDIE_269_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2525=LTDIE_259 - Ldebug_info_start
-	.long LDIFF_SYM2525
-LTDIE_260:
+LDIFF_SYM2656=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2656
+LTDIE_270:
 
 	.byte 5
 	.asciz "_MoveNextRunner"
 
 	.byte 32,16
-LDIFF_SYM2526=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2526
+LDIFF_SYM2657=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2657
 	.byte 2,35,0,6
 	.asciz "m_context"
 
-LDIFF_SYM2527=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2527
+LDIFF_SYM2658=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2658
 	.byte 2,35,16,6
 	.asciz "m_stateMachine"
 
-LDIFF_SYM2528=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2528
+LDIFF_SYM2659=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2659
 	.byte 2,35,24,0,7
 	.asciz "_MoveNextRunner"
 
-LDIFF_SYM2529=LTDIE_260 - Ldebug_info_start
-	.long LDIFF_SYM2529
-LTDIE_260_POINTER:
+LDIFF_SYM2660=LTDIE_270 - Ldebug_info_start
+	.long LDIFF_SYM2660
+LTDIE_270_POINTER:
 
 	.byte 13
-LDIFF_SYM2530=LTDIE_260 - Ldebug_info_start
-	.long LDIFF_SYM2530
-LTDIE_260_REFERENCE:
+LDIFF_SYM2661=LTDIE_270 - Ldebug_info_start
+	.long LDIFF_SYM2661
+LTDIE_270_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2531=LTDIE_260 - Ldebug_info_start
-	.long LDIFF_SYM2531
-LTDIE_261:
+LDIFF_SYM2662=LTDIE_270 - Ldebug_info_start
+	.long LDIFF_SYM2662
+LTDIE_271:
 
 	.byte 5
 	.asciz "System_Action"
 
 	.byte 128,1,16
-LDIFF_SYM2532=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2532
+LDIFF_SYM2663=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2663
 	.byte 2,35,0,0,7
 	.asciz "System_Action"
 
-LDIFF_SYM2533=LTDIE_261 - Ldebug_info_start
-	.long LDIFF_SYM2533
-LTDIE_261_POINTER:
+LDIFF_SYM2664=LTDIE_271 - Ldebug_info_start
+	.long LDIFF_SYM2664
+LTDIE_271_POINTER:
 
 	.byte 13
-LDIFF_SYM2534=LTDIE_261 - Ldebug_info_start
-	.long LDIFF_SYM2534
-LTDIE_261_REFERENCE:
+LDIFF_SYM2665=LTDIE_271 - Ldebug_info_start
+	.long LDIFF_SYM2665
+LTDIE_271_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2535=LTDIE_261 - Ldebug_info_start
-	.long LDIFF_SYM2535
+LDIFF_SYM2666=LTDIE_271 - Ldebug_info_start
+	.long LDIFF_SYM2666
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<string>:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,_Octane.Xamarin.Forms.VideoPlayer.iOS.SourceHandlers.StreamVideoSourceHandler/<LoadVideoAsync>d__0>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_TaskAwaiter__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_"
 
 	.byte 7,158,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_TaskAwaiter__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
-	.quad Lme_ea
+	.quad Lme_f4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2536=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2536
+LDIFF_SYM2667=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2667
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM2537=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2537
+LDIFF_SYM2668=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2668
 	.byte 2,141,40,3
 	.asciz "stateMachine"
 
-LDIFF_SYM2538=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2538
+LDIFF_SYM2669=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2669
 	.byte 2,141,48,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM2539=LTDIE_260_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2539
+LDIFF_SYM2670=LTDIE_270_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2670
 	.byte 3,141,168,1,11
 	.asciz "continuation"
 
-LDIFF_SYM2540=LTDIE_261_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2540
+LDIFF_SYM2671=LTDIE_271_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2671
 	.byte 1,103,11
 	.asciz "builtTask"
 
-LDIFF_SYM2541=LTDIE_222_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2541
+LDIFF_SYM2672=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2672
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2542=Lfde204_end - Lfde204_start
-	.long LDIFF_SYM2542
-Lfde204_start:
+LDIFF_SYM2673=Lfde214_end - Lfde214_start
+	.long LDIFF_SYM2673
+Lfde214_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_TaskAwaiter__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
 
-LDIFF_SYM2543=Lme_ea - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_TaskAwaiter__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
-	.long LDIFF_SYM2543
+LDIFF_SYM2674=Lme_f4 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_TaskAwaiter__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
+	.long LDIFF_SYM2674
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,150,26,151,25,68,152,24
 	.align 3
-Lfde204_end:
+Lfde214_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_262:
+LTDIE_272:
 
 	.byte 5
 	.asciz "_ConfiguredTaskAwaiter"
 
 	.byte 32,16
-LDIFF_SYM2544=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2544
+LDIFF_SYM2675=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2675
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM2545=LTDIE_234_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2545
+LDIFF_SYM2676=LTDIE_243_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2676
 	.byte 2,35,16,6
 	.asciz "m_continueOnCapturedContext"
 
-LDIFF_SYM2546=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2546
+LDIFF_SYM2677=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2677
 	.byte 2,35,24,0,7
 	.asciz "_ConfiguredTaskAwaiter"
 
-LDIFF_SYM2547=LTDIE_262 - Ldebug_info_start
-	.long LDIFF_SYM2547
-LTDIE_262_POINTER:
+LDIFF_SYM2678=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM2678
+LTDIE_272_POINTER:
 
 	.byte 13
-LDIFF_SYM2548=LTDIE_262 - Ldebug_info_start
-	.long LDIFF_SYM2548
-LTDIE_262_REFERENCE:
+LDIFF_SYM2679=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM2679
+LTDIE_272_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2549=LTDIE_262 - Ldebug_info_start
-	.long LDIFF_SYM2549
+LDIFF_SYM2680=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM2680
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<string>:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.IO.Stream>,_Octane.Xamarin.Forms.VideoPlayer.iOS.SourceHandlers.StreamVideoSourceHandler/<LoadVideoAsync>d__0>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_"
 
 	.byte 7,158,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
-	.quad Lme_eb
+	.quad Lme_f5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2550=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2550
+LDIFF_SYM2681=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2681
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM2551=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2551
+LDIFF_SYM2682=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2682
 	.byte 2,141,40,3
 	.asciz "stateMachine"
 
-LDIFF_SYM2552=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2552
+LDIFF_SYM2683=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2683
 	.byte 2,141,48,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM2553=LTDIE_260_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2553
+LDIFF_SYM2684=LTDIE_270_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2684
 	.byte 3,141,168,1,11
 	.asciz "continuation"
 
-LDIFF_SYM2554=LTDIE_261_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2554
+LDIFF_SYM2685=LTDIE_271_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2685
 	.byte 1,103,11
 	.asciz "builtTask"
 
-LDIFF_SYM2555=LTDIE_222_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2555
+LDIFF_SYM2686=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2686
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2556=Lfde205_end - Lfde205_start
-	.long LDIFF_SYM2556
-Lfde205_start:
+LDIFF_SYM2687=Lfde215_end - Lfde215_start
+	.long LDIFF_SYM2687
+Lfde215_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
 
-LDIFF_SYM2557=Lme_eb - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
-	.long LDIFF_SYM2557
+LDIFF_SYM2688=Lme_f5 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__Octane_Xamarin_Forms_VideoPlayer_iOS_SourceHandlers_StreamVideoSourceHandler__LoadVideoAsyncd__0_
+	.long LDIFF_SYM2688
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,150,26,151,25,68,152,24
 	.align 3
-Lfde205_end:
+Lfde215_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -41369,486 +44847,122 @@ Lfde205_end:
 
 	.byte 7,161,1
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
-	.quad Lme_ec
+	.quad Lme_f6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2558=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2558
+LDIFF_SYM2689=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2689
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM2559=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2559
+LDIFF_SYM2690=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2690
 	.byte 3,141,192,0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM2560=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2560
+LDIFF_SYM2691=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2691
 	.byte 1,106,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM2561=LTDIE_260_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2561
+LDIFF_SYM2692=LTDIE_270_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2692
 	.byte 3,141,208,0,11
 	.asciz "continuation"
 
-LDIFF_SYM2562=LTDIE_261_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2562
+LDIFF_SYM2693=LTDIE_271_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2693
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2563=Lfde206_end - Lfde206_start
-	.long LDIFF_SYM2563
-Lfde206_start:
+LDIFF_SYM2694=Lfde216_end - Lfde216_start
+	.long LDIFF_SYM2694
+Lfde216_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
 
-LDIFF_SYM2564=Lme_ec - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
-	.long LDIFF_SYM2564
+LDIFF_SYM2695=Lme_f6 - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
+	.long LDIFF_SYM2695
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,148,18,149,17,68,150,16,151,15,68,152,14,68,154,13
 	.align 3
-Lfde206_end:
+Lfde216_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_263:
+LTDIE_273:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM2565=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2565
+LDIFF_SYM2696=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2696
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM2566=LTDIE_222_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2566
+LDIFF_SYM2697=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2697
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM2567=LTDIE_263 - Ldebug_info_start
-	.long LDIFF_SYM2567
-LTDIE_263_POINTER:
+LDIFF_SYM2698=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM2698
+LTDIE_273_POINTER:
 
 	.byte 13
-LDIFF_SYM2568=LTDIE_263 - Ldebug_info_start
-	.long LDIFF_SYM2568
-LTDIE_263_REFERENCE:
+LDIFF_SYM2699=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM2699
+LTDIE_273_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2569=LTDIE_263 - Ldebug_info_start
-	.long LDIFF_SYM2569
+LDIFF_SYM2700=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM2700
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<string>,_Octane.Xamarin.Forms.VideoPlayer.iOS.Renderers.VideoPlayerRenderer/<UpdateSource>d__23>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_"
 
 	.byte 7,232,2
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
-	.quad Lme_ed
+	.quad Lme_f7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2570=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2570
+LDIFF_SYM2701=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2701
 	.byte 2,141,16,3
 	.asciz "awaiter"
 
-LDIFF_SYM2571=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2571
+LDIFF_SYM2702=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2702
 	.byte 2,141,24,3
 	.asciz "stateMachine"
 
-LDIFF_SYM2572=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2572
+LDIFF_SYM2703=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2703
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2573=Lfde207_end - Lfde207_start
-	.long LDIFF_SYM2573
-Lfde207_start:
+LDIFF_SYM2704=Lfde217_end - Lfde217_start
+	.long LDIFF_SYM2704
+Lfde217_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
 
-LDIFF_SYM2574=Lme_ed - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
-	.long LDIFF_SYM2574
+LDIFF_SYM2705=Lme_f7 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
+	.long LDIFF_SYM2705
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde207_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_265:
-
-	.byte 5
-	.asciz "_Iterator`1"
-
-	.byte 32,16
-LDIFF_SYM2575=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2575
-	.byte 2,35,0,6
-	.asciz "_threadId"
-
-LDIFF_SYM2576=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2576
-	.byte 2,35,24,6
-	.asciz "_state"
-
-LDIFF_SYM2577=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2577
-	.byte 2,35,28,6
-	.asciz "_current"
-
-LDIFF_SYM2578=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2578
-	.byte 2,35,16,0,7
-	.asciz "_Iterator`1"
-
-LDIFF_SYM2579=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2579
-LTDIE_265_POINTER:
-
-	.byte 13
-LDIFF_SYM2580=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2580
-LTDIE_265_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2581=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2581
-LTDIE_266:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IEnumerable`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IEnumerable`1"
-
-LDIFF_SYM2582=LTDIE_266 - Ldebug_info_start
-	.long LDIFF_SYM2582
-LTDIE_266_POINTER:
-
-	.byte 13
-LDIFF_SYM2583=LTDIE_266 - Ldebug_info_start
-	.long LDIFF_SYM2583
-LTDIE_266_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2584=LTDIE_266 - Ldebug_info_start
-	.long LDIFF_SYM2584
-LTDIE_267:
-
-	.byte 5
-	.asciz "System_Func`2"
-
-	.byte 128,1,16
-LDIFF_SYM2585=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2585
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM2586=LTDIE_267 - Ldebug_info_start
-	.long LDIFF_SYM2586
-LTDIE_267_POINTER:
-
-	.byte 13
-LDIFF_SYM2587=LTDIE_267 - Ldebug_info_start
-	.long LDIFF_SYM2587
-LTDIE_267_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2588=LTDIE_267 - Ldebug_info_start
-	.long LDIFF_SYM2588
-LTDIE_268:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IEnumerator`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IEnumerator`1"
-
-LDIFF_SYM2589=LTDIE_268 - Ldebug_info_start
-	.long LDIFF_SYM2589
-LTDIE_268_POINTER:
-
-	.byte 13
-LDIFF_SYM2590=LTDIE_268 - Ldebug_info_start
-	.long LDIFF_SYM2590
-LTDIE_268_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2591=LTDIE_268 - Ldebug_info_start
-	.long LDIFF_SYM2591
-LTDIE_264:
-
-	.byte 5
-	.asciz "_SelectEnumerableIterator`2"
-
-	.byte 56,16
-LDIFF_SYM2592=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2592
-	.byte 2,35,0,6
-	.asciz "_source"
-
-LDIFF_SYM2593=LTDIE_266_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2593
-	.byte 2,35,32,6
-	.asciz "_selector"
-
-LDIFF_SYM2594=LTDIE_267_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2594
-	.byte 2,35,40,6
-	.asciz "_enumerator"
-
-LDIFF_SYM2595=LTDIE_268_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2595
-	.byte 2,35,48,0,7
-	.asciz "_SelectEnumerableIterator`2"
-
-LDIFF_SYM2596=LTDIE_264 - Ldebug_info_start
-	.long LDIFF_SYM2596
-LTDIE_264_POINTER:
-
-	.byte 13
-LDIFF_SYM2597=LTDIE_264 - Ldebug_info_start
-	.long LDIFF_SYM2597
-LTDIE_264_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2598=LTDIE_264 - Ldebug_info_start
-	.long LDIFF_SYM2598
-	.byte 2
-	.asciz "System.Linq.Enumerable/SelectEnumerableIterator`2<TSource_BYTE,_TResult_REF>:.ctor"
-	.asciz "System_Linq_Enumerable_SelectEnumerableIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF"
-
-	.byte 3,98
-	.quad System_Linq_Enumerable_SelectEnumerableIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
-	.quad Lme_ee
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2599=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2599
-	.byte 2,141,16,3
-	.asciz "source"
-
-LDIFF_SYM2600=LTDIE_266_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2600
-	.byte 2,141,24,3
-	.asciz "selector"
-
-LDIFF_SYM2601=LTDIE_267_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2601
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2602=Lfde208_end - Lfde208_start
-	.long LDIFF_SYM2602
-Lfde208_start:
-
-	.long 0
-	.align 3
-	.quad System_Linq_Enumerable_SelectEnumerableIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
-
-LDIFF_SYM2603=Lme_ee - System_Linq_Enumerable_SelectEnumerableIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
-	.long LDIFF_SYM2603
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde208_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_270:
-
-	.byte 5
-	.asciz "_Iterator`1"
-
-	.byte 32,16
-LDIFF_SYM2604=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2604
-	.byte 2,35,0,6
-	.asciz "_threadId"
-
-LDIFF_SYM2605=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2605
-	.byte 2,35,24,6
-	.asciz "_state"
-
-LDIFF_SYM2606=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2606
-	.byte 2,35,28,6
-	.asciz "_current"
-
-LDIFF_SYM2607=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2607
-	.byte 2,35,16,0,7
-	.asciz "_Iterator`1"
-
-LDIFF_SYM2608=LTDIE_270 - Ldebug_info_start
-	.long LDIFF_SYM2608
-LTDIE_270_POINTER:
-
-	.byte 13
-LDIFF_SYM2609=LTDIE_270 - Ldebug_info_start
-	.long LDIFF_SYM2609
-LTDIE_270_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2610=LTDIE_270 - Ldebug_info_start
-	.long LDIFF_SYM2610
-LTDIE_271:
-
-	.byte 17
-	.asciz "System_Linq_IPartition`1"
-
-	.byte 16,7
-	.asciz "System_Linq_IPartition`1"
-
-LDIFF_SYM2611=LTDIE_271 - Ldebug_info_start
-	.long LDIFF_SYM2611
-LTDIE_271_POINTER:
-
-	.byte 13
-LDIFF_SYM2612=LTDIE_271 - Ldebug_info_start
-	.long LDIFF_SYM2612
-LTDIE_271_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2613=LTDIE_271 - Ldebug_info_start
-	.long LDIFF_SYM2613
-LTDIE_272:
-
-	.byte 5
-	.asciz "System_Func`2"
-
-	.byte 128,1,16
-LDIFF_SYM2614=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2614
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM2615=LTDIE_272 - Ldebug_info_start
-	.long LDIFF_SYM2615
-LTDIE_272_POINTER:
-
-	.byte 13
-LDIFF_SYM2616=LTDIE_272 - Ldebug_info_start
-	.long LDIFF_SYM2616
-LTDIE_272_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2617=LTDIE_272 - Ldebug_info_start
-	.long LDIFF_SYM2617
-LTDIE_273:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IEnumerator`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IEnumerator`1"
-
-LDIFF_SYM2618=LTDIE_273 - Ldebug_info_start
-	.long LDIFF_SYM2618
-LTDIE_273_POINTER:
-
-	.byte 13
-LDIFF_SYM2619=LTDIE_273 - Ldebug_info_start
-	.long LDIFF_SYM2619
-LTDIE_273_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2620=LTDIE_273 - Ldebug_info_start
-	.long LDIFF_SYM2620
-LTDIE_269:
-
-	.byte 5
-	.asciz "_SelectIPartitionIterator`2"
-
-	.byte 56,16
-LDIFF_SYM2621=LTDIE_270 - Ldebug_info_start
-	.long LDIFF_SYM2621
-	.byte 2,35,0,6
-	.asciz "_source"
-
-LDIFF_SYM2622=LTDIE_271_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2622
-	.byte 2,35,32,6
-	.asciz "_selector"
-
-LDIFF_SYM2623=LTDIE_272_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2623
-	.byte 2,35,40,6
-	.asciz "_enumerator"
-
-LDIFF_SYM2624=LTDIE_273_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2624
-	.byte 2,35,48,0,7
-	.asciz "_SelectIPartitionIterator`2"
-
-LDIFF_SYM2625=LTDIE_269 - Ldebug_info_start
-	.long LDIFF_SYM2625
-LTDIE_269_POINTER:
-
-	.byte 13
-LDIFF_SYM2626=LTDIE_269 - Ldebug_info_start
-	.long LDIFF_SYM2626
-LTDIE_269_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2627=LTDIE_269 - Ldebug_info_start
-	.long LDIFF_SYM2627
-	.byte 2
-	.asciz "System.Linq.Enumerable/SelectIPartitionIterator`2<TSource_BYTE,_TResult_REF>:.ctor"
-	.asciz "System_Linq_Enumerable_SelectIPartitionIterator_2_TSource_BYTE_TResult_REF__ctor_System_Linq_IPartition_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF"
-
-	.byte 3,235,4
-	.quad System_Linq_Enumerable_SelectIPartitionIterator_2_TSource_BYTE_TResult_REF__ctor_System_Linq_IPartition_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
-	.quad Lme_ef
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2628=LTDIE_269_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2628
-	.byte 2,141,16,3
-	.asciz "source"
-
-LDIFF_SYM2629=LTDIE_271_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2629
-	.byte 2,141,24,3
-	.asciz "selector"
-
-LDIFF_SYM2630=LTDIE_272_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2630
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2631=Lfde209_end - Lfde209_start
-	.long LDIFF_SYM2631
-Lfde209_start:
-
-	.long 0
-	.align 3
-	.quad System_Linq_Enumerable_SelectIPartitionIterator_2_TSource_BYTE_TResult_REF__ctor_System_Linq_IPartition_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
-
-LDIFF_SYM2632=Lme_ef - System_Linq_Enumerable_SelectIPartitionIterator_2_TSource_BYTE_TResult_REF__ctor_System_Linq_IPartition_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
-	.long LDIFF_SYM2632
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde209_end:
+Lfde217_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_275:
@@ -41857,81 +44971,81 @@ LTDIE_275:
 	.asciz "_Iterator`1"
 
 	.byte 32,16
-LDIFF_SYM2633=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2633
+LDIFF_SYM2706=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2706
 	.byte 2,35,0,6
 	.asciz "_threadId"
 
-LDIFF_SYM2634=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2634
+LDIFF_SYM2707=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2707
 	.byte 2,35,24,6
 	.asciz "_state"
 
-LDIFF_SYM2635=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2635
+LDIFF_SYM2708=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2708
 	.byte 2,35,28,6
 	.asciz "_current"
 
-LDIFF_SYM2636=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2636
+LDIFF_SYM2709=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2709
 	.byte 2,35,16,0,7
 	.asciz "_Iterator`1"
 
-LDIFF_SYM2637=LTDIE_275 - Ldebug_info_start
-	.long LDIFF_SYM2637
+LDIFF_SYM2710=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM2710
 LTDIE_275_POINTER:
 
 	.byte 13
-LDIFF_SYM2638=LTDIE_275 - Ldebug_info_start
-	.long LDIFF_SYM2638
+LDIFF_SYM2711=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM2711
 LTDIE_275_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2639=LTDIE_275 - Ldebug_info_start
-	.long LDIFF_SYM2639
+LDIFF_SYM2712=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM2712
 LTDIE_276:
 
 	.byte 17
-	.asciz "System_Collections_Generic_IList`1"
+	.asciz "System_Collections_Generic_IEnumerable`1"
 
 	.byte 16,7
-	.asciz "System_Collections_Generic_IList`1"
+	.asciz "System_Collections_Generic_IEnumerable`1"
 
-LDIFF_SYM2640=LTDIE_276 - Ldebug_info_start
-	.long LDIFF_SYM2640
+LDIFF_SYM2713=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM2713
 LTDIE_276_POINTER:
 
 	.byte 13
-LDIFF_SYM2641=LTDIE_276 - Ldebug_info_start
-	.long LDIFF_SYM2641
+LDIFF_SYM2714=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM2714
 LTDIE_276_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2642=LTDIE_276 - Ldebug_info_start
-	.long LDIFF_SYM2642
+LDIFF_SYM2715=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM2715
 LTDIE_277:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM2643=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2643
+LDIFF_SYM2716=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2716
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2644=LTDIE_277 - Ldebug_info_start
-	.long LDIFF_SYM2644
+LDIFF_SYM2717=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM2717
 LTDIE_277_POINTER:
 
 	.byte 13
-LDIFF_SYM2645=LTDIE_277 - Ldebug_info_start
-	.long LDIFF_SYM2645
+LDIFF_SYM2718=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM2718
 LTDIE_277_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2646=LTDIE_277 - Ldebug_info_start
-	.long LDIFF_SYM2646
+LDIFF_SYM2719=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM2719
 LTDIE_278:
 
 	.byte 17
@@ -41940,97 +45054,97 @@ LTDIE_278:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEnumerator`1"
 
-LDIFF_SYM2647=LTDIE_278 - Ldebug_info_start
-	.long LDIFF_SYM2647
+LDIFF_SYM2720=LTDIE_278 - Ldebug_info_start
+	.long LDIFF_SYM2720
 LTDIE_278_POINTER:
 
 	.byte 13
-LDIFF_SYM2648=LTDIE_278 - Ldebug_info_start
-	.long LDIFF_SYM2648
+LDIFF_SYM2721=LTDIE_278 - Ldebug_info_start
+	.long LDIFF_SYM2721
 LTDIE_278_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2649=LTDIE_278 - Ldebug_info_start
-	.long LDIFF_SYM2649
+LDIFF_SYM2722=LTDIE_278 - Ldebug_info_start
+	.long LDIFF_SYM2722
 LTDIE_274:
 
 	.byte 5
-	.asciz "_SelectIListIterator`2"
+	.asciz "_SelectEnumerableIterator`2"
 
 	.byte 56,16
-LDIFF_SYM2650=LTDIE_275 - Ldebug_info_start
-	.long LDIFF_SYM2650
+LDIFF_SYM2723=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM2723
 	.byte 2,35,0,6
 	.asciz "_source"
 
-LDIFF_SYM2651=LTDIE_276_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2651
+LDIFF_SYM2724=LTDIE_276_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2724
 	.byte 2,35,32,6
 	.asciz "_selector"
 
-LDIFF_SYM2652=LTDIE_277_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2652
+LDIFF_SYM2725=LTDIE_277_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2725
 	.byte 2,35,40,6
 	.asciz "_enumerator"
 
-LDIFF_SYM2653=LTDIE_278_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2653
+LDIFF_SYM2726=LTDIE_278_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2726
 	.byte 2,35,48,0,7
-	.asciz "_SelectIListIterator`2"
+	.asciz "_SelectEnumerableIterator`2"
 
-LDIFF_SYM2654=LTDIE_274 - Ldebug_info_start
-	.long LDIFF_SYM2654
+LDIFF_SYM2727=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM2727
 LTDIE_274_POINTER:
 
 	.byte 13
-LDIFF_SYM2655=LTDIE_274 - Ldebug_info_start
-	.long LDIFF_SYM2655
+LDIFF_SYM2728=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM2728
 LTDIE_274_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2656=LTDIE_274 - Ldebug_info_start
-	.long LDIFF_SYM2656
+LDIFF_SYM2729=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM2729
 	.byte 2
-	.asciz "System.Linq.Enumerable/SelectIListIterator`2<TSource_BYTE,_TResult_REF>:.ctor"
-	.asciz "System_Linq_Enumerable_SelectIListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IList_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF"
+	.asciz "System.Linq.Enumerable/SelectEnumerableIterator`2<TSource_BYTE,_TResult_REF>:.ctor"
+	.asciz "System_Linq_Enumerable_SelectEnumerableIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF"
 
-	.byte 3,212,3
-	.quad System_Linq_Enumerable_SelectIListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IList_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
-	.quad Lme_f0
+	.byte 3,98
+	.quad System_Linq_Enumerable_SelectEnumerableIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
+	.quad Lme_f8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2657=LTDIE_274_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2657
+LDIFF_SYM2730=LTDIE_274_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2730
 	.byte 2,141,16,3
 	.asciz "source"
 
-LDIFF_SYM2658=LTDIE_276_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2658
+LDIFF_SYM2731=LTDIE_276_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2731
 	.byte 2,141,24,3
 	.asciz "selector"
 
-LDIFF_SYM2659=LTDIE_277_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2659
+LDIFF_SYM2732=LTDIE_277_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2732
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2660=Lfde210_end - Lfde210_start
-	.long LDIFF_SYM2660
-Lfde210_start:
+LDIFF_SYM2733=Lfde218_end - Lfde218_start
+	.long LDIFF_SYM2733
+Lfde218_start:
 
 	.long 0
 	.align 3
-	.quad System_Linq_Enumerable_SelectIListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IList_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
+	.quad System_Linq_Enumerable_SelectEnumerableIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
 
-LDIFF_SYM2661=Lme_f0 - System_Linq_Enumerable_SelectIListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IList_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
-	.long LDIFF_SYM2661
+LDIFF_SYM2734=Lme_f8 - System_Linq_Enumerable_SelectEnumerableIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
+	.long LDIFF_SYM2734
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde210_end:
+Lfde218_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_280:
@@ -42039,361 +45153,725 @@ LTDIE_280:
 	.asciz "_Iterator`1"
 
 	.byte 32,16
-LDIFF_SYM2662=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2662
+LDIFF_SYM2735=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2735
 	.byte 2,35,0,6
 	.asciz "_threadId"
 
-LDIFF_SYM2663=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2663
+LDIFF_SYM2736=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2736
 	.byte 2,35,24,6
 	.asciz "_state"
 
-LDIFF_SYM2664=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2664
+LDIFF_SYM2737=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2737
 	.byte 2,35,28,6
 	.asciz "_current"
 
-LDIFF_SYM2665=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2665
+LDIFF_SYM2738=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2738
 	.byte 2,35,16,0,7
 	.asciz "_Iterator`1"
 
-LDIFF_SYM2666=LTDIE_280 - Ldebug_info_start
-	.long LDIFF_SYM2666
+LDIFF_SYM2739=LTDIE_280 - Ldebug_info_start
+	.long LDIFF_SYM2739
 LTDIE_280_POINTER:
 
 	.byte 13
-LDIFF_SYM2667=LTDIE_280 - Ldebug_info_start
-	.long LDIFF_SYM2667
+LDIFF_SYM2740=LTDIE_280 - Ldebug_info_start
+	.long LDIFF_SYM2740
 LTDIE_280_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2668=LTDIE_280 - Ldebug_info_start
-	.long LDIFF_SYM2668
+LDIFF_SYM2741=LTDIE_280 - Ldebug_info_start
+	.long LDIFF_SYM2741
 LTDIE_281:
 
-	.byte 5
-	.asciz "System_Collections_Generic_List`1"
+	.byte 17
+	.asciz "System_Linq_IPartition`1"
 
-	.byte 40,16
-LDIFF_SYM2669=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2669
-	.byte 2,35,0,6
-	.asciz "_items"
+	.byte 16,7
+	.asciz "System_Linq_IPartition`1"
 
-LDIFF_SYM2670=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2670
-	.byte 2,35,16,6
-	.asciz "_size"
-
-LDIFF_SYM2671=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2671
-	.byte 2,35,32,6
-	.asciz "_version"
-
-LDIFF_SYM2672=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2672
-	.byte 2,35,36,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM2673=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2673
-	.byte 2,35,24,0,7
-	.asciz "System_Collections_Generic_List`1"
-
-LDIFF_SYM2674=LTDIE_281 - Ldebug_info_start
-	.long LDIFF_SYM2674
+LDIFF_SYM2742=LTDIE_281 - Ldebug_info_start
+	.long LDIFF_SYM2742
 LTDIE_281_POINTER:
 
 	.byte 13
-LDIFF_SYM2675=LTDIE_281 - Ldebug_info_start
-	.long LDIFF_SYM2675
+LDIFF_SYM2743=LTDIE_281 - Ldebug_info_start
+	.long LDIFF_SYM2743
 LTDIE_281_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2676=LTDIE_281 - Ldebug_info_start
-	.long LDIFF_SYM2676
+LDIFF_SYM2744=LTDIE_281 - Ldebug_info_start
+	.long LDIFF_SYM2744
 LTDIE_282:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM2677=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2677
+LDIFF_SYM2745=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2745
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2678=LTDIE_282 - Ldebug_info_start
-	.long LDIFF_SYM2678
+LDIFF_SYM2746=LTDIE_282 - Ldebug_info_start
+	.long LDIFF_SYM2746
 LTDIE_282_POINTER:
 
 	.byte 13
-LDIFF_SYM2679=LTDIE_282 - Ldebug_info_start
-	.long LDIFF_SYM2679
+LDIFF_SYM2747=LTDIE_282 - Ldebug_info_start
+	.long LDIFF_SYM2747
 LTDIE_282_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2680=LTDIE_282 - Ldebug_info_start
-	.long LDIFF_SYM2680
+LDIFF_SYM2748=LTDIE_282 - Ldebug_info_start
+	.long LDIFF_SYM2748
+LTDIE_283:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IEnumerator`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IEnumerator`1"
+
+LDIFF_SYM2749=LTDIE_283 - Ldebug_info_start
+	.long LDIFF_SYM2749
+LTDIE_283_POINTER:
+
+	.byte 13
+LDIFF_SYM2750=LTDIE_283 - Ldebug_info_start
+	.long LDIFF_SYM2750
+LTDIE_283_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2751=LTDIE_283 - Ldebug_info_start
+	.long LDIFF_SYM2751
 LTDIE_279:
+
+	.byte 5
+	.asciz "_SelectIPartitionIterator`2"
+
+	.byte 56,16
+LDIFF_SYM2752=LTDIE_280 - Ldebug_info_start
+	.long LDIFF_SYM2752
+	.byte 2,35,0,6
+	.asciz "_source"
+
+LDIFF_SYM2753=LTDIE_281_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2753
+	.byte 2,35,32,6
+	.asciz "_selector"
+
+LDIFF_SYM2754=LTDIE_282_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2754
+	.byte 2,35,40,6
+	.asciz "_enumerator"
+
+LDIFF_SYM2755=LTDIE_283_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2755
+	.byte 2,35,48,0,7
+	.asciz "_SelectIPartitionIterator`2"
+
+LDIFF_SYM2756=LTDIE_279 - Ldebug_info_start
+	.long LDIFF_SYM2756
+LTDIE_279_POINTER:
+
+	.byte 13
+LDIFF_SYM2757=LTDIE_279 - Ldebug_info_start
+	.long LDIFF_SYM2757
+LTDIE_279_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2758=LTDIE_279 - Ldebug_info_start
+	.long LDIFF_SYM2758
+	.byte 2
+	.asciz "System.Linq.Enumerable/SelectIPartitionIterator`2<TSource_BYTE,_TResult_REF>:.ctor"
+	.asciz "System_Linq_Enumerable_SelectIPartitionIterator_2_TSource_BYTE_TResult_REF__ctor_System_Linq_IPartition_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF"
+
+	.byte 3,235,4
+	.quad System_Linq_Enumerable_SelectIPartitionIterator_2_TSource_BYTE_TResult_REF__ctor_System_Linq_IPartition_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
+	.quad Lme_f9
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2759=LTDIE_279_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2759
+	.byte 2,141,16,3
+	.asciz "source"
+
+LDIFF_SYM2760=LTDIE_281_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2760
+	.byte 2,141,24,3
+	.asciz "selector"
+
+LDIFF_SYM2761=LTDIE_282_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2761
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2762=Lfde219_end - Lfde219_start
+	.long LDIFF_SYM2762
+Lfde219_start:
+
+	.long 0
+	.align 3
+	.quad System_Linq_Enumerable_SelectIPartitionIterator_2_TSource_BYTE_TResult_REF__ctor_System_Linq_IPartition_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
+
+LDIFF_SYM2763=Lme_f9 - System_Linq_Enumerable_SelectIPartitionIterator_2_TSource_BYTE_TResult_REF__ctor_System_Linq_IPartition_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
+	.long LDIFF_SYM2763
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde219_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_285:
+
+	.byte 5
+	.asciz "_Iterator`1"
+
+	.byte 32,16
+LDIFF_SYM2764=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2764
+	.byte 2,35,0,6
+	.asciz "_threadId"
+
+LDIFF_SYM2765=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2765
+	.byte 2,35,24,6
+	.asciz "_state"
+
+LDIFF_SYM2766=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2766
+	.byte 2,35,28,6
+	.asciz "_current"
+
+LDIFF_SYM2767=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2767
+	.byte 2,35,16,0,7
+	.asciz "_Iterator`1"
+
+LDIFF_SYM2768=LTDIE_285 - Ldebug_info_start
+	.long LDIFF_SYM2768
+LTDIE_285_POINTER:
+
+	.byte 13
+LDIFF_SYM2769=LTDIE_285 - Ldebug_info_start
+	.long LDIFF_SYM2769
+LTDIE_285_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2770=LTDIE_285 - Ldebug_info_start
+	.long LDIFF_SYM2770
+LTDIE_286:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM2771=LTDIE_286 - Ldebug_info_start
+	.long LDIFF_SYM2771
+LTDIE_286_POINTER:
+
+	.byte 13
+LDIFF_SYM2772=LTDIE_286 - Ldebug_info_start
+	.long LDIFF_SYM2772
+LTDIE_286_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2773=LTDIE_286 - Ldebug_info_start
+	.long LDIFF_SYM2773
+LTDIE_287:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 128,1,16
+LDIFF_SYM2774=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2774
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM2775=LTDIE_287 - Ldebug_info_start
+	.long LDIFF_SYM2775
+LTDIE_287_POINTER:
+
+	.byte 13
+LDIFF_SYM2776=LTDIE_287 - Ldebug_info_start
+	.long LDIFF_SYM2776
+LTDIE_287_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2777=LTDIE_287 - Ldebug_info_start
+	.long LDIFF_SYM2777
+LTDIE_288:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IEnumerator`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IEnumerator`1"
+
+LDIFF_SYM2778=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2778
+LTDIE_288_POINTER:
+
+	.byte 13
+LDIFF_SYM2779=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2779
+LTDIE_288_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2780=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2780
+LTDIE_284:
+
+	.byte 5
+	.asciz "_SelectIListIterator`2"
+
+	.byte 56,16
+LDIFF_SYM2781=LTDIE_285 - Ldebug_info_start
+	.long LDIFF_SYM2781
+	.byte 2,35,0,6
+	.asciz "_source"
+
+LDIFF_SYM2782=LTDIE_286_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2782
+	.byte 2,35,32,6
+	.asciz "_selector"
+
+LDIFF_SYM2783=LTDIE_287_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2783
+	.byte 2,35,40,6
+	.asciz "_enumerator"
+
+LDIFF_SYM2784=LTDIE_288_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2784
+	.byte 2,35,48,0,7
+	.asciz "_SelectIListIterator`2"
+
+LDIFF_SYM2785=LTDIE_284 - Ldebug_info_start
+	.long LDIFF_SYM2785
+LTDIE_284_POINTER:
+
+	.byte 13
+LDIFF_SYM2786=LTDIE_284 - Ldebug_info_start
+	.long LDIFF_SYM2786
+LTDIE_284_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2787=LTDIE_284 - Ldebug_info_start
+	.long LDIFF_SYM2787
+	.byte 2
+	.asciz "System.Linq.Enumerable/SelectIListIterator`2<TSource_BYTE,_TResult_REF>:.ctor"
+	.asciz "System_Linq_Enumerable_SelectIListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IList_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF"
+
+	.byte 3,212,3
+	.quad System_Linq_Enumerable_SelectIListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IList_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
+	.quad Lme_fa
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2788=LTDIE_284_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2788
+	.byte 2,141,16,3
+	.asciz "source"
+
+LDIFF_SYM2789=LTDIE_286_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2789
+	.byte 2,141,24,3
+	.asciz "selector"
+
+LDIFF_SYM2790=LTDIE_287_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2790
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2791=Lfde220_end - Lfde220_start
+	.long LDIFF_SYM2791
+Lfde220_start:
+
+	.long 0
+	.align 3
+	.quad System_Linq_Enumerable_SelectIListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IList_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
+
+LDIFF_SYM2792=Lme_fa - System_Linq_Enumerable_SelectIListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_IList_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
+	.long LDIFF_SYM2792
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde220_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_290:
+
+	.byte 5
+	.asciz "_Iterator`1"
+
+	.byte 32,16
+LDIFF_SYM2793=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2793
+	.byte 2,35,0,6
+	.asciz "_threadId"
+
+LDIFF_SYM2794=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2794
+	.byte 2,35,24,6
+	.asciz "_state"
+
+LDIFF_SYM2795=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2795
+	.byte 2,35,28,6
+	.asciz "_current"
+
+LDIFF_SYM2796=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2796
+	.byte 2,35,16,0,7
+	.asciz "_Iterator`1"
+
+LDIFF_SYM2797=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2797
+LTDIE_290_POINTER:
+
+	.byte 13
+LDIFF_SYM2798=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2798
+LTDIE_290_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2799=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2799
+LTDIE_291:
+
+	.byte 5
+	.asciz "System_Collections_Generic_List`1"
+
+	.byte 40,16
+LDIFF_SYM2800=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2800
+	.byte 2,35,0,6
+	.asciz "_items"
+
+LDIFF_SYM2801=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2801
+	.byte 2,35,16,6
+	.asciz "_size"
+
+LDIFF_SYM2802=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2802
+	.byte 2,35,32,6
+	.asciz "_version"
+
+LDIFF_SYM2803=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2803
+	.byte 2,35,36,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM2804=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2804
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM2805=LTDIE_291 - Ldebug_info_start
+	.long LDIFF_SYM2805
+LTDIE_291_POINTER:
+
+	.byte 13
+LDIFF_SYM2806=LTDIE_291 - Ldebug_info_start
+	.long LDIFF_SYM2806
+LTDIE_291_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2807=LTDIE_291 - Ldebug_info_start
+	.long LDIFF_SYM2807
+LTDIE_292:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 128,1,16
+LDIFF_SYM2808=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2808
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM2809=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2809
+LTDIE_292_POINTER:
+
+	.byte 13
+LDIFF_SYM2810=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2810
+LTDIE_292_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2811=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2811
+LTDIE_289:
 
 	.byte 5
 	.asciz "_SelectListIterator`2"
 
 	.byte 72,16
-LDIFF_SYM2681=LTDIE_280 - Ldebug_info_start
-	.long LDIFF_SYM2681
+LDIFF_SYM2812=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2812
 	.byte 2,35,0,6
 	.asciz "_source"
 
-LDIFF_SYM2682=LTDIE_281_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2682
+LDIFF_SYM2813=LTDIE_291_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2813
 	.byte 2,35,32,6
 	.asciz "_selector"
 
-LDIFF_SYM2683=LTDIE_282_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2683
+LDIFF_SYM2814=LTDIE_292_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2814
 	.byte 2,35,40,6
 	.asciz "_enumerator"
 
-LDIFF_SYM2684=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2684
+LDIFF_SYM2815=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2815
 	.byte 2,35,48,0,7
 	.asciz "_SelectListIterator`2"
 
-LDIFF_SYM2685=LTDIE_279 - Ldebug_info_start
-	.long LDIFF_SYM2685
-LTDIE_279_POINTER:
+LDIFF_SYM2816=LTDIE_289 - Ldebug_info_start
+	.long LDIFF_SYM2816
+LTDIE_289_POINTER:
 
 	.byte 13
-LDIFF_SYM2686=LTDIE_279 - Ldebug_info_start
-	.long LDIFF_SYM2686
-LTDIE_279_REFERENCE:
+LDIFF_SYM2817=LTDIE_289 - Ldebug_info_start
+	.long LDIFF_SYM2817
+LTDIE_289_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2687=LTDIE_279 - Ldebug_info_start
-	.long LDIFF_SYM2687
+LDIFF_SYM2818=LTDIE_289 - Ldebug_info_start
+	.long LDIFF_SYM2818
 	.byte 2
 	.asciz "System.Linq.Enumerable/SelectListIterator`2<TSource_BYTE,_TResult_REF>:.ctor"
 	.asciz "System_Linq_Enumerable_SelectListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_List_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF"
 
 	.byte 3,200,2
 	.quad System_Linq_Enumerable_SelectListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_List_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
-	.quad Lme_f1
+	.quad Lme_fb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2688=LTDIE_279_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2688
+LDIFF_SYM2819=LTDIE_289_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2819
 	.byte 2,141,16,3
 	.asciz "source"
 
-LDIFF_SYM2689=LTDIE_281_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2689
+LDIFF_SYM2820=LTDIE_291_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2820
 	.byte 2,141,24,3
 	.asciz "selector"
 
-LDIFF_SYM2690=LTDIE_282_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2690
+LDIFF_SYM2821=LTDIE_292_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2821
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2691=Lfde211_end - Lfde211_start
-	.long LDIFF_SYM2691
-Lfde211_start:
+LDIFF_SYM2822=Lfde221_end - Lfde221_start
+	.long LDIFF_SYM2822
+Lfde221_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_SelectListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_List_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
 
-LDIFF_SYM2692=Lme_f1 - System_Linq_Enumerable_SelectListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_List_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
-	.long LDIFF_SYM2692
+LDIFF_SYM2823=Lme_fb - System_Linq_Enumerable_SelectListIterator_2_TSource_BYTE_TResult_REF__ctor_System_Collections_Generic_List_1_TSource_BYTE_System_Func_2_TSource_BYTE_TResult_REF
+	.long LDIFF_SYM2823
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde211_end:
+Lfde221_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_284:
+LTDIE_294:
 
 	.byte 5
 	.asciz "_Iterator`1"
 
 	.byte 32,16
-LDIFF_SYM2693=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2693
+LDIFF_SYM2824=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2824
 	.byte 2,35,0,6
 	.asciz "_threadId"
 
-LDIFF_SYM2694=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2694
+LDIFF_SYM2825=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2825
 	.byte 2,35,24,6
 	.asciz "_state"
 
-LDIFF_SYM2695=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2695
+LDIFF_SYM2826=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2826
 	.byte 2,35,28,6
 	.asciz "_current"
 
-LDIFF_SYM2696=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2696
+LDIFF_SYM2827=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2827
 	.byte 2,35,16,0,7
 	.asciz "_Iterator`1"
 
-LDIFF_SYM2697=LTDIE_284 - Ldebug_info_start
-	.long LDIFF_SYM2697
-LTDIE_284_POINTER:
+LDIFF_SYM2828=LTDIE_294 - Ldebug_info_start
+	.long LDIFF_SYM2828
+LTDIE_294_POINTER:
 
 	.byte 13
-LDIFF_SYM2698=LTDIE_284 - Ldebug_info_start
-	.long LDIFF_SYM2698
-LTDIE_284_REFERENCE:
+LDIFF_SYM2829=LTDIE_294 - Ldebug_info_start
+	.long LDIFF_SYM2829
+LTDIE_294_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2699=LTDIE_284 - Ldebug_info_start
-	.long LDIFF_SYM2699
-LTDIE_285:
+LDIFF_SYM2830=LTDIE_294 - Ldebug_info_start
+	.long LDIFF_SYM2830
+LTDIE_295:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM2700=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2700
+LDIFF_SYM2831=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2831
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2701=LTDIE_285 - Ldebug_info_start
-	.long LDIFF_SYM2701
-LTDIE_285_POINTER:
+LDIFF_SYM2832=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM2832
+LTDIE_295_POINTER:
 
 	.byte 13
-LDIFF_SYM2702=LTDIE_285 - Ldebug_info_start
-	.long LDIFF_SYM2702
-LTDIE_285_REFERENCE:
+LDIFF_SYM2833=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM2833
+LTDIE_295_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2703=LTDIE_285 - Ldebug_info_start
-	.long LDIFF_SYM2703
-LTDIE_283:
+LDIFF_SYM2834=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM2834
+LTDIE_293:
 
 	.byte 5
 	.asciz "_SelectArrayIterator`2"
 
 	.byte 48,16
-LDIFF_SYM2704=LTDIE_284 - Ldebug_info_start
-	.long LDIFF_SYM2704
+LDIFF_SYM2835=LTDIE_294 - Ldebug_info_start
+	.long LDIFF_SYM2835
 	.byte 2,35,0,6
 	.asciz "_source"
 
-LDIFF_SYM2705=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2705
+LDIFF_SYM2836=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2836
 	.byte 2,35,32,6
 	.asciz "_selector"
 
-LDIFF_SYM2706=LTDIE_285_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2706
+LDIFF_SYM2837=LTDIE_295_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2837
 	.byte 2,35,40,0,7
 	.asciz "_SelectArrayIterator`2"
 
-LDIFF_SYM2707=LTDIE_283 - Ldebug_info_start
-	.long LDIFF_SYM2707
-LTDIE_283_POINTER:
+LDIFF_SYM2838=LTDIE_293 - Ldebug_info_start
+	.long LDIFF_SYM2838
+LTDIE_293_POINTER:
 
 	.byte 13
-LDIFF_SYM2708=LTDIE_283 - Ldebug_info_start
-	.long LDIFF_SYM2708
-LTDIE_283_REFERENCE:
+LDIFF_SYM2839=LTDIE_293 - Ldebug_info_start
+	.long LDIFF_SYM2839
+LTDIE_293_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2709=LTDIE_283 - Ldebug_info_start
-	.long LDIFF_SYM2709
+LDIFF_SYM2840=LTDIE_293 - Ldebug_info_start
+	.long LDIFF_SYM2840
 	.byte 2
 	.asciz "System.Linq.Enumerable/SelectArrayIterator`2<TSource_BYTE,_TResult_REF>:.ctor"
 	.asciz "System_Linq_Enumerable_SelectArrayIterator_2_TSource_BYTE_TResult_REF__ctor_TSource_BYTE___System_Func_2_TSource_BYTE_TResult_REF"
 
 	.byte 3,204,1
 	.quad System_Linq_Enumerable_SelectArrayIterator_2_TSource_BYTE_TResult_REF__ctor_TSource_BYTE___System_Func_2_TSource_BYTE_TResult_REF
-	.quad Lme_f2
+	.quad Lme_fc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2710=LTDIE_283_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2710
+LDIFF_SYM2841=LTDIE_293_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2841
 	.byte 2,141,16,3
 	.asciz "source"
 
-LDIFF_SYM2711=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2711
+LDIFF_SYM2842=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2842
 	.byte 2,141,24,3
 	.asciz "selector"
 
-LDIFF_SYM2712=LTDIE_285_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2712
+LDIFF_SYM2843=LTDIE_295_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2843
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2713=Lfde212_end - Lfde212_start
-	.long LDIFF_SYM2713
-Lfde212_start:
+LDIFF_SYM2844=Lfde222_end - Lfde222_start
+	.long LDIFF_SYM2844
+Lfde222_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_SelectArrayIterator_2_TSource_BYTE_TResult_REF__ctor_TSource_BYTE___System_Func_2_TSource_BYTE_TResult_REF
 
-LDIFF_SYM2714=Lme_f2 - System_Linq_Enumerable_SelectArrayIterator_2_TSource_BYTE_TResult_REF__ctor_TSource_BYTE___System_Func_2_TSource_BYTE_TResult_REF
-	.long LDIFF_SYM2714
+LDIFF_SYM2845=Lme_fc - System_Linq_Enumerable_SelectArrayIterator_2_TSource_BYTE_TResult_REF__ctor_TSource_BYTE___System_Func_2_TSource_BYTE_TResult_REF
+	.long LDIFF_SYM2845
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde212_end:
+Lfde222_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_287:
+LTDIE_297:
 
 	.byte 5
 	.asciz "_Iterator`1"
 
 	.byte 28,16
-LDIFF_SYM2715=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2715
+LDIFF_SYM2846=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2846
 	.byte 2,35,0,6
 	.asciz "_threadId"
 
-LDIFF_SYM2716=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2716
+LDIFF_SYM2847=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2847
 	.byte 2,35,16,6
 	.asciz "_state"
 
-LDIFF_SYM2717=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2717
+LDIFF_SYM2848=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2848
 	.byte 2,35,20,6
 	.asciz "_current"
 
-LDIFF_SYM2718=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2718
+LDIFF_SYM2849=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2849
 	.byte 2,35,24,0,7
 	.asciz "_Iterator`1"
 
-LDIFF_SYM2719=LTDIE_287 - Ldebug_info_start
-	.long LDIFF_SYM2719
-LTDIE_287_POINTER:
+LDIFF_SYM2850=LTDIE_297 - Ldebug_info_start
+	.long LDIFF_SYM2850
+LTDIE_297_POINTER:
 
 	.byte 13
-LDIFF_SYM2720=LTDIE_287 - Ldebug_info_start
-	.long LDIFF_SYM2720
-LTDIE_287_REFERENCE:
+LDIFF_SYM2851=LTDIE_297 - Ldebug_info_start
+	.long LDIFF_SYM2851
+LTDIE_297_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2721=LTDIE_287 - Ldebug_info_start
-	.long LDIFF_SYM2721
-LTDIE_288:
+LDIFF_SYM2852=LTDIE_297 - Ldebug_info_start
+	.long LDIFF_SYM2852
+LTDIE_298:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEnumerable`1"
@@ -42401,42 +45879,42 @@ LTDIE_288:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEnumerable`1"
 
-LDIFF_SYM2722=LTDIE_288 - Ldebug_info_start
-	.long LDIFF_SYM2722
-LTDIE_288_POINTER:
+LDIFF_SYM2853=LTDIE_298 - Ldebug_info_start
+	.long LDIFF_SYM2853
+LTDIE_298_POINTER:
 
 	.byte 13
-LDIFF_SYM2723=LTDIE_288 - Ldebug_info_start
-	.long LDIFF_SYM2723
-LTDIE_288_REFERENCE:
+LDIFF_SYM2854=LTDIE_298 - Ldebug_info_start
+	.long LDIFF_SYM2854
+LTDIE_298_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2724=LTDIE_288 - Ldebug_info_start
-	.long LDIFF_SYM2724
-LTDIE_289:
+LDIFF_SYM2855=LTDIE_298 - Ldebug_info_start
+	.long LDIFF_SYM2855
+LTDIE_299:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM2725=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2725
+LDIFF_SYM2856=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2856
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2726=LTDIE_289 - Ldebug_info_start
-	.long LDIFF_SYM2726
-LTDIE_289_POINTER:
+LDIFF_SYM2857=LTDIE_299 - Ldebug_info_start
+	.long LDIFF_SYM2857
+LTDIE_299_POINTER:
 
 	.byte 13
-LDIFF_SYM2727=LTDIE_289 - Ldebug_info_start
-	.long LDIFF_SYM2727
-LTDIE_289_REFERENCE:
+LDIFF_SYM2858=LTDIE_299 - Ldebug_info_start
+	.long LDIFF_SYM2858
+LTDIE_299_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2728=LTDIE_289 - Ldebug_info_start
-	.long LDIFF_SYM2728
-LTDIE_290:
+LDIFF_SYM2859=LTDIE_299 - Ldebug_info_start
+	.long LDIFF_SYM2859
+LTDIE_300:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEnumerator`1"
@@ -42444,107 +45922,107 @@ LTDIE_290:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEnumerator`1"
 
-LDIFF_SYM2729=LTDIE_290 - Ldebug_info_start
-	.long LDIFF_SYM2729
-LTDIE_290_POINTER:
+LDIFF_SYM2860=LTDIE_300 - Ldebug_info_start
+	.long LDIFF_SYM2860
+LTDIE_300_POINTER:
 
 	.byte 13
-LDIFF_SYM2730=LTDIE_290 - Ldebug_info_start
-	.long LDIFF_SYM2730
-LTDIE_290_REFERENCE:
+LDIFF_SYM2861=LTDIE_300 - Ldebug_info_start
+	.long LDIFF_SYM2861
+LTDIE_300_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2731=LTDIE_290 - Ldebug_info_start
-	.long LDIFF_SYM2731
-LTDIE_286:
+LDIFF_SYM2862=LTDIE_300 - Ldebug_info_start
+	.long LDIFF_SYM2862
+LTDIE_296:
 
 	.byte 5
 	.asciz "_WhereEnumerableIterator`1"
 
 	.byte 56,16
-LDIFF_SYM2732=LTDIE_287 - Ldebug_info_start
-	.long LDIFF_SYM2732
+LDIFF_SYM2863=LTDIE_297 - Ldebug_info_start
+	.long LDIFF_SYM2863
 	.byte 2,35,0,6
 	.asciz "_source"
 
-LDIFF_SYM2733=LTDIE_288_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2733
+LDIFF_SYM2864=LTDIE_298_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2864
 	.byte 2,35,32,6
 	.asciz "_predicate"
 
-LDIFF_SYM2734=LTDIE_289_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2734
+LDIFF_SYM2865=LTDIE_299_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2865
 	.byte 2,35,40,6
 	.asciz "_enumerator"
 
-LDIFF_SYM2735=LTDIE_290_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2735
+LDIFF_SYM2866=LTDIE_300_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2866
 	.byte 2,35,48,0,7
 	.asciz "_WhereEnumerableIterator`1"
 
-LDIFF_SYM2736=LTDIE_286 - Ldebug_info_start
-	.long LDIFF_SYM2736
-LTDIE_286_POINTER:
+LDIFF_SYM2867=LTDIE_296 - Ldebug_info_start
+	.long LDIFF_SYM2867
+LTDIE_296_POINTER:
 
 	.byte 13
-LDIFF_SYM2737=LTDIE_286 - Ldebug_info_start
-	.long LDIFF_SYM2737
-LTDIE_286_REFERENCE:
+LDIFF_SYM2868=LTDIE_296 - Ldebug_info_start
+	.long LDIFF_SYM2868
+LTDIE_296_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2738=LTDIE_286 - Ldebug_info_start
-	.long LDIFF_SYM2738
+LDIFF_SYM2869=LTDIE_296 - Ldebug_info_start
+	.long LDIFF_SYM2869
 	.byte 2
 	.asciz "System.Linq.Enumerable/WhereEnumerableIterator`1<TSource_BYTE>:.ctor"
 	.asciz "System_Linq_Enumerable_WhereEnumerableIterator_1_TSource_BYTE__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_bool"
 
 	.byte 8,87
 	.quad System_Linq_Enumerable_WhereEnumerableIterator_1_TSource_BYTE__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_bool
-	.quad Lme_f3
+	.quad Lme_fd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2739=LTDIE_286_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2739
+LDIFF_SYM2870=LTDIE_296_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2870
 	.byte 2,141,16,3
 	.asciz "source"
 
-LDIFF_SYM2740=LTDIE_288_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2740
+LDIFF_SYM2871=LTDIE_298_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2871
 	.byte 2,141,24,3
 	.asciz "predicate"
 
-LDIFF_SYM2741=LTDIE_289_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2741
+LDIFF_SYM2872=LTDIE_299_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2872
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2742=Lfde213_end - Lfde213_start
-	.long LDIFF_SYM2742
-Lfde213_start:
+LDIFF_SYM2873=Lfde223_end - Lfde223_start
+	.long LDIFF_SYM2873
+Lfde223_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_WhereEnumerableIterator_1_TSource_BYTE__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_bool
 
-LDIFF_SYM2743=Lme_f3 - System_Linq_Enumerable_WhereEnumerableIterator_1_TSource_BYTE__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_bool
-	.long LDIFF_SYM2743
+LDIFF_SYM2874=Lme_fd - System_Linq_Enumerable_WhereEnumerableIterator_1_TSource_BYTE__ctor_System_Collections_Generic_IEnumerable_1_TSource_BYTE_System_Func_2_TSource_BYTE_bool
+	.long LDIFF_SYM2874
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde213_end:
+Lfde223_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_291:
+LTDIE_301:
 
 	.byte 8
 	.asciz "System_ExceptionArgument"
 
 	.byte 4
-LDIFF_SYM2744=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2744
+LDIFF_SYM2875=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2875
 	.byte 9
 	.asciz "obj"
 
@@ -42701,62 +46179,62 @@ LDIFF_SYM2744=LDIE_I4 - Ldebug_info_start
 	.byte 50,0,7
 	.asciz "System_ExceptionArgument"
 
-LDIFF_SYM2745=LTDIE_291 - Ldebug_info_start
-	.long LDIFF_SYM2745
-LTDIE_291_POINTER:
+LDIFF_SYM2876=LTDIE_301 - Ldebug_info_start
+	.long LDIFF_SYM2876
+LTDIE_301_POINTER:
 
 	.byte 13
-LDIFF_SYM2746=LTDIE_291 - Ldebug_info_start
-	.long LDIFF_SYM2746
-LTDIE_291_REFERENCE:
+LDIFF_SYM2877=LTDIE_301 - Ldebug_info_start
+	.long LDIFF_SYM2877
+LTDIE_301_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2747=LTDIE_291 - Ldebug_info_start
-	.long LDIFF_SYM2747
+LDIFF_SYM2878=LTDIE_301 - Ldebug_info_start
+	.long LDIFF_SYM2878
 	.byte 2
 	.asciz "System.ThrowHelper:IfNullAndNullsAreIllegalThenThrow<T_BYTE>"
 	.asciz "System_ThrowHelper_IfNullAndNullsAreIllegalThenThrow_T_BYTE_object_System_ExceptionArgument"
 
 	.byte 9,242,1
 	.quad System_ThrowHelper_IfNullAndNullsAreIllegalThenThrow_T_BYTE_object_System_ExceptionArgument
-	.quad Lme_f4
+	.quad Lme_fe
 
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM2748=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2748
+LDIFF_SYM2879=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2879
 	.byte 2,141,16,3
 	.asciz "argName"
 
-LDIFF_SYM2749=LTDIE_291 - Ldebug_info_start
-	.long LDIFF_SYM2749
+LDIFF_SYM2880=LTDIE_301 - Ldebug_info_start
+	.long LDIFF_SYM2880
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2750=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2750
+LDIFF_SYM2881=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2881
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2751=Lfde214_end - Lfde214_start
-	.long LDIFF_SYM2751
-Lfde214_start:
+LDIFF_SYM2882=Lfde224_end - Lfde224_start
+	.long LDIFF_SYM2882
+Lfde224_start:
 
 	.long 0
 	.align 3
 	.quad System_ThrowHelper_IfNullAndNullsAreIllegalThenThrow_T_BYTE_object_System_ExceptionArgument
 
-LDIFF_SYM2752=Lme_f4 - System_ThrowHelper_IfNullAndNullsAreIllegalThenThrow_T_BYTE_object_System_ExceptionArgument
-	.long LDIFF_SYM2752
+LDIFF_SYM2883=Lme_fe - System_ThrowHelper_IfNullAndNullsAreIllegalThenThrow_T_BYTE_object_System_ExceptionArgument
+	.long LDIFF_SYM2883
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde214_end:
+Lfde224_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_293:
+LTDIE_303:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IList`1"
@@ -42764,211 +46242,211 @@ LTDIE_293:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM2753=LTDIE_293 - Ldebug_info_start
-	.long LDIFF_SYM2753
-LTDIE_293_POINTER:
+LDIFF_SYM2884=LTDIE_303 - Ldebug_info_start
+	.long LDIFF_SYM2884
+LTDIE_303_POINTER:
 
 	.byte 13
-LDIFF_SYM2754=LTDIE_293 - Ldebug_info_start
-	.long LDIFF_SYM2754
-LTDIE_293_REFERENCE:
+LDIFF_SYM2885=LTDIE_303 - Ldebug_info_start
+	.long LDIFF_SYM2885
+LTDIE_303_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2755=LTDIE_293 - Ldebug_info_start
-	.long LDIFF_SYM2755
-LTDIE_292:
+LDIFF_SYM2886=LTDIE_303 - Ldebug_info_start
+	.long LDIFF_SYM2886
+LTDIE_302:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_ReadOnlyCollection`1"
 
 	.byte 32,16
-LDIFF_SYM2756=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2756
+LDIFF_SYM2887=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2887
 	.byte 2,35,0,6
 	.asciz "list"
 
-LDIFF_SYM2757=LTDIE_293_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2757
+LDIFF_SYM2888=LTDIE_303_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2888
 	.byte 2,35,16,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM2758=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2758
+LDIFF_SYM2889=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2889
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_ObjectModel_ReadOnlyCollection`1"
 
-LDIFF_SYM2759=LTDIE_292 - Ldebug_info_start
-	.long LDIFF_SYM2759
-LTDIE_292_POINTER:
+LDIFF_SYM2890=LTDIE_302 - Ldebug_info_start
+	.long LDIFF_SYM2890
+LTDIE_302_POINTER:
 
 	.byte 13
-LDIFF_SYM2760=LTDIE_292 - Ldebug_info_start
-	.long LDIFF_SYM2760
-LTDIE_292_REFERENCE:
+LDIFF_SYM2891=LTDIE_302 - Ldebug_info_start
+	.long LDIFF_SYM2891
+LTDIE_302_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2761=LTDIE_292 - Ldebug_info_start
-	.long LDIFF_SYM2761
+LDIFF_SYM2892=LTDIE_302 - Ldebug_info_start
+	.long LDIFF_SYM2892
 	.byte 2
 	.asciz "System.Collections.ObjectModel.ReadOnlyCollection`1<T_BYTE>:.ctor"
 	.asciz "System_Collections_ObjectModel_ReadOnlyCollection_1_T_BYTE__ctor_System_Collections_Generic_IList_1_T_BYTE"
 
 	.byte 10,22
 	.quad System_Collections_ObjectModel_ReadOnlyCollection_1_T_BYTE__ctor_System_Collections_Generic_IList_1_T_BYTE
-	.quad Lme_f5
+	.quad Lme_ff
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2762=LTDIE_292_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2762
+LDIFF_SYM2893=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2893
 	.byte 2,141,16,3
 	.asciz "list"
 
-LDIFF_SYM2763=LTDIE_293_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2763
+LDIFF_SYM2894=LTDIE_303_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2894
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2764=Lfde215_end - Lfde215_start
-	.long LDIFF_SYM2764
-Lfde215_start:
+LDIFF_SYM2895=Lfde225_end - Lfde225_start
+	.long LDIFF_SYM2895
+Lfde225_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_ObjectModel_ReadOnlyCollection_1_T_BYTE__ctor_System_Collections_Generic_IList_1_T_BYTE
 
-LDIFF_SYM2765=Lme_f5 - System_Collections_ObjectModel_ReadOnlyCollection_1_T_BYTE__ctor_System_Collections_Generic_IList_1_T_BYTE
-	.long LDIFF_SYM2765
+LDIFF_SYM2896=Lme_ff - System_Collections_ObjectModel_ReadOnlyCollection_1_T_BYTE__ctor_System_Collections_Generic_IList_1_T_BYTE
+	.long LDIFF_SYM2896
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde215_end:
+Lfde225_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_295:
+LTDIE_305:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM2766=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2766
+LDIFF_SYM2897=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2897
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM2767=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2767
+LDIFF_SYM2898=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2898
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM2768=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2768
+LDIFF_SYM2899=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2899
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM2769=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2769
+LDIFF_SYM2900=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2900
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM2770=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2770
+LDIFF_SYM2901=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2901
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM2771=LTDIE_295 - Ldebug_info_start
-	.long LDIFF_SYM2771
-LTDIE_295_POINTER:
+LDIFF_SYM2902=LTDIE_305 - Ldebug_info_start
+	.long LDIFF_SYM2902
+LTDIE_305_POINTER:
 
 	.byte 13
-LDIFF_SYM2772=LTDIE_295 - Ldebug_info_start
-	.long LDIFF_SYM2772
-LTDIE_295_REFERENCE:
+LDIFF_SYM2903=LTDIE_305 - Ldebug_info_start
+	.long LDIFF_SYM2903
+LTDIE_305_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2773=LTDIE_295 - Ldebug_info_start
-	.long LDIFF_SYM2773
-LTDIE_294:
+LDIFF_SYM2904=LTDIE_305 - Ldebug_info_start
+	.long LDIFF_SYM2904
+LTDIE_304:
 
 	.byte 5
 	.asciz "_Enumerator"
 
 	.byte 40,16
-LDIFF_SYM2774=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2774
+LDIFF_SYM2905=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2905
 	.byte 2,35,0,6
 	.asciz "_list"
 
-LDIFF_SYM2775=LTDIE_295_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2775
+LDIFF_SYM2906=LTDIE_305_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2906
 	.byte 2,35,16,6
 	.asciz "_index"
 
-LDIFF_SYM2776=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2776
+LDIFF_SYM2907=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2907
 	.byte 2,35,24,6
 	.asciz "_version"
 
-LDIFF_SYM2777=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2777
+LDIFF_SYM2908=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2908
 	.byte 2,35,28,6
 	.asciz "_current"
 
-LDIFF_SYM2778=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2778
+LDIFF_SYM2909=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2909
 	.byte 2,35,32,0,7
 	.asciz "_Enumerator"
 
-LDIFF_SYM2779=LTDIE_294 - Ldebug_info_start
-	.long LDIFF_SYM2779
-LTDIE_294_POINTER:
+LDIFF_SYM2910=LTDIE_304 - Ldebug_info_start
+	.long LDIFF_SYM2910
+LTDIE_304_POINTER:
 
 	.byte 13
-LDIFF_SYM2780=LTDIE_294 - Ldebug_info_start
-	.long LDIFF_SYM2780
-LTDIE_294_REFERENCE:
+LDIFF_SYM2911=LTDIE_304 - Ldebug_info_start
+	.long LDIFF_SYM2911
+LTDIE_304_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2781=LTDIE_294 - Ldebug_info_start
-	.long LDIFF_SYM2781
+LDIFF_SYM2912=LTDIE_304 - Ldebug_info_start
+	.long LDIFF_SYM2912
 	.byte 2
 	.asciz "System.Collections.Generic.List`1/Enumerator<T_BYTE>:.ctor"
 	.asciz "System_Collections_Generic_List_1_Enumerator_T_BYTE__ctor_System_Collections_Generic_List_1_T_BYTE"
 
 	.byte 6,240,8
 	.quad System_Collections_Generic_List_1_Enumerator_T_BYTE__ctor_System_Collections_Generic_List_1_T_BYTE
-	.quad Lme_f6
+	.quad Lme_100
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2782=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2782
+LDIFF_SYM2913=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2913
 	.byte 1,105,3
 	.asciz "list"
 
-LDIFF_SYM2783=LTDIE_295_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2783
+LDIFF_SYM2914=LTDIE_305_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2914
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2784=Lfde216_end - Lfde216_start
-	.long LDIFF_SYM2784
-Lfde216_start:
+LDIFF_SYM2915=Lfde226_end - Lfde226_start
+	.long LDIFF_SYM2915
+Lfde226_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_List_1_Enumerator_T_BYTE__ctor_System_Collections_Generic_List_1_T_BYTE
 
-LDIFF_SYM2785=Lme_f6 - System_Collections_Generic_List_1_Enumerator_T_BYTE__ctor_System_Collections_Generic_List_1_T_BYTE
-	.long LDIFF_SYM2785
+LDIFF_SYM2916=Lme_100 - System_Collections_Generic_List_1_Enumerator_T_BYTE__ctor_System_Collections_Generic_List_1_T_BYTE
+	.long LDIFF_SYM2916
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4,154,3
 	.align 3
-Lfde216_end:
+Lfde226_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -42978,46 +46456,46 @@ Lfde216_end:
 
 	.byte 11,169,5
 	.quad System_Array_IndexOf_T_BYTE_T_BYTE___T_BYTE_int_int
-	.quad Lme_f7
+	.quad Lme_101
 
 	.byte 2,118,16,3
 	.asciz "array"
 
-LDIFF_SYM2786=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2786
+LDIFF_SYM2917=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2917
 	.byte 1,103,3
 	.asciz "value"
 
-LDIFF_SYM2787=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2787
+LDIFF_SYM2918=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2918
 	.byte 2,141,32,3
 	.asciz "startIndex"
 
-LDIFF_SYM2788=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2788
+LDIFF_SYM2919=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2919
 	.byte 1,105,3
 	.asciz "count"
 
-LDIFF_SYM2789=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2789
+LDIFF_SYM2920=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2920
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2790=Lfde217_end - Lfde217_start
-	.long LDIFF_SYM2790
-Lfde217_start:
+LDIFF_SYM2921=Lfde227_end - Lfde227_start
+	.long LDIFF_SYM2921
+Lfde227_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_IndexOf_T_BYTE_T_BYTE___T_BYTE_int_int
 
-LDIFF_SYM2791=Lme_f7 - System_Array_IndexOf_T_BYTE_T_BYTE___T_BYTE_int_int
-	.long LDIFF_SYM2791
+LDIFF_SYM2922=Lme_101 - System_Array_IndexOf_T_BYTE_T_BYTE___T_BYTE_int_int
+	.long LDIFF_SYM2922
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,151,8,68,153,7
 	.align 3
-Lfde217_end:
+Lfde227_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -43027,59 +46505,59 @@ Lfde217_end:
 
 	.byte 11,138,7
 	.quad System_Array_Reverse_T_BYTE_T_BYTE___int_int
-	.quad Lme_f8
+	.quad Lme_102
 
 	.byte 2,118,16,3
 	.asciz "array"
 
-LDIFF_SYM2792=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2792
+LDIFF_SYM2923=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2923
 	.byte 1,104,3
 	.asciz "index"
 
-LDIFF_SYM2793=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2793
+LDIFF_SYM2924=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2924
 	.byte 1,105,3
 	.asciz "length"
 
-LDIFF_SYM2794=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2794
+LDIFF_SYM2925=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2925
 	.byte 1,106,11
 	.asciz "first"
 
-LDIFF_SYM2795=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2795
+LDIFF_SYM2926=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2926
 	.byte 1,104,11
 	.asciz "last"
 
-LDIFF_SYM2796=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2796
+LDIFF_SYM2927=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2927
 	.byte 1,106,11
 	.asciz "temp"
 
-LDIFF_SYM2797=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2797
+LDIFF_SYM2928=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2928
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2798=Lfde218_end - Lfde218_start
-	.long LDIFF_SYM2798
-Lfde218_start:
+LDIFF_SYM2929=Lfde228_end - Lfde228_start
+	.long LDIFF_SYM2929
+Lfde228_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_Reverse_T_BYTE_T_BYTE___int_int
 
-LDIFF_SYM2799=Lme_f8 - System_Array_Reverse_T_BYTE_T_BYTE___int_int
-	.long LDIFF_SYM2799
+LDIFF_SYM2930=Lme_102 - System_Array_Reverse_T_BYTE_T_BYTE___int_int
+	.long LDIFF_SYM2930
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3,68,154,2
 	.align 3
-Lfde218_end:
+Lfde228_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_296:
+LTDIE_306:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IComparer`1"
@@ -43087,259 +46565,259 @@ LTDIE_296:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IComparer`1"
 
-LDIFF_SYM2800=LTDIE_296 - Ldebug_info_start
-	.long LDIFF_SYM2800
-LTDIE_296_POINTER:
+LDIFF_SYM2931=LTDIE_306 - Ldebug_info_start
+	.long LDIFF_SYM2931
+LTDIE_306_POINTER:
 
 	.byte 13
-LDIFF_SYM2801=LTDIE_296 - Ldebug_info_start
-	.long LDIFF_SYM2801
-LTDIE_296_REFERENCE:
+LDIFF_SYM2932=LTDIE_306 - Ldebug_info_start
+	.long LDIFF_SYM2932
+LTDIE_306_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2802=LTDIE_296 - Ldebug_info_start
-	.long LDIFF_SYM2802
+LDIFF_SYM2933=LTDIE_306 - Ldebug_info_start
+	.long LDIFF_SYM2933
 	.byte 2
 	.asciz "System.Array:Sort<T_BYTE>"
 	.asciz "System_Array_Sort_T_BYTE_T_BYTE___int_int_System_Collections_Generic_IComparer_1_T_BYTE"
 
 	.byte 11,209,8
 	.quad System_Array_Sort_T_BYTE_T_BYTE___int_int_System_Collections_Generic_IComparer_1_T_BYTE
-	.quad Lme_f9
+	.quad Lme_103
 
 	.byte 2,118,16,3
 	.asciz "array"
 
-LDIFF_SYM2803=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2803
+LDIFF_SYM2934=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2934
 	.byte 1,103,3
 	.asciz "index"
 
-LDIFF_SYM2804=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2804
+LDIFF_SYM2935=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2935
 	.byte 2,141,40,3
 	.asciz "length"
 
-LDIFF_SYM2805=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2805
+LDIFF_SYM2936=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2936
 	.byte 1,105,3
 	.asciz "comparer"
 
-LDIFF_SYM2806=LTDIE_296_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2806
+LDIFF_SYM2937=LTDIE_306_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2937
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2807=Lfde219_end - Lfde219_start
-	.long LDIFF_SYM2807
-Lfde219_start:
+LDIFF_SYM2938=Lfde229_end - Lfde229_start
+	.long LDIFF_SYM2938
+Lfde229_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_Sort_T_BYTE_T_BYTE___int_int_System_Collections_Generic_IComparer_1_T_BYTE
 
-LDIFF_SYM2808=Lme_f9 - System_Array_Sort_T_BYTE_T_BYTE___int_int_System_Collections_Generic_IComparer_1_T_BYTE
-	.long LDIFF_SYM2808
+LDIFF_SYM2939=Lme_103 - System_Array_Sort_T_BYTE_T_BYTE___int_int_System_Collections_Generic_IComparer_1_T_BYTE
+	.long LDIFF_SYM2939
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,68,153,9,154,8
 	.align 3
-Lfde219_end:
+Lfde229_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_297:
+LTDIE_307:
 
 	.byte 5
 	.asciz "System_Comparison`1"
 
 	.byte 128,1,16
-LDIFF_SYM2809=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2809
+LDIFF_SYM2940=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2940
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM2810=LTDIE_297 - Ldebug_info_start
-	.long LDIFF_SYM2810
-LTDIE_297_POINTER:
+LDIFF_SYM2941=LTDIE_307 - Ldebug_info_start
+	.long LDIFF_SYM2941
+LTDIE_307_POINTER:
 
 	.byte 13
-LDIFF_SYM2811=LTDIE_297 - Ldebug_info_start
-	.long LDIFF_SYM2811
-LTDIE_297_REFERENCE:
+LDIFF_SYM2942=LTDIE_307 - Ldebug_info_start
+	.long LDIFF_SYM2942
+LTDIE_307_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2812=LTDIE_297 - Ldebug_info_start
-	.long LDIFF_SYM2812
+LDIFF_SYM2943=LTDIE_307 - Ldebug_info_start
+	.long LDIFF_SYM2943
 	.byte 2
 	.asciz "System.Collections.Generic.ArraySortHelper`1<T_BYTE>:Sort"
 	.asciz "System_Collections_Generic_ArraySortHelper_1_T_BYTE_Sort_T_BYTE___int_int_System_Comparison_1_T_BYTE"
 
 	.byte 12,114
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_Sort_T_BYTE___int_int_System_Comparison_1_T_BYTE
-	.quad Lme_fa
+	.quad Lme_104
 
 	.byte 2,118,16,3
 	.asciz "keys"
 
-LDIFF_SYM2813=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2813
+LDIFF_SYM2944=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2944
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM2814=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2814
+LDIFF_SYM2945=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2945
 	.byte 2,141,24,3
 	.asciz "length"
 
-LDIFF_SYM2815=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2815
+LDIFF_SYM2946=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2946
 	.byte 2,141,32,3
 	.asciz "comparer"
 
-LDIFF_SYM2816=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2816
+LDIFF_SYM2947=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2947
 	.byte 2,141,40,11
 	.asciz "e"
 
-LDIFF_SYM2817=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2817
+LDIFF_SYM2948=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2948
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2818=Lfde220_end - Lfde220_start
-	.long LDIFF_SYM2818
-Lfde220_start:
+LDIFF_SYM2949=Lfde230_end - Lfde230_start
+	.long LDIFF_SYM2949
+Lfde230_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_Sort_T_BYTE___int_int_System_Comparison_1_T_BYTE
 
-LDIFF_SYM2819=Lme_fa - System_Collections_Generic_ArraySortHelper_1_T_BYTE_Sort_T_BYTE___int_int_System_Comparison_1_T_BYTE
-	.long LDIFF_SYM2819
+LDIFF_SYM2950=Lme_104 - System_Collections_Generic_ArraySortHelper_1_T_BYTE_Sort_T_BYTE___int_int_System_Comparison_1_T_BYTE
+	.long LDIFF_SYM2950
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29
 	.align 3
-Lfde220_end:
+Lfde230_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_299:
+LTDIE_309:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM2820=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM2820
+LDIFF_SYM2951=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM2951
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM2821=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2821
+LDIFF_SYM2952=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2952
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM2822=LTDIE_299 - Ldebug_info_start
-	.long LDIFF_SYM2822
-LTDIE_299_POINTER:
+LDIFF_SYM2953=LTDIE_309 - Ldebug_info_start
+	.long LDIFF_SYM2953
+LTDIE_309_POINTER:
 
 	.byte 13
-LDIFF_SYM2823=LTDIE_299 - Ldebug_info_start
-	.long LDIFF_SYM2823
-LTDIE_299_REFERENCE:
+LDIFF_SYM2954=LTDIE_309 - Ldebug_info_start
+	.long LDIFF_SYM2954
+LTDIE_309_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2824=LTDIE_299 - Ldebug_info_start
-	.long LDIFF_SYM2824
-LTDIE_298:
+LDIFF_SYM2955=LTDIE_309 - Ldebug_info_start
+	.long LDIFF_SYM2955
+LTDIE_308:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
 	.byte 40,16
-LDIFF_SYM2825=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2825
+LDIFF_SYM2956=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2956
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM2826=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2826
+LDIFF_SYM2957=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2957
 	.byte 2,35,16,6
 	.asciz "m_task"
 
-LDIFF_SYM2827=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2827
+LDIFF_SYM2958=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2958
 	.byte 2,35,32,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
-LDIFF_SYM2828=LTDIE_298 - Ldebug_info_start
-	.long LDIFF_SYM2828
-LTDIE_298_POINTER:
+LDIFF_SYM2959=LTDIE_308 - Ldebug_info_start
+	.long LDIFF_SYM2959
+LTDIE_308_POINTER:
 
 	.byte 13
-LDIFF_SYM2829=LTDIE_298 - Ldebug_info_start
-	.long LDIFF_SYM2829
-LTDIE_298_REFERENCE:
+LDIFF_SYM2960=LTDIE_308 - Ldebug_info_start
+	.long LDIFF_SYM2960
+LTDIE_308_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2830=LTDIE_298 - Ldebug_info_start
-	.long LDIFF_SYM2830
+LDIFF_SYM2961=LTDIE_308 - Ldebug_info_start
+	.long LDIFF_SYM2961
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<string>,_Octane.Xamarin.Forms.VideoPlayer.iOS.Renderers.VideoPlayerRenderer/<UpdateSource>d__23>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_"
 
 	.byte 7,158,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
-	.quad Lme_fb
+	.quad Lme_105
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2831=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2831
+LDIFF_SYM2962=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2962
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM2832=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2832
+LDIFF_SYM2963=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2963
 	.byte 2,141,40,3
 	.asciz "stateMachine"
 
-LDIFF_SYM2833=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2833
+LDIFF_SYM2964=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2964
 	.byte 2,141,48,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM2834=LTDIE_260_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2834
+LDIFF_SYM2965=LTDIE_270_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2965
 	.byte 3,141,248,0,11
 	.asciz "continuation"
 
-LDIFF_SYM2835=LTDIE_261_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2835
+LDIFF_SYM2966=LTDIE_271_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2966
 	.byte 1,103,11
 	.asciz "builtTask"
 
-LDIFF_SYM2836=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2836
+LDIFF_SYM2967=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2967
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2837=Lfde221_end - Lfde221_start
-	.long LDIFF_SYM2837
-Lfde221_start:
+LDIFF_SYM2968=Lfde231_end - Lfde231_start
+	.long LDIFF_SYM2968
+Lfde231_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
 
-LDIFF_SYM2838=Lme_fb - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
-	.long LDIFF_SYM2838
+LDIFF_SYM2969=Lme_105 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_System_Runtime_CompilerServices_TaskAwaiter_1_string__Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer__UpdateSourced__23_
+	.long LDIFF_SYM2969
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,151,19,68,152,18
 	.align 3
-Lfde221_end:
+Lfde231_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -43349,41 +46827,41 @@ Lfde221_end:
 
 	.byte 13,83
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.quad Lme_fc
+	.quad Lme_106
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2839=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2839
+LDIFF_SYM2970=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2970
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2840=Lfde222_end - Lfde222_start
-	.long LDIFF_SYM2840
-Lfde222_start:
+LDIFF_SYM2971=Lfde232_end - Lfde232_start
+	.long LDIFF_SYM2971
+Lfde232_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM2841=Lme_fc - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM2841
+LDIFF_SYM2972=Lme_106 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM2972
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde222_end:
+Lfde232_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_300:
+LTDIE_310:
 
 	.byte 8
 	.asciz "System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 4
-LDIFF_SYM2842=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2842
+LDIFF_SYM2973=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2973
 	.byte 9
 	.asciz "None"
 
@@ -43408,59 +46886,59 @@ LDIFF_SYM2842=LDIE_I4 - Ldebug_info_start
 	.byte 192,0,0,7
 	.asciz "System_Threading_Tasks_TaskCreationOptions"
 
-LDIFF_SYM2843=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM2843
-LTDIE_300_POINTER:
+LDIFF_SYM2974=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM2974
+LTDIE_310_POINTER:
 
 	.byte 13
-LDIFF_SYM2844=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM2844
-LTDIE_300_REFERENCE:
+LDIFF_SYM2975=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM2975
+LTDIE_310_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2845=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM2845
+LDIFF_SYM2976=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM2976
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 13,89
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
-	.quad Lme_fd
+	.quad Lme_107
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2846=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2846
+LDIFF_SYM2977=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2977
 	.byte 2,141,16,3
 	.asciz "state"
 
-LDIFF_SYM2847=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2847
+LDIFF_SYM2978=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2978
 	.byte 2,141,24,3
 	.asciz "options"
 
-LDIFF_SYM2848=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM2848
+LDIFF_SYM2979=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM2979
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2849=Lfde223_end - Lfde223_start
-	.long LDIFF_SYM2849
-Lfde223_start:
+LDIFF_SYM2980=Lfde233_end - Lfde233_start
+	.long LDIFF_SYM2980
+Lfde233_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM2850=Lme_fd - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM2850
+LDIFF_SYM2981=Lme_107 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM2981
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde223_end:
+Lfde233_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -43470,41 +46948,41 @@ Lfde223_end:
 
 	.byte 13,96
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_fe
+	.quad Lme_108
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2851=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2851
+LDIFF_SYM2982=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2982
 	.byte 2,141,16,3
 	.asciz "result"
 
-LDIFF_SYM2852=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2852
+LDIFF_SYM2983=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2983
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2853=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2853
+LDIFF_SYM2984=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2984
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2854=Lfde224_end - Lfde224_start
-	.long LDIFF_SYM2854
-Lfde224_start:
+LDIFF_SYM2985=Lfde234_end - Lfde234_start
+	.long LDIFF_SYM2985
+Lfde234_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2855=Lme_fe - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2855
+LDIFF_SYM2986=Lme_108 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2986
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde224_end:
+Lfde234_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -43514,203 +46992,203 @@ Lfde224_end:
 
 	.byte 13,102
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-	.quad Lme_ff
+	.quad Lme_109
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2856=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2856
+LDIFF_SYM2987=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2987
 	.byte 2,141,16,3
 	.asciz "canceled"
 
-LDIFF_SYM2857=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2857
+LDIFF_SYM2988=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2988
 	.byte 2,141,24,3
 	.asciz "result"
 
-LDIFF_SYM2858=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2858
+LDIFF_SYM2989=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2989
 	.byte 2,141,32,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2859=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM2859
+LDIFF_SYM2990=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM2990
 	.byte 2,141,48,3
 	.asciz "ct"
 
-LDIFF_SYM2860=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2860
+LDIFF_SYM2991=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2991
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2861=Lfde225_end - Lfde225_start
-	.long LDIFF_SYM2861
-Lfde225_start:
+LDIFF_SYM2992=Lfde235_end - Lfde235_start
+	.long LDIFF_SYM2992
+Lfde235_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 
-LDIFF_SYM2862=Lme_ff - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-	.long LDIFF_SYM2862
+LDIFF_SYM2993=Lme_109 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+	.long LDIFF_SYM2993
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde225_end:
+Lfde235_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_301:
+LTDIE_311:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 128,1,16
-LDIFF_SYM2863=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2863
+LDIFF_SYM2994=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2994
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM2864=LTDIE_301 - Ldebug_info_start
-	.long LDIFF_SYM2864
-LTDIE_301_POINTER:
+LDIFF_SYM2995=LTDIE_311 - Ldebug_info_start
+	.long LDIFF_SYM2995
+LTDIE_311_POINTER:
 
 	.byte 13
-LDIFF_SYM2865=LTDIE_301 - Ldebug_info_start
-	.long LDIFF_SYM2865
-LTDIE_301_REFERENCE:
+LDIFF_SYM2996=LTDIE_311 - Ldebug_info_start
+	.long LDIFF_SYM2996
+LTDIE_311_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2866=LTDIE_301 - Ldebug_info_start
-	.long LDIFF_SYM2866
+LDIFF_SYM2997=LTDIE_311 - Ldebug_info_start
+	.long LDIFF_SYM2997
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken"
 
 	.byte 13,149,1
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
-	.quad Lme_100
+	.quad Lme_10a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2867=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2867
+LDIFF_SYM2998=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2998
 	.byte 2,141,16,3
 	.asciz "function"
 
-LDIFF_SYM2868=LTDIE_301_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2868
+LDIFF_SYM2999=LTDIE_311_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2999
 	.byte 2,141,24,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2869=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2869
+LDIFF_SYM3000=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3000
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2870=Lfde226_end - Lfde226_start
-	.long LDIFF_SYM2870
-Lfde226_start:
+LDIFF_SYM3001=Lfde236_end - Lfde236_start
+	.long LDIFF_SYM3001
+Lfde236_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
 
-LDIFF_SYM2871=Lme_100 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
-	.long LDIFF_SYM2871
+LDIFF_SYM3002=Lme_10a - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
+	.long LDIFF_SYM3002
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde226_end:
+Lfde236_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_302:
+LTDIE_312:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM2872=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2872
+LDIFF_SYM3003=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3003
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2873=LTDIE_302 - Ldebug_info_start
-	.long LDIFF_SYM2873
-LTDIE_302_POINTER:
+LDIFF_SYM3004=LTDIE_312 - Ldebug_info_start
+	.long LDIFF_SYM3004
+LTDIE_312_POINTER:
 
 	.byte 13
-LDIFF_SYM2874=LTDIE_302 - Ldebug_info_start
-	.long LDIFF_SYM2874
-LTDIE_302_REFERENCE:
+LDIFF_SYM3005=LTDIE_312 - Ldebug_info_start
+	.long LDIFF_SYM3005
+LTDIE_312_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2875=LTDIE_302 - Ldebug_info_start
-	.long LDIFF_SYM2875
+LDIFF_SYM3006=LTDIE_312 - Ldebug_info_start
+	.long LDIFF_SYM3006
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 13,164,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
-	.quad Lme_101
+	.quad Lme_10b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2876=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2876
+LDIFF_SYM3007=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3007
 	.byte 2,141,40,3
 	.asciz "function"
 
-LDIFF_SYM2877=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2877
+LDIFF_SYM3008=LTDIE_312_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3008
 	.byte 2,141,48,3
 	.asciz "state"
 
-LDIFF_SYM2878=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2878
+LDIFF_SYM3009=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3009
 	.byte 1,105,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2879=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2879
+LDIFF_SYM3010=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3010
 	.byte 2,141,56,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2880=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM2880
+LDIFF_SYM3011=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3011
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2881=Lfde227_end - Lfde227_start
-	.long LDIFF_SYM2881
-Lfde227_start:
+LDIFF_SYM3012=Lfde237_end - Lfde237_start
+	.long LDIFF_SYM3012
+Lfde237_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM2882=Lme_101 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM2882
+LDIFF_SYM3013=Lme_10b - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM3013
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8
 	.align 3
-Lfde227_end:
+Lfde237_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_303:
+LTDIE_313:
 
 	.byte 8
 	.asciz "System_Threading_Tasks_InternalTaskOptions"
 
 	.byte 4
-LDIFF_SYM2883=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2883
+LDIFF_SYM3014=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3014
 	.byte 9
 	.asciz "None"
 
@@ -43735,79 +47213,79 @@ LDIFF_SYM2883=LDIE_I4 - Ldebug_info_start
 	.byte 128,128,1,0,7
 	.asciz "System_Threading_Tasks_InternalTaskOptions"
 
-LDIFF_SYM2884=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM2884
-LTDIE_303_POINTER:
+LDIFF_SYM3015=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3015
+LTDIE_313_POINTER:
 
 	.byte 13
-LDIFF_SYM2885=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM2885
-LTDIE_303_REFERENCE:
+LDIFF_SYM3016=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3016
+LTDIE_313_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2886=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM2886
+LDIFF_SYM3017=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3017
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler"
 
 	.byte 13,180,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_102
+	.quad Lme_10c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2887=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2887
+LDIFF_SYM3018=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3018
 	.byte 2,141,16,3
 	.asciz "valueSelector"
 
-LDIFF_SYM2888=LTDIE_301_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2888
+LDIFF_SYM3019=LTDIE_311_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3019
 	.byte 2,141,24,3
 	.asciz "parent"
 
-LDIFF_SYM2889=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2889
+LDIFF_SYM3020=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3020
 	.byte 2,141,32,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2890=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2890
+LDIFF_SYM3021=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3021
 	.byte 2,141,40,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2891=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM2891
+LDIFF_SYM3022=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3022
 	.byte 2,141,56,3
 	.asciz "internalOptions"
 
-LDIFF_SYM2892=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM2892
+LDIFF_SYM3023=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3023
 	.byte 3,141,192,0,3
 	.asciz "scheduler"
 
-LDIFF_SYM2893=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2893
+LDIFF_SYM3024=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3024
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2894=Lfde228_end - Lfde228_start
-	.long LDIFF_SYM2894
-Lfde228_start:
+LDIFF_SYM3025=Lfde238_end - Lfde238_start
+	.long LDIFF_SYM3025
+Lfde238_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2895=Lme_102 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2895
+LDIFF_SYM3026=Lme_10c - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM3026
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde228_end:
+Lfde238_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -43817,66 +47295,66 @@ Lfde228_end:
 
 	.byte 13,197,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_103
+	.quad Lme_10d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2896=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2896
+LDIFF_SYM3027=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3027
 	.byte 2,141,16,3
 	.asciz "valueSelector"
 
-LDIFF_SYM2897=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2897
+LDIFF_SYM3028=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3028
 	.byte 2,141,24,3
 	.asciz "state"
 
-LDIFF_SYM2898=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2898
+LDIFF_SYM3029=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3029
 	.byte 2,141,32,3
 	.asciz "parent"
 
-LDIFF_SYM2899=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2899
+LDIFF_SYM3030=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3030
 	.byte 2,141,40,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2900=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2900
+LDIFF_SYM3031=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3031
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2901=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM2901
+LDIFF_SYM3032=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3032
 	.byte 3,141,192,0,3
 	.asciz "internalOptions"
 
-LDIFF_SYM2902=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM2902
+LDIFF_SYM3033=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3033
 	.byte 3,141,200,0,3
 	.asciz "scheduler"
 
-LDIFF_SYM2903=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2903
+LDIFF_SYM3034=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3034
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2904=Lfde229_end - Lfde229_start
-	.long LDIFF_SYM2904
-Lfde229_start:
+LDIFF_SYM3035=Lfde239_end - Lfde239_start
+	.long LDIFF_SYM3035
+Lfde239_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2905=Lme_103 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2905
+LDIFF_SYM3036=Lme_10d - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM3036
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde229_end:
+Lfde239_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -43886,56 +47364,56 @@ Lfde229_end:
 
 	.byte 13,206,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_104
+	.quad Lme_10e
 
 	.byte 2,118,16,3
 	.asciz "parent"
 
-LDIFF_SYM2906=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2906
+LDIFF_SYM3037=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3037
 	.byte 2,141,16,3
 	.asciz "function"
 
-LDIFF_SYM2907=LTDIE_301_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2907
+LDIFF_SYM3038=LTDIE_311_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3038
 	.byte 2,141,24,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2908=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2908
+LDIFF_SYM3039=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3039
 	.byte 2,141,32,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2909=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM2909
+LDIFF_SYM3040=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3040
 	.byte 2,141,48,3
 	.asciz "internalOptions"
 
-LDIFF_SYM2910=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM2910
+LDIFF_SYM3041=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3041
 	.byte 2,141,56,3
 	.asciz "scheduler"
 
-LDIFF_SYM2911=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2911
+LDIFF_SYM3042=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3042
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2912=Lfde230_end - Lfde230_start
-	.long LDIFF_SYM2912
-Lfde230_start:
+LDIFF_SYM3043=Lfde240_end - Lfde240_start
+	.long LDIFF_SYM3043
+Lfde240_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2913=Lme_104 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2913
+LDIFF_SYM3044=Lme_10e - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM3044
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde230_end:
+Lfde240_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -43945,61 +47423,61 @@ Lfde230_end:
 
 	.byte 13,226,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_105
+	.quad Lme_10f
 
 	.byte 2,118,16,3
 	.asciz "parent"
 
-LDIFF_SYM2914=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2914
+LDIFF_SYM3045=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3045
 	.byte 2,141,16,3
 	.asciz "function"
 
-LDIFF_SYM2915=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2915
+LDIFF_SYM3046=LTDIE_312_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3046
 	.byte 2,141,24,3
 	.asciz "state"
 
-LDIFF_SYM2916=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2916
+LDIFF_SYM3047=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3047
 	.byte 2,141,32,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2917=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2917
+LDIFF_SYM3048=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3048
 	.byte 2,141,40,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2918=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM2918
+LDIFF_SYM3049=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3049
 	.byte 2,141,56,3
 	.asciz "internalOptions"
 
-LDIFF_SYM2919=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM2919
+LDIFF_SYM3050=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3050
 	.byte 3,141,192,0,3
 	.asciz "scheduler"
 
-LDIFF_SYM2920=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2920
+LDIFF_SYM3051=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3051
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2921=Lfde231_end - Lfde231_start
-	.long LDIFF_SYM2921
-Lfde231_start:
+LDIFF_SYM3052=Lfde241_end - Lfde241_start
+	.long LDIFF_SYM3052
+Lfde241_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2922=Lme_105 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2922
+LDIFF_SYM3053=Lme_10f - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM3053
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde231_end:
+Lfde241_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44009,41 +47487,41 @@ Lfde231_end:
 
 	.byte 13,141,3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_106
+	.quad Lme_110
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2923=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2923
+LDIFF_SYM3054=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3054
 	.byte 1,106,3
 	.asciz "result"
 
-LDIFF_SYM2924=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2924
+LDIFF_SYM3055=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3055
 	.byte 2,141,32,11
 	.asciz "cp"
 
-LDIFF_SYM2925=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2925
+LDIFF_SYM3056=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3056
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2926=Lfde232_end - Lfde232_start
-	.long LDIFF_SYM2926
-Lfde232_start:
+LDIFF_SYM3057=Lfde242_end - Lfde242_start
+	.long LDIFF_SYM3057
+Lfde242_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2927=Lme_106 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2927
+LDIFF_SYM3058=Lme_110 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3058
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde232_end:
+Lfde242_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44053,36 +47531,36 @@ Lfde232_end:
 
 	.byte 13,185,3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_107
+	.quad Lme_111
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2928=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2928
+LDIFF_SYM3059=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3059
 	.byte 1,106,3
 	.asciz "result"
 
-LDIFF_SYM2929=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2929
+LDIFF_SYM3060=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3060
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2930=Lfde233_end - Lfde233_start
-	.long LDIFF_SYM2930
-Lfde233_start:
+LDIFF_SYM3061=Lfde243_end - Lfde243_start
+	.long LDIFF_SYM3061
+Lfde243_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2931=Lme_107 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2931
+LDIFF_SYM3062=Lme_111 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3062
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde233_end:
+Lfde243_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44092,31 +47570,31 @@ Lfde233_end:
 
 	.byte 13,210,3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
-	.quad Lme_108
+	.quad Lme_112
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2932=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2932
+LDIFF_SYM3063=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3063
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2933=Lfde234_end - Lfde234_start
-	.long LDIFF_SYM2933
-Lfde234_start:
+LDIFF_SYM3064=Lfde244_end - Lfde244_start
+	.long LDIFF_SYM3064
+Lfde244_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
 
-LDIFF_SYM2934=Lme_108 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
-	.long LDIFF_SYM2934
+LDIFF_SYM3065=Lme_112 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
+	.long LDIFF_SYM3065
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde234_end:
+Lfde244_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44126,31 +47604,31 @@ Lfde234_end:
 
 	.byte 13,226,3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
-	.quad Lme_109
+	.quad Lme_113
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2935=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2935
+LDIFF_SYM3066=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3066
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2936=Lfde235_end - Lfde235_start
-	.long LDIFF_SYM2936
-Lfde235_start:
+LDIFF_SYM3067=Lfde245_end - Lfde245_start
+	.long LDIFF_SYM3067
+Lfde245_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
 
-LDIFF_SYM2937=Lme_109 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
-	.long LDIFF_SYM2937
+LDIFF_SYM3068=Lme_113 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
+	.long LDIFF_SYM3068
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde235_end:
+Lfde245_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44160,41 +47638,41 @@ Lfde235_end:
 
 	.byte 13,234,3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
-	.quad Lme_10a
+	.quad Lme_114
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2938=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2938
+LDIFF_SYM3069=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3069
 	.byte 1,105,3
 	.asciz "waitCompletionNotification"
 
-LDIFF_SYM2939=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2939
+LDIFF_SYM3070=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3070
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2940=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2940
+LDIFF_SYM3071=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3071
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2941=Lfde236_end - Lfde236_start
-	.long LDIFF_SYM2941
-Lfde236_start:
+LDIFF_SYM3072=Lfde246_end - Lfde246_start
+	.long LDIFF_SYM3072
+Lfde246_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
 
-LDIFF_SYM2942=Lme_10a - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
-	.long LDIFF_SYM2942
+LDIFF_SYM3073=Lme_114 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
+	.long LDIFF_SYM3073
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde236_end:
+Lfde246_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44204,26 +47682,26 @@ Lfde236_end:
 
 	.byte 13,132,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
-	.quad Lme_10b
+	.quad Lme_115
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2943=Lfde237_end - Lfde237_start
-	.long LDIFF_SYM2943
-Lfde237_start:
+LDIFF_SYM3074=Lfde247_end - Lfde247_start
+	.long LDIFF_SYM3074
+Lfde247_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
 
-LDIFF_SYM2944=Lme_10b - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
-	.long LDIFF_SYM2944
+LDIFF_SYM3075=Lme_115 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
+	.long LDIFF_SYM3075
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde237_end:
+Lfde247_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44233,41 +47711,41 @@ Lfde237_end:
 
 	.byte 13,147,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.quad Lme_10c
+	.quad Lme_116
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2945=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2945
+LDIFF_SYM3076=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3076
 	.byte 1,106,11
 	.asciz "func"
 
-LDIFF_SYM2946=LTDIE_301_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2946
+LDIFF_SYM3077=LTDIE_311_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3077
 	.byte 1,105,11
 	.asciz "funcWithState"
 
-LDIFF_SYM2947=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2947
+LDIFF_SYM3078=LTDIE_312_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3078
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2948=Lfde238_end - Lfde238_start
-	.long LDIFF_SYM2948
-Lfde238_start:
+LDIFF_SYM3079=Lfde248_end - Lfde248_start
+	.long LDIFF_SYM3079
+Lfde248_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
 
-LDIFF_SYM2949=Lme_10c - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.long LDIFF_SYM2949
+LDIFF_SYM3080=Lme_116 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
+	.long LDIFF_SYM3080
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,68,154,4
 	.align 3
-Lfde238_end:
+Lfde248_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44277,31 +47755,31 @@ Lfde238_end:
 
 	.byte 13,169,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.quad Lme_10d
+	.quad Lme_117
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2950=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2950
+LDIFF_SYM3081=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3081
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2951=Lfde239_end - Lfde239_start
-	.long LDIFF_SYM2951
-Lfde239_start:
+LDIFF_SYM3082=Lfde249_end - Lfde249_start
+	.long LDIFF_SYM3082
+Lfde249_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 
-LDIFF_SYM2952=Lme_10d - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.long LDIFF_SYM2952
+LDIFF_SYM3083=Lme_117 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
+	.long LDIFF_SYM3083
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde239_end:
+Lfde249_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44311,102 +47789,102 @@ Lfde239_end:
 
 	.byte 13,179,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
-	.quad Lme_10e
+	.quad Lme_118
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2953=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2953
+LDIFF_SYM3084=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3084
 	.byte 2,141,32,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM2954=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2954
+LDIFF_SYM3085=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3085
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2955=Lfde240_end - Lfde240_start
-	.long LDIFF_SYM2955
-Lfde240_start:
+LDIFF_SYM3086=Lfde250_end - Lfde250_start
+	.long LDIFF_SYM3086
+Lfde250_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
 
-LDIFF_SYM2956=Lme_10e - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
-	.long LDIFF_SYM2956
+LDIFF_SYM3087=Lme_118 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
+	.long LDIFF_SYM3087
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde240_end:
+Lfde250_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_304:
+LTDIE_314:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 128,1,16
-LDIFF_SYM2957=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2957
+LDIFF_SYM3088=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3088
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM2958=LTDIE_304 - Ldebug_info_start
-	.long LDIFF_SYM2958
-LTDIE_304_POINTER:
+LDIFF_SYM3089=LTDIE_314 - Ldebug_info_start
+	.long LDIFF_SYM3089
+LTDIE_314_POINTER:
 
 	.byte 13
-LDIFF_SYM2959=LTDIE_304 - Ldebug_info_start
-	.long LDIFF_SYM2959
-LTDIE_304_REFERENCE:
+LDIFF_SYM3090=LTDIE_314 - Ldebug_info_start
+	.long LDIFF_SYM3090
+LTDIE_314_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2960=LTDIE_304 - Ldebug_info_start
-	.long LDIFF_SYM2960
+LDIFF_SYM3091=LTDIE_314 - Ldebug_info_start
+	.long LDIFF_SYM3091
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
 
 	.byte 13,205,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_10f
+	.quad Lme_119
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2961=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2961
+LDIFF_SYM3092=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3092
 	.byte 2,141,16,3
 	.asciz "continuationAction"
 
-LDIFF_SYM2962=LTDIE_304_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2962
+LDIFF_SYM3093=LTDIE_314_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3093
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2963=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2963
+LDIFF_SYM3094=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3094
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2964=Lfde241_end - Lfde241_start
-	.long LDIFF_SYM2964
-Lfde241_start:
+LDIFF_SYM3095=Lfde251_end - Lfde251_start
+	.long LDIFF_SYM3095
+Lfde251_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2965=Lme_10f - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2965
+LDIFF_SYM3096=Lme_119 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3096
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde241_end:
+Lfde251_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44416,56 +47894,56 @@ Lfde241_end:
 
 	.byte 13,131,5
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
-	.quad Lme_110
+	.quad Lme_11a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2966=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2966
+LDIFF_SYM3097=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3097
 	.byte 2,141,16,3
 	.asciz "continuationAction"
 
-LDIFF_SYM2967=LTDIE_304_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2967
+LDIFF_SYM3098=LTDIE_314_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3098
 	.byte 2,141,24,3
 	.asciz "scheduler"
 
-LDIFF_SYM2968=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2968
+LDIFF_SYM3099=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3099
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2969=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2969
+LDIFF_SYM3100=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3100
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2970=Lfde242_end - Lfde242_start
-	.long LDIFF_SYM2970
-Lfde242_start:
+LDIFF_SYM3101=Lfde252_end - Lfde252_start
+	.long LDIFF_SYM3101
+Lfde252_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2971=Lme_110 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2971
+LDIFF_SYM3102=Lme_11a - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM3102
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde242_end:
+Lfde252_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_305:
+LTDIE_315:
 
 	.byte 8
 	.asciz "System_Threading_Tasks_TaskContinuationOptions"
 
 	.byte 4
-LDIFF_SYM2972=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2972
+LDIFF_SYM3103=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3103
 	.byte 9
 	.asciz "None"
 
@@ -44514,69 +47992,118 @@ LDIFF_SYM2972=LDIE_I4 - Ldebug_info_start
 	.byte 128,128,32,0,7
 	.asciz "System_Threading_Tasks_TaskContinuationOptions"
 
-LDIFF_SYM2973=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM2973
-LTDIE_305_POINTER:
+LDIFF_SYM3104=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3104
+LTDIE_315_POINTER:
 
 	.byte 13
-LDIFF_SYM2974=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM2974
-LTDIE_305_REFERENCE:
+LDIFF_SYM3105=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3105
+LTDIE_315_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2975=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM2975
+LDIFF_SYM3106=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3106
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
+	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskContinuationOptions"
+
+	.byte 13,164,5
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskContinuationOptions
+	.quad Lme_11b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3107=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3107
+	.byte 2,141,16,3
+	.asciz "continuationAction"
+
+LDIFF_SYM3108=LTDIE_314_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3108
+	.byte 2,141,24,3
+	.asciz "continuationOptions"
+
+LDIFF_SYM3109=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3109
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM3110=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3110
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3111=Lfde253_end - Lfde253_start
+	.long LDIFF_SYM3111
+Lfde253_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskContinuationOptions
+
+LDIFF_SYM3112=Lme_11b - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskContinuationOptions
+	.long LDIFF_SYM3112
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde253_end:
+
+.section __DWARF, __debug_info,regular,debug
+
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler"
 
 	.byte 13,208,5
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_111
+	.quad Lme_11c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2976=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2976
+LDIFF_SYM3113=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3113
 	.byte 2,141,16,3
 	.asciz "continuationAction"
 
-LDIFF_SYM2977=LTDIE_304_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2977
+LDIFF_SYM3114=LTDIE_314_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3114
 	.byte 2,141,24,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2978=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2978
+LDIFF_SYM3115=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3115
 	.byte 2,141,32,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM2979=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM2979
+LDIFF_SYM3116=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3116
 	.byte 2,141,48,3
 	.asciz "scheduler"
 
-LDIFF_SYM2980=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2980
+LDIFF_SYM3117=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3117
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2981=Lfde243_end - Lfde243_start
-	.long LDIFF_SYM2981
-Lfde243_start:
+LDIFF_SYM3118=Lfde254_end - Lfde254_start
+	.long LDIFF_SYM3118
+Lfde254_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2982=Lme_111 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2982
+LDIFF_SYM3119=Lme_11c - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM3119
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde243_end:
+Lfde254_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44586,147 +48113,147 @@ Lfde243_end:
 
 	.byte 13,215,5
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
-	.quad Lme_112
+	.quad Lme_11d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2983=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2983
+LDIFF_SYM3120=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3120
 	.byte 2,141,24,3
 	.asciz "continuationAction"
 
-LDIFF_SYM2984=LTDIE_304_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2984
+LDIFF_SYM3121=LTDIE_314_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3121
 	.byte 1,104,3
 	.asciz "scheduler"
 
-LDIFF_SYM2985=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2985
+LDIFF_SYM3122=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3122
 	.byte 2,141,32,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2986=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2986
+LDIFF_SYM3123=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3123
 	.byte 2,141,40,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM2987=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM2987
+LDIFF_SYM3124=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3124
 	.byte 2,141,56,11
 	.asciz "creationOptions"
 
-LDIFF_SYM2988=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM2988
+LDIFF_SYM3125=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3125
 	.byte 3,141,192,0,11
 	.asciz "internalOptions"
 
-LDIFF_SYM2989=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM2989
+LDIFF_SYM3126=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3126
 	.byte 3,141,200,0,11
 	.asciz "continuationTask"
 
-LDIFF_SYM2990=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2990
+LDIFF_SYM3127=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3127
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2991=Lfde244_end - Lfde244_start
-	.long LDIFF_SYM2991
-Lfde244_start:
+LDIFF_SYM3128=Lfde255_end - Lfde255_start
+	.long LDIFF_SYM3128
+Lfde255_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 
-LDIFF_SYM2992=Lme_112 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
-	.long LDIFF_SYM2992
+LDIFF_SYM3129=Lme_11d - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+	.long LDIFF_SYM3129
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12
 	.align 3
-Lfde244_end:
+Lfde255_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_306:
+LTDIE_316:
 
 	.byte 5
 	.asciz "System_Action`2"
 
 	.byte 128,1,16
-LDIFF_SYM2993=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2993
+LDIFF_SYM3130=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3130
 	.byte 2,35,0,0,7
 	.asciz "System_Action`2"
 
-LDIFF_SYM2994=LTDIE_306 - Ldebug_info_start
-	.long LDIFF_SYM2994
-LTDIE_306_POINTER:
+LDIFF_SYM3131=LTDIE_316 - Ldebug_info_start
+	.long LDIFF_SYM3131
+LTDIE_316_POINTER:
 
 	.byte 13
-LDIFF_SYM2995=LTDIE_306 - Ldebug_info_start
-	.long LDIFF_SYM2995
-LTDIE_306_REFERENCE:
+LDIFF_SYM3132=LTDIE_316 - Ldebug_info_start
+	.long LDIFF_SYM3132
+LTDIE_316_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2996=LTDIE_306 - Ldebug_info_start
-	.long LDIFF_SYM2996
+LDIFF_SYM3133=LTDIE_316 - Ldebug_info_start
+	.long LDIFF_SYM3133
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler"
 
 	.byte 13,145,7
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_113
+	.quad Lme_11e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2997=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2997
+LDIFF_SYM3134=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3134
 	.byte 2,141,16,3
 	.asciz "continuationAction"
 
-LDIFF_SYM2998=LTDIE_306_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2998
+LDIFF_SYM3135=LTDIE_316_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3135
 	.byte 2,141,24,3
 	.asciz "state"
 
-LDIFF_SYM2999=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2999
+LDIFF_SYM3136=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3136
 	.byte 2,141,32,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM3000=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3000
+LDIFF_SYM3137=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3137
 	.byte 2,141,40,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM3001=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM3001
+LDIFF_SYM3138=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3138
 	.byte 2,141,56,3
 	.asciz "scheduler"
 
-LDIFF_SYM3002=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3002
+LDIFF_SYM3139=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3139
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3003=Lfde245_end - Lfde245_start
-	.long LDIFF_SYM3003
-Lfde245_start:
+LDIFF_SYM3140=Lfde256_end - Lfde256_start
+	.long LDIFF_SYM3140
+Lfde256_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM3004=Lme_113 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM3004
+LDIFF_SYM3141=Lme_11e - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM3141
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde245_end:
+Lfde256_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44736,152 +48263,152 @@ Lfde245_end:
 
 	.byte 13,152,7
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
-	.quad Lme_114
+	.quad Lme_11f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3005=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3005
+LDIFF_SYM3142=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3142
 	.byte 2,141,24,3
 	.asciz "continuationAction"
 
-LDIFF_SYM3006=LTDIE_306_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3006
+LDIFF_SYM3143=LTDIE_316_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3143
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM3007=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3007
+LDIFF_SYM3144=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3144
 	.byte 1,104,3
 	.asciz "scheduler"
 
-LDIFF_SYM3008=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3008
+LDIFF_SYM3145=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3145
 	.byte 2,141,40,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM3009=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3009
+LDIFF_SYM3146=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3146
 	.byte 2,141,48,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM3010=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM3010
+LDIFF_SYM3147=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3147
 	.byte 3,141,192,0,11
 	.asciz "creationOptions"
 
-LDIFF_SYM3011=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM3011
+LDIFF_SYM3148=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3148
 	.byte 3,141,200,0,11
 	.asciz "internalOptions"
 
-LDIFF_SYM3012=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM3012
+LDIFF_SYM3149=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3149
 	.byte 3,141,208,0,11
 	.asciz "continuationTask"
 
-LDIFF_SYM3013=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3013
+LDIFF_SYM3150=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3150
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3014=Lfde246_end - Lfde246_start
-	.long LDIFF_SYM3014
-Lfde246_start:
+LDIFF_SYM3151=Lfde257_end - Lfde257_start
+	.long LDIFF_SYM3151
+Lfde257_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 
-LDIFF_SYM3015=Lme_114 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
-	.long LDIFF_SYM3015
+LDIFF_SYM3152=Lme_11f - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+	.long LDIFF_SYM3152
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
-Lfde246_end:
+Lfde257_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_307:
+LTDIE_317:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_TaskFactory`1"
 
 	.byte 40,16
-LDIFF_SYM3016=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM3016
+LDIFF_SYM3153=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM3153
 	.byte 2,35,0,6
 	.asciz "m_defaultCancellationToken"
 
-LDIFF_SYM3017=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3017
+LDIFF_SYM3154=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3154
 	.byte 2,35,16,6
 	.asciz "m_defaultScheduler"
 
-LDIFF_SYM3018=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3018
+LDIFF_SYM3155=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3155
 	.byte 2,35,24,6
 	.asciz "m_defaultCreationOptions"
 
-LDIFF_SYM3019=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM3019
+LDIFF_SYM3156=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3156
 	.byte 2,35,32,6
 	.asciz "m_defaultContinuationOptions"
 
-LDIFF_SYM3020=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM3020
+LDIFF_SYM3157=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3157
 	.byte 2,35,36,0,7
 	.asciz "System_Threading_Tasks_TaskFactory`1"
 
-LDIFF_SYM3021=LTDIE_307 - Ldebug_info_start
-	.long LDIFF_SYM3021
-LTDIE_307_POINTER:
+LDIFF_SYM3158=LTDIE_317 - Ldebug_info_start
+	.long LDIFF_SYM3158
+LTDIE_317_POINTER:
 
 	.byte 13
-LDIFF_SYM3022=LTDIE_307 - Ldebug_info_start
-	.long LDIFF_SYM3022
-LTDIE_307_REFERENCE:
+LDIFF_SYM3159=LTDIE_317 - Ldebug_info_start
+	.long LDIFF_SYM3159
+LTDIE_317_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3023=LTDIE_307 - Ldebug_info_start
-	.long LDIFF_SYM3023
+LDIFF_SYM3160=LTDIE_317 - Ldebug_info_start
+	.long LDIFF_SYM3160
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor"
 
 	.byte 14,93
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.quad Lme_115
+	.quad Lme_120
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3024=LTDIE_307_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3024
+LDIFF_SYM3161=LTDIE_317_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3161
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM3025=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3025
+LDIFF_SYM3162=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3162
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3026=Lfde247_end - Lfde247_start
-	.long LDIFF_SYM3026
-Lfde247_start:
+LDIFF_SYM3163=Lfde258_end - Lfde258_start
+	.long LDIFF_SYM3163
+Lfde258_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM3027=Lme_115 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM3027
+LDIFF_SYM3164=Lme_120 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM3164
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde247_end:
+Lfde258_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44891,51 +48418,51 @@ Lfde247_end:
 
 	.byte 14,208,1
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_116
+	.quad Lme_121
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3028=LTDIE_307_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3028
+LDIFF_SYM3165=LTDIE_317_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3165
 	.byte 1,103,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM3029=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3029
+LDIFF_SYM3166=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3166
 	.byte 2,141,24,3
 	.asciz "creationOptions"
 
-LDIFF_SYM3030=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM3030
+LDIFF_SYM3167=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3167
 	.byte 2,141,40,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM3031=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM3031
+LDIFF_SYM3168=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3168
 	.byte 2,141,48,3
 	.asciz "scheduler"
 
-LDIFF_SYM3032=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3032
+LDIFF_SYM3169=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3169
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3033=Lfde248_end - Lfde248_start
-	.long LDIFF_SYM3033
-Lfde248_start:
+LDIFF_SYM3170=Lfde259_end - Lfde259_start
+	.long LDIFF_SYM3170
+Lfde259_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM3034=Lme_116 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM3034
+LDIFF_SYM3171=Lme_121 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM3171
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6
 	.align 3
-Lfde248_end:
+Lfde259_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44945,198 +48472,198 @@ Lfde248_end:
 
 	.byte 14,252,3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_117
+	.quad Lme_122
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3035=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3035
+LDIFF_SYM3172=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3172
 	.byte 0,3
 	.asciz "function"
 
-LDIFF_SYM3036=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3036
+LDIFF_SYM3173=LTDIE_312_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3173
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM3037=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3037
+LDIFF_SYM3174=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3174
 	.byte 2,141,40,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM3038=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3038
+LDIFF_SYM3175=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3175
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM3039=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM3039
+LDIFF_SYM3176=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3176
 	.byte 3,141,192,0,3
 	.asciz "scheduler"
 
-LDIFF_SYM3040=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3040
+LDIFF_SYM3177=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3177
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3041=Lfde249_end - Lfde249_start
-	.long LDIFF_SYM3041
-Lfde249_start:
+LDIFF_SYM3178=Lfde260_end - Lfde260_start
+	.long LDIFF_SYM3178
+Lfde260_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM3042=Lme_117 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM3042
+LDIFF_SYM3179=Lme_122 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM3179
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8
 	.align 3
-Lfde249_end:
+Lfde260_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_308:
+LTDIE_318:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM3043=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM3043
+LDIFF_SYM3180=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3180
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM3044=LTDIE_308 - Ldebug_info_start
-	.long LDIFF_SYM3044
-LTDIE_308_POINTER:
+LDIFF_SYM3181=LTDIE_318 - Ldebug_info_start
+	.long LDIFF_SYM3181
+LTDIE_318_POINTER:
 
 	.byte 13
-LDIFF_SYM3045=LTDIE_308 - Ldebug_info_start
-	.long LDIFF_SYM3045
-LTDIE_308_REFERENCE:
+LDIFF_SYM3182=LTDIE_318 - Ldebug_info_start
+	.long LDIFF_SYM3182
+LTDIE_318_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3046=LTDIE_308 - Ldebug_info_start
-	.long LDIFF_SYM3046
-LTDIE_310:
+LDIFF_SYM3183=LTDIE_318 - Ldebug_info_start
+	.long LDIFF_SYM3183
+LTDIE_320:
 
 	.byte 5
 	.asciz "System_SystemException"
 
 	.byte 144,1,16
-LDIFF_SYM3047=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM3047
+LDIFF_SYM3184=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM3184
 	.byte 2,35,0,0,7
 	.asciz "System_SystemException"
 
-LDIFF_SYM3048=LTDIE_310 - Ldebug_info_start
-	.long LDIFF_SYM3048
-LTDIE_310_POINTER:
+LDIFF_SYM3185=LTDIE_320 - Ldebug_info_start
+	.long LDIFF_SYM3185
+LTDIE_320_POINTER:
 
 	.byte 13
-LDIFF_SYM3049=LTDIE_310 - Ldebug_info_start
-	.long LDIFF_SYM3049
-LTDIE_310_REFERENCE:
+LDIFF_SYM3186=LTDIE_320 - Ldebug_info_start
+	.long LDIFF_SYM3186
+LTDIE_320_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3050=LTDIE_310 - Ldebug_info_start
-	.long LDIFF_SYM3050
-LTDIE_309:
+LDIFF_SYM3187=LTDIE_320 - Ldebug_info_start
+	.long LDIFF_SYM3187
+LTDIE_319:
 
 	.byte 5
 	.asciz "System_OperationCanceledException"
 
 	.byte 152,1,16
-LDIFF_SYM3051=LTDIE_310 - Ldebug_info_start
-	.long LDIFF_SYM3051
+LDIFF_SYM3188=LTDIE_320 - Ldebug_info_start
+	.long LDIFF_SYM3188
 	.byte 2,35,0,6
 	.asciz "_cancellationToken"
 
-LDIFF_SYM3052=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3052
+LDIFF_SYM3189=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3189
 	.byte 3,35,144,1,0,7
 	.asciz "System_OperationCanceledException"
 
-LDIFF_SYM3053=LTDIE_309 - Ldebug_info_start
-	.long LDIFF_SYM3053
-LTDIE_309_POINTER:
+LDIFF_SYM3190=LTDIE_319 - Ldebug_info_start
+	.long LDIFF_SYM3190
+LTDIE_319_POINTER:
 
 	.byte 13
-LDIFF_SYM3054=LTDIE_309 - Ldebug_info_start
-	.long LDIFF_SYM3054
-LTDIE_309_REFERENCE:
+LDIFF_SYM3191=LTDIE_319 - Ldebug_info_start
+	.long LDIFF_SYM3191
+LTDIE_319_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3055=LTDIE_309 - Ldebug_info_start
-	.long LDIFF_SYM3055
+LDIFF_SYM3192=LTDIE_319 - Ldebug_info_start
+	.long LDIFF_SYM3192
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:FromAsyncCoreLogic"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 14,142,4
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_118
+	.quad Lme_123
 
 	.byte 2,118,16,3
 	.asciz "iar"
 
-LDIFF_SYM3056=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3056
+LDIFF_SYM3193=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3193
 	.byte 2,141,32,3
 	.asciz "endFunction"
 
-LDIFF_SYM3057=LTDIE_308_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3057
+LDIFF_SYM3194=LTDIE_318_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3194
 	.byte 1,105,3
 	.asciz "endAction"
 
-LDIFF_SYM3058=LTDIE_226_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3058
+LDIFF_SYM3195=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3195
 	.byte 1,106,3
 	.asciz "promise"
 
-LDIFF_SYM3059=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3059
+LDIFF_SYM3196=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3196
 	.byte 2,141,40,3
 	.asciz "requiresSynchronization"
 
-LDIFF_SYM3060=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3060
+LDIFF_SYM3197=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3197
 	.byte 2,141,48,11
 	.asciz "ex"
 
-LDIFF_SYM3061=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3061
+LDIFF_SYM3198=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3198
 	.byte 3,141,232,0,11
 	.asciz "oce"
 
-LDIFF_SYM3062=LTDIE_309_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3062
+LDIFF_SYM3199=LTDIE_319_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3199
 	.byte 3,141,240,0,11
 	.asciz "result"
 
-LDIFF_SYM3063=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3063
+LDIFF_SYM3200=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3200
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3064=Lfde250_end - Lfde250_start
-	.long LDIFF_SYM3064
-Lfde250_start:
+LDIFF_SYM3201=Lfde261_end - Lfde261_start
+	.long LDIFF_SYM3201
+Lfde261_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM3065=Lme_118 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM3065
+LDIFF_SYM3202=Lme_123 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM3202
 	.long 0
 	.byte 12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,153,32,154,31
 	.align 3
-Lfde250_end:
+Lfde261_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45146,152 +48673,346 @@ Lfde250_end:
 
 	.byte 14,220,5
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
-	.quad Lme_119
+	.quad Lme_124
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3066=LTDIE_307_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3066
+LDIFF_SYM3203=LTDIE_317_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3203
 	.byte 2,141,16,3
 	.asciz "beginMethod"
 
-LDIFF_SYM3067=LTDIE_227_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3067
+LDIFF_SYM3204=LTDIE_227_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3204
 	.byte 2,141,24,3
 	.asciz "endMethod"
 
-LDIFF_SYM3068=LTDIE_308_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3068
+LDIFF_SYM3205=LTDIE_318_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3205
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM3069=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3069
+LDIFF_SYM3206=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3206
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3070=Lfde251_end - Lfde251_start
-	.long LDIFF_SYM3070
-Lfde251_start:
+LDIFF_SYM3207=Lfde262_end - Lfde262_start
+	.long LDIFF_SYM3207
+Lfde262_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
 
-LDIFF_SYM3071=Lme_119 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
-	.long LDIFF_SYM3071
+LDIFF_SYM3208=Lme_124 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
+	.long LDIFF_SYM3208
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde251_end:
+Lfde262_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_311:
+LTDIE_321:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass35_0"
 
 	.byte 40,16
-LDIFF_SYM3072=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM3072
+LDIFF_SYM3209=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM3209
 	.byte 2,35,0,6
 	.asciz "endFunction"
 
-LDIFF_SYM3073=LTDIE_308_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3073
+LDIFF_SYM3210=LTDIE_318_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3210
 	.byte 2,35,16,6
 	.asciz "endAction"
 
-LDIFF_SYM3074=LTDIE_226_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3074
+LDIFF_SYM3211=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3211
 	.byte 2,35,24,6
 	.asciz "promise"
 
-LDIFF_SYM3075=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3075
+LDIFF_SYM3212=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3212
 	.byte 2,35,32,0,7
 	.asciz "_<>c__DisplayClass35_0"
 
-LDIFF_SYM3076=LTDIE_311 - Ldebug_info_start
-	.long LDIFF_SYM3076
-LTDIE_311_POINTER:
+LDIFF_SYM3213=LTDIE_321 - Ldebug_info_start
+	.long LDIFF_SYM3213
+LTDIE_321_POINTER:
 
 	.byte 13
-LDIFF_SYM3077=LTDIE_311 - Ldebug_info_start
-	.long LDIFF_SYM3077
-LTDIE_311_REFERENCE:
+LDIFF_SYM3214=LTDIE_321 - Ldebug_info_start
+	.long LDIFF_SYM3214
+LTDIE_321_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3078=LTDIE_311 - Ldebug_info_start
-	.long LDIFF_SYM3078
+LDIFF_SYM3215=LTDIE_321 - Ldebug_info_start
+	.long LDIFF_SYM3215
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:FromAsyncImpl"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 14,0
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-	.quad Lme_11a
+	.quad Lme_125
 
 	.byte 2,118,16,3
 	.asciz "beginMethod"
 
-LDIFF_SYM3079=LTDIE_227_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3079
+LDIFF_SYM3216=LTDIE_227_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3216
 	.byte 1,102,3
 	.asciz "endFunction"
 
-LDIFF_SYM3080=LTDIE_308_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3080
+LDIFF_SYM3217=LTDIE_318_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3217
 	.byte 2,141,40,3
 	.asciz "endAction"
 
-LDIFF_SYM3081=LTDIE_226_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3081
+LDIFF_SYM3218=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3218
 	.byte 1,104,3
 	.asciz "state"
 
-LDIFF_SYM3082=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3082
+LDIFF_SYM3219=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3219
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM3083=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM3083
+LDIFF_SYM3220=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3220
 	.byte 1,106,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM3084=LTDIE_311_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3084
+LDIFF_SYM3221=LTDIE_321_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3221
 	.byte 3,141,192,0,11
 	.asciz "asyncResult"
 
-LDIFF_SYM3085=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3085
+LDIFF_SYM3222=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3222
 	.byte 1,106,11
 	.asciz "V_2"
 
-LDIFF_SYM3086=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3086
+LDIFF_SYM3223=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3223
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3087=Lfde252_end - Lfde252_start
-	.long LDIFF_SYM3087
-Lfde252_start:
+LDIFF_SYM3224=Lfde263_end - Lfde263_start
+	.long LDIFF_SYM3224
+Lfde263_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM3088=Lme_11a - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM3088
+LDIFF_SYM3225=Lme_125 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM3225
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,68,152,19,68,154,18
 	.align 3
-Lfde252_end:
+Lfde263_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:CreateCanceledTask"
+	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_CreateCanceledTask_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken"
+
+	.byte 14,173,10
+	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_CreateCanceledTask_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken
+	.quad Lme_126
+
+	.byte 2,118,16,3
+	.asciz "continuationOptions"
+
+LDIFF_SYM3226=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3226
+	.byte 2,141,16,3
+	.asciz "ct"
+
+LDIFF_SYM3227=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3227
+	.byte 2,141,24,11
+	.asciz "tco"
+
+LDIFF_SYM3228=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3228
+	.byte 2,141,48,11
+	.asciz "dontcare"
+
+LDIFF_SYM3229=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3229
+	.byte 2,141,56,11
+	.asciz "V_2"
+
+LDIFF_SYM3230=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3230
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3231=Lfde264_end - Lfde264_start
+	.long LDIFF_SYM3231
+Lfde264_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_CreateCanceledTask_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken
+
+LDIFF_SYM3232=Lme_126 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_CreateCanceledTask_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken
+	.long LDIFF_SYM3232
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde264_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:ContinueWhenAllImpl"
+	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_ContinueWhenAllImpl_System_Threading_Tasks_Task___System_Action_1_System_Threading_Tasks_Task___System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken_System_Threading_Tasks_TaskScheduler"
+
+	.byte 14,172,13
+	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_ContinueWhenAllImpl_System_Threading_Tasks_Task___System_Action_1_System_Threading_Tasks_Task___System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken_System_Threading_Tasks_TaskScheduler
+	.quad Lme_127
+
+	.byte 2,118,16,3
+	.asciz "tasks"
+
+LDIFF_SYM3233=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3233
+	.byte 1,103,3
+	.asciz "continuationAction"
+
+LDIFF_SYM3234=LTDIE_228_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3234
+	.byte 2,141,40,3
+	.asciz "continuationOptions"
+
+LDIFF_SYM3235=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3235
+	.byte 1,105,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM3236=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3236
+	.byte 2,141,48,3
+	.asciz "scheduler"
+
+LDIFF_SYM3237=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3237
+	.byte 3,141,192,0,11
+	.asciz "tasksCopy"
+
+LDIFF_SYM3238=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3238
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3239=Lfde265_end - Lfde265_start
+	.long LDIFF_SYM3239
+Lfde265_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_ContinueWhenAllImpl_System_Threading_Tasks_Task___System_Action_1_System_Threading_Tasks_Task___System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken_System_Threading_Tasks_TaskScheduler
+
+LDIFF_SYM3240=Lme_127 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_ContinueWhenAllImpl_System_Threading_Tasks_Task___System_Action_1_System_Threading_Tasks_Task___System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM3240
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,153,12
+	.align 3
+Lfde265_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_322:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 128,1,16
+LDIFF_SYM3241=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3241
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM3242=LTDIE_322 - Ldebug_info_start
+	.long LDIFF_SYM3242
+LTDIE_322_POINTER:
+
+	.byte 13
+LDIFF_SYM3243=LTDIE_322 - Ldebug_info_start
+	.long LDIFF_SYM3243
+LTDIE_322_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3244=LTDIE_322 - Ldebug_info_start
+	.long LDIFF_SYM3244
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:ContinueWhenAnyImpl"
+	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_ContinueWhenAnyImpl_System_Threading_Tasks_Task___System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken_System_Threading_Tasks_TaskScheduler"
+
+	.byte 14,131,16
+	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_ContinueWhenAnyImpl_System_Threading_Tasks_Task___System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken_System_Threading_Tasks_TaskScheduler
+	.quad Lme_128
+
+	.byte 2,118,16,3
+	.asciz "tasks"
+
+LDIFF_SYM3245=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3245
+	.byte 1,103,3
+	.asciz "continuationFunction"
+
+LDIFF_SYM3246=LTDIE_322_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3246
+	.byte 2,141,40,3
+	.asciz "continuationOptions"
+
+LDIFF_SYM3247=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3247
+	.byte 1,105,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM3248=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3248
+	.byte 2,141,48,3
+	.asciz "scheduler"
+
+LDIFF_SYM3249=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3249
+	.byte 3,141,192,0,11
+	.asciz "starter"
+
+LDIFF_SYM3250=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3250
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3251=Lfde266_end - Lfde266_start
+	.long LDIFF_SYM3251
+Lfde266_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_ContinueWhenAnyImpl_System_Threading_Tasks_Task___System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken_System_Threading_Tasks_TaskScheduler
+
+LDIFF_SYM3252=Lme_128 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_ContinueWhenAnyImpl_System_Threading_Tasks_Task___System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskContinuationOptions_System_Threading_CancellationToken_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM3252
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,153,12
+	.align 3
+Lfde266_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45301,31 +49022,31 @@ Lfde252_end:
 
 	.byte 7,188,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
-	.quad Lme_11b
+	.quad Lme_129
 
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM3089=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3089
+LDIFF_SYM3253=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3253
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3090=Lfde253_end - Lfde253_start
-	.long LDIFF_SYM3090
-Lfde253_start:
+LDIFF_SYM3254=Lfde267_end - Lfde267_start
+	.long LDIFF_SYM3254
+Lfde267_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
 
-LDIFF_SYM3091=Lme_11b - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
-	.long LDIFF_SYM3091
+LDIFF_SYM3255=Lme_129 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
+	.long LDIFF_SYM3255
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde253_end:
+Lfde267_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45335,36 +49056,36 @@ Lfde253_end:
 
 	.byte 7,229,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.quad Lme_11c
+	.quad Lme_12a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3092=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3092
+LDIFF_SYM3256=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3256
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM3093=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3093
+LDIFF_SYM3257=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3257
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3094=Lfde254_end - Lfde254_start
-	.long LDIFF_SYM3094
-Lfde254_start:
+LDIFF_SYM3258=Lfde268_end - Lfde268_start
+	.long LDIFF_SYM3258
+Lfde268_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM3095=Lme_11c - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM3095
+LDIFF_SYM3259=Lme_12a - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM3259
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde254_end:
+Lfde268_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45374,36 +49095,36 @@ Lfde254_end:
 
 	.byte 7,190,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-	.quad Lme_11d
+	.quad Lme_12b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3096=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3096
+LDIFF_SYM3260=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3260
 	.byte 1,106,11
 	.asciz "task"
 
-LDIFF_SYM3097=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3097
+LDIFF_SYM3261=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3261
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3098=Lfde255_end - Lfde255_start
-	.long LDIFF_SYM3098
-Lfde255_start:
+LDIFF_SYM3262=Lfde269_end - Lfde269_start
+	.long LDIFF_SYM3262
+Lfde269_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 
-LDIFF_SYM3099=Lme_11d - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-	.long LDIFF_SYM3099
+LDIFF_SYM3263=Lme_12b - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
+	.long LDIFF_SYM3263
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4,154,3
 	.align 3
-Lfde255_end:
+Lfde269_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45413,41 +49134,41 @@ Lfde255_end:
 
 	.byte 7,206,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_11e
+	.quad Lme_12c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3100=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3100
+LDIFF_SYM3264=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3264
 	.byte 1,106,3
 	.asciz "result"
 
-LDIFF_SYM3101=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3101
+LDIFF_SYM3265=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3265
 	.byte 2,141,32,11
 	.asciz "task"
 
-LDIFF_SYM3102=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3102
+LDIFF_SYM3266=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3266
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3103=Lfde256_end - Lfde256_start
-	.long LDIFF_SYM3103
-Lfde256_start:
+LDIFF_SYM3267=Lfde270_end - Lfde270_start
+	.long LDIFF_SYM3267
+Lfde270_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM3104=Lme_11e - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM3104
+LDIFF_SYM3268=Lme_12c - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3268
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde256_end:
+Lfde270_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45457,41 +49178,41 @@ Lfde256_end:
 
 	.byte 7,244,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_11f
+	.quad Lme_12d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3105=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3105
+LDIFF_SYM3269=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3269
 	.byte 1,105,3
 	.asciz "completedTask"
 
-LDIFF_SYM3106=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3106
+LDIFF_SYM3270=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3270
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM3107=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3107
+LDIFF_SYM3271=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3271
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3108=Lfde257_end - Lfde257_start
-	.long LDIFF_SYM3108
-Lfde257_start:
+LDIFF_SYM3272=Lfde271_end - Lfde271_start
+	.long LDIFF_SYM3272
+Lfde271_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM3109=Lme_11f - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM3109
+LDIFF_SYM3273=Lme_12d - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3273
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
-Lfde257_end:
+Lfde271_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45501,46 +49222,46 @@ Lfde257_end:
 
 	.byte 7,137,5
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
-	.quad Lme_120
+	.quad Lme_12e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3110=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3110
+LDIFF_SYM3274=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3274
 	.byte 1,105,3
 	.asciz "exception"
 
-LDIFF_SYM3111=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3111
+LDIFF_SYM3275=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3275
 	.byte 1,106,11
 	.asciz "task"
 
-LDIFF_SYM3112=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3112
+LDIFF_SYM3276=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3276
 	.byte 1,104,11
 	.asciz "oce"
 
-LDIFF_SYM3113=LTDIE_309_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3113
+LDIFF_SYM3277=LTDIE_319_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3277
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3114=Lfde258_end - Lfde258_start
-	.long LDIFF_SYM3114
-Lfde258_start:
+LDIFF_SYM3278=Lfde272_end - Lfde272_start
+	.long LDIFF_SYM3278
+Lfde272_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
 
-LDIFF_SYM3115=Lme_120 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
-	.long LDIFF_SYM3115
+LDIFF_SYM3279=Lme_12e - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
+	.long LDIFF_SYM3279
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde258_end:
+Lfde272_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45550,41 +49271,41 @@ Lfde258_end:
 
 	.byte 7,228,5
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_121
+	.quad Lme_12f
 
 	.byte 2,118,16,3
 	.asciz "result"
 
-LDIFF_SYM3116=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3116
+LDIFF_SYM3280=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3280
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM3117=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3117
+LDIFF_SYM3281=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3281
 	.byte 0,11
 	.asciz "value"
 
-LDIFF_SYM3118=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3118
+LDIFF_SYM3282=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3282
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3119=Lfde259_end - Lfde259_start
-	.long LDIFF_SYM3119
-Lfde259_start:
+LDIFF_SYM3283=Lfde273_end - Lfde273_start
+	.long LDIFF_SYM3283
+Lfde273_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM3120=Lme_121 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM3120
+LDIFF_SYM3284=Lme_12f - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3284
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde259_end:
+Lfde273_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45594,102 +49315,102 @@ Lfde259_end:
 
 	.byte 7,171,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
-	.quad Lme_122
+	.quad Lme_130
 
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM3121=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3121
+LDIFF_SYM3285=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3285
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3122=Lfde260_end - Lfde260_start
-	.long LDIFF_SYM3122
-Lfde260_start:
+LDIFF_SYM3286=Lfde274_end - Lfde274_start
+	.long LDIFF_SYM3286
+Lfde274_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
 
-LDIFF_SYM3123=Lme_122 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
-	.long LDIFF_SYM3123
+LDIFF_SYM3287=Lme_130 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
+	.long LDIFF_SYM3287
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde260_end:
+Lfde274_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_312:
+LTDIE_323:
 
 	.byte 5
 	.asciz "_Iterator`1"
 
 	.byte 32,16
-LDIFF_SYM3124=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM3124
+LDIFF_SYM3288=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM3288
 	.byte 2,35,0,6
 	.asciz "_threadId"
 
-LDIFF_SYM3125=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3125
+LDIFF_SYM3289=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3289
 	.byte 2,35,24,6
 	.asciz "_state"
 
-LDIFF_SYM3126=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3126
+LDIFF_SYM3290=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3290
 	.byte 2,35,28,6
 	.asciz "_current"
 
-LDIFF_SYM3127=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3127
+LDIFF_SYM3291=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3291
 	.byte 2,35,16,0,7
 	.asciz "_Iterator`1"
 
-LDIFF_SYM3128=LTDIE_312 - Ldebug_info_start
-	.long LDIFF_SYM3128
-LTDIE_312_POINTER:
+LDIFF_SYM3292=LTDIE_323 - Ldebug_info_start
+	.long LDIFF_SYM3292
+LTDIE_323_POINTER:
 
 	.byte 13
-LDIFF_SYM3129=LTDIE_312 - Ldebug_info_start
-	.long LDIFF_SYM3129
-LTDIE_312_REFERENCE:
+LDIFF_SYM3293=LTDIE_323 - Ldebug_info_start
+	.long LDIFF_SYM3293
+LTDIE_323_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3130=LTDIE_312 - Ldebug_info_start
-	.long LDIFF_SYM3130
+LDIFF_SYM3294=LTDIE_323 - Ldebug_info_start
+	.long LDIFF_SYM3294
 	.byte 2
 	.asciz "System.Linq.Enumerable/Iterator`1<TSource_REF>:.ctor"
 	.asciz "System_Linq_Enumerable_Iterator_1_TSource_REF__ctor"
 
 	.byte 5,41
 	.quad System_Linq_Enumerable_Iterator_1_TSource_REF__ctor
-	.quad Lme_123
+	.quad Lme_131
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3131=LTDIE_312_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3131
+LDIFF_SYM3295=LTDIE_323_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3295
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3132=Lfde261_end - Lfde261_start
-	.long LDIFF_SYM3132
-Lfde261_start:
+LDIFF_SYM3296=Lfde275_end - Lfde275_start
+	.long LDIFF_SYM3296
+Lfde275_start:
 
 	.long 0
 	.align 3
 	.quad System_Linq_Enumerable_Iterator_1_TSource_REF__ctor
 
-LDIFF_SYM3133=Lme_123 - System_Linq_Enumerable_Iterator_1_TSource_REF__ctor
-	.long LDIFF_SYM3133
+LDIFF_SYM3297=Lme_131 - System_Linq_Enumerable_Iterator_1_TSource_REF__ctor
+	.long LDIFF_SYM3297
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde261_end:
+Lfde275_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45699,72 +49420,72 @@ Lfde261_end:
 
 	.byte 4,175,5
 	.quad System_Array_IndexOfImpl_T_BYTE_T_BYTE___T_BYTE_int_int
-	.quad Lme_124
+	.quad Lme_132
 
 	.byte 2,118,16,3
 	.asciz "array"
 
-LDIFF_SYM3134=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3134
+LDIFF_SYM3298=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3298
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM3135=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3135
+LDIFF_SYM3299=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3299
 	.byte 2,141,24,3
 	.asciz "startIndex"
 
-LDIFF_SYM3136=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3136
+LDIFF_SYM3300=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3300
 	.byte 2,141,32,3
 	.asciz "count"
 
-LDIFF_SYM3137=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3137
+LDIFF_SYM3301=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3301
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3138=Lfde262_end - Lfde262_start
-	.long LDIFF_SYM3138
-Lfde262_start:
+LDIFF_SYM3302=Lfde276_end - Lfde276_start
+	.long LDIFF_SYM3302
+Lfde276_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_IndexOfImpl_T_BYTE_T_BYTE___T_BYTE_int_int
 
-LDIFF_SYM3139=Lme_124 - System_Array_IndexOfImpl_T_BYTE_T_BYTE___T_BYTE_int_int
-	.long LDIFF_SYM3139
+LDIFF_SYM3303=Lme_132 - System_Array_IndexOfImpl_T_BYTE_T_BYTE___T_BYTE_int_int
+	.long LDIFF_SYM3303
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde262_end:
+Lfde276_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_313:
+LTDIE_324:
 
 	.byte 5
 	.asciz "System_Collections_Generic_ArraySortHelper`1"
 
 	.byte 16,16
-LDIFF_SYM3140=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM3140
+LDIFF_SYM3304=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM3304
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_ArraySortHelper`1"
 
-LDIFF_SYM3141=LTDIE_313 - Ldebug_info_start
-	.long LDIFF_SYM3141
-LTDIE_313_POINTER:
+LDIFF_SYM3305=LTDIE_324 - Ldebug_info_start
+	.long LDIFF_SYM3305
+LTDIE_324_POINTER:
 
 	.byte 13
-LDIFF_SYM3142=LTDIE_313 - Ldebug_info_start
-	.long LDIFF_SYM3142
-LTDIE_313_REFERENCE:
+LDIFF_SYM3306=LTDIE_324 - Ldebug_info_start
+	.long LDIFF_SYM3306
+LTDIE_324_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3143=LTDIE_313 - Ldebug_info_start
-	.long LDIFF_SYM3143
-LTDIE_314:
+LDIFF_SYM3307=LTDIE_324 - Ldebug_info_start
+	.long LDIFF_SYM3307
+LTDIE_325:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IComparer`1"
@@ -45772,74 +49493,74 @@ LTDIE_314:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IComparer`1"
 
-LDIFF_SYM3144=LTDIE_314 - Ldebug_info_start
-	.long LDIFF_SYM3144
-LTDIE_314_POINTER:
+LDIFF_SYM3308=LTDIE_325 - Ldebug_info_start
+	.long LDIFF_SYM3308
+LTDIE_325_POINTER:
 
 	.byte 13
-LDIFF_SYM3145=LTDIE_314 - Ldebug_info_start
-	.long LDIFF_SYM3145
-LTDIE_314_REFERENCE:
+LDIFF_SYM3309=LTDIE_325 - Ldebug_info_start
+	.long LDIFF_SYM3309
+LTDIE_325_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3146=LTDIE_314 - Ldebug_info_start
-	.long LDIFF_SYM3146
+LDIFF_SYM3310=LTDIE_325 - Ldebug_info_start
+	.long LDIFF_SYM3310
 	.byte 2
 	.asciz "System.Collections.Generic.ArraySortHelper`1<T_BYTE>:Sort"
 	.asciz "System_Collections_Generic_ArraySortHelper_1_T_BYTE_Sort_T_BYTE___int_int_System_Collections_Generic_IComparer_1_T_BYTE"
 
 	.byte 12,61
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_Sort_T_BYTE___int_int_System_Collections_Generic_IComparer_1_T_BYTE
-	.quad Lme_125
+	.quad Lme_133
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3147=LTDIE_313_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3147
+LDIFF_SYM3311=LTDIE_324_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3311
 	.byte 2,141,16,3
 	.asciz "keys"
 
-LDIFF_SYM3148=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3148
+LDIFF_SYM3312=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3312
 	.byte 2,141,24,3
 	.asciz "index"
 
-LDIFF_SYM3149=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3149
+LDIFF_SYM3313=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3313
 	.byte 2,141,32,3
 	.asciz "length"
 
-LDIFF_SYM3150=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3150
+LDIFF_SYM3314=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3314
 	.byte 2,141,40,3
 	.asciz "comparer"
 
-LDIFF_SYM3151=LTDIE_314_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3151
+LDIFF_SYM3315=LTDIE_325_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3315
 	.byte 2,141,48,11
 	.asciz "e"
 
-LDIFF_SYM3152=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3152
+LDIFF_SYM3316=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3316
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3153=Lfde263_end - Lfde263_start
-	.long LDIFF_SYM3153
-Lfde263_start:
+LDIFF_SYM3317=Lfde277_end - Lfde277_start
+	.long LDIFF_SYM3317
+Lfde277_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_Sort_T_BYTE___int_int_System_Collections_Generic_IComparer_1_T_BYTE
 
-LDIFF_SYM3154=Lme_125 - System_Collections_Generic_ArraySortHelper_1_T_BYTE_Sort_T_BYTE___int_int_System_Collections_Generic_IComparer_1_T_BYTE
-	.long LDIFF_SYM3154
+LDIFF_SYM3318=Lme_133 - System_Collections_Generic_ArraySortHelper_1_T_BYTE_Sort_T_BYTE___int_int_System_Collections_Generic_IComparer_1_T_BYTE
+	.long LDIFF_SYM3318
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29
 	.align 3
-Lfde263_end:
+Lfde277_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45849,26 +49570,26 @@ Lfde263_end:
 
 	.byte 15,20
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_get_Default
-	.quad Lme_126
+	.quad Lme_134
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3155=Lfde264_end - Lfde264_start
-	.long LDIFF_SYM3155
-Lfde264_start:
+LDIFF_SYM3319=Lfde278_end - Lfde278_start
+	.long LDIFF_SYM3319
+Lfde278_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_get_Default
 
-LDIFF_SYM3156=Lme_126 - System_Collections_Generic_ArraySortHelper_1_T_BYTE_get_Default
-	.long LDIFF_SYM3156
+LDIFF_SYM3320=Lme_134 - System_Collections_Generic_ArraySortHelper_1_T_BYTE_get_Default
+	.long LDIFF_SYM3320
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde264_end:
+Lfde278_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45878,46 +49599,46 @@ Lfde264_end:
 
 	.byte 12,188,1
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_IntrospectiveSort_T_BYTE___int_int_System_Comparison_1_T_BYTE
-	.quad Lme_127
+	.quad Lme_135
 
 	.byte 2,118,16,3
 	.asciz "keys"
 
-LDIFF_SYM3157=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3157
+LDIFF_SYM3321=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3321
 	.byte 2,141,48,3
 	.asciz "left"
 
-LDIFF_SYM3158=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3158
+LDIFF_SYM3322=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3322
 	.byte 1,104,3
 	.asciz "length"
 
-LDIFF_SYM3159=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3159
+LDIFF_SYM3323=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3323
 	.byte 1,105,3
 	.asciz "comparer"
 
-LDIFF_SYM3160=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3160
+LDIFF_SYM3324=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3324
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3161=Lfde265_end - Lfde265_start
-	.long LDIFF_SYM3161
-Lfde265_start:
+LDIFF_SYM3325=Lfde279_end - Lfde279_start
+	.long LDIFF_SYM3325
+Lfde279_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_IntrospectiveSort_T_BYTE___int_int_System_Comparison_1_T_BYTE
 
-LDIFF_SYM3162=Lme_127 - System_Collections_Generic_ArraySortHelper_1_T_BYTE_IntrospectiveSort_T_BYTE___int_int_System_Comparison_1_T_BYTE
-	.long LDIFF_SYM3162
+LDIFF_SYM3326=Lme_135 - System_Collections_Generic_ArraySortHelper_1_T_BYTE_IntrospectiveSort_T_BYTE___int_int_System_Comparison_1_T_BYTE
+	.long LDIFF_SYM3326
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,148,12,68,151,11,152,10,68,153,9
 	.align 3
-Lfde265_end:
+Lfde279_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45927,127 +49648,127 @@ Lfde265_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
-	.quad Lme_12c
+	.quad Lme_13a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3163=LTDIE_301_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3163
+LDIFF_SYM3327=LTDIE_311_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3327
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3164=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3164
+LDIFF_SYM3328=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3328
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM3165=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3165
+LDIFF_SYM3329=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3329
 	.byte 1,106,11
 	.asciz "V_2"
 
-LDIFF_SYM3166=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3166
+LDIFF_SYM3330=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3330
 	.byte 1,105,11
 	.asciz "V_3"
 
-LDIFF_SYM3167=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3167
+LDIFF_SYM3331=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3331
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM3168=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3168
+LDIFF_SYM3332=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3332
 	.byte 1,105,11
 	.asciz "V_5"
 
-LDIFF_SYM3169=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3169
+LDIFF_SYM3333=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3333
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3170=Lfde266_end - Lfde266_start
-	.long LDIFF_SYM3170
-Lfde266_start:
+LDIFF_SYM3334=Lfde280_end - Lfde280_start
+	.long LDIFF_SYM3334
+Lfde280_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
 
-LDIFF_SYM3171=Lme_12c - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
-	.long LDIFF_SYM3171
+LDIFF_SYM3335=Lme_13a - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
+	.long LDIFF_SYM3335
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde266_end:
+Lfde280_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_315:
+LTDIE_326:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM3172=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM3172
+LDIFF_SYM3336=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM3336
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM3173=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3173
+LDIFF_SYM3337=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3337
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM3174=LTDIE_315 - Ldebug_info_start
-	.long LDIFF_SYM3174
-LTDIE_315_POINTER:
+LDIFF_SYM3338=LTDIE_326 - Ldebug_info_start
+	.long LDIFF_SYM3338
+LTDIE_326_POINTER:
 
 	.byte 13
-LDIFF_SYM3175=LTDIE_315 - Ldebug_info_start
-	.long LDIFF_SYM3175
-LTDIE_315_REFERENCE:
+LDIFF_SYM3339=LTDIE_326 - Ldebug_info_start
+	.long LDIFF_SYM3339
+LTDIE_326_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3176=LTDIE_315 - Ldebug_info_start
-	.long LDIFF_SYM3176
+LDIFF_SYM3340=LTDIE_326 - Ldebug_info_start
+	.long LDIFF_SYM3340
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
 
 	.byte 16,243,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_12d
+	.quad Lme_13b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3177=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3177
+LDIFF_SYM3341=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3341
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM3178=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3178
+LDIFF_SYM3342=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3342
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3179=Lfde267_end - Lfde267_start
-	.long LDIFF_SYM3179
-Lfde267_start:
+LDIFF_SYM3343=Lfde281_end - Lfde281_start
+	.long LDIFF_SYM3343
+Lfde281_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM3180=Lme_12d - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM3180
+LDIFF_SYM3344=Lme_13b - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3344
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde267_end:
+Lfde281_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46057,31 +49778,70 @@ Lfde267_end:
 
 	.byte 16,251,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.quad Lme_12e
+	.quad Lme_13c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3181=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3181
+LDIFF_SYM3345=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3345
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3182=Lfde268_end - Lfde268_start
-	.long LDIFF_SYM3182
-Lfde268_start:
+LDIFF_SYM3346=Lfde282_end - Lfde282_start
+	.long LDIFF_SYM3346
+Lfde282_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 
-LDIFF_SYM3183=Lme_12e - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.long LDIFF_SYM3183
+LDIFF_SYM3347=Lme_13c - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+	.long LDIFF_SYM3347
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde268_end:
+Lfde282_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:OnCompleted"
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action"
+
+	.byte 16,133,3
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.quad Lme_13d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3348=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3348
+	.byte 2,141,16,3
+	.asciz "continuation"
+
+LDIFF_SYM3349=LTDIE_271_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3349
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3350=Lfde283_end - Lfde283_start
+	.long LDIFF_SYM3350
+Lfde283_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+
+LDIFF_SYM3351=Lme_13d - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.long LDIFF_SYM3351
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde283_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46091,36 +49851,36 @@ Lfde268_end:
 
 	.byte 16,143,3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.quad Lme_12f
+	.quad Lme_13e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3184=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3184
+LDIFF_SYM3352=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3352
 	.byte 2,141,16,3
 	.asciz "continuation"
 
-LDIFF_SYM3185=LTDIE_261_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3185
+LDIFF_SYM3353=LTDIE_271_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3353
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3186=Lfde269_end - Lfde269_start
-	.long LDIFF_SYM3186
-Lfde269_start:
+LDIFF_SYM3354=Lfde284_end - Lfde284_start
+	.long LDIFF_SYM3354
+Lfde284_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 
-LDIFF_SYM3187=Lme_12f - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.long LDIFF_SYM3187
+LDIFF_SYM3355=Lme_13e - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM3355
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde269_end:
+Lfde284_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46130,102 +49890,102 @@ Lfde269_end:
 
 	.byte 16,154,3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
-	.quad Lme_130
+	.quad Lme_13f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3188=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3188
+LDIFF_SYM3356=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3356
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3189=Lfde270_end - Lfde270_start
-	.long LDIFF_SYM3189
-Lfde270_start:
+LDIFF_SYM3357=Lfde285_end - Lfde285_start
+	.long LDIFF_SYM3357
+Lfde285_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
 
-LDIFF_SYM3190=Lme_130 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
-	.long LDIFF_SYM3190
+LDIFF_SYM3358=Lme_13f - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
+	.long LDIFF_SYM3358
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde270_end:
+Lfde285_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_316:
+LTDIE_327:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
 
 	.byte 32,16
-LDIFF_SYM3191=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM3191
+LDIFF_SYM3359=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM3359
 	.byte 2,35,0,6
 	.asciz "m_configuredTaskAwaiter"
 
-LDIFF_SYM3192=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3192
+LDIFF_SYM3360=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3360
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
 
-LDIFF_SYM3193=LTDIE_316 - Ldebug_info_start
-	.long LDIFF_SYM3193
-LTDIE_316_POINTER:
+LDIFF_SYM3361=LTDIE_327 - Ldebug_info_start
+	.long LDIFF_SYM3361
+LTDIE_327_POINTER:
 
 	.byte 13
-LDIFF_SYM3194=LTDIE_316 - Ldebug_info_start
-	.long LDIFF_SYM3194
-LTDIE_316_REFERENCE:
+LDIFF_SYM3362=LTDIE_327 - Ldebug_info_start
+	.long LDIFF_SYM3362
+LTDIE_327_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3195=LTDIE_316 - Ldebug_info_start
-	.long LDIFF_SYM3195
+LDIFF_SYM3363=LTDIE_327 - Ldebug_info_start
+	.long LDIFF_SYM3363
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 16,150,4
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_131
+	.quad Lme_140
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3196=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3196
+LDIFF_SYM3364=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3364
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM3197=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3197
+LDIFF_SYM3365=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3365
 	.byte 2,141,24,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM3198=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3198
+LDIFF_SYM3366=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3366
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3199=Lfde271_end - Lfde271_start
-	.long LDIFF_SYM3199
-Lfde271_start:
+LDIFF_SYM3367=Lfde286_end - Lfde286_start
+	.long LDIFF_SYM3367
+Lfde286_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM3200=Lme_131 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM3200
+LDIFF_SYM3368=Lme_140 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM3368
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde271_end:
+Lfde286_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46235,107 +49995,107 @@ Lfde271_end:
 
 	.byte 16,157,4
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.quad Lme_132
+	.quad Lme_141
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3201=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3201
+LDIFF_SYM3369=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3369
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3202=Lfde272_end - Lfde272_start
-	.long LDIFF_SYM3202
-Lfde272_start:
+LDIFF_SYM3370=Lfde287_end - Lfde287_start
+	.long LDIFF_SYM3370
+Lfde287_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 
-LDIFF_SYM3203=Lme_132 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.long LDIFF_SYM3203
+LDIFF_SYM3371=Lme_141 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
+	.long LDIFF_SYM3371
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde272_end:
+Lfde287_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_317:
+LTDIE_328:
 
 	.byte 5
 	.asciz "_ConfiguredTaskAwaiter"
 
 	.byte 32,16
-LDIFF_SYM3204=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM3204
+LDIFF_SYM3372=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM3372
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM3205=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3205
+LDIFF_SYM3373=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3373
 	.byte 2,35,16,6
 	.asciz "m_continueOnCapturedContext"
 
-LDIFF_SYM3206=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3206
+LDIFF_SYM3374=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3374
 	.byte 2,35,24,0,7
 	.asciz "_ConfiguredTaskAwaiter"
 
-LDIFF_SYM3207=LTDIE_317 - Ldebug_info_start
-	.long LDIFF_SYM3207
-LTDIE_317_POINTER:
+LDIFF_SYM3375=LTDIE_328 - Ldebug_info_start
+	.long LDIFF_SYM3375
+LTDIE_328_POINTER:
 
 	.byte 13
-LDIFF_SYM3208=LTDIE_317 - Ldebug_info_start
-	.long LDIFF_SYM3208
-LTDIE_317_REFERENCE:
+LDIFF_SYM3376=LTDIE_328 - Ldebug_info_start
+	.long LDIFF_SYM3376
+LTDIE_328_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3209=LTDIE_317 - Ldebug_info_start
-	.long LDIFF_SYM3209
+LDIFF_SYM3377=LTDIE_328 - Ldebug_info_start
+	.long LDIFF_SYM3377
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 16,180,4
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_133
+	.quad Lme_142
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3210=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3210
+LDIFF_SYM3378=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3378
 	.byte 1,104,3
 	.asciz "task"
 
-LDIFF_SYM3211=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3211
+LDIFF_SYM3379=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3379
 	.byte 2,141,24,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM3212=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3212
+LDIFF_SYM3380=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3380
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3213=Lfde273_end - Lfde273_start
-	.long LDIFF_SYM3213
-Lfde273_start:
+LDIFF_SYM3381=Lfde288_end - Lfde288_start
+	.long LDIFF_SYM3381
+Lfde288_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM3214=Lme_133 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM3214
+LDIFF_SYM3382=Lme_142 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM3382
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4
 	.align 3
-Lfde273_end:
+Lfde288_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46345,31 +50105,70 @@ Lfde273_end:
 
 	.byte 16,189,4
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.quad Lme_134
+	.quad Lme_143
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3215=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3215
+LDIFF_SYM3383=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3383
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3216=Lfde274_end - Lfde274_start
-	.long LDIFF_SYM3216
-Lfde274_start:
+LDIFF_SYM3384=Lfde289_end - Lfde289_start
+	.long LDIFF_SYM3384
+Lfde289_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 
-LDIFF_SYM3217=Lme_134 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.long LDIFF_SYM3217
+LDIFF_SYM3385=Lme_143 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+	.long LDIFF_SYM3385
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde274_end:
+Lfde289_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:OnCompleted"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action"
+
+	.byte 16,199,4
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.quad Lme_144
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3386=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3386
+	.byte 1,105,3
+	.asciz "continuation"
+
+LDIFF_SYM3387=LTDIE_271_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3387
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3388=Lfde290_end - Lfde290_start
+	.long LDIFF_SYM3388
+Lfde290_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+
+LDIFF_SYM3389=Lme_144 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.long LDIFF_SYM3389
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2
+	.align 3
+Lfde290_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46379,36 +50178,36 @@ Lfde274_end:
 
 	.byte 16,209,4
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.quad Lme_135
+	.quad Lme_145
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3218=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3218
+LDIFF_SYM3390=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3390
 	.byte 1,105,3
 	.asciz "continuation"
 
-LDIFF_SYM3219=LTDIE_261_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3219
+LDIFF_SYM3391=LTDIE_271_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3391
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3220=Lfde275_end - Lfde275_start
-	.long LDIFF_SYM3220
-Lfde275_start:
+LDIFF_SYM3392=Lfde291_end - Lfde291_start
+	.long LDIFF_SYM3392
+Lfde291_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 
-LDIFF_SYM3221=Lme_135 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.long LDIFF_SYM3221
+LDIFF_SYM3393=Lme_145 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM3393
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2
 	.align 3
-Lfde275_end:
+Lfde291_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46418,31 +50217,31 @@ Lfde275_end:
 
 	.byte 16,220,4
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
-	.quad Lme_136
+	.quad Lme_146
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3222=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3222
+LDIFF_SYM3394=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3394
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3223=Lfde276_end - Lfde276_start
-	.long LDIFF_SYM3223
-Lfde276_start:
+LDIFF_SYM3395=Lfde292_end - Lfde292_start
+	.long LDIFF_SYM3395
+Lfde292_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
 
-LDIFF_SYM3224=Lme_136 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
-	.long LDIFF_SYM3224
+LDIFF_SYM3396=Lme_146 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
+	.long LDIFF_SYM3396
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde276_end:
+Lfde292_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46452,152 +50251,152 @@ Lfde276_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_137
+	.quad Lme_147
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3225=LTDIE_304_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3225
+LDIFF_SYM3397=LTDIE_314_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3397
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3226=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3226
+LDIFF_SYM3398=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3398
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3227=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3227
+LDIFF_SYM3399=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3399
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM3228=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3228
+LDIFF_SYM3400=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3400
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM3229=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3229
+LDIFF_SYM3401=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3401
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM3230=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3230
+LDIFF_SYM3402=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3402
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM3231=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3231
+LDIFF_SYM3403=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3403
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3232=Lfde277_end - Lfde277_start
-	.long LDIFF_SYM3232
-Lfde277_start:
+LDIFF_SYM3404=Lfde293_end - Lfde293_start
+	.long LDIFF_SYM3404
+Lfde293_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM3233=Lme_137 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM3233
+LDIFF_SYM3405=Lme_147 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3405
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde277_end:
+Lfde293_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_318:
+LTDIE_329:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
 	.byte 80,16
-LDIFF_SYM3234=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM3234
+LDIFF_SYM3406=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM3406
 	.byte 2,35,0,6
 	.asciz "m_antecedent"
 
-LDIFF_SYM3235=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3235
+LDIFF_SYM3407=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3407
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
-LDIFF_SYM3236=LTDIE_318 - Ldebug_info_start
-	.long LDIFF_SYM3236
-LTDIE_318_POINTER:
+LDIFF_SYM3408=LTDIE_329 - Ldebug_info_start
+	.long LDIFF_SYM3408
+LTDIE_329_POINTER:
 
 	.byte 13
-LDIFF_SYM3237=LTDIE_318 - Ldebug_info_start
-	.long LDIFF_SYM3237
-LTDIE_318_REFERENCE:
+LDIFF_SYM3409=LTDIE_329 - Ldebug_info_start
+	.long LDIFF_SYM3409
+LTDIE_329_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3238=LTDIE_318 - Ldebug_info_start
-	.long LDIFF_SYM3238
+LDIFF_SYM3410=LTDIE_329 - Ldebug_info_start
+	.long LDIFF_SYM3410
 	.byte 2
 	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions"
 
 	.byte 17,128,1
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
-	.quad Lme_138
+	.quad Lme_148
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3239=LTDIE_318_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3239
+LDIFF_SYM3411=LTDIE_329_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3411
 	.byte 2,141,32,3
 	.asciz "antecedent"
 
-LDIFF_SYM3240=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3240
+LDIFF_SYM3412=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3412
 	.byte 2,141,40,3
 	.asciz "action"
 
-LDIFF_SYM3241=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3241
+LDIFF_SYM3413=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3413
 	.byte 2,141,48,3
 	.asciz "state"
 
-LDIFF_SYM3242=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3242
+LDIFF_SYM3414=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3414
 	.byte 1,104,3
 	.asciz "creationOptions"
 
-LDIFF_SYM3243=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM3243
+LDIFF_SYM3415=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3415
 	.byte 2,141,56,3
 	.asciz "internalOptions"
 
-LDIFF_SYM3244=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM3244
+LDIFF_SYM3416=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3416
 	.byte 3,141,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM3245=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3245
+LDIFF_SYM3417=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3417
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3246=Lfde278_end - Lfde278_start
-	.long LDIFF_SYM3246
-Lfde278_start:
+LDIFF_SYM3418=Lfde294_end - Lfde294_start
+	.long LDIFF_SYM3418
+Lfde294_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
 
-LDIFF_SYM3247=Lme_138 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
-	.long LDIFF_SYM3247
+LDIFF_SYM3419=Lme_148 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+	.long LDIFF_SYM3419
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11
 	.align 3
-Lfde278_end:
+Lfde294_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46607,46 +50406,46 @@ Lfde278_end:
 
 	.byte 17,142,1
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.quad Lme_139
+	.quad Lme_149
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3248=LTDIE_318_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3248
+LDIFF_SYM3420=LTDIE_329_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3420
 	.byte 1,106,11
 	.asciz "antecedent"
 
-LDIFF_SYM3249=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3249
+LDIFF_SYM3421=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3421
 	.byte 1,105,11
 	.asciz "action"
 
-LDIFF_SYM3250=LTDIE_304_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3250
+LDIFF_SYM3422=LTDIE_314_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3422
 	.byte 1,104,11
 	.asciz "actionWithState"
 
-LDIFF_SYM3251=LTDIE_306_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3251
+LDIFF_SYM3423=LTDIE_316_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3423
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3252=Lfde279_end - Lfde279_start
-	.long LDIFF_SYM3252
-Lfde279_start:
+LDIFF_SYM3424=Lfde295_end - Lfde295_start
+	.long LDIFF_SYM3424
+Lfde295_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
 
-LDIFF_SYM3253=Lme_139 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.long LDIFF_SYM3253
+LDIFF_SYM3425=Lme_149 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
+	.long LDIFF_SYM3425
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3,68,154,2
 	.align 3
-Lfde279_end:
+Lfde295_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46656,66 +50455,66 @@ Lfde279_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object
-	.quad Lme_13a
+	.quad Lme_14a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3254=LTDIE_306_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3254
+LDIFF_SYM3426=LTDIE_316_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3426
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM3255=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3255
+LDIFF_SYM3427=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3427
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM3256=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3256
+LDIFF_SYM3428=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3428
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3257=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3257
+LDIFF_SYM3429=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3429
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM3258=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3258
+LDIFF_SYM3430=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3430
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM3259=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3259
+LDIFF_SYM3431=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3431
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM3260=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3260
+LDIFF_SYM3432=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3432
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM3261=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3261
+LDIFF_SYM3433=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3433
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3262=Lfde280_end - Lfde280_start
-	.long LDIFF_SYM3262
-Lfde280_start:
+LDIFF_SYM3434=Lfde296_end - Lfde296_start
+	.long LDIFF_SYM3434
+Lfde296_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object
 
-LDIFF_SYM3263=Lme_13a - wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object
-	.long LDIFF_SYM3263
+LDIFF_SYM3435=Lme_14a - wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object
+	.long LDIFF_SYM3435
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde280_end:
+Lfde296_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46725,66 +50524,66 @@ Lfde280_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
-	.quad Lme_13f
+	.quad Lme_14f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3264=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3264
+LDIFF_SYM3436=LTDIE_312_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3436
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3265=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3265
+LDIFF_SYM3437=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3437
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3266=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3266
+LDIFF_SYM3438=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3438
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM3267=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3267
+LDIFF_SYM3439=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3439
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM3268=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3268
+LDIFF_SYM3440=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3440
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM3269=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3269
+LDIFF_SYM3441=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3441
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM3270=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3270
+LDIFF_SYM3442=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3442
 	.byte 1,104,11
 	.asciz "V_5"
 
-LDIFF_SYM3271=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3271
+LDIFF_SYM3443=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3443
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3272=Lfde281_end - Lfde281_start
-	.long LDIFF_SYM3272
-Lfde281_start:
+LDIFF_SYM3444=Lfde297_end - Lfde297_start
+	.long LDIFF_SYM3444
+Lfde297_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
 
-LDIFF_SYM3273=Lme_13f - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
-	.long LDIFF_SYM3273
+LDIFF_SYM3445=Lme_14f - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
+	.long LDIFF_SYM3445
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde281_end:
+Lfde297_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46794,66 +50593,66 @@ Lfde281_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_144
+	.quad Lme_154
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3274=LTDIE_308_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3274
+LDIFF_SYM3446=LTDIE_318_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3446
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3275=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3275
+LDIFF_SYM3447=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3447
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3276=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3276
+LDIFF_SYM3448=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3448
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM3277=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3277
+LDIFF_SYM3449=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3449
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM3278=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3278
+LDIFF_SYM3450=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3450
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM3279=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3279
+LDIFF_SYM3451=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3451
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM3280=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3280
+LDIFF_SYM3452=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3452
 	.byte 1,104,11
 	.asciz "V_5"
 
-LDIFF_SYM3281=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3281
+LDIFF_SYM3453=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3453
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3282=Lfde282_end - Lfde282_start
-	.long LDIFF_SYM3282
-Lfde282_start:
+LDIFF_SYM3454=Lfde298_end - Lfde298_start
+	.long LDIFF_SYM3454
+Lfde298_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM3283=Lme_144 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM3283
+LDIFF_SYM3455=Lme_154 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM3455
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde282_end:
+Lfde298_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46863,31 +50662,31 @@ Lfde282_end:
 
 	.byte 0,0
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
-	.quad Lme_145
+	.quad Lme_155
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3284=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3284
+LDIFF_SYM3456=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3456
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3285=Lfde283_end - Lfde283_start
-	.long LDIFF_SYM3285
-Lfde283_start:
+LDIFF_SYM3457=Lfde299_end - Lfde299_start
+	.long LDIFF_SYM3457
+Lfde299_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM3286=Lme_145 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM3286
+LDIFF_SYM3458=Lme_155 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM3458
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde283_end:
+Lfde299_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46897,36 +50696,969 @@ Lfde283_end:
 
 	.byte 14,150,6
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
-	.quad Lme_146
+	.quad Lme_156
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3287=LTDIE_311_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3287
+LDIFF_SYM3459=LTDIE_321_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3459
 	.byte 1,105,3
 	.asciz "iar"
 
-LDIFF_SYM3288=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3288
+LDIFF_SYM3460=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3460
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3289=Lfde284_end - Lfde284_start
-	.long LDIFF_SYM3289
-Lfde284_start:
+LDIFF_SYM3461=Lfde300_end - Lfde300_start
+	.long LDIFF_SYM3461
+Lfde300_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
 
-LDIFF_SYM3290=Lme_146 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
-	.long LDIFF_SYM3290
+LDIFF_SYM3462=Lme_156 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
+	.long LDIFF_SYM3462
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1
 	.align 3
-Lfde284_end:
+Lfde300_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_330:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM3463=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM3463
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM3464=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3464
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM3465=LTDIE_330 - Ldebug_info_start
+	.long LDIFF_SYM3465
+LTDIE_330_POINTER:
+
+	.byte 13
+LDIFF_SYM3466=LTDIE_330 - Ldebug_info_start
+	.long LDIFF_SYM3466
+LTDIE_330_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3467=LTDIE_330 - Ldebug_info_start
+	.long LDIFF_SYM3467
+LTDIE_331:
+
+	.byte 5
+	.asciz "System_Func`3"
+
+	.byte 128,1,16
+LDIFF_SYM3468=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3468
+	.byte 2,35,0,0,7
+	.asciz "System_Func`3"
+
+LDIFF_SYM3469=LTDIE_331 - Ldebug_info_start
+	.long LDIFF_SYM3469
+LTDIE_331_POINTER:
+
+	.byte 13
+LDIFF_SYM3470=LTDIE_331 - Ldebug_info_start
+	.long LDIFF_SYM3470
+LTDIE_331_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3471=LTDIE_331 - Ldebug_info_start
+	.long LDIFF_SYM3471
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.Task[]>:ContinueWith<System.Threading.Tasks.VoidTaskResult>"
+	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions"
+
+	.byte 13,207,10
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+	.quad Lme_157
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3472=LTDIE_330_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3472
+	.byte 2,141,24,3
+	.asciz "continuationFunction"
+
+LDIFF_SYM3473=LTDIE_331_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3473
+	.byte 2,141,32,3
+	.asciz "state"
+
+LDIFF_SYM3474=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3474
+	.byte 1,104,3
+	.asciz "scheduler"
+
+LDIFF_SYM3475=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3475
+	.byte 2,141,40,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM3476=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3476
+	.byte 2,141,48,3
+	.asciz "continuationOptions"
+
+LDIFF_SYM3477=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3477
+	.byte 3,141,192,0,11
+	.asciz "creationOptions"
+
+LDIFF_SYM3478=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3478
+	.byte 3,141,200,0,11
+	.asciz "internalOptions"
+
+LDIFF_SYM3479=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3479
+	.byte 3,141,208,0,11
+	.asciz "continuationFuture"
+
+LDIFF_SYM3480=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3480
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3481=Lfde301_end - Lfde301_start
+	.long LDIFF_SYM3481
+Lfde301_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+
+LDIFF_SYM3482=Lme_157 - System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+	.long LDIFF_SYM3482
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
+	.align 3
+Lfde301_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`3<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task[]>,_object,_System.Threading.Tasks.VoidTaskResult>:invoke_TResult_T1_T2"
+	.asciz "wrapper_delegate_invoke_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+	.quad Lme_15c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3483=LTDIE_331_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3483
+	.byte 1,104,3
+	.asciz "param0"
+
+LDIFF_SYM3484=LTDIE_330_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3484
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM3485=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3485
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM3486=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3486
+	.byte 1,102,11
+	.asciz "V_1"
+
+LDIFF_SYM3487=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3487
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM3488=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3488
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM3489=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3489
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM3490=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3490
+	.byte 1,103,11
+	.asciz "V_5"
+
+LDIFF_SYM3491=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3491
+	.byte 3,141,216,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3492=Lfde302_end - Lfde302_start
+	.long LDIFF_SYM3492
+Lfde302_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+
+LDIFF_SYM3493=Lme_15c - wrapper_delegate_invoke_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+	.long LDIFF_SYM3493
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9
+	.align 3
+Lfde302_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_332:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 128,1,16
+LDIFF_SYM3494=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3494
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM3495=LTDIE_332 - Ldebug_info_start
+	.long LDIFF_SYM3495
+LTDIE_332_POINTER:
+
+	.byte 13
+LDIFF_SYM3496=LTDIE_332 - Ldebug_info_start
+	.long LDIFF_SYM3496
+LTDIE_332_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3497=LTDIE_332 - Ldebug_info_start
+	.long LDIFF_SYM3497
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Threading.Tasks.Task[]>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task___invoke_TResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task___invoke_TResult
+	.quad Lme_15d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3498=LTDIE_332_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3498
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM3499=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3499
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM3500=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3500
+	.byte 1,106,11
+	.asciz "V_2"
+
+LDIFF_SYM3501=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3501
+	.byte 1,105,11
+	.asciz "V_3"
+
+LDIFF_SYM3502=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3502
+	.byte 1,103,11
+	.asciz "V_4"
+
+LDIFF_SYM3503=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3503
+	.byte 1,105,11
+	.asciz "V_5"
+
+LDIFF_SYM3504=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3504
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3505=Lfde303_end - Lfde303_start
+	.long LDIFF_SYM3505
+Lfde303_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task___invoke_TResult
+
+LDIFF_SYM3506=Lme_15d - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task___invoke_TResult
+	.long LDIFF_SYM3506
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,152,5,68,153,4,154,3
+	.align 3
+Lfde303_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_333:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 128,1,16
+LDIFF_SYM3507=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3507
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM3508=LTDIE_333 - Ldebug_info_start
+	.long LDIFF_SYM3508
+LTDIE_333_POINTER:
+
+	.byte 13
+LDIFF_SYM3509=LTDIE_333 - Ldebug_info_start
+	.long LDIFF_SYM3509
+LTDIE_333_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3510=LTDIE_333 - Ldebug_info_start
+	.long LDIFF_SYM3510
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.Task[]>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task___invoke_TResult_T_object"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task___invoke_TResult_T_object
+	.quad Lme_15e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3511=LTDIE_333_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3511
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM3512=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3512
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM3513=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3513
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM3514=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3514
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM3515=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3515
+	.byte 1,104,11
+	.asciz "V_3"
+
+LDIFF_SYM3516=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3516
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM3517=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3517
+	.byte 1,104,11
+	.asciz "V_5"
+
+LDIFF_SYM3518=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3518
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3519=Lfde304_end - Lfde304_start
+	.long LDIFF_SYM3519
+Lfde304_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task___invoke_TResult_T_object
+
+LDIFF_SYM3520=Lme_15e - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task___invoke_TResult_T_object
+	.long LDIFF_SYM3520
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.align 3
+Lfde304_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_334:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 128,1,16
+LDIFF_SYM3521=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3521
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM3522=LTDIE_334 - Ldebug_info_start
+	.long LDIFF_SYM3522
+LTDIE_334_POINTER:
+
+	.byte 13
+LDIFF_SYM3523=LTDIE_334 - Ldebug_info_start
+	.long LDIFF_SYM3523
+LTDIE_334_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3524=LTDIE_334 - Ldebug_info_start
+	.long LDIFF_SYM3524
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task[]>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task__"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task__
+	.quad Lme_15f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3525=LTDIE_334_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3525
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM3526=LTDIE_330_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3526
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM3527=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3527
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM3528=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3528
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM3529=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3529
+	.byte 1,104,11
+	.asciz "V_3"
+
+LDIFF_SYM3530=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3530
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM3531=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3531
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3532=Lfde305_end - Lfde305_start
+	.long LDIFF_SYM3532
+Lfde305_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task__
+
+LDIFF_SYM3533=Lme_15f - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task__
+	.long LDIFF_SYM3533
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.align 3
+Lfde305_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_335:
+
+	.byte 5
+	.asciz "System_Action`2"
+
+	.byte 128,1,16
+LDIFF_SYM3534=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3534
+	.byte 2,35,0,0,7
+	.asciz "System_Action`2"
+
+LDIFF_SYM3535=LTDIE_335 - Ldebug_info_start
+	.long LDIFF_SYM3535
+LTDIE_335_POINTER:
+
+	.byte 13
+LDIFF_SYM3536=LTDIE_335 - Ldebug_info_start
+	.long LDIFF_SYM3536
+LTDIE_335_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3537=LTDIE_335 - Ldebug_info_start
+	.long LDIFF_SYM3537
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task[]>,_object>:invoke_void_T1_T2"
+	.asciz "wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+	.quad Lme_160
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3538=LTDIE_335_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3538
+	.byte 1,104,3
+	.asciz "param0"
+
+LDIFF_SYM3539=LTDIE_330_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3539
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM3540=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3540
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM3541=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3541
+	.byte 1,102,11
+	.asciz "V_1"
+
+LDIFF_SYM3542=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3542
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM3543=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3543
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM3544=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3544
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM3545=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3545
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3546=Lfde306_end - Lfde306_start
+	.long LDIFF_SYM3546
+Lfde306_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+
+LDIFF_SYM3547=Lme_160 - wrapper_delegate_invoke_System_Action_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object_invoke_void_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+	.long LDIFF_SYM3547
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
+	.align 3
+Lfde306_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_336:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 128,1,16
+LDIFF_SYM3548=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3548
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM3549=LTDIE_336 - Ldebug_info_start
+	.long LDIFF_SYM3549
+LTDIE_336_POINTER:
+
+	.byte 13
+LDIFF_SYM3550=LTDIE_336 - Ldebug_info_start
+	.long LDIFF_SYM3550
+LTDIE_336_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3551=LTDIE_336 - Ldebug_info_start
+	.long LDIFF_SYM3551
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Threading.Tasks.Task[]>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task___invoke_TResult_T_System_IAsyncResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task___invoke_TResult_T_System_IAsyncResult
+	.quad Lme_161
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3552=LTDIE_336_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3552
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM3553=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3553
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM3554=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3554
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM3555=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3555
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM3556=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3556
+	.byte 1,104,11
+	.asciz "V_3"
+
+LDIFF_SYM3557=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3557
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM3558=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3558
+	.byte 1,104,11
+	.asciz "V_5"
+
+LDIFF_SYM3559=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3559
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3560=Lfde307_end - Lfde307_start
+	.long LDIFF_SYM3560
+Lfde307_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task___invoke_TResult_T_System_IAsyncResult
+
+LDIFF_SYM3561=Lme_161 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task___invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM3561
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.align 3
+Lfde307_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_337:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 128,1,16
+LDIFF_SYM3562=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3562
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM3563=LTDIE_337 - Ldebug_info_start
+	.long LDIFF_SYM3563
+LTDIE_337_POINTER:
+
+	.byte 13
+LDIFF_SYM3564=LTDIE_337 - Ldebug_info_start
+	.long LDIFF_SYM3564
+LTDIE_337_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3565=LTDIE_337 - Ldebug_info_start
+	.long LDIFF_SYM3565
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task,_System.Threading.Tasks.Task[]>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_Task___invoke_TResult_T_System_Threading_Tasks_Task"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_Task___invoke_TResult_T_System_Threading_Tasks_Task
+	.quad Lme_162
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3566=LTDIE_337_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3566
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM3567=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3567
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM3568=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3568
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM3569=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3569
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM3570=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3570
+	.byte 1,104,11
+	.asciz "V_3"
+
+LDIFF_SYM3571=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3571
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM3572=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3572
+	.byte 1,104,11
+	.asciz "V_5"
+
+LDIFF_SYM3573=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3573
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3574=Lfde308_end - Lfde308_start
+	.long LDIFF_SYM3574
+Lfde308_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_Task___invoke_TResult_T_System_Threading_Tasks_Task
+
+LDIFF_SYM3575=Lme_162 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_System_Threading_Tasks_Task___invoke_TResult_T_System_Threading_Tasks_Task
+	.long LDIFF_SYM3575
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.align 3
+Lfde308_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskFactory`1/<>c<System.Threading.Tasks.VoidTaskResult>:.cctor"
+	.asciz "System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__cctor"
+
+	.byte 0,0
+	.quad System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__cctor
+	.quad Lme_163
+
+	.byte 2,118,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3576=Lfde309_end - Lfde309_start
+	.long LDIFF_SYM3576
+Lfde309_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__cctor
+
+LDIFF_SYM3577=Lme_163 - System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__cctor
+	.long LDIFF_SYM3577
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde309_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_338:
+
+	.byte 5
+	.asciz "System_Func`3"
+
+	.byte 128,1,16
+LDIFF_SYM3578=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3578
+	.byte 2,35,0,0,7
+	.asciz "System_Func`3"
+
+LDIFF_SYM3579=LTDIE_338 - Ldebug_info_start
+	.long LDIFF_SYM3579
+LTDIE_338_POINTER:
+
+	.byte 13
+LDIFF_SYM3580=LTDIE_338 - Ldebug_info_start
+	.long LDIFF_SYM3580
+LTDIE_338_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3581=LTDIE_338 - Ldebug_info_start
+	.long LDIFF_SYM3581
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>:ContinueWith<System.Threading.Tasks.VoidTaskResult>"
+	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions"
+
+	.byte 13,207,10
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+	.quad Lme_164
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3582=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3582
+	.byte 2,141,24,3
+	.asciz "continuationFunction"
+
+LDIFF_SYM3583=LTDIE_338_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3583
+	.byte 2,141,32,3
+	.asciz "state"
+
+LDIFF_SYM3584=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3584
+	.byte 1,104,3
+	.asciz "scheduler"
+
+LDIFF_SYM3585=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3585
+	.byte 2,141,40,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM3586=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3586
+	.byte 2,141,48,3
+	.asciz "continuationOptions"
+
+LDIFF_SYM3587=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3587
+	.byte 3,141,192,0,11
+	.asciz "creationOptions"
+
+LDIFF_SYM3588=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3588
+	.byte 3,141,200,0,11
+	.asciz "internalOptions"
+
+LDIFF_SYM3589=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3589
+	.byte 3,141,208,0,11
+	.asciz "continuationFuture"
+
+LDIFF_SYM3590=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3590
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3591=Lfde310_end - Lfde310_start
+	.long LDIFF_SYM3591
+Lfde310_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+
+LDIFF_SYM3592=Lme_164 - System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_ContinueWith_System_Threading_Tasks_VoidTaskResult_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+	.long LDIFF_SYM3592
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
+	.align 3
+Lfde310_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`3<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_object,_System.Threading.Tasks.VoidTaskResult>:invoke_TResult_T1_T2"
+	.asciz "wrapper_delegate_invoke_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
+	.quad Lme_169
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3593=LTDIE_338_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3593
+	.byte 1,104,3
+	.asciz "param0"
+
+LDIFF_SYM3594=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3594
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM3595=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3595
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM3596=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3596
+	.byte 1,102,11
+	.asciz "V_1"
+
+LDIFF_SYM3597=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3597
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM3598=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3598
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM3599=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3599
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM3600=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3600
+	.byte 1,103,11
+	.asciz "V_5"
+
+LDIFF_SYM3601=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3601
+	.byte 3,141,216,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3602=Lfde311_end - Lfde311_start
+	.long LDIFF_SYM3602
+Lfde311_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
+
+LDIFF_SYM3603=Lme_169 - wrapper_delegate_invoke_System_Func_3_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T1_T2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
+	.long LDIFF_SYM3603
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9
+	.align 3
+Lfde311_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -46936,148 +51668,148 @@ Lfde284_end:
 
 	.byte 7,198,6
 	.quad System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_147
+	.quad Lme_16a
 
 	.byte 2,118,16,3
 	.asciz "result"
 
-LDIFF_SYM3291=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3291
+LDIFF_SYM3604=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3604
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM3292=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3292
+LDIFF_SYM3605=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3605
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3293=Lfde285_end - Lfde285_start
-	.long LDIFF_SYM3293
-Lfde285_start:
+LDIFF_SYM3606=Lfde312_end - Lfde312_start
+	.long LDIFF_SYM3606
+Lfde312_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM3294=Lme_147 - System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM3294
+LDIFF_SYM3607=Lme_16a - System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3607
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde285_end:
+Lfde312_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_319:
+LTDIE_339:
 
 	.byte 5
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM3295=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM3295
+LDIFF_SYM3608=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM3608
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM3296=LTDIE_319 - Ldebug_info_start
-	.long LDIFF_SYM3296
-LTDIE_319_POINTER:
+LDIFF_SYM3609=LTDIE_339 - Ldebug_info_start
+	.long LDIFF_SYM3609
+LTDIE_339_POINTER:
 
 	.byte 13
-LDIFF_SYM3297=LTDIE_319 - Ldebug_info_start
-	.long LDIFF_SYM3297
-LTDIE_319_REFERENCE:
+LDIFF_SYM3610=LTDIE_339 - Ldebug_info_start
+	.long LDIFF_SYM3610
+LTDIE_339_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3298=LTDIE_319 - Ldebug_info_start
-	.long LDIFF_SYM3298
+LDIFF_SYM3611=LTDIE_339 - Ldebug_info_start
+	.long LDIFF_SYM3611
 	.byte 2
 	.asciz "System.Collections.Generic.EqualityComparer`1<T_BYTE>:get_Default"
 	.asciz "System_Collections_Generic_EqualityComparer_1_T_BYTE_get_Default"
 
 	.byte 18,34
 	.quad System_Collections_Generic_EqualityComparer_1_T_BYTE_get_Default
-	.quad Lme_148
+	.quad Lme_16b
 
 	.byte 2,118,16,11
 	.asciz "comparer"
 
-LDIFF_SYM3299=LTDIE_319_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3299
+LDIFF_SYM3612=LTDIE_339_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3612
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3300=Lfde286_end - Lfde286_start
-	.long LDIFF_SYM3300
-Lfde286_start:
+LDIFF_SYM3613=Lfde313_end - Lfde313_start
+	.long LDIFF_SYM3613
+Lfde313_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_T_BYTE_get_Default
 
-LDIFF_SYM3301=Lme_148 - System_Collections_Generic_EqualityComparer_1_T_BYTE_get_Default
-	.long LDIFF_SYM3301
+LDIFF_SYM3614=Lme_16b - System_Collections_Generic_EqualityComparer_1_T_BYTE_get_Default
+	.long LDIFF_SYM3614
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde286_end:
+Lfde313_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_320:
+LTDIE_340:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Comparer`1"
 
 	.byte 16,16
-LDIFF_SYM3302=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM3302
+LDIFF_SYM3615=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM3615
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_Comparer`1"
 
-LDIFF_SYM3303=LTDIE_320 - Ldebug_info_start
-	.long LDIFF_SYM3303
-LTDIE_320_POINTER:
+LDIFF_SYM3616=LTDIE_340 - Ldebug_info_start
+	.long LDIFF_SYM3616
+LTDIE_340_POINTER:
 
 	.byte 13
-LDIFF_SYM3304=LTDIE_320 - Ldebug_info_start
-	.long LDIFF_SYM3304
-LTDIE_320_REFERENCE:
+LDIFF_SYM3617=LTDIE_340 - Ldebug_info_start
+	.long LDIFF_SYM3617
+LTDIE_340_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3305=LTDIE_320 - Ldebug_info_start
-	.long LDIFF_SYM3305
+LDIFF_SYM3618=LTDIE_340 - Ldebug_info_start
+	.long LDIFF_SYM3618
 	.byte 2
 	.asciz "System.Collections.Generic.Comparer`1<T_BYTE>:get_Default"
 	.asciz "System_Collections_Generic_Comparer_1_T_BYTE_get_Default"
 
 	.byte 19,28
 	.quad System_Collections_Generic_Comparer_1_T_BYTE_get_Default
-	.quad Lme_14a
+	.quad Lme_16d
 
 	.byte 2,118,16,11
 	.asciz "comparer"
 
-LDIFF_SYM3306=LTDIE_320_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3306
+LDIFF_SYM3619=LTDIE_340_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3619
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3307=Lfde287_end - Lfde287_start
-	.long LDIFF_SYM3307
-Lfde287_start:
+LDIFF_SYM3620=Lfde314_end - Lfde314_start
+	.long LDIFF_SYM3620
+Lfde314_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Comparer_1_T_BYTE_get_Default
 
-LDIFF_SYM3308=Lme_14a - System_Collections_Generic_Comparer_1_T_BYTE_get_Default
-	.long LDIFF_SYM3308
+LDIFF_SYM3621=Lme_16d - System_Collections_Generic_Comparer_1_T_BYTE_get_Default
+	.long LDIFF_SYM3621
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde287_end:
+Lfde314_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47087,71 +51819,544 @@ Lfde287_end:
 
 	.byte 12,0
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_IntroSort_T_BYTE___int_int_int_System_Comparison_1_T_BYTE
-	.quad Lme_14b
+	.quad Lme_16e
 
 	.byte 2,118,16,3
 	.asciz "keys"
 
-LDIFF_SYM3309=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3309
+LDIFF_SYM3622=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3622
 	.byte 1,102,3
 	.asciz "lo"
 
-LDIFF_SYM3310=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3310
+LDIFF_SYM3623=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3623
 	.byte 1,103,3
 	.asciz "hi"
 
-LDIFF_SYM3311=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3311
+LDIFF_SYM3624=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3624
 	.byte 1,104,3
 	.asciz "depthLimit"
 
-LDIFF_SYM3312=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3312
+LDIFF_SYM3625=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3625
 	.byte 1,105,3
 	.asciz "comparer"
 
-LDIFF_SYM3313=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3313
+LDIFF_SYM3626=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3626
 	.byte 1,106,11
 	.asciz "partitionSize"
 
-LDIFF_SYM3314=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3314
+LDIFF_SYM3627=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3627
 	.byte 1,101,11
 	.asciz "p"
 
-LDIFF_SYM3315=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3315
+LDIFF_SYM3628=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3628
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3316=Lfde288_end - Lfde288_start
-	.long LDIFF_SYM3316
-Lfde288_start:
+LDIFF_SYM3629=Lfde315_end - Lfde315_start
+	.long LDIFF_SYM3629
+Lfde315_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_IntroSort_T_BYTE___int_int_int_System_Comparison_1_T_BYTE
 
-LDIFF_SYM3317=Lme_14b - System_Collections_Generic_ArraySortHelper_1_T_BYTE_IntroSort_T_BYTE___int_int_int_System_Comparison_1_T_BYTE
-	.long LDIFF_SYM3317
+LDIFF_SYM3630=Lme_16e - System_Collections_Generic_ArraySortHelper_1_T_BYTE_IntroSort_T_BYTE___int_int_int_System_Comparison_1_T_BYTE
+	.long LDIFF_SYM3630
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde288_end:
+Lfde315_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_321:
+LTDIE_341:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_ContinuationResultTaskFromResultTask`2"
+
+	.byte 88,16
+LDIFF_SYM3631=LTDIE_309 - Ldebug_info_start
+	.long LDIFF_SYM3631
+	.byte 2,35,0,6
+	.asciz "m_antecedent"
+
+LDIFF_SYM3632=LTDIE_330_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3632
+	.byte 2,35,80,0,7
+	.asciz "System_Threading_Tasks_ContinuationResultTaskFromResultTask`2"
+
+LDIFF_SYM3633=LTDIE_341 - Ldebug_info_start
+	.long LDIFF_SYM3633
+LTDIE_341_POINTER:
+
+	.byte 13
+LDIFF_SYM3634=LTDIE_341 - Ldebug_info_start
+	.long LDIFF_SYM3634
+LTDIE_341_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3635=LTDIE_341 - Ldebug_info_start
+	.long LDIFF_SYM3635
+	.byte 2
+	.asciz "System.Threading.Tasks.ContinuationResultTaskFromResultTask`2<System.Threading.Tasks.Task[],_System.Threading.Tasks.VoidTaskResult>:.ctor"
+	.asciz "System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions"
+
+	.byte 17,175,1
+	.quad System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+	.quad Lme_16f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3636=LTDIE_341_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3636
+	.byte 2,141,32,3
+	.asciz "antecedent"
+
+LDIFF_SYM3637=LTDIE_330_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3637
+	.byte 2,141,40,3
+	.asciz "function"
+
+LDIFF_SYM3638=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3638
+	.byte 2,141,48,3
+	.asciz "state"
+
+LDIFF_SYM3639=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3639
+	.byte 1,104,3
+	.asciz "creationOptions"
+
+LDIFF_SYM3640=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3640
+	.byte 2,141,56,3
+	.asciz "internalOptions"
+
+LDIFF_SYM3641=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3641
+	.byte 3,141,192,0,11
+	.asciz "V_0"
+
+LDIFF_SYM3642=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3642
+	.byte 3,141,208,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3643=Lfde316_end - Lfde316_start
+	.long LDIFF_SYM3643
+Lfde316_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+
+LDIFF_SYM3644=Lme_16f - System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+	.long LDIFF_SYM3644
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11
+	.align 3
+Lfde316_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_342:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 128,1,16
+LDIFF_SYM3645=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3645
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM3646=LTDIE_342 - Ldebug_info_start
+	.long LDIFF_SYM3646
+LTDIE_342_POINTER:
+
+	.byte 13
+LDIFF_SYM3647=LTDIE_342 - Ldebug_info_start
+	.long LDIFF_SYM3647
+LTDIE_342_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3648=LTDIE_342 - Ldebug_info_start
+	.long LDIFF_SYM3648
+	.byte 2
+	.asciz "System.Threading.Tasks.ContinuationResultTaskFromResultTask`2<System.Threading.Tasks.Task[],_System.Threading.Tasks.VoidTaskResult>:InnerInvoke"
+	.asciz "System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult_InnerInvoke"
+
+	.byte 17,189,1
+	.quad System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult_InnerInvoke
+	.quad Lme_170
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3649=LTDIE_341_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3649
+	.byte 1,106,11
+	.asciz "antecedent"
+
+LDIFF_SYM3650=LTDIE_330_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3650
+	.byte 1,105,11
+	.asciz "func"
+
+LDIFF_SYM3651=LTDIE_342_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3651
+	.byte 1,104,11
+	.asciz "funcWithState"
+
+LDIFF_SYM3652=LTDIE_331_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3652
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3653=Lfde317_end - Lfde317_start
+	.long LDIFF_SYM3653
+Lfde317_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult_InnerInvoke
+
+LDIFF_SYM3654=Lme_170 - System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task___System_Threading_Tasks_VoidTaskResult_InnerInvoke
+	.long LDIFF_SYM3654
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,68,154,4
+	.align 3
+Lfde317_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_343:
+
+	.byte 5
+	.asciz "_<>c"
+
+	.byte 16,16
+LDIFF_SYM3655=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM3655
+	.byte 2,35,0,0,7
+	.asciz "_<>c"
+
+LDIFF_SYM3656=LTDIE_343 - Ldebug_info_start
+	.long LDIFF_SYM3656
+LTDIE_343_POINTER:
+
+	.byte 13
+LDIFF_SYM3657=LTDIE_343 - Ldebug_info_start
+	.long LDIFF_SYM3657
+LTDIE_343_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3658=LTDIE_343 - Ldebug_info_start
+	.long LDIFF_SYM3658
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskFactory`1/<>c<System.Threading.Tasks.VoidTaskResult>:.ctor"
+	.asciz "System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ctor"
+
+	.byte 0,0
+	.quad System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ctor
+	.quad Lme_171
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3659=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3659
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3660=Lfde318_end - Lfde318_start
+	.long LDIFF_SYM3660
+Lfde318_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ctor
+
+LDIFF_SYM3661=Lme_171 - System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM3661
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde318_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskFactory`1/<>c<System.Threading.Tasks.VoidTaskResult>:<ContinueWhenAllImpl>b__59_0"
+	.asciz "System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ContinueWhenAllImplb__59_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object"
+
+	.byte 14,198,13
+	.quad System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ContinueWhenAllImplb__59_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+	.quad Lme_172
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3662=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3662
+	.byte 0,3
+	.asciz "completedTasks"
+
+LDIFF_SYM3663=LTDIE_330_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3663
+	.byte 1,105,3
+	.asciz "state"
+
+LDIFF_SYM3664=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3664
+	.byte 2,141,48,11
+	.asciz "V_0"
+
+LDIFF_SYM3665=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3665
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3666=Lfde319_end - Lfde319_start
+	.long LDIFF_SYM3666
+Lfde319_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ContinueWhenAllImplb__59_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+
+LDIFF_SYM3667=Lme_172 - System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ContinueWhenAllImplb__59_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task___object
+	.long LDIFF_SYM3667
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
+	.align 3
+Lfde319_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskFactory`1/<>c<System.Threading.Tasks.VoidTaskResult>:<ContinueWhenAnyImpl>b__69_0"
+	.asciz "System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ContinueWhenAnyImplb__69_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object"
+
+	.byte 14,152,16
+	.quad System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ContinueWhenAnyImplb__69_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
+	.quad Lme_173
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3668=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3668
+	.byte 0,3
+	.asciz "completedTask"
+
+LDIFF_SYM3669=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3669
+	.byte 2,141,40,3
+	.asciz "state"
+
+LDIFF_SYM3670=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3670
+	.byte 2,141,48,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3671=Lfde320_end - Lfde320_start
+	.long LDIFF_SYM3671
+Lfde320_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ContinueWhenAnyImplb__69_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
+
+LDIFF_SYM3672=Lme_173 - System_Threading_Tasks_TaskFactory_1__c_System_Threading_Tasks_VoidTaskResult__ContinueWhenAnyImplb__69_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_object
+	.long LDIFF_SYM3672
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde320_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_344:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_ContinuationResultTaskFromResultTask`2"
+
+	.byte 88,16
+LDIFF_SYM3673=LTDIE_309 - Ldebug_info_start
+	.long LDIFF_SYM3673
+	.byte 2,35,0,6
+	.asciz "m_antecedent"
+
+LDIFF_SYM3674=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3674
+	.byte 2,35,80,0,7
+	.asciz "System_Threading_Tasks_ContinuationResultTaskFromResultTask`2"
+
+LDIFF_SYM3675=LTDIE_344 - Ldebug_info_start
+	.long LDIFF_SYM3675
+LTDIE_344_POINTER:
+
+	.byte 13
+LDIFF_SYM3676=LTDIE_344 - Ldebug_info_start
+	.long LDIFF_SYM3676
+LTDIE_344_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3677=LTDIE_344 - Ldebug_info_start
+	.long LDIFF_SYM3677
+	.byte 2
+	.asciz "System.Threading.Tasks.ContinuationResultTaskFromResultTask`2<System.Threading.Tasks.Task,_System.Threading.Tasks.VoidTaskResult>:.ctor"
+	.asciz "System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions"
+
+	.byte 17,175,1
+	.quad System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+	.quad Lme_174
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3678=LTDIE_344_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3678
+	.byte 2,141,32,3
+	.asciz "antecedent"
+
+LDIFF_SYM3679=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3679
+	.byte 2,141,40,3
+	.asciz "function"
+
+LDIFF_SYM3680=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3680
+	.byte 2,141,48,3
+	.asciz "state"
+
+LDIFF_SYM3681=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3681
+	.byte 1,104,3
+	.asciz "creationOptions"
+
+LDIFF_SYM3682=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3682
+	.byte 2,141,56,3
+	.asciz "internalOptions"
+
+LDIFF_SYM3683=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3683
+	.byte 3,141,192,0,11
+	.asciz "V_0"
+
+LDIFF_SYM3684=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3684
+	.byte 3,141,208,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3685=Lfde321_end - Lfde321_start
+	.long LDIFF_SYM3685
+Lfde321_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+
+LDIFF_SYM3686=Lme_174 - System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+	.long LDIFF_SYM3686
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11
+	.align 3
+Lfde321_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_345:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 128,1,16
+LDIFF_SYM3687=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3687
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM3688=LTDIE_345 - Ldebug_info_start
+	.long LDIFF_SYM3688
+LTDIE_345_POINTER:
+
+	.byte 13
+LDIFF_SYM3689=LTDIE_345 - Ldebug_info_start
+	.long LDIFF_SYM3689
+LTDIE_345_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3690=LTDIE_345 - Ldebug_info_start
+	.long LDIFF_SYM3690
+	.byte 2
+	.asciz "System.Threading.Tasks.ContinuationResultTaskFromResultTask`2<System.Threading.Tasks.Task,_System.Threading.Tasks.VoidTaskResult>:InnerInvoke"
+	.asciz "System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult_InnerInvoke"
+
+	.byte 17,189,1
+	.quad System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult_InnerInvoke
+	.quad Lme_175
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3691=LTDIE_344_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3691
+	.byte 1,106,11
+	.asciz "antecedent"
+
+LDIFF_SYM3692=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3692
+	.byte 1,105,11
+	.asciz "func"
+
+LDIFF_SYM3693=LTDIE_345_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3693
+	.byte 1,104,11
+	.asciz "funcWithState"
+
+LDIFF_SYM3694=LTDIE_338_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3694
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3695=Lfde322_end - Lfde322_start
+	.long LDIFF_SYM3695
+Lfde322_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult_InnerInvoke
+
+LDIFF_SYM3696=Lme_175 - System_Threading_Tasks_ContinuationResultTaskFromResultTask_2_System_Threading_Tasks_Task_System_Threading_Tasks_VoidTaskResult_InnerInvoke
+	.long LDIFF_SYM3696
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,68,154,4
+	.align 3
+Lfde322_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_346:
 
 	.byte 8
 	.asciz "System_TypeCode"
 
 	.byte 4
-LDIFF_SYM3318=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3318
+LDIFF_SYM3697=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3697
 	.byte 9
 	.asciz "Empty"
 
@@ -47209,59 +52414,59 @@ LDIFF_SYM3318=LDIE_I4 - Ldebug_info_start
 	.byte 18,0,7
 	.asciz "System_TypeCode"
 
-LDIFF_SYM3319=LTDIE_321 - Ldebug_info_start
-	.long LDIFF_SYM3319
-LTDIE_321_POINTER:
+LDIFF_SYM3698=LTDIE_346 - Ldebug_info_start
+	.long LDIFF_SYM3698
+LTDIE_346_POINTER:
 
 	.byte 13
-LDIFF_SYM3320=LTDIE_321 - Ldebug_info_start
-	.long LDIFF_SYM3320
-LTDIE_321_REFERENCE:
+LDIFF_SYM3699=LTDIE_346 - Ldebug_info_start
+	.long LDIFF_SYM3699
+LTDIE_346_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3321=LTDIE_321 - Ldebug_info_start
-	.long LDIFF_SYM3321
+LDIFF_SYM3700=LTDIE_346 - Ldebug_info_start
+	.long LDIFF_SYM3700
 	.byte 2
 	.asciz "System.Collections.Generic.EqualityComparer`1<T_BYTE>:CreateComparer"
 	.asciz "System_Collections_Generic_EqualityComparer_1_T_BYTE_CreateComparer"
 
 	.byte 18,51
 	.quad System_Collections_Generic_EqualityComparer_1_T_BYTE_CreateComparer
-	.quad Lme_14c
+	.quad Lme_176
 
 	.byte 2,118,16,11
 	.asciz "t"
 
-LDIFF_SYM3322=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3322
+LDIFF_SYM3701=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3701
 	.byte 1,105,11
 	.asciz "u"
 
-LDIFF_SYM3323=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3323
+LDIFF_SYM3702=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3702
 	.byte 1,104,11
 	.asciz "underlyingTypeCode"
 
-LDIFF_SYM3324=LTDIE_321 - Ldebug_info_start
-	.long LDIFF_SYM3324
+LDIFF_SYM3703=LTDIE_346 - Ldebug_info_start
+	.long LDIFF_SYM3703
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3325=Lfde289_end - Lfde289_start
-	.long LDIFF_SYM3325
-Lfde289_start:
+LDIFF_SYM3704=Lfde323_end - Lfde323_start
+	.long LDIFF_SYM3704
+Lfde323_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_T_BYTE_CreateComparer
 
-LDIFF_SYM3326=Lme_14c - System_Collections_Generic_EqualityComparer_1_T_BYTE_CreateComparer
-	.long LDIFF_SYM3326
+LDIFF_SYM3705=Lme_176 - System_Collections_Generic_EqualityComparer_1_T_BYTE_CreateComparer
+	.long LDIFF_SYM3705
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,68,154,4
 	.align 3
-Lfde289_end:
+Lfde323_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47271,36 +52476,36 @@ Lfde289_end:
 
 	.byte 19,53
 	.quad System_Collections_Generic_Comparer_1_T_BYTE_CreateComparer
-	.quad Lme_14d
+	.quad Lme_177
 
 	.byte 2,118,16,11
 	.asciz "t"
 
-LDIFF_SYM3327=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3327
+LDIFF_SYM3706=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3706
 	.byte 1,105,11
 	.asciz "u"
 
-LDIFF_SYM3328=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3328
+LDIFF_SYM3707=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3707
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3329=Lfde290_end - Lfde290_start
-	.long LDIFF_SYM3329
-Lfde290_start:
+LDIFF_SYM3708=Lfde324_end - Lfde324_start
+	.long LDIFF_SYM3708
+Lfde324_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Comparer_1_T_BYTE_CreateComparer
 
-LDIFF_SYM3330=Lme_14d - System_Collections_Generic_Comparer_1_T_BYTE_CreateComparer
-	.long LDIFF_SYM3330
+LDIFF_SYM3709=Lme_177 - System_Collections_Generic_Comparer_1_T_BYTE_CreateComparer
+	.long LDIFF_SYM3709
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde290_end:
+Lfde324_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47310,66 +52515,66 @@ Lfde290_end:
 
 	.byte 12,250,1
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_PickPivotAndPartition_T_BYTE___int_int_System_Comparison_1_T_BYTE
-	.quad Lme_14e
+	.quad Lme_178
 
 	.byte 2,118,16,3
 	.asciz "keys"
 
-LDIFF_SYM3331=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3331
+LDIFF_SYM3710=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3710
 	.byte 1,103,3
 	.asciz "lo"
 
-LDIFF_SYM3332=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3332
+LDIFF_SYM3711=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3711
 	.byte 1,104,3
 	.asciz "hi"
 
-LDIFF_SYM3333=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3333
+LDIFF_SYM3712=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3712
 	.byte 1,105,3
 	.asciz "comparer"
 
-LDIFF_SYM3334=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3334
+LDIFF_SYM3713=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3713
 	.byte 1,106,11
 	.asciz "middle"
 
-LDIFF_SYM3335=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3335
+LDIFF_SYM3714=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3714
 	.byte 0,11
 	.asciz "pivot"
 
-LDIFF_SYM3336=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3336
+LDIFF_SYM3715=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3715
 	.byte 1,102,11
 	.asciz "left"
 
-LDIFF_SYM3337=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3337
+LDIFF_SYM3716=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3716
 	.byte 1,101,11
 	.asciz "right"
 
-LDIFF_SYM3338=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3338
+LDIFF_SYM3717=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3717
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3339=Lfde291_end - Lfde291_start
-	.long LDIFF_SYM3339
-Lfde291_start:
+LDIFF_SYM3718=Lfde325_end - Lfde325_start
+	.long LDIFF_SYM3718
+Lfde325_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_PickPivotAndPartition_T_BYTE___int_int_System_Comparison_1_T_BYTE
 
-LDIFF_SYM3340=Lme_14e - System_Collections_Generic_ArraySortHelper_1_T_BYTE_PickPivotAndPartition_T_BYTE___int_int_System_Comparison_1_T_BYTE
-	.long LDIFF_SYM3340
+LDIFF_SYM3719=Lme_178 - System_Collections_Generic_ArraySortHelper_1_T_BYTE_PickPivotAndPartition_T_BYTE___int_int_System_Comparison_1_T_BYTE
+	.long LDIFF_SYM3719
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,149,18,150,17,68,151,16,152,15,68,153,14,154,13
 	.align 3
-Lfde291_end:
+Lfde325_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47379,61 +52584,61 @@ Lfde291_end:
 
 	.byte 12,157,2
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_Heapsort_T_BYTE___int_int_System_Comparison_1_T_BYTE
-	.quad Lme_14f
+	.quad Lme_179
 
 	.byte 2,118,16,3
 	.asciz "keys"
 
-LDIFF_SYM3341=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3341
+LDIFF_SYM3720=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3720
 	.byte 1,103,3
 	.asciz "lo"
 
-LDIFF_SYM3342=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3342
+LDIFF_SYM3721=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3721
 	.byte 1,104,3
 	.asciz "hi"
 
-LDIFF_SYM3343=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3343
+LDIFF_SYM3722=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3722
 	.byte 1,105,3
 	.asciz "comparer"
 
-LDIFF_SYM3344=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3344
+LDIFF_SYM3723=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3723
 	.byte 1,106,11
 	.asciz "n"
 
-LDIFF_SYM3345=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3345
+LDIFF_SYM3724=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3724
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM3346=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3346
+LDIFF_SYM3725=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3725
 	.byte 1,102,11
 	.asciz "i"
 
-LDIFF_SYM3347=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3347
+LDIFF_SYM3726=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3726
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3348=Lfde292_end - Lfde292_start
-	.long LDIFF_SYM3348
-Lfde292_start:
+LDIFF_SYM3727=Lfde326_end - Lfde326_start
+	.long LDIFF_SYM3727
+Lfde326_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_Heapsort_T_BYTE___int_int_System_Comparison_1_T_BYTE
 
-LDIFF_SYM3349=Lme_14f - System_Collections_Generic_ArraySortHelper_1_T_BYTE_Heapsort_T_BYTE___int_int_System_Comparison_1_T_BYTE
-	.long LDIFF_SYM3349
+LDIFF_SYM3728=Lme_179 - System_Collections_Generic_ArraySortHelper_1_T_BYTE_Heapsort_T_BYTE___int_int_System_Comparison_1_T_BYTE
+	.long LDIFF_SYM3728
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
-Lfde292_end:
+Lfde326_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47443,61 +52648,61 @@ Lfde292_end:
 
 	.byte 12,202,2
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_InsertionSort_T_BYTE___int_int_System_Comparison_1_T_BYTE
-	.quad Lme_150
+	.quad Lme_17a
 
 	.byte 2,118,16,3
 	.asciz "keys"
 
-LDIFF_SYM3350=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3350
+LDIFF_SYM3729=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3729
 	.byte 1,103,3
 	.asciz "lo"
 
-LDIFF_SYM3351=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3351
+LDIFF_SYM3730=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3730
 	.byte 1,104,3
 	.asciz "hi"
 
-LDIFF_SYM3352=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3352
+LDIFF_SYM3731=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3731
 	.byte 1,105,3
 	.asciz "comparer"
 
-LDIFF_SYM3353=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3353
+LDIFF_SYM3732=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3732
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM3354=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3354
+LDIFF_SYM3733=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3733
 	.byte 1,102,11
 	.asciz "j"
 
-LDIFF_SYM3355=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3355
+LDIFF_SYM3734=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3734
 	.byte 1,101,11
 	.asciz "t"
 
-LDIFF_SYM3356=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3356
+LDIFF_SYM3735=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3735
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3357=Lfde293_end - Lfde293_start
-	.long LDIFF_SYM3357
-Lfde293_start:
+LDIFF_SYM3736=Lfde327_end - Lfde327_start
+	.long LDIFF_SYM3736
+Lfde327_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_InsertionSort_T_BYTE___int_int_System_Comparison_1_T_BYTE
 
-LDIFF_SYM3358=Lme_150 - System_Collections_Generic_ArraySortHelper_1_T_BYTE_InsertionSort_T_BYTE___int_int_System_Comparison_1_T_BYTE
-	.long LDIFF_SYM3358
+LDIFF_SYM3737=Lme_17a - System_Collections_Generic_ArraySortHelper_1_T_BYTE_InsertionSort_T_BYTE___int_int_System_Comparison_1_T_BYTE
+	.long LDIFF_SYM3737
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,148,8,149,7,68,150,6,151,5,68,152,4,153,3,68,154,2
 	.align 3
-Lfde293_end:
+Lfde327_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47507,209 +52712,209 @@ Lfde293_end:
 
 	.byte 12,158,1
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_SwapIfGreater_T_BYTE___System_Comparison_1_T_BYTE_int_int
-	.quad Lme_151
+	.quad Lme_17b
 
 	.byte 2,118,16,3
 	.asciz "keys"
 
-LDIFF_SYM3359=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3359
+LDIFF_SYM3738=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3738
 	.byte 1,103,3
 	.asciz "comparer"
 
-LDIFF_SYM3360=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3360
+LDIFF_SYM3739=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3739
 	.byte 1,104,3
 	.asciz "a"
 
-LDIFF_SYM3361=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3361
+LDIFF_SYM3740=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3740
 	.byte 1,105,3
 	.asciz "b"
 
-LDIFF_SYM3362=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3362
+LDIFF_SYM3741=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3741
 	.byte 1,106,11
 	.asciz "key"
 
-LDIFF_SYM3363=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3363
+LDIFF_SYM3742=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3742
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3364=Lfde294_end - Lfde294_start
-	.long LDIFF_SYM3364
-Lfde294_start:
+LDIFF_SYM3743=Lfde328_end - Lfde328_start
+	.long LDIFF_SYM3743
+Lfde328_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_SwapIfGreater_T_BYTE___System_Comparison_1_T_BYTE_int_int
 
-LDIFF_SYM3365=Lme_151 - System_Collections_Generic_ArraySortHelper_1_T_BYTE_SwapIfGreater_T_BYTE___System_Comparison_1_T_BYTE_int_int
-	.long LDIFF_SYM3365
+LDIFF_SYM3744=Lme_17b - System_Collections_Generic_ArraySortHelper_1_T_BYTE_SwapIfGreater_T_BYTE___System_Comparison_1_T_BYTE_int_int
+	.long LDIFF_SYM3744
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde294_end:
+Lfde328_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_323:
+LTDIE_348:
 
 	.byte 5
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM3366=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM3366
+LDIFF_SYM3745=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM3745
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM3367=LTDIE_323 - Ldebug_info_start
-	.long LDIFF_SYM3367
-LTDIE_323_POINTER:
+LDIFF_SYM3746=LTDIE_348 - Ldebug_info_start
+	.long LDIFF_SYM3746
+LTDIE_348_POINTER:
 
 	.byte 13
-LDIFF_SYM3368=LTDIE_323 - Ldebug_info_start
-	.long LDIFF_SYM3368
-LTDIE_323_REFERENCE:
+LDIFF_SYM3747=LTDIE_348 - Ldebug_info_start
+	.long LDIFF_SYM3747
+LTDIE_348_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3369=LTDIE_323 - Ldebug_info_start
-	.long LDIFF_SYM3369
-LTDIE_322:
+LDIFF_SYM3748=LTDIE_348 - Ldebug_info_start
+	.long LDIFF_SYM3748
+LTDIE_347:
 
 	.byte 5
 	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM3370=LTDIE_323 - Ldebug_info_start
-	.long LDIFF_SYM3370
+LDIFF_SYM3749=LTDIE_348 - Ldebug_info_start
+	.long LDIFF_SYM3749
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
 
-LDIFF_SYM3371=LTDIE_322 - Ldebug_info_start
-	.long LDIFF_SYM3371
-LTDIE_322_POINTER:
+LDIFF_SYM3750=LTDIE_347 - Ldebug_info_start
+	.long LDIFF_SYM3750
+LTDIE_347_POINTER:
 
 	.byte 13
-LDIFF_SYM3372=LTDIE_322 - Ldebug_info_start
-	.long LDIFF_SYM3372
-LTDIE_322_REFERENCE:
+LDIFF_SYM3751=LTDIE_347 - Ldebug_info_start
+	.long LDIFF_SYM3751
+LTDIE_347_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3373=LTDIE_322 - Ldebug_info_start
-	.long LDIFF_SYM3373
+LDIFF_SYM3752=LTDIE_347 - Ldebug_info_start
+	.long LDIFF_SYM3752
 	.byte 2
 	.asciz "System.Collections.Generic.ObjectEqualityComparer`1<T_BYTE>:.ctor"
 	.asciz "System_Collections_Generic_ObjectEqualityComparer_1_T_BYTE__ctor"
 
 	.byte 0,0
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_T_BYTE__ctor
-	.quad Lme_152
+	.quad Lme_17c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3374=LTDIE_322_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3374
+LDIFF_SYM3753=LTDIE_347_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3753
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3375=Lfde295_end - Lfde295_start
-	.long LDIFF_SYM3375
-Lfde295_start:
+LDIFF_SYM3754=Lfde329_end - Lfde329_start
+	.long LDIFF_SYM3754
+Lfde329_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_T_BYTE__ctor
 
-LDIFF_SYM3376=Lme_152 - System_Collections_Generic_ObjectEqualityComparer_1_T_BYTE__ctor
-	.long LDIFF_SYM3376
+LDIFF_SYM3755=Lme_17c - System_Collections_Generic_ObjectEqualityComparer_1_T_BYTE__ctor
+	.long LDIFF_SYM3755
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde295_end:
+Lfde329_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_325:
+LTDIE_350:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Comparer`1"
 
 	.byte 16,16
-LDIFF_SYM3377=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM3377
+LDIFF_SYM3756=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM3756
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_Comparer`1"
 
-LDIFF_SYM3378=LTDIE_325 - Ldebug_info_start
-	.long LDIFF_SYM3378
-LTDIE_325_POINTER:
+LDIFF_SYM3757=LTDIE_350 - Ldebug_info_start
+	.long LDIFF_SYM3757
+LTDIE_350_POINTER:
 
 	.byte 13
-LDIFF_SYM3379=LTDIE_325 - Ldebug_info_start
-	.long LDIFF_SYM3379
-LTDIE_325_REFERENCE:
+LDIFF_SYM3758=LTDIE_350 - Ldebug_info_start
+	.long LDIFF_SYM3758
+LTDIE_350_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3380=LTDIE_325 - Ldebug_info_start
-	.long LDIFF_SYM3380
-LTDIE_324:
+LDIFF_SYM3759=LTDIE_350 - Ldebug_info_start
+	.long LDIFF_SYM3759
+LTDIE_349:
 
 	.byte 5
 	.asciz "System_Collections_Generic_ObjectComparer`1"
 
 	.byte 16,16
-LDIFF_SYM3381=LTDIE_325 - Ldebug_info_start
-	.long LDIFF_SYM3381
+LDIFF_SYM3760=LTDIE_350 - Ldebug_info_start
+	.long LDIFF_SYM3760
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_ObjectComparer`1"
 
-LDIFF_SYM3382=LTDIE_324 - Ldebug_info_start
-	.long LDIFF_SYM3382
-LTDIE_324_POINTER:
+LDIFF_SYM3761=LTDIE_349 - Ldebug_info_start
+	.long LDIFF_SYM3761
+LTDIE_349_POINTER:
 
 	.byte 13
-LDIFF_SYM3383=LTDIE_324 - Ldebug_info_start
-	.long LDIFF_SYM3383
-LTDIE_324_REFERENCE:
+LDIFF_SYM3762=LTDIE_349 - Ldebug_info_start
+	.long LDIFF_SYM3762
+LTDIE_349_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3384=LTDIE_324 - Ldebug_info_start
-	.long LDIFF_SYM3384
+LDIFF_SYM3763=LTDIE_349 - Ldebug_info_start
+	.long LDIFF_SYM3763
 	.byte 2
 	.asciz "System.Collections.Generic.ObjectComparer`1<T_BYTE>:.ctor"
 	.asciz "System_Collections_Generic_ObjectComparer_1_T_BYTE__ctor"
 
 	.byte 0,0
 	.quad System_Collections_Generic_ObjectComparer_1_T_BYTE__ctor
-	.quad Lme_153
+	.quad Lme_17d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3385=LTDIE_324_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3385
+LDIFF_SYM3764=LTDIE_349_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3764
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3386=Lfde296_end - Lfde296_start
-	.long LDIFF_SYM3386
-Lfde296_start:
+LDIFF_SYM3765=Lfde330_end - Lfde330_start
+	.long LDIFF_SYM3765
+Lfde330_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectComparer_1_T_BYTE__ctor
 
-LDIFF_SYM3387=Lme_153 - System_Collections_Generic_ObjectComparer_1_T_BYTE__ctor
-	.long LDIFF_SYM3387
+LDIFF_SYM3766=Lme_17d - System_Collections_Generic_ObjectComparer_1_T_BYTE__ctor
+	.long LDIFF_SYM3766
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde296_end:
+Lfde330_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47719,46 +52924,46 @@ Lfde296_end:
 
 	.byte 12,171,1
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_Swap_T_BYTE___int_int
-	.quad Lme_154
+	.quad Lme_17e
 
 	.byte 2,118,16,3
 	.asciz "a"
 
-LDIFF_SYM3388=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3388
+LDIFF_SYM3767=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3767
 	.byte 1,104,3
 	.asciz "i"
 
-LDIFF_SYM3389=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3389
+LDIFF_SYM3768=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3768
 	.byte 2,141,24,3
 	.asciz "j"
 
-LDIFF_SYM3390=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3390
+LDIFF_SYM3769=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3769
 	.byte 2,141,32,11
 	.asciz "t"
 
-LDIFF_SYM3391=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3391
+LDIFF_SYM3770=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3770
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3392=Lfde297_end - Lfde297_start
-	.long LDIFF_SYM3392
-Lfde297_start:
+LDIFF_SYM3771=Lfde331_end - Lfde331_start
+	.long LDIFF_SYM3771
+Lfde331_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_Swap_T_BYTE___int_int
 
-LDIFF_SYM3393=Lme_154 - System_Collections_Generic_ArraySortHelper_1_T_BYTE_Swap_T_BYTE___int_int
-	.long LDIFF_SYM3393
+LDIFF_SYM3772=Lme_17e - System_Collections_Generic_ArraySortHelper_1_T_BYTE_Swap_T_BYTE___int_int
+	.long LDIFF_SYM3772
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
 	.align 3
-Lfde297_end:
+Lfde331_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47768,61 +52973,61 @@ Lfde297_end:
 
 	.byte 12,176,2
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_DownHeap_T_BYTE___int_int_int_System_Comparison_1_T_BYTE
-	.quad Lme_155
+	.quad Lme_17f
 
 	.byte 2,118,16,3
 	.asciz "keys"
 
-LDIFF_SYM3394=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3394
+LDIFF_SYM3773=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3773
 	.byte 1,102,3
 	.asciz "i"
 
-LDIFF_SYM3395=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3395
+LDIFF_SYM3774=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3774
 	.byte 1,103,3
 	.asciz "n"
 
-LDIFF_SYM3396=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3396
+LDIFF_SYM3775=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3775
 	.byte 1,104,3
 	.asciz "lo"
 
-LDIFF_SYM3397=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3397
+LDIFF_SYM3776=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3776
 	.byte 1,105,3
 	.asciz "comparer"
 
-LDIFF_SYM3398=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3398
+LDIFF_SYM3777=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3777
 	.byte 1,106,11
 	.asciz "d"
 
-LDIFF_SYM3399=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3399
+LDIFF_SYM3778=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3778
 	.byte 1,101,11
 	.asciz "child"
 
-LDIFF_SYM3400=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3400
+LDIFF_SYM3779=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3779
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3401=Lfde298_end - Lfde298_start
-	.long LDIFF_SYM3401
-Lfde298_start:
+LDIFF_SYM3780=Lfde332_end - Lfde332_start
+	.long LDIFF_SYM3780
+Lfde332_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ArraySortHelper_1_T_BYTE_DownHeap_T_BYTE___int_int_int_System_Comparison_1_T_BYTE
 
-LDIFF_SYM3402=Lme_155 - System_Collections_Generic_ArraySortHelper_1_T_BYTE_DownHeap_T_BYTE___int_int_int_System_Comparison_1_T_BYTE
-	.long LDIFF_SYM3402
+LDIFF_SYM3781=Lme_17f - System_Collections_Generic_ArraySortHelper_1_T_BYTE_DownHeap_T_BYTE___int_int_int_System_Comparison_1_T_BYTE
+	.long LDIFF_SYM3781
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,148,8,149,7,68,150,6,151,5,68,152,4,153,3,68,154,2
 	.align 3
-Lfde298_end:
+Lfde332_end:
 
 .section __DWARF, __debug_info,regular,debug
 

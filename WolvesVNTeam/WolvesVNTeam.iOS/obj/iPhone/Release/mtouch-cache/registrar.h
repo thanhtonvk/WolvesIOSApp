@@ -8,12 +8,19 @@
 #include <objc/message.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <UserNotifications/UserNotifications.h>
 #import <SafariServices/SafariServices.h>
 #import <ContactsUI/ContactsUI.h>
-#import <UserNotifications/UserNotifications.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import <GLKit/GLKit.h>
 #import <WebKit/WebKit.h>
+#import <CoreTelephony/CoreTelephonyDefines.h>
+#import <CoreTelephony/CTCall.h>
+#import <CoreTelephony/CTCallCenter.h>
+#import <CoreTelephony/CTCarrier.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
+#import <CoreTelephony/CTSubscriber.h>
+#import <CoreTelephony/CTSubscriberInfo.h>
 #import <CoreSpotlight/CoreSpotlight.h>
 #import <CoreLocation/CoreLocation.h>
 #import <QuartzCore/QuartzCore.h>
@@ -67,12 +74,9 @@
 @class UIKit_UIControl_UIControlAppearance;
 @class UIKit_UIButton_UIButtonAppearance;
 @class __UIGestureRecognizerToken;
+@class __UIGestureRecognizerGenericCB;
 @class __UIGestureRecognizerParameterlessToken;
 @class UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate;
-@class __UILongPressGestureRecognizer;
-@class __UITapGestureRecognizer;
-@class __UIPanGestureRecognizer;
-@class __UIPinchGestureRecognizer;
 @class UIKit_UINavigationBar_UINavigationBarAppearance;
 @class UIKit_UIPageViewController__UIPageViewControllerDelegate;
 @class UIKit_UIPageViewController__UIPageViewControllerDataSource;
@@ -253,22 +257,6 @@
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer_ParentingViewController;
 @class Xamarin_Forms_Platform_iOS_WkWebViewRenderer_CustomWebViewNavigationDelegate;
 @class Xamarin_Forms_Platform_iOS_WkWebViewRenderer_CustomWebViewUIDelegate;
-@class TTG_TTGSnackbar;
-@class AIDatePickerController;
-@class BTProgressHUD_ProgressHUD;
-@class Xamarin_Essentials_ShareActivityItemSource;
-@class Xamarin_Essentials_AuthManager;
-@class Xamarin_Essentials_SingleLocationListener;
-@class Xamarin_Essentials_Contacts_ContactPickerDelegate;
-@class Xamarin_Essentials_FilePicker_PickerDelegate;
-@class Xamarin_Essentials_FilePicker_PickerPresentationControllerDelegate;
-@class Xamarin_Essentials_MediaPicker_PhotoPickerDelegate;
-@class Xamarin_Essentials_MediaPicker_PhotoPickerPresentationControllerDelegate;
-@class Xamarin_Essentials_WebAuthenticator_NativeSFSafariViewControllerDelegate;
-@class Xamarin_Essentials_WebAuthenticator_ContextProvider;
-@class Xamarin_Essentials_Permissions_LocationWhenInUse_ManagerDelegate;
-@class OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource;
-@class OpenTK_Platform_iPhoneOS_iPhoneOSGameView;
 @class Plugin_Toasts_UNNotificationManager_UserNotificationCenterDelegate;
 @protocol MDTabBarDelegate;
 @class Naxam_Controls_Platform_iOS_TabsView;
@@ -331,6 +319,36 @@
 @class MaterialControls_MDTimePickerDialog_MDTimePickerDialogAppearance;
 @class MDTimePickerDialog;
 @class Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer;
+@class Xamarin_Essentials_ShareActivityItemSource;
+@class Xamarin_Essentials_AuthManager;
+@class Xamarin_Essentials_SingleLocationListener;
+@class Xamarin_Essentials_Contacts_ContactPickerDelegate;
+@class Xamarin_Essentials_FilePicker_PickerDelegate;
+@class Xamarin_Essentials_FilePicker_PickerPresentationControllerDelegate;
+@class Xamarin_Essentials_MediaPicker_PhotoPickerDelegate;
+@class Xamarin_Essentials_MediaPicker_PhotoPickerPresentationControllerDelegate;
+@class Xamarin_Essentials_WebAuthenticator_NativeSFSafariViewControllerDelegate;
+@class Xamarin_Essentials_WebAuthenticator_ContextProvider;
+@class Xamarin_Essentials_Permissions_LocationWhenInUse_ManagerDelegate;
+@class OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource;
+@class OpenTK_Platform_iPhoneOS_iPhoneOSGameView;
+@protocol FIRMessagingDelegate;
+@class Plugin_FirebasePushNotification_FirebasePushNotificationManager;
+@class FIRMessagingMessageInfo;
+@class ApiDefinition__Firebase_CloudMessaging_MessagingDelegate;
+@class FIRMessagingExtensionHelper;
+@class FIRMessagingRemoteMessage;
+@class FIRMessaging;
+@class FIRApp;
+@class FIRConfiguration;
+@class FIROptions;
+@class FIRInstallationsAuthTokenResult;
+@class FIRInstallations;
+@class FIRInstanceIDResult;
+@class FIRInstanceID;
+@class TTG_TTGSnackbar;
+@class AIDatePickerController;
+@class BTProgressHUD_ProgressHUD;
 
 @interface UIApplicationDelegate : NSObject<UIApplicationDelegate> {
 }
@@ -360,10 +378,12 @@
 	-(id) init;
 @end
 
-@interface AppDelegate : Xamarin_Forms_Platform_iOS_FormsApplicationDelegate<UIApplicationDelegate> {
+@interface AppDelegate : Xamarin_Forms_Platform_iOS_FormsApplicationDelegate<UNUserNotificationCenterDelegate, UIApplicationDelegate> {
 }
 	-(BOOL) application:(UIApplication *)p0 didFinishLaunchingWithOptions:(NSDictionary *)p1;
-	-(void) applicationDidEnterBackground:(UIApplication *)p0;
+	-(void) application:(UIApplication *)p0 didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)p1;
+	-(void) application:(UIApplication *)p0 didFailToRegisterForRemoteNotificationsWithError:(NSError *)p1;
+	-(void) application:(UIApplication *)p0 didReceiveRemoteNotification:(NSDictionary *)p1 fetchCompletionHandler:(void (^)(void *))p2;
 	-(id) init;
 @end
 
@@ -1546,65 +1566,6 @@
 	-(id) init;
 @end
 
-@interface TTG_TTGSnackbar : UIView {
-}
-	-(void) release;
-	-(id) retain;
-	-(GCHandle) xamarinGetGCHandle;
-	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
-	-(enum XamarinGCHandleFlags) xamarinGetFlags;
-	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
-	-(BOOL) conformsToProtocol:(void *)p0;
-	-(id) init;
-@end
-
-@interface AIDatePickerController : UIViewController<UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate> {
-}
-	-(void) release;
-	-(id) retain;
-	-(GCHandle) xamarinGetGCHandle;
-	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
-	-(enum XamarinGCHandleFlags) xamarinGetFlags;
-	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
-	-(void) viewDidLoad;
-	-(double) transitionDuration:(id)p0;
-	-(void) animateTransition:(id)p0;
-	-(id) animationControllerForPresentedController:(UIViewController *)p0 presentingController:(UIViewController *)p1 sourceController:(UIViewController *)p2;
-	-(id) animationControllerForDismissedController:(UIViewController *)p0;
-	-(void) traitCollectionDidChange:(UITraitCollection *)p0;
-	-(BOOL) conformsToProtocol:(void *)p0;
-	-(id) init;
-@end
-
-@interface BTProgressHUD_ProgressHUD : UIView {
-}
-	-(void) release;
-	-(id) retain;
-	-(GCHandle) xamarinGetGCHandle;
-	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
-	-(enum XamarinGCHandleFlags) xamarinGetFlags;
-	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
-	-(void) drawRect:(CGRect)p0;
-	-(BOOL) conformsToProtocol:(void *)p0;
-	-(id) init;
-@end
-
-@interface OpenTK_Platform_iPhoneOS_iPhoneOSGameView : UIView {
-}
-	-(void) release;
-	-(id) retain;
-	-(GCHandle) xamarinGetGCHandle;
-	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
-	-(enum XamarinGCHandleFlags) xamarinGetFlags;
-	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
-	+(Class) layerClass;
-	-(void) layoutSubviews;
-	-(void) willMoveToWindow:(UIWindow *)p0;
-	-(BOOL) conformsToProtocol:(void *)p0;
-	-(id) initWithCoder:(NSCoder *)p0;
-	-(id) initWithFrame:(CGRect)p0;
-@end
-
 @protocol MDTabBarDelegate
 	@required -(void) tabBar:(id)p0 didChangeSelectedIndex:(NSUInteger)p1;
 @end
@@ -2232,6 +2193,208 @@
 @interface Octane_Xamarin_Forms_VideoPlayer_iOS_Renderers_VideoPlayerRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
 }
 	-(void) observeValueForKeyPath:(NSString *)p0 ofObject:(NSObject *)p1 change:(NSDictionary *)p2 context:(void *)p3;
+	-(id) init;
+@end
+
+@interface OpenTK_Platform_iPhoneOS_iPhoneOSGameView : UIView {
+}
+	-(void) release;
+	-(id) retain;
+	-(GCHandle) xamarinGetGCHandle;
+	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
+	-(enum XamarinGCHandleFlags) xamarinGetFlags;
+	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
+	+(Class) layerClass;
+	-(void) layoutSubviews;
+	-(void) willMoveToWindow:(UIWindow *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) initWithCoder:(NSCoder *)p0;
+	-(id) initWithFrame:(CGRect)p0;
+@end
+
+@protocol FIRMessagingDelegate
+	@optional -(void) messaging:(id)p0 didReceiveRegistrationToken:(NSString *)p1;
+	@optional -(void) messaging:(id)p0 didReceiveMessage:(id)p1;
+@end
+
+@interface Plugin_FirebasePushNotification_FirebasePushNotificationManager : NSObject<UNUserNotificationCenterDelegate, FIRMessagingDelegate> {
+}
+	-(void) release;
+	-(id) retain;
+	-(GCHandle) xamarinGetGCHandle;
+	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
+	-(enum XamarinGCHandleFlags) xamarinGetFlags;
+	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
+	-(void) userNotificationCenter:(UNUserNotificationCenter *)p0 willPresentNotification:(UNNotification *)p1 withCompletionHandler:(void (^)(void *))p2;
+	-(void) userNotificationCenter:(UNUserNotificationCenter *)p0 didReceiveNotificationResponse:(UNNotificationResponse *)p1 withCompletionHandler:(void (^)())p2;
+	-(void) messaging:(id)p0 didReceiveRegistrationToken:(NSString *)p1;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface FIRMessagingMessageInfo : NSObject {
+}
+	-(NSInteger) status;
+	-(id) init;
+@end
+
+@interface ApiDefinition__Firebase_CloudMessaging_MessagingDelegate : NSObject<FIRMessagingDelegate> {
+}
+	-(id) init;
+@end
+
+@interface FIRMessagingExtensionHelper : NSObject {
+}
+	-(void) populateNotificationContent:(UNMutableNotificationContent *)p0 withContentHandler:(void (^)(void *))p1;
+	-(id) init;
+@end
+
+@interface FIRMessagingRemoteMessage : NSObject {
+}
+	-(NSDictionary *) appData;
+	-(NSString *) messageID;
+@end
+
+@interface FIRMessaging : NSObject {
+}
+	-(id) appDidReceiveMessage:(NSDictionary *)p0;
+	-(void) deleteFCMTokenForSenderID:(NSString *)p0 completion:(void (^)(id))p1;
+	-(void) retrieveFCMTokenForSenderID:(NSString *)p0 completion:(void (^)(NSString *, id))p1;
+	-(void) sendMessage:(NSDictionary *)p0 to:(NSString *)p1 withMessageID:(NSString *)p2 timeToLive:(long long)p3;
+	-(void) setAPNSToken:(NSData *)p0 type:(NSInteger)p1;
+	-(void) subscribeToTopic:(NSString *)p0;
+	-(void) subscribeToTopic:(NSString *)p0 completion:(void (^)(id))p1;
+	-(void) unsubscribeFromTopic:(NSString *)p0;
+	-(void) unsubscribeFromTopic:(NSString *)p0 completion:(void (^)(id))p1;
+	-(NSData *) APNSToken;
+	-(void) setAPNSToken:(NSData *)p0;
+	-(BOOL) isAutoInitEnabled;
+	-(void) setAutoInitEnabled:(BOOL)p0;
+	-(id) delegate;
+	-(void) setDelegate:(id)p0;
+	-(NSString *) FCMToken;
+	-(BOOL) isDirectChannelEstablished;
+	-(BOOL) shouldEstablishDirectChannel;
+	-(void) setShouldEstablishDirectChannel:(BOOL)p0;
+@end
+
+@interface FIRApp : NSObject {
+}
+	-(void) deleteApp:(void (^)(BOOL))p0;
+	-(BOOL) isDataCollectionDefaultEnabled;
+	-(void) setDataCollectionDefaultEnabled:(BOOL)p0;
+	-(NSString *) name;
+	-(id) options;
+@end
+
+@interface FIRConfiguration : NSObject {
+}
+	-(void) setLoggerLevel:(NSInteger)p0;
+@end
+
+@interface FIROptions : NSObject {
+}
+	-(NSObject *) copyWithZone:(id)p0;
+	-(NSString *) androidClientID;
+	-(void) setAndroidClientID:(NSString *)p0;
+	-(NSString *) APIKey;
+	-(void) setAPIKey:(NSString *)p0;
+	-(NSString *) appGroupID;
+	-(void) setAppGroupID:(NSString *)p0;
+	-(NSString *) bundleID;
+	-(void) setBundleID:(NSString *)p0;
+	-(NSString *) clientID;
+	-(void) setClientID:(NSString *)p0;
+	-(NSString *) databaseURL;
+	-(void) setDatabaseURL:(NSString *)p0;
+	-(NSString *) deepLinkURLScheme;
+	-(void) setDeepLinkURLScheme:(NSString *)p0;
+	-(NSString *) GCMSenderID;
+	-(void) setGCMSenderID:(NSString *)p0;
+	-(NSString *) googleAppID;
+	-(void) setGoogleAppID:(NSString *)p0;
+	-(NSString *) projectID;
+	-(void) setProjectID:(NSString *)p0;
+	-(NSString *) storageBucket;
+	-(void) setStorageBucket:(NSString *)p0;
+	-(NSString *) trackingID;
+	-(void) setTrackingID:(NSString *)p0;
+	-(id) initWithContentsOfFile:(NSString *)p0;
+	-(id) initWithGoogleAppID:(NSString *)p0 GCMSenderID:(NSString *)p1;
+@end
+
+@interface FIRInstallationsAuthTokenResult : NSObject {
+}
+	-(NSString *) authToken;
+	-(NSDate *) expirationDate;
+	-(id) init;
+@end
+
+@interface FIRInstallations : NSObject {
+}
+	-(void) deleteWithCompletion:(void (^)(void *))p0;
+	-(void) authTokenWithCompletion:(void (^)(id, id))p0;
+	-(void) authTokenForcingRefresh:(BOOL)p0 completion:(void (^)(id, id))p1;
+	-(void) installationIDWithCompletion:(void (^)(NSString *, id))p0;
+@end
+
+@interface FIRInstanceIDResult : NSObject {
+}
+	-(NSObject *) copyWithZone:(id)p0;
+	-(NSString *) instanceID;
+	-(NSString *) token;
+	-(id) init;
+@end
+
+@interface FIRInstanceID : NSObject {
+}
+	-(void) deleteIDWithHandler:(void (^)(id))p0;
+	-(void) deleteTokenWithAuthorizedEntity:(NSString *)p0 scope:(NSString *)p1 handler:(void (^)(id))p2;
+	-(void) getIDWithHandler:(void (^)(NSString *, id))p0;
+	-(void) instanceIDWithHandler:(void (^)(id, id))p0;
+	-(void) tokenWithAuthorizedEntity:(NSString *)p0 scope:(NSString *)p1 options:(NSDictionary *)p2 handler:(void (^)(NSString *, id))p3;
+@end
+
+@interface TTG_TTGSnackbar : UIView {
+}
+	-(void) release;
+	-(id) retain;
+	-(GCHandle) xamarinGetGCHandle;
+	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
+	-(enum XamarinGCHandleFlags) xamarinGetFlags;
+	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface AIDatePickerController : UIViewController<UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate> {
+}
+	-(void) release;
+	-(id) retain;
+	-(GCHandle) xamarinGetGCHandle;
+	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
+	-(enum XamarinGCHandleFlags) xamarinGetFlags;
+	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
+	-(void) viewDidLoad;
+	-(double) transitionDuration:(id)p0;
+	-(void) animateTransition:(id)p0;
+	-(id) animationControllerForPresentedController:(UIViewController *)p0 presentingController:(UIViewController *)p1 sourceController:(UIViewController *)p2;
+	-(id) animationControllerForDismissedController:(UIViewController *)p0;
+	-(void) traitCollectionDidChange:(UITraitCollection *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface BTProgressHUD_ProgressHUD : UIView {
+}
+	-(void) release;
+	-(id) retain;
+	-(GCHandle) xamarinGetGCHandle;
+	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
+	-(enum XamarinGCHandleFlags) xamarinGetFlags;
+	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
+	-(void) drawRect:(CGRect)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
 

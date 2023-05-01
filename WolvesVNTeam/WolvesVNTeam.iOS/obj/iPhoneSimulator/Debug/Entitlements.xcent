@@ -4,13 +4,13 @@
 <dict>
 	<key>beta-reports-active</key>
 	<true/>
-	<key>aps-environment</key>
-	<string>production</string>
 	<key>application-identifier</key>
 	<string>JUXAHZ3PR4.com.companyname.WolvesVNTeam</string>
 	<key>get-task-allow</key>
 	<false/>
 	<key>com.apple.developer.team-identifier</key>
 	<string>JUXAHZ3PR4</string>
+	<key>aps-environment</key>
+	<string>development</string>
 </dict>
 </plist>

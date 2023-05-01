@@ -8,6 +8,8 @@ using Xamarin.Forms;
 using Octane.Xamarin.Forms.VideoPlayer.iOS;
 using Naxam.Controls.Platform.iOS;
 using Firebase.CloudMessaging;
+using Plugin.FirebasePushNotification;
+
 namespace WolvesVNTeam.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
@@ -31,9 +33,9 @@ namespace WolvesVNTeam.iOS
             TopTabbedRenderer.Init();
             FormsVideoPlayer.Init();
             CrossJobs.Init();
+            
             LoadApplication(new App());
-
-
+            FirebasePushNotificationManager.Initialize(options, true);
             // get permission for notification
             if (UIDevice.CurrentDevice.CheckSystemVersion(10, 0))
             {
@@ -41,7 +43,7 @@ namespace WolvesVNTeam.iOS
                 var authOptions = UNAuthorizationOptions.Alert | UNAuthorizationOptions.Badge | UNAuthorizationOptions.Sound;
                 UNUserNotificationCenter.Current.RequestAuthorization(authOptions, (granted, error) =>
                 {
-                    Console.WriteLine("granted: "+granted);
+                    Console.WriteLine("granted: " + granted);
                 });
 
                 // For iOS 10 display notification (sent via APNS)
@@ -59,17 +61,42 @@ namespace WolvesVNTeam.iOS
 
             UIApplication.SharedApplication.RegisterForRemoteNotifications();
 
-          
 
-      
+
+
 
             return base.FinishedLaunching(app, options);
         }
+        public override void RegisteredForRemoteNotifications(UIApplication application, NSData deviceToken)
+        {
+            FirebasePushNotificationManager.DidRegisterRemoteNotifications(deviceToken);
+        }
 
+        public override void FailedToRegisterForRemoteNotifications(UIApplication application, NSError error)
+        {
+            FirebasePushNotificationManager.RemoteNotificationRegistrationFailed(error);
 
-   
-       
+        }
+
+        // To receive notifications in foreground on iOS 9 and below.
+        // To receive notifications in background in any iOS version
+        public override void DidReceiveRemoteNotification(UIApplication application, NSDictionary userInfo, Action<UIBackgroundFetchResult> completionHandler)
+        {
+            // If you are receiving a notification message while your app is in the background,
+            // this callback will not be fired 'till the user taps on the notification launching the application.
+
+            // If you disable method swizzling, you'll need to call this method. 
+            // This lets FCM track message delivery and analytics, which is performed
+            // automatically with method swizzling enabled.
+            FirebasePushNotificationManager.DidReceiveMessage(userInfo);
+            // Do your magic to handle the notification data
+            System.Diagnostics.Debug.WriteLine("user info "+userInfo);
+
+            completionHandler(UIBackgroundFetchResult.NewData);
+        }
+
     }
+
 
 }
 

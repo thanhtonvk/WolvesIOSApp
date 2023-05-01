@@ -10,12 +10,13 @@
       "WolvesVNTeam/1.0.0": {
         "dependencies": {
           "Acr.UserDialogs": "7.2.0.534",
-          "FireSharp": "2.0.4",
+          "FireSharp": "2.0.3",
           "FireSharp.Serialization.JsonNet": "1.1.0",
           "NETStandard.Library": "2.0.3",
           "Naxam.TopTabbedPage.Forms": "0.0.3.5",
           "Newtonsoft.Json": "13.0.3",
           "Octane.Xam.VideoPlayer": "3.1.0",
+          "Plugin.FirebasePushNotification": "3.4.35",
           "Plugin.Jobs": "2.0.0",
           "Plugin.Multilingual": "1.0.2",
           "Rg.Plugins.Popup": "2.1.0",
@@ -48,7 +49,7 @@
           }
         }
       },
-      "FireSharp/2.0.4": {
+      "FireSharp/2.0.3": {
         "dependencies": {
           "Microsoft.Bcl.Async": "1.0.168",
           "Microsoft.Net.Http": "2.2.28",
@@ -63,7 +64,7 @@
       },
       "FireSharp.Serialization.JsonNet/1.1.0": {
         "dependencies": {
-          "FireSharp": "2.0.4",
+          "FireSharp": "2.0.3",
           "Newtonsoft.Json": "13.0.3",
           "RestSharp": "104.4.0"
         },
@@ -260,6 +261,14 @@
           "lib/netstandard2.0/Octane.Xamarin.Forms.VideoPlayer.dll": {
             "assemblyVersion": "3.1.0.0",
             "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "Plugin.FirebasePushNotification/3.4.35": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.FirebasePushNotification.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.0.0"
           }
         }
       },
@@ -547,12 +556,12 @@
       "path": "acr.userdialogs/7.2.0.534",
       "hashPath": "acr.userdialogs.7.2.0.534.nupkg.sha512"
     },
-    "FireSharp/2.0.4": {
+    "FireSharp/2.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-laSHpVUBG6iCTUixmpeUmYxie2zbziOBM+LU0v2A0ETE9dUyBA+8aY63xql/o8LXj+kFybBLYUKBUrLCZWaq+A==",
-      "path": "firesharp/2.0.4",
-      "hashPath": "firesharp.2.0.4.nupkg.sha512"
+      "sha512": "sha512-GXnydHRxJgPrWaUiBoU6ZGr5kYve/dEjCfr2Yxnbezazzmi94NNij4fbYA7nix7VksWlow+sKDWt+gjkgCjutg==",
+      "path": "firesharp/2.0.3",
+      "hashPath": "firesharp.2.0.3.nupkg.sha512"
     },
     "FireSharp.Serialization.JsonNet/1.1.0": {
       "type": "package",
@@ -651,6 +660,13 @@
       "sha512": "sha512-JFjIeDBrmv1cX8B/N7vuaz2DM75hxufRbfPQVoVNkjp+j/9964lwcIyY6tfZwS3OW2INoPih6snjXG+PdlM6aw==",
       "path": "octane.xam.videoplayer/3.1.0",
       "hashPath": "octane.xam.videoplayer.3.1.0.nupkg.sha512"
+    },
+    "Plugin.FirebasePushNotification/3.4.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-utbKf6Lp89dla6/q82BVMejBnIlUsCXCgtVDW2e4+laqHsWv5yQLp1jX7qHI1poRxwbYvjy9lM/Y5cnf6GF/5Q==",
+      "path": "plugin.firebasepushnotification/3.4.35",
+      "hashPath": "plugin.firebasepushnotification.3.4.35.nupkg.sha512"
     },
     "Plugin.Jobs/2.0.0": {
       "type": "package",

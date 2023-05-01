@@ -35,7 +35,7 @@
                                            FontSize="18" />
                                     <Label Text="{Binding Prev}" TextColor="White" />
                                 </StackLayout>
-                                <Button BackgroundColor="Orange" Text="{Binding Percent}" BorderRadius="10" WidthRequest="100"
+                                <Button BackgroundColor="Orange" Text="{Binding Percent}" CornerRadius="10" WidthRequest="100"
                                         TextColor="White" />
                             </StackLayout>
                         </ViewCell>

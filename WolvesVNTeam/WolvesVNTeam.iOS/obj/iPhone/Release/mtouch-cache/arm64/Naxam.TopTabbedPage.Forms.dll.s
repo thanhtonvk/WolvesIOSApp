@@ -22,7 +22,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 6.12.0 (2020-02/dffa5ab9224 Mon May 16 11:03:48 EDT 2022)"
+	.asciz "Mono AOT Compiler 6.12.0 (2020-02/6dd9def57ce Wed Nov  2 11:34:46 EDT 2022)"
 	.asciz "Naxam.TopTabbedPage.Forms.dll"
 	.asciz ""
 
@@ -201,7 +201,7 @@ ldr x2, [x16, #208]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_3
 
@@ -287,7 +287,7 @@ ldr x2, [x16, #232]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_3
 
@@ -669,7 +669,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 241,63,113,160,3,208,47,130,240,124,227,244,133,39,46,223
+	.byte 167,76,58,135,49,17,138,212,8,41,143,124,164,253,11,139
 	.globl _mono_aot_module_Naxam_TopTabbedPage_Forms_info
 	.align 3
 _mono_aot_module_Naxam_TopTabbedPage_Forms_info:

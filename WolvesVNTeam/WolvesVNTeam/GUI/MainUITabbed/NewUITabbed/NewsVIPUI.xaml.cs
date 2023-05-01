@@ -70,7 +70,7 @@ namespace WolvesVNTeam.GUI.MainUITabbed.NewUITabbed
             };
             IFirebaseClient client = new FirebaseClient(config);
             string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
-            currentDate = "2023-04-27";
+            //currentDate = "2023-04-27";
 
 
 

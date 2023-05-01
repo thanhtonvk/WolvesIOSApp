@@ -22,7 +22,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 6.12.0 (2020-02/dffa5ab9224 Mon May 16 11:03:48 EDT 2022)"
+	.asciz "Mono AOT Compiler 6.12.0 (2020-02/6dd9def57ce Wed Nov  2 11:34:46 EDT 2022)"
 	.asciz "Toasts.Forms.Plugin.Abstractions.dll"
 	.asciz ""
 
@@ -1878,18 +1878,18 @@ bl _p_6
 .word 0xa8c67bfd
 .word 0xd65f03c0
 .loc 8 269 0
-.word 0xd2934d00
+.word 0xd293ca00
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd2801a40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
 .loc 8 271 0
-.word 0xd29357c0
+.word 0xd293d4c0
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd2801a40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -2133,7 +2133,7 @@ bl _p_18
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc8
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_19
 
@@ -2211,7 +2211,7 @@ bl _p_18
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_19
 
@@ -2294,7 +2294,7 @@ bl _p_18
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffc5
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_19
 
@@ -2381,7 +2381,7 @@ bl _p_18
 .word 0xaa0003f7
 .word 0xb5ffff20
 .word 0x17ffffc2
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_19
 
@@ -2684,7 +2684,7 @@ bl _p_23
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_19
 
@@ -2760,11 +2760,11 @@ bl _p_23
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 10 70 0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_19
 
@@ -2842,7 +2842,7 @@ bl _p_18
 .word 0xaa0003f8
 .word 0xb5ffff20
 .word 0x17ffffca
-.word 0xd28018c0
+.word 0xd2801980
 .word 0xaa1103e1
 bl _p_19
 
@@ -3175,7 +3175,7 @@ bl _p_26
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_19
 
@@ -3258,11 +3258,11 @@ bl _p_26
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 10 70 0
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
-.word 0xd2801960
+.word 0xd2801a20
 .word 0xaa1103e1
 bl _p_19
 
@@ -3525,10 +3525,10 @@ System_Array_InternalArray__get_Item_T_INST_int:
 .word 0xa8c67bfd
 .word 0xd65f03c0
 .loc 8 193 0
-.word 0xd2843a40
+.word 0xd281e180
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2800fa0
+.word 0xd2801000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -4122,7 +4122,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 184,164,249,141,250,107,107,240,124,50,91,106,221,40,23,175
+	.byte 75,143,56,127,24,184,173,207,62,15,174,58,2,153,35,210
 	.globl _mono_aot_module_Toasts_Forms_Plugin_Abstractions_info
 	.align 3
 _mono_aot_module_Toasts_Forms_Plugin_Abstractions_info:
